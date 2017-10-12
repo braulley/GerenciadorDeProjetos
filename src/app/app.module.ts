@@ -8,6 +8,8 @@ import { ProjetosPage } from '../pages/projetos/projetos';
 import { ProjetoPage } from '../pages/projeto/projeto';
 import { TarefasPage, Filtro } from '../pages/tarefas/tarefas';
 import { TarefaPage } from '../pages/tarefa/tarefa';
+import {UsuariosPage} from '../pages/usuarios/usuarios';
+import {UsuarioPage} from '../pages/usuario/usuario';
 
 /*import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
@@ -17,6 +19,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { ProjetosServiceProvider } from '../providers/projetos-service/projetos-service';
 import { TarefasServiceProvider } from '../providers/tarefas-service/tarefas-service';
+import { UsuarioServiceProvider } from '../providers/usuario-service/usuario-service';
+
 
 @NgModule({
   declarations: [
@@ -25,6 +29,8 @@ import { TarefasServiceProvider } from '../providers/tarefas-service/tarefas-ser
     ProjetoPage,
     TarefasPage,
     TarefaPage,
+    UsuariosPage,
+    UsuarioPage,
     TabsPage,
     Filtro
   ],
@@ -40,6 +46,8 @@ import { TarefasServiceProvider } from '../providers/tarefas-service/tarefas-ser
     ProjetoPage,
     TarefasPage,
     TarefaPage,
+    UsuariosPage,
+    UsuarioPage,
     TabsPage
   ],
   providers: [
@@ -47,7 +55,8 @@ import { TarefasServiceProvider } from '../providers/tarefas-service/tarefas-ser
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     ProjetosServiceProvider,
-    TarefasServiceProvider
+    TarefasServiceProvider,
+    UsuarioServiceProvider
   ]
 })
 export class AppModule {}

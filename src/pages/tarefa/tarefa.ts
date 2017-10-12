@@ -26,7 +26,7 @@ export class TarefaPage {
   codigoProjeto: number;
   descricao: string;
   prioridade: number;
-  data: string;
+  data: any;
 
   constructor(public navCtrl: NavController, 
     public navParams: NavParams,
@@ -44,9 +44,9 @@ export class TarefaPage {
             this.codigoProjeto = tarefas[i].projeto;
             this.descricao = tarefas[i].descricao;
             this.prioridade = tarefas[i].prioridade;
-            let d = new Date();
-            this.data = d.getFullYear()+"_"+
-                        ("0"+(d.getMonth()+1)).substr(-2,2)+"_"+
+            let d = tarefas[i].data;
+            this.data = d.getFullYear()+"-"+
+                        ("0"+(d.getMonth()+1)).substr(-2,2)+"-"+
                         ("0"+d.getDate()).substr(-2,2);
           }
         }
@@ -55,8 +55,8 @@ export class TarefaPage {
         this.descricao = '';
         this.prioridade = 3;
         let d = new Date();
-        this.data = d.getFullYear()+"_"+
-                    ("0"+(d.getMonth()+1)).substr(-2,2)+"_"+
+        this.data = d.getFullYear()+"-"+
+                    ("0"+(d.getMonth()+1)).substr(-2,2)+"-"+
                     ("0"+d.getDate()).substr(-2,2);
       }
       

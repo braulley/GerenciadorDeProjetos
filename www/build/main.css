@@ -25230,3 +25230,15 @@ page-tarefas .medial {
 page-tarefas .baixa {
   background-color: #ff4000;
 }
+
+page-usuario .invisivel {
+  display: none;
+}
+
+page-usuario .align {
+  text-align: right;
+}
+
+page-usuarios .mais {
+  text-align: center;
+}
