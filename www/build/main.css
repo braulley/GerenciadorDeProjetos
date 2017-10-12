@@ -25215,8 +25215,20 @@ page-projeto .alerta {
   background-color: lightcoral;
 }
 
+page-projeto .mais {
+  text-align: right;
+}
+
 page-projeto .invisivel {
   display: none;
+}
+
+page-projetos .mais {
+  text-align: right;
+}
+
+page-tarefa .mais {
+  text-align: right;
 }
 
 page-tarefas .alta {
@@ -25231,6 +25243,10 @@ page-tarefas .baixa {
   background-color: #ff4000;
 }
 
+page-tarefas .mais {
+  text-align: right;
+}
+
 page-usuario .invisivel {
   display: none;
 }
@@ -25240,5 +25256,5 @@ page-usuario .align {
 }
 
 page-usuarios .mais {
-  text-align: center;
+  text-align: right;
 }

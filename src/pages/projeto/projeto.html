@@ -27,20 +27,21 @@
       </ion-card-content>
     </ion-card>
 
+    <div class="mais">
+      <button ion-button round color="primary" (click)="incluir()"
+      [disabled]="!nome.valid" [class.invisivel]="!novo">
+        <ion-icon name="checkmark"></ion-icon>
+      </button>
 
-    <button ion-button round color="primary" (click)="incluir()"
-    [disabled]="!nome.valid" [class.invisivel]="!novo">
-      <ion-icon name="checkmark"></ion-icon>
-    </button>
+      <button ion-button round color="primary" (click)="alterar()"
+      [disabled]="!nome.valid">
+        <ion-icon name="checkmark"></ion-icon>
+      </button>
 
-    <button ion-button round color="primary" (click)="alterar()"
-    [disabled]="!nome.valid">
-      <ion-icon name="checkmark"></ion-icon>
-    </button>
-
-    <button ion-button round color="danger" (click)="excluir()" 
-    [disabled]="!nome.valid">
-        <ion-icon name="trash"></ion-icon>
-    </button>
+      <button ion-button round color="danger" (click)="excluir()" 
+      [disabled]="!nome.valid">
+          <ion-icon name="trash"></ion-icon>
+      </button>
+  </div>
 
 </ion-content>
