@@ -32,7 +32,7 @@ export class TarefasPage {
       this.tarefas = tarefasService.getTarefas();
     }
 
-    nomeProjeto(c:string) {
+    nomeProjeto(c):string  {
       for(let i=0; i<this.projetos.length;i++){
         if(this.projetos[i].codigo == c)
           return this.projetos[i].nome;

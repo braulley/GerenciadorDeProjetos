@@ -23,10 +23,7 @@ export class ProjetosServiceProvider {
 
   ultimoCodigo:number = 7;
 
-  constructor(public http: Http) {
-    console.log('Hello ProjetosServiceProvider Provider');
-  }
-
+  
   getProjetos() {
     return this.projetos;
   }
