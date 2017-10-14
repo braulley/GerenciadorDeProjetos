@@ -77,7 +77,7 @@ export class Filtro implements PipeTransform {
       return itens.filter(item => item.projeto == filtro.projeto);
       
     }else if(filtro.dias>=0){
-      let d = ((new Date()).getTime() + filtro.dias*24*60*60*1000);
+      let d = new Date((new Date()).getTime() + filtro.dias*24*60*60*1000);
       return itens.filter(item => item.data <=d)
 
     }else{
