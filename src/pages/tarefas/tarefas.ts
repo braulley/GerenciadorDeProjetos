@@ -36,8 +36,8 @@ export class TarefasPage {
       for(let i=0; i<this.projetos.length;i++){
         if(this.projetos[i].codigo == c)
           return this.projetos[i].nome;
-        return "Projeto não encontrado.";
       }
+      return "Projeto não encontrado.";
     }
 
     selecionaTarefa(c){
