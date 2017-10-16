@@ -1,14 +1,7 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angular';
 import {TarefasServiceProvider} from '../../providers/tarefas-service/tarefas-service';
 import {ProjetosServiceProvider} from  '../../providers/projetos-service/projetos-service';
-
-/**
- * Generated class for the TarefaPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
@@ -31,7 +24,8 @@ export class TarefaPage {
   constructor(public navCtrl: NavController, 
     public navParams: NavParams,
     public tarefasService: TarefasServiceProvider,
-    public projetosService: ProjetosServiceProvider) {
+    public projetosService: ProjetosServiceProvider,
+    public toastCtrl: ToastController) {
  
       this.projetos = projetosService.getProjetos();
       this.novo = navParams.get('novo');
@@ -62,6 +56,14 @@ export class TarefaPage {
       
     }
 
+    presentToast(text: string): void {
+      let toast = this.toastCtrl.create({
+        message: text,
+        duration: 3000
+      });
+      toast.present();
+    }
+
     alterar(){
       let d = new Date(parseInt(this.data.substr(0,4)),
       parseInt(this.data.substr(0,4)),
@@ -71,7 +73,8 @@ export class TarefaPage {
         this.descricao,
         d,
         this.prioridade
-        );
+      );
+      this.presentToast('Tarefa alterada com sucesso!');
       this.navCtrl.pop();
     }
   
@@ -89,8 +92,9 @@ export class TarefaPage {
         this.descricao,
         d,
         this.prioridade
-        );
-        this.navCtrl.pop();
+      );
+      this.presentToast('Tarefa adicionada com sucesso!');
+      this.navCtrl.pop();
     }
 }
 

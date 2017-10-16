@@ -1,13 +1,6 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angular';
 import { ProjetosServiceProvider } from '../../providers/projetos-service/projetos-service';
-
-/**
- * Generated class for the ProjetoPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
@@ -22,7 +15,8 @@ export class ProjetoPage {
 
   constructor(public navCtrl: NavController, 
     public navParams: NavParams,
-    public projetosService: ProjetosServiceProvider) {
+    public projetosService: ProjetosServiceProvider,
+    public toastCtrl: ToastController) {
       this.codigoProjeto = navParams.get('codigo');
       this.novo = navParams.get('novo');
       let projetos = projetosService.getProjetos();
@@ -41,8 +35,17 @@ export class ProjetoPage {
 
   }
 
+  presentToast(text: string): void {
+    let toast = this.toastCtrl.create({
+      message: text,
+      duration: 3000
+    });
+    toast.present();
+  }
+
   alterar(){
     this.projetosService.editProjetos(this.codigoProjeto,this.nomeProjeto);
+    this.presentToast('Projeto alterado com sucesso!');
     this.navCtrl.pop();
   }
 
@@ -53,6 +56,7 @@ export class ProjetoPage {
 
   incluir(){
     this.projetosService.addProjeto(this.nomeProjeto);
+    this.presentToast('Projeto adicionado com sucesso!');
     this.navCtrl.pop();
   }
 
