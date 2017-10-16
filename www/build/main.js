@@ -36,13 +36,16 @@ var ProjetoPage = (function () {
         this.novo = navParams.get('novo');
         var projetos = projetosService.getProjetos();
         if (!this.novo) {
-        }
-        for (var i = 0; i < projetos.length; i++) {
-            if (projetos[i].codigo == this.codigoProjeto) {
-                this.nomeProjeto = projetos[i].nome;
-                console.log(this.nomeProjeto);
-                break;
+            for (var i = 0; i < projetos.length; i++) {
+                if (projetos[i].codigo == this.codigoProjeto) {
+                    this.nomeProjeto = projetos[i].nome;
+                    break;
+                }
             }
+        }
+        else {
+            this.codigoProjeto = 0;
+            this.nomeProjeto = '';
         }
     }
     ProjetoPage.prototype.alterar = function () {
@@ -62,7 +65,7 @@ var ProjetoPage = (function () {
 ProjetoPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-projeto',template:/*ion-inline-start:"/home/braulley/Documentos/Angular/tesi/GerenciadorDeProjetos/src/pages/projeto/projeto.html"*/'<!--\n  Generated template for the ProjetoPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Projeto</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n    <ion-list>\n      <ion-item>\n      <ion-label color="primary">Nome:</ion-label>\n      <ion-input type="text" placeholder="Nome do Projeto" [(ngModel)]="nomeProjeto"\n      required #nome="ngModel" ></ion-input>\n    </ion-item>\n    </ion-list>\n    <ion-card class="alerta" *ngIf="!nome.valid && nome.dirty">\n      <ion-card-content>\n        O nome do Projeto não pode ficar em branco.\n      </ion-card-content>\n    </ion-card>\n\n    <div class="mais">\n      <button ion-button round color="primary" (click)="incluir()"\n      [disabled]="!nome.valid" [class.invisivel]="!novo">\n        <ion-icon name="checkmark"></ion-icon>\n      </button>\n\n      <button ion-button round color="primary" (click)="alterar()"\n      [disabled]="!nome.valid">\n        <ion-icon name="checkmark"></ion-icon>\n      </button>\n\n      <button ion-button round color="danger" (click)="excluir()" \n      [disabled]="!nome.valid">\n          <ion-icon name="trash"></ion-icon>\n      </button>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"/home/braulley/Documentos/Angular/tesi/GerenciadorDeProjetos/src/pages/projeto/projeto.html"*/,
+        selector: 'page-projeto',template:/*ion-inline-start:"/home/braulley/Documentos/Angular/tesi/GerenciadorDeProjetos/src/pages/projeto/projeto.html"*/'<!--\n  Generated template for the ProjetoPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Projeto</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n    <ion-list>\n      <ion-item>\n      <ion-label color="primary">Nome:</ion-label>\n      <ion-input type="text" placeholder="Nome do Projeto" [(ngModel)]="nomeProjeto"\n      required #nome="ngModel" ></ion-input>\n    </ion-item>\n    </ion-list>\n    <ion-card class="alerta" *ngIf="!nome.valid && nome.dirty">\n      <ion-card-content>\n        O nome do Projeto não pode ficar em branco.\n      </ion-card-content>\n    </ion-card>\n\n    <div class="mais">\n      <button ion-button round color="primary" (click)="incluir()"\n      [disabled]="!nome.valid" [class.invisivel]="novo">\n        <ion-icon name="checkmark"></ion-icon>\n      </button>\n\n      <button ion-button round color="primary" (click)="alterar()"\n      [disabled]="!nome.valid" [class.invisivel]="!novo">\n        <ion-icon name="checkmark" [class.invisivel]="!novo"></ion-icon>\n      </button>\n\n      <button ion-button round color="danger" (click)="excluir()" \n      [disabled]="!nome.valid">\n          <ion-icon name="trash"></ion-icon>\n      </button>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"/home/braulley/Documentos/Angular/tesi/GerenciadorDeProjetos/src/pages/projeto/projeto.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
         __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
@@ -297,7 +300,11 @@ TarefasPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-tarefas',template:/*ion-inline-start:"/home/braulley/Documentos/Angular/tesi/GerenciadorDeProjetos/src/pages/tarefas/tarefas.html"*/'<!--\n  Generated template for the TarefasPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Tarefas</ion-title>\n    <button ion-button menuToggle icon-only>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-menu [content]="menucontent">\n    <ion-header>\n      <ion-toolbar>\n        <ion-title>Filtros</ion-title>\n      </ion-toolbar>\n    </ion-header>\n    <ion-content>\n      <ion-list>\n        <button ion-item (click)="limparFiltros()">Todas</button>\n        <button ion-item (click)="filtroDias(0)">Até Hoje</button>\n        <button ion-item (click)="filtroDias(1)">Até Amanhã</button>\n        <button ion-item (click)="filtroDias(7)">Até a próxima semana</button>\n        <ion-item-divider class="light">POR PROJETO</ion-item-divider>\n        <button ion-item *ngFor="let p of projetos" (click)="filtroProjeto(p.codigo)">{{p.nome}}</button>\n      </ion-list>\n    </ion-content>\n  </ion-menu>\n\n  <ion-nav id="nav" #menucontent [root]="rootPage"></ion-nav>\n\n\n<ion-content padding>\n  <ion-list>\n    <button ion-item *ngFor="let t of tarefas | filtro: filtroTarefas" (click)="selecionaTarefa(t.codigo)">\n      <h2>{{t.descricao | uppercase}}</h2>\n      <h3>{{nomeProjeto(t.projeto)}} ({{t.projeto}})</h3>\n      <p>{{t.data | date:\'dd/MM/yyyy\' }}</p>\n      <ion-badge item-right\n      [class.alta]="t.prioridade==1"\n      [class.media]="t.prioridade==2"\n      [class.baixa]="t.prioridade==3">\n      {{t.prioridade}}\n    </ion-badge>\n    </button>\n  </ion-list>\n\n  <div class="mais">\n    <button ion-button round color="primary" (click)="incluir()">\n      <ion-icon name="add"></ion-icon>\n    </button>\n</div>\n</ion-content>\n'/*ion-inline-end:"/home/braulley/Documentos/Angular/tesi/GerenciadorDeProjetos/src/pages/tarefas/tarefas.html"*/,
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__providers_tarefas_service_tarefas_service__["a" /* TarefasServiceProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_tarefas_service_tarefas_service__["a" /* TarefasServiceProvider */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__providers_projetos_service_projetos_service__["a" /* ProjetosServiceProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_projetos_service_projetos_service__["a" /* ProjetosServiceProvider */]) === "function" && _e || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */],
+        __WEBPACK_IMPORTED_MODULE_2__providers_tarefas_service_tarefas_service__["a" /* TarefasServiceProvider */],
+        __WEBPACK_IMPORTED_MODULE_3__providers_projetos_service_projetos_service__["a" /* ProjetosServiceProvider */]])
 ], TarefasPage);
 
 var Filtro = (function () {
@@ -324,7 +331,6 @@ Filtro = __decorate([
     })
 ], Filtro);
 
-var _a, _b, _c, _d, _e;
 //# sourceMappingURL=tarefas.js.map
 
 /***/ }),
@@ -616,7 +622,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(263);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(79);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_projetos_projetos__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_projeto_projeto__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_tarefas_tarefas__ = __webpack_require__(106);
@@ -765,7 +771,7 @@ MyApp = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProjetosServiceProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(78);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -785,14 +791,10 @@ var ProjetosServiceProvider = (function () {
     function ProjetosServiceProvider() {
         this.projetos = [
             { codigo: 1, nome: 'Algoritmos' },
-            { codigo: 2, nome: 'Arquitetura de Computadores' },
-            { codigo: 3, nome: 'EAD' },
-            { codigo: 4, nome: 'Modelagem de Processos' },
-            { codigo: 5, nome: 'Segurança da Informação' },
-            { codigo: 6, nome: 'ATP' },
-            { codigo: 7, nome: 'POO' }
+            { codigo: 2, nome: 'Pós-graduação' },
+            { codigo: 3, nome: 'EAD' }
         ];
-        this.ultimoCodigo = 7;
+        this.ultimoCodigo = 3;
     }
     ProjetosServiceProvider.prototype.getProjetos = function () {
         return this.projetos;
@@ -832,8 +834,8 @@ ProjetosServiceProvider = __decorate([
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TarefasServiceProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(78);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -857,10 +859,14 @@ var TarefasServiceProvider = (function () {
     function TarefasServiceProvider(http) {
         this.http = http;
         this.tarefas = [
-            { codigo: 1, projeto: 1, descricao: 'Elaborar primeira prova', data: new Date(2017, 2, 29), prioridade: 1 },
-            { codigo: 2, projeto: 4, descricao: 'Fechar o diário', data: new Date(2017, 5, 17), prioridade: 2 },
-            { codigo: 3, projeto: 2, descricao: 'Gravar vídeo de apresentação', data: new Date(2017, 2, 10), prioridade: 1 },
-            { codigo: 4, projeto: 3, descricao: 'Planejar campanhas', data: new Date(2017, 3, 2), prioridade: 3 }
+            { codigo: 1, projeto: 1, descricao: 'Elaborar segunda prova',
+                data: new Date(2017, 2, 29), prioridade: 1 },
+            { codigo: 2, projeto: 1, descricao: 'Fechar diário',
+                data: new Date(2017, 5, 17), prioridade: 2 },
+            { codigo: 3, projeto: 2, descricao: 'Gravar vídeo de apresentação',
+                data: new Date(2017, 2, 10), prioridade: 1 },
+            { codigo: 4, projeto: 3, descricao: 'Planejar campanha',
+                data: new Date(2017, 3, 2), prioridade: 3 }
         ];
         this.ultimoCodigo = 4;
         console.log('Hello TarefasServiceProvider Provider');
@@ -893,10 +899,9 @@ var TarefasServiceProvider = (function () {
 }());
 TarefasServiceProvider = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
 ], TarefasServiceProvider);
 
-var _a;
 //# sourceMappingURL=tarefas-service.js.map
 
 /***/ }),
@@ -907,8 +912,8 @@ var _a;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UsuarioServiceProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(78);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;

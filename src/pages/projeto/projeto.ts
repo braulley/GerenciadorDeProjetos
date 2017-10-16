@@ -28,16 +28,17 @@ export class ProjetoPage {
       let projetos = projetosService.getProjetos();
 
       if(!this.novo) {
-
-      }
-
-      for(let i=0; i<projetos.length;i++){
-        if(projetos[i].codigo == this.codigoProjeto){
-          this.nomeProjeto = projetos[i].nome;
-          console.log(this.nomeProjeto);
-          break;
+        for(let i=0; i<projetos.length;i++){
+          if(projetos[i].codigo == this.codigoProjeto){
+            this.nomeProjeto = projetos[i].nome;
+            break;
+          }
         }
+      }else{
+        this.codigoProjeto = 0;
+        this.nomeProjeto = '';
       }
+
   }
 
   alterar(){

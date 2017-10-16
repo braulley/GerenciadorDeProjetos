@@ -12,16 +12,11 @@ import 'rxjs/add/operator/map';
 export class ProjetosServiceProvider {
 
   projetos = [
-    {codigo:1, nome:'Algoritmos'},
-    {codigo:2, nome: 'Arquitetura de Computadores'},
-    {codigo:3, nome: 'EAD'},
-    {codigo:4, nome: 'Modelagem de Processos'},
-    {codigo:5, nome: 'Segurança da Informação'},
-    {codigo:6, nome: 'ATP'},
-    {codigo:7, nome: 'POO'}
-  ];
-
-  ultimoCodigo:number = 7;
+    { codigo: 1, nome: 'Algoritmos' },
+    { codigo: 2, nome: 'Pós-graduação' },
+    { codigo: 3, nome: 'EAD' }
+    ];
+    ultimoCodigo = 3;
 
   
   getProjetos() {

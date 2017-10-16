@@ -27342,10 +27342,10 @@ var IonicFormInput = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__button_button__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_form__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__icon_icon__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__icon_icon__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ion__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__label_label__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__item_reorder__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__label_label__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__item_reorder__ = __webpack_require__(65);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -29135,27 +29135,27 @@ function cssFormat(val) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_app_app_root__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_app_app_root__ = __webpack_require__(56);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__components_app_app_root__["b"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_app_menu_controller__ = __webpack_require__(26);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_1__components_app_menu_controller__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_action_sheet_action_sheet__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_action_sheet_action_sheet__ = __webpack_require__(58);
 /* unused harmony reexport ActionSheet */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_action_sheet_action_sheet_controller__ = __webpack_require__(121);
 /* unused harmony reexport ActionSheetController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_action_sheet_action_sheet_component__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_action_sheet_action_sheet_component__ = __webpack_require__(59);
 /* unused harmony reexport ActionSheetCmp */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_alert_alert__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_alert_alert__ = __webpack_require__(60);
 /* unused harmony reexport Alert */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_alert_alert_controller__ = __webpack_require__(122);
 /* unused harmony reexport AlertController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_alert_alert_component__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_alert_alert_component__ = __webpack_require__(61);
 /* unused harmony reexport AlertCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_app_app__ = __webpack_require__(6);
 /* unused harmony reexport App */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_avatar_avatar__ = __webpack_require__(123);
 /* unused harmony reexport Avatar */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_backdrop_backdrop__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_backdrop_backdrop__ = __webpack_require__(62);
 /* unused harmony reexport Backdrop */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_badge_badge__ = __webpack_require__(124);
 /* unused harmony reexport Badge */
@@ -29181,7 +29181,7 @@ function cssFormat(val) {
 /* unused harmony reexport FabButton */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_fab_fab_container__ = __webpack_require__(137);
 /* unused harmony reexport FabContainer */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_fab_fab_list__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_fab_fab_list__ = __webpack_require__(69);
 /* unused harmony reexport FabList */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_grid_col__ = __webpack_require__(138);
 /* unused harmony reexport Col */
@@ -29191,11 +29191,11 @@ function cssFormat(val) {
 /* unused harmony reexport Row */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_ion__ = __webpack_require__(4);
 /* unused harmony reexport Ion */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_icon_icon__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_icon_icon__ = __webpack_require__(63);
 /* unused harmony reexport Icon */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_img_img__ = __webpack_require__(141);
 /* unused harmony reexport Img */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_infinite_scroll_infinite_scroll__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_infinite_scroll_infinite_scroll__ = __webpack_require__(70);
 /* unused harmony reexport InfiniteScroll */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__components_infinite_scroll_infinite_scroll_content__ = __webpack_require__(142);
 /* unused harmony reexport InfiniteScrollContent */
@@ -29209,25 +29209,25 @@ function cssFormat(val) {
 /* unused harmony reexport ItemDivider */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__components_item_item_group__ = __webpack_require__(147);
 /* unused harmony reexport ItemGroup */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__components_item_item_options__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__components_item_item_options__ = __webpack_require__(71);
 /* unused harmony reexport ItemOptions */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__components_item_item_reorder__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__components_item_item_reorder__ = __webpack_require__(65);
 /* unused harmony reexport ItemReorder */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__components_item_item_sliding__ = __webpack_require__(148);
 /* unused harmony reexport ItemSliding */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__components_item_reorder__ = __webpack_require__(149);
 /* unused harmony reexport Reorder */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__components_label_label__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__components_label_label__ = __webpack_require__(64);
 /* unused harmony reexport Label */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__components_list_list__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__components_list_list__ = __webpack_require__(72);
 /* unused harmony reexport List */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_list_list_header__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_list_list_header__ = __webpack_require__(73);
 /* unused harmony reexport ListHeader */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__components_loading_loading__ = __webpack_require__(150);
 /* unused harmony reexport Loading */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__components_loading_loading_controller__ = __webpack_require__(151);
 /* unused harmony reexport LoadingController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__components_loading_loading_component__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__components_loading_loading_component__ = __webpack_require__(74);
 /* unused harmony reexport LoadingCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__components_menu_menu__ = __webpack_require__(152);
 /* unused harmony reexport Menu */
@@ -29239,11 +29239,11 @@ function cssFormat(val) {
 /* unused harmony reexport MenuType */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__components_modal_modal__ = __webpack_require__(156);
 /* unused harmony reexport Modal */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__components_modal_modal_component__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__components_modal_modal_component__ = __webpack_require__(76);
 /* unused harmony reexport ModalCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__components_modal_modal_controller__ = __webpack_require__(160);
 /* unused harmony reexport ModalController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__components_nav_nav__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__components_nav_nav__ = __webpack_require__(75);
 /* unused harmony reexport Nav */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__components_nav_nav_pop__ = __webpack_require__(81);
 /* unused harmony reexport NavPop */
@@ -29259,11 +29259,11 @@ function cssFormat(val) {
 /* unused harmony reexport Option */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__components_picker_picker__ = __webpack_require__(136);
 /* unused harmony reexport Picker */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__components_picker_picker_component__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__components_picker_picker_component__ = __webpack_require__(67);
 /* unused harmony reexport PickerCmp */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__components_picker_picker_column__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__components_picker_picker_column__ = __webpack_require__(68);
 /* unused harmony reexport PickerColumnCmp */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__components_picker_picker_controller__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__components_picker_picker_controller__ = __webpack_require__(66);
 /* unused harmony reexport PickerController */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__components_popover_popover__ = __webpack_require__(84);
 /* unused harmony reexport Popover */
@@ -29330,7 +29330,7 @@ function cssFormat(val) {
 /* unused harmony reexport Footer */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_96__components_toolbar_toolbar_header__ = __webpack_require__(186);
 /* unused harmony reexport Header */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_97__components_toolbar_toolbar__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_97__components_toolbar_toolbar__ = __webpack_require__(50);
 /* unused harmony reexport Toolbar */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_98__components_toolbar_toolbar_item__ = __webpack_require__(187);
 /* unused harmony reexport ToolbarItem */
@@ -29387,7 +29387,7 @@ function cssFormat(val) {
 /* unused harmony reexport PanGesture */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_121__gestures_gesture__ = __webpack_require__(258);
 /* unused harmony reexport Gesture */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_122__gestures_slide_edge_gesture__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_122__gestures_slide_edge_gesture__ = __webpack_require__(57);
 /* unused harmony reexport SlideEdgeGesture */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_123__gestures_slide_gesture__ = __webpack_require__(119);
 /* unused harmony reexport SlideGesture */
@@ -35942,10 +35942,10 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var isFunction_1 = __webpack_require__(52);
+var isFunction_1 = __webpack_require__(51);
 var Subscription_1 = __webpack_require__(31);
 var Observer_1 = __webpack_require__(113);
-var rxSubscriber_1 = __webpack_require__(54);
+var rxSubscriber_1 = __webpack_require__(53);
 /**
  * Implements the {@link Observer} interface and extends the
  * {@link Subscription} class. While the {@link Observer} is the public API for
@@ -36271,9 +36271,9 @@ function PageTransition_tsickle_Closure_declarations() {
 
 var isArray_1 = __webpack_require__(110);
 var isObject_1 = __webpack_require__(111);
-var isFunction_1 = __webpack_require__(52);
+var isFunction_1 = __webpack_require__(51);
 var tryCatch_1 = __webpack_require__(112);
-var errorObject_1 = __webpack_require__(53);
+var errorObject_1 = __webpack_require__(52);
 var UnsubscriptionError_1 = __webpack_require__(208);
 /**
  * Represents a disposable resource, such as the execution of an Observable. A
@@ -36478,7 +36478,7 @@ var Subscriber_1 = __webpack_require__(29);
 var Subscription_1 = __webpack_require__(31);
 var ObjectUnsubscribedError_1 = __webpack_require__(221);
 var SubjectSubscription_1 = __webpack_require__(222);
-var rxSubscriber_1 = __webpack_require__(54);
+var rxSubscriber_1 = __webpack_require__(53);
 /**
  * @class SubjectSubscriber<T>
  */
@@ -44842,6 +44842,6307 @@ function FabButton_tsickle_Closure_declarations() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (immutable) */ __webpack_exports__["d"] = initSwiper;
+/* harmony export (immutable) */ __webpack_exports__["l"] = startAutoplay;
+/* harmony export (immutable) */ __webpack_exports__["m"] = stopAutoplay;
+/* harmony export (immutable) */ __webpack_exports__["g"] = pauseAutoplay;
+/* harmony export (immutable) */ __webpack_exports__["o"] = updateAutoHeight;
+/* harmony export (immutable) */ __webpack_exports__["p"] = updateContainerSize;
+/* harmony export (immutable) */ __webpack_exports__["q"] = updateSlidesSize;
+/* harmony export (immutable) */ __webpack_exports__["a"] = currentSlidesPerView;
+/* harmony export (immutable) */ __webpack_exports__["n"] = update;
+/* harmony export (immutable) */ __webpack_exports__["c"] = fixLoop;
+/* harmony export (immutable) */ __webpack_exports__["k"] = slideTo;
+/* harmony export (immutable) */ __webpack_exports__["f"] = onTransitionStart;
+/* harmony export (immutable) */ __webpack_exports__["e"] = onTransitionEnd;
+/* harmony export (immutable) */ __webpack_exports__["h"] = slideNext;
+/* harmony export (immutable) */ __webpack_exports__["i"] = slidePrev;
+/* harmony export (immutable) */ __webpack_exports__["j"] = slideReset;
+/* unused harmony export disableTouchControl */
+/* unused harmony export enableTouchControl */
+/* harmony export (immutable) */ __webpack_exports__["b"] = destroySwiper;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_transition__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_progress__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_classes__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_parallax__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_index__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_effects__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__swiper_pagination__ = __webpack_require__(94);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__swiper_zoom__ = __webpack_require__(178);
+/**
+ * Adopted from Swiper
+ * Most modern mobile touch slider and framework with hardware
+ * accelerated transitions.
+ *
+ * http://www.idangero.us/swiper/
+ *
+ * Copyright 2016, Vladimir Kharlampidi
+ * The iDangero.us
+ * http://www.idangero.us/
+ *
+ * Licensed under MIT
+ */
+
+
+
+
+
+
+
+
+
+/**
+ * @param {?} s
+ * @param {?} plt
+ * @return {?}
+ */
+function initSwiper(s, plt) {
+    // Classname
+    s._classNames = [];
+    /*=========================
+      Preparation - Define Container, Wrapper and Pagination
+      ===========================*/
+    if (!s.container) {
+        return;
+    }
+    // Save instance in container HTML Element and in data
+    s.container.swiper = s;
+    var /** @type {?} */ containerModifierClass = __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].containerModifier;
+    s._classNames.push(containerModifierClass + s.direction);
+    if (s.freeMode) {
+        s._classNames.push(containerModifierClass + 'free-mode');
+    }
+    if (s.autoHeight) {
+        s._classNames.push(containerModifierClass + 'autoheight');
+    }
+    // Enable slides progress when required
+    if (s.parallax || s.watchSlidesVisibility) {
+        s.watchSlidesProgress = true;
+    }
+    // Max resistance when touchReleaseOnEdges
+    if (s.touchReleaseOnEdges) {
+        s.resistanceRatio = 0;
+    }
+    var /** @type {?} */ effect = s.effect;
+    // Coverflow / 3D
+    if (['cube', 'coverflow', 'flip'].indexOf(effect) >= 0) {
+        s.watchSlidesProgress = true;
+        s._classNames.push(containerModifierClass + '3d');
+    }
+    if (effect !== 'slide') {
+        s._classNames.push(containerModifierClass + effect);
+    }
+    if (effect === 'cube') {
+        s.resistanceRatio = 0;
+        s.slidesPerView = 1;
+        s.slidesPerColumn = 1;
+        s.slidesPerGroup = 1;
+        s.centeredSlides = false;
+        s.spaceBetween = 0;
+        s.virtualTranslate = true;
+        s.setWrapperSize = false;
+    }
+    if (effect === 'fade' || effect === 'flip') {
+        s.slidesPerView = 1;
+        s.slidesPerColumn = 1;
+        s.slidesPerGroup = 1;
+        s.watchSlidesProgress = true;
+        s.spaceBetween = 0;
+        s.setWrapperSize = false;
+        s.virtualTranslate = true;
+    }
+    // Wrapper
+    s._wrapper = (s.container.querySelector('.' + __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].wrapper));
+    // Pagination
+    if (s.paginationType) {
+        s._paginationContainer = (s.container.querySelector('.swiper-pagination'));
+        if (s.paginationType === 'bullets') {
+            s._paginationContainer.classList.add(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].paginationModifier + 'clickable');
+        }
+        s._paginationContainer.classList.add(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].paginationModifier + s.paginationType);
+    }
+    // Next/Prev Buttons
+    // if (s.nextButton || s.prevButton) {
+    //   if (s.nextButton) {
+    //     s.nextButton = <any>s.container.closest('ion-content').querySelector(s.nextButton);
+    //   }
+    //   if (s.prevButton) {
+    //     s.prevButton = <any>s.container.closest('ion-content').querySelector(s.prevButton);
+    //   }
+    // }
+    // RTL
+    s._rtl = Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s) && (s.container.dir.toLowerCase() === 'rtl' || s.container.style.direction === 'rtl');
+    if (s._rtl) {
+        s._classNames.push(containerModifierClass + 'rtl');
+    }
+    // Columns
+    if (s.slidesPerColumn > 1) {
+        s._classNames.push(containerModifierClass + 'multirow');
+    }
+    // Check for Android
+    if (plt.is('android')) {
+        s._classNames.push(containerModifierClass + 'android');
+    }
+    // Add classes
+    s._classNames.forEach(function (clsName) {
+        s.container.classList.add(clsName);
+    });
+    // Translate
+    s._translate = 0;
+    // Progress
+    s.progress = 0;
+    // Velocity
+    s.velocity = 0;
+    /*=========================
+      Autoplay
+      ===========================*/
+    s._autoplayTimeoutId = undefined;
+    s._autoplaying = false;
+    s._autoplayPaused = false;
+    s._allowClick = true;
+    // Animating Flag
+    s._animating = false;
+    // Touches information
+    s._touches = {
+        startX: 0,
+        startY: 0,
+        currentX: 0,
+        currentY: 0,
+        diff: 0
+    };
+    if (s.loop) {
+        createLoop(s);
+    }
+    updateContainerSize(s, plt);
+    updateSlidesSize(s, plt);
+    Object(__WEBPACK_IMPORTED_MODULE_7__swiper_pagination__["a" /* updatePagination */])(s);
+    if (effect !== 'slide' && __WEBPACK_IMPORTED_MODULE_6__swiper_effects__["a" /* SWIPER_EFFECTS */][effect]) {
+        if (!s.loop) {
+            Object(__WEBPACK_IMPORTED_MODULE_2__swiper_progress__["a" /* updateProgress */])(s);
+        }
+        __WEBPACK_IMPORTED_MODULE_6__swiper_effects__["a" /* SWIPER_EFFECTS */][effect].setTranslate(s, plt);
+    }
+    if (s.loop) {
+        slideTo(s, plt, s.initialSlide + s.loopedSlides, 0, s.runCallbacksOnInit);
+    }
+    else {
+        slideTo(s, plt, s.initialSlide, 0, s.runCallbacksOnInit);
+        if (s.initialSlide === 0) {
+            Object(__WEBPACK_IMPORTED_MODULE_4__swiper_parallax__["b" /* parallaxSetTranslate */])(s);
+        }
+    }
+    if (s.autoplay) {
+        startAutoplay(s, plt);
+    }
+}
+/**
+ * @param {?} s
+ * @param {?} plt
+ * @return {?}
+ */
+function autoplay(s, plt) {
+    var /** @type {?} */ autoplayDelay = s.autoplay;
+    var /** @type {?} */ activeSlide = s._slides[s._activeIndex];
+    if (activeSlide.hasAttribute('data-swiper-autoplay')) {
+        autoplayDelay = ((activeSlide.getAttribute('data-swiper-autoplay') || s.autoplay));
+    }
+    s._autoplayTimeoutId = plt.timeout(function () {
+        s._zone.run(function () {
+            if (s.loop) {
+                fixLoop(s, plt);
+                slideNext(s, plt, true, undefined, true);
+                s.ionSlideAutoplay.emit(s);
+            }
+            else {
+                if (!s._isEnd) {
+                    slideNext(s, plt, true, undefined, true);
+                    s.ionSlideAutoplay.emit(s);
+                }
+                else {
+                    if (!s.autoplayStopOnLast) {
+                        slideTo(s, plt, 0);
+                        s.ionSlideAutoplay.emit(s);
+                    }
+                    else {
+                        stopAutoplay(s);
+                    }
+                }
+            }
+        });
+    }, autoplayDelay);
+}
+/**
+ * @param {?} s
+ * @param {?} plt
+ * @return {?}
+ */
+function startAutoplay(s, plt) {
+    if (typeof s._autoplayTimeoutId !== 'undefined')
+        return false;
+    if (!s.autoplay || s._autoplaying) {
+        return false;
+    }
+    s._autoplaying = true;
+    s._zone.run(function () {
+        s.ionSlideAutoplayStart.emit(s);
+    });
+    autoplay(s, plt);
+}
+/**
+ * @param {?} s
+ * @return {?}
+ */
+function stopAutoplay(s) {
+    if (!s._autoplayTimeoutId)
+        return;
+    if (s._autoplayTimeoutId)
+        clearTimeout(s._autoplayTimeoutId);
+    s._autoplaying = false;
+    s._autoplayTimeoutId = undefined;
+    s._zone.run(function () {
+        s.ionSlideAutoplayStop.emit(s);
+    });
+}
+/**
+ * @param {?} s
+ * @param {?} plt
+ * @param {?=} speed
+ * @return {?}
+ */
+function pauseAutoplay(s, plt, speed) {
+    if (s._autoplayPaused)
+        return;
+    if (s._autoplayTimeoutId)
+        clearTimeout(s._autoplayTimeoutId);
+    s._autoplayPaused = true;
+    if (speed === 0) {
+        s._autoplayPaused = false;
+        autoplay(s, plt);
+    }
+    else {
+        plt.transitionEnd(s._wrapper, function () {
+            if (!s)
+                return;
+            s._autoplayPaused = false;
+            if (!s._autoplaying) {
+                stopAutoplay(s);
+            }
+            else {
+                autoplay(s, plt);
+            }
+        });
+    }
+}
+/**
+ * @param {?} s
+ * @return {?}
+ */
+function updateAutoHeight(s) {
+    var /** @type {?} */ activeSlides = [];
+    var /** @type {?} */ newHeight = 0;
+    var /** @type {?} */ i;
+    // Find slides currently in view
+    if (s.slidesPerView !== 'auto' && s.slidesPerView > 1) {
+        for (i = 0; i < Math.ceil(/** @type {?} */ (s.slidesPerView)); i++) {
+            var /** @type {?} */ index = s._activeIndex + i;
+            if (index > s._slides.length)
+                break;
+            activeSlides.push(s._slides[index]);
+        }
+    }
+    else {
+        activeSlides.push(s._slides[s._activeIndex]);
+    }
+    // Find new height from heighest slide in view
+    for (i = 0; i < activeSlides.length; i++) {
+        if (typeof activeSlides[i] !== 'undefined') {
+            var /** @type {?} */ height = activeSlides[i].offsetHeight;
+            newHeight = height > newHeight ? height : newHeight;
+        }
+    }
+    // Update Height
+    if (newHeight) {
+        s._wrapper.style.height = newHeight + 'px';
+    }
+}
+/**
+ * @param {?} s
+ * @param {?} plt
+ * @return {?}
+ */
+function updateContainerSize(s, plt) {
+    var /** @type {?} */ container = s.container;
+    var /** @type {?} */ width;
+    var /** @type {?} */ height;
+    if (typeof s.width !== 'undefined') {
+        // manually assign user width
+        width = s.width;
+    }
+    else {
+        width = container.clientWidth;
+    }
+    if (typeof s.renderedHeight !== 'undefined') {
+        // manually assign user height
+        height = s.renderedHeight;
+    }
+    else {
+        height = container.clientHeight;
+    }
+    if (width === 0 && Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s) || height === 0 && !Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s)) {
+        return;
+    }
+    // Subtract paddings
+    var /** @type {?} */ containerStyles = plt.getElementComputedStyle(container);
+    width = width - parseInt(containerStyles.paddingLeft, 10) - parseInt(containerStyles.paddingRight, 10);
+    height = height - parseInt(containerStyles.paddingTop, 10) - parseInt(containerStyles.paddingBottom, 10);
+    // Store values
+    s.renderedWidth = width;
+    s.renderedHeight = height;
+    s._renderedSize = Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s) ? width : height;
+}
+/**
+ * @param {?} s
+ * @param {?} plt
+ * @return {?}
+ */
+function updateSlidesSize(s, plt) {
+    s._slides = ((s._wrapper.querySelectorAll('.' + __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slide)));
+    s._snapGrid = [];
+    s._slidesGrid = [];
+    s._slidesSizesGrid = [];
+    var /** @type {?} */ spaceBetween = s.spaceBetween;
+    var /** @type {?} */ slidePosition = -s.slidesOffsetBefore;
+    var /** @type {?} */ i;
+    var /** @type {?} */ prevSlideSize = 0;
+    var /** @type {?} */ index = 0;
+    if (typeof s._renderedSize === 'undefined')
+        return;
+    if (typeof spaceBetween === 'string' && spaceBetween.indexOf('%') >= 0) {
+        spaceBetween = parseFloat(spaceBetween.replace('%', '')) / 100 * s._renderedSize;
+    }
+    s._virtualSize = -spaceBetween;
+    // reset margins
+    if (s._rtl) {
+        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._slides, { marginLeft: '', marginTop: '' });
+    }
+    else {
+        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._slides, { marginRight: '', marginBottom: '' });
+    }
+    var /** @type {?} */ slidesNumberEvenToRows;
+    if (s.slidesPerColumn > 1) {
+        if (Math.floor(s._slides.length / s.slidesPerColumn) === s._slides.length / s.slidesPerColumn) {
+            slidesNumberEvenToRows = s._slides.length;
+        }
+        else {
+            slidesNumberEvenToRows = Math.ceil(s._slides.length / s.slidesPerColumn) * s.slidesPerColumn;
+        }
+        if (s.slidesPerView !== 'auto' && s.slidesPerColumnFill === 'row') {
+            slidesNumberEvenToRows = Math.max(slidesNumberEvenToRows, /** @type {?} */ (s.slidesPerView) * s.slidesPerColumn);
+        }
+    }
+    // Calc slides
+    var /** @type {?} */ slideSize;
+    var /** @type {?} */ slidesPerColumn = s.slidesPerColumn;
+    var /** @type {?} */ slidesPerRow = slidesNumberEvenToRows / slidesPerColumn;
+    var /** @type {?} */ numFullColumns = slidesPerRow - (s.slidesPerColumn * slidesPerRow - s._slides.length);
+    for (i = 0; i < s._slides.length; i++) {
+        slideSize = 0;
+        var /** @type {?} */ slide = s._slides[i];
+        if (s.slidesPerColumn > 1) {
+            // Set slides order
+            var /** @type {?} */ newSlideOrderIndex;
+            var /** @type {?} */ column;
+            var /** @type {?} */ row;
+            if (s.slidesPerColumnFill === 'column') {
+                column = Math.floor(i / slidesPerColumn);
+                row = i - column * slidesPerColumn;
+                if (column > numFullColumns || (column === numFullColumns && row === slidesPerColumn - 1)) {
+                    if (++row >= slidesPerColumn) {
+                        row = 0;
+                        column++;
+                    }
+                }
+                newSlideOrderIndex = column + row * slidesNumberEvenToRows / slidesPerColumn;
+                Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(slide, {
+                    '-webkit-box-ordinal-group': newSlideOrderIndex,
+                    '-moz-box-ordinal-group': newSlideOrderIndex,
+                    '-ms-flex-order': newSlideOrderIndex,
+                    '-webkit-order': newSlideOrderIndex,
+                    'order': newSlideOrderIndex
+                });
+            }
+            else {
+                row = Math.floor(i / slidesPerRow);
+                column = i - row * slidesPerRow;
+            }
+            var /** @type {?} */ cssVal = (row !== 0 && s.spaceBetween) && (s.spaceBetween + 'px');
+            var /** @type {?} */ cssObj = {};
+            if (Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s)) {
+                cssObj['marginTop'] = cssVal;
+            }
+            else {
+                cssObj['marginLeft'] = cssVal;
+            }
+            Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(slide, cssObj);
+            slide.setAttribute('data-swiper-column', /** @type {?} */ (column));
+            slide.setAttribute('data-swiper-row', /** @type {?} */ (row));
+        }
+        if (slide.style.display === 'none') {
+            continue;
+        }
+        if (s.slidesPerView === 'auto') {
+            var /** @type {?} */ styles = plt.getElementComputedStyle(slide);
+            if (Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s)) {
+                slideSize = slide.offsetWidth + parseFloat(styles.marginRight) + parseFloat(styles.marginLeft);
+            }
+            else {
+                slideSize = slide.offsetHeight + parseFloat(styles.marginTop) + parseFloat(styles.marginBottom);
+            }
+            if (s.roundLengths)
+                slideSize = Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["m" /* round */])(slideSize);
+        }
+        else {
+            slideSize = (s._renderedSize - ((s.slidesPerView) - 1) * spaceBetween) / (s.slidesPerView);
+            if (s.roundLengths)
+                slideSize = Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["m" /* round */])(slideSize);
+            if (Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s)) {
+                s._slides[i].style.width = slideSize + 'px';
+            }
+            else {
+                s._slides[i].style.height = slideSize + 'px';
+            }
+        }
+        s._slides[i].swiperSlideSize = slideSize;
+        s._slidesSizesGrid.push(slideSize);
+        if (s.centeredSlides) {
+            slidePosition = slidePosition + slideSize / 2 + prevSlideSize / 2 + spaceBetween;
+            if (i === 0)
+                slidePosition = slidePosition - s._renderedSize / 2 - spaceBetween;
+            if (Math.abs(slidePosition) < 1 / 1000)
+                slidePosition = 0;
+            if ((index) % s.slidesPerGroup === 0)
+                s._snapGrid.push(slidePosition);
+            s._slidesGrid.push(slidePosition);
+        }
+        else {
+            if ((index) % s.slidesPerGroup === 0)
+                s._snapGrid.push(slidePosition);
+            s._slidesGrid.push(slidePosition);
+            slidePosition = slidePosition + slideSize + spaceBetween;
+        }
+        s._virtualSize += slideSize + spaceBetween;
+        prevSlideSize = slideSize;
+        index++;
+    }
+    s._virtualSize = Math.max(s._virtualSize, s._renderedSize) + s.slidesOffsetAfter;
+    var /** @type {?} */ newSlidesGrid;
+    if (s._rtl && (s.effect === 'slide' || s.effect === 'coverflow')) {
+        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._wrapper, { width: s._virtualSize + s.spaceBetween + 'px' });
+    }
+    if (s.setWrapperSize) {
+        if (Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s)) {
+            Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._wrapper, { width: s._virtualSize + s.spaceBetween + 'px' });
+        }
+        else {
+            Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._wrapper, { height: s._virtualSize + s.spaceBetween + 'px' });
+        }
+    }
+    if (s.slidesPerColumn > 1) {
+        s._virtualSize = (slideSize + s.spaceBetween) * slidesNumberEvenToRows;
+        s._virtualSize = Math.ceil(s._virtualSize / s.slidesPerColumn) - s.spaceBetween;
+        if (Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s)) {
+            Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._wrapper, { width: s._virtualSize + s.spaceBetween + 'px' });
+        }
+        else {
+            Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._wrapper, { height: s._virtualSize + s.spaceBetween + 'px' });
+        }
+        if (s.centeredSlides) {
+            newSlidesGrid = [];
+            for (i = 0; i < s._snapGrid.length; i++) {
+                if (s._snapGrid[i] < s._virtualSize + s._snapGrid[0])
+                    newSlidesGrid.push(s._snapGrid[i]);
+            }
+            s._snapGrid = newSlidesGrid;
+        }
+    }
+    // Remove last grid elements depending on width
+    if (!s.centeredSlides) {
+        newSlidesGrid = [];
+        for (i = 0; i < s._snapGrid.length; i++) {
+            if (s._snapGrid[i] <= s._virtualSize - s._renderedSize) {
+                newSlidesGrid.push(s._snapGrid[i]);
+            }
+        }
+        s._snapGrid = newSlidesGrid;
+        if (Math.floor(s._virtualSize - s._renderedSize) - Math.floor(s._snapGrid[s._snapGrid.length - 1]) > 1) {
+            s._snapGrid.push(s._virtualSize - s._renderedSize);
+        }
+    }
+    if (s._snapGrid.length === 0)
+        s._snapGrid = [0];
+    if (s.spaceBetween !== 0) {
+        if (Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s)) {
+            if (s._rtl) {
+                Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._slides, { marginLeft: spaceBetween + 'px' });
+            }
+            else {
+                Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._slides, { marginRight: spaceBetween + 'px' });
+            }
+        }
+        else {
+            Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._slides, { marginBottom: spaceBetween + 'px' });
+        }
+    }
+    if (s.watchSlidesProgress) {
+        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["q" /* updateSlidesOffset */])(s);
+    }
+}
+/**
+ * @param {?} s
+ * @return {?}
+ */
+function currentSlidesPerView(s) {
+    var /** @type {?} */ spv = 1;
+    var /** @type {?} */ i;
+    var /** @type {?} */ j;
+    if (s.centeredSlides) {
+        var /** @type {?} */ size = s._slides[s._activeIndex].swiperSlideSize;
+        var /** @type {?} */ breakLoop;
+        for (i = s._activeIndex + 1; i < s._slides.length; i++) {
+            if (s._slides[i] && !breakLoop) {
+                size += s._slides[i].swiperSlideSize;
+                spv++;
+                if (size > s._renderedSize)
+                    breakLoop = true;
+            }
+        }
+        for (j = s._activeIndex - 1; j >= 0; j--) {
+            if (s._slides[j] && !breakLoop) {
+                size += s._slides[j].swiperSlideSize;
+                spv++;
+                if (size > s._renderedSize)
+                    breakLoop = true;
+            }
+        }
+    }
+    else {
+        for (i = s._activeIndex + 1; i < s._slides.length; i++) {
+            if (s._slidesGrid[i] - s._slidesGrid[s._activeIndex] < s._renderedSize) {
+                spv++;
+            }
+        }
+    }
+    return spv;
+}
+/**
+ * @param {?} s
+ * @param {?} plt
+ * @param {?=} updateTranslate
+ * @return {?}
+ */
+function update(s, plt, updateTranslate) {
+    if (!s)
+        return;
+    updateContainerSize(s, plt);
+    updateSlidesSize(s, plt);
+    Object(__WEBPACK_IMPORTED_MODULE_2__swiper_progress__["a" /* updateProgress */])(s);
+    Object(__WEBPACK_IMPORTED_MODULE_7__swiper_pagination__["a" /* updatePagination */])(s);
+    Object(__WEBPACK_IMPORTED_MODULE_3__swiper_classes__["a" /* updateClasses */])(s);
+    if (s.zoom) {
+        Object(__WEBPACK_IMPORTED_MODULE_8__swiper_zoom__["b" /* resetZoomEvents */])(s, plt);
+    }
+    var /** @type {?} */ translated;
+    var /** @type {?} */ newTranslate;
+    /**
+     * @return {?}
+     */
+    function forceSetTranslate() {
+        newTranslate = Math.min(Math.max(s._translate, Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["h" /* maxTranslate */])(s)), Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["i" /* minTranslate */])(s));
+        Object(__WEBPACK_IMPORTED_MODULE_1__swiper_transition__["d" /* setWrapperTranslate */])(s, plt, newTranslate);
+        Object(__WEBPACK_IMPORTED_MODULE_5__swiper_index__["a" /* updateActiveIndex */])(s);
+        Object(__WEBPACK_IMPORTED_MODULE_3__swiper_classes__["a" /* updateClasses */])(s);
+    }
+    if (updateTranslate) {
+        if (s._spline) {
+            s._spline = undefined;
+        }
+        if (s.freeMode) {
+            forceSetTranslate();
+            if (s.autoHeight) {
+                updateAutoHeight(s);
+            }
+        }
+        else {
+            if ((s.slidesPerView === 'auto' || s.slidesPerView > 1) && s._isEnd && !s.centeredSlides) {
+                translated = slideTo(s, plt, s._slides.length - 1, 0, false, true);
+            }
+            else {
+                translated = slideTo(s, plt, s._activeIndex, 0, false, true);
+            }
+            if (!translated) {
+                forceSetTranslate();
+            }
+        }
+    }
+    else if (s.autoHeight) {
+        updateAutoHeight(s);
+    }
+}
+/**
+ * @param {?} s
+ * @return {?}
+ */
+function createLoop(s) {
+    // Remove duplicated slides
+    Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["c" /* eachChild */])(s._wrapper, '.' + __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slide + '.' + __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideDuplicate, function (ele) {
+        ele.parentElement.removeChild(ele);
+    });
+    var /** @type {?} */ slides = (s._wrapper.querySelectorAll('.' + __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slide));
+    if (s.slidesPerView === 'auto' && !s.loopedSlides) {
+        s.loopedSlides = slides.length;
+    }
+    s.loopedSlides = parseInt(/** @type {?} */ ((s.loopedSlides || s.slidesPerView)), 10);
+    s.loopedSlides = s.loopedSlides + s.loopAdditionalSlides;
+    if (s.loopedSlides > slides.length) {
+        s.loopedSlides = slides.length;
+    }
+    var /** @type {?} */ prependSlides = [];
+    var /** @type {?} */ appendSlides = [];
+    for (var /** @type {?} */ i = 0; i < slides.length; i++) {
+        var /** @type {?} */ slide = slides[i];
+        if (i < s.loopedSlides)
+            appendSlides.push(slide);
+        if (i < slides.length && i >= slides.length - s.loopedSlides)
+            prependSlides.push(slide);
+        slide.setAttribute('data-swiper-slide-index', /** @type {?} */ (i));
+    }
+    for (i = 0; i < appendSlides.length; i++) {
+        var /** @type {?} */ appendClone = appendSlides[i].cloneNode(true);
+        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["b" /* addClass */])(appendClone, __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideDuplicate);
+        s._wrapper.appendChild(appendClone);
+    }
+    for (i = prependSlides.length - 1; i >= 0; i--) {
+        var /** @type {?} */ prependClone = prependSlides[i].cloneNode(true);
+        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["b" /* addClass */])(prependClone, __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideDuplicate);
+        s._wrapper.insertBefore(prependClone, s._wrapper.firstElementChild);
+    }
+}
+/**
+ * @param {?} s
+ * @return {?}
+ */
+function destroyLoop(s) {
+    Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["c" /* eachChild */])(s._wrapper, '.' + __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slide + '.' + __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideDuplicate, function (ele) {
+        ele.parentElement.removeChild(ele);
+    });
+    if (s._slides) {
+        for (var /** @type {?} */ i = 0; i < s._slides.length; i++) {
+            s._slides[i].removeAttribute('data-swiper-slide-index');
+        }
+    }
+}
+/**
+ * @param {?} s
+ * @param {?} plt
+ * @return {?}
+ */
+function fixLoop(s, plt) {
+    var /** @type {?} */ newIndex;
+    if (s._activeIndex < s.loopedSlides) {
+        // Fix For Negative Oversliding
+        newIndex = s._slides.length - s.loopedSlides * 3 + s._activeIndex;
+        newIndex = newIndex + s.loopedSlides;
+        slideTo(s, plt, newIndex, 0, false, true);
+    }
+    else if ((s.slidesPerView === 'auto' && s._activeIndex >= s.loopedSlides * 2) || (s._activeIndex > s._slides.length - (s.slidesPerView) * 2)) {
+        // Fix For Positive Oversliding
+        newIndex = -s._slides.length + s._activeIndex + s.loopedSlides;
+        newIndex = newIndex + s.loopedSlides;
+        slideTo(s, plt, newIndex, 0, false, true);
+    }
+}
+/**
+ * @param {?} s
+ * @param {?} plt
+ * @param {?=} slideIndex
+ * @param {?=} speed
+ * @param {?=} runCallbacks
+ * @param {?=} internal
+ * @return {?}
+ */
+function slideTo(s, plt, slideIndex, speed, runCallbacks, internal) {
+    if (runCallbacks === void 0) { runCallbacks = true; }
+    if (typeof slideIndex === 'undefined')
+        slideIndex = 0;
+    if (slideIndex < 0)
+        slideIndex = 0;
+    s._snapIndex = Math.floor(slideIndex / s.slidesPerGroup);
+    if (s._snapIndex >= s._snapGrid.length)
+        s._snapIndex = s._snapGrid.length - 1;
+    var /** @type {?} */ translate = -s._snapGrid[s._snapIndex];
+    // Stop autoplay
+    if (s.autoplay && s._autoplaying) {
+        if (internal || !s.autoplayDisableOnInteraction) {
+            pauseAutoplay(s, plt, speed);
+        }
+        else {
+            stopAutoplay(s);
+        }
+    }
+    // Update progress
+    Object(__WEBPACK_IMPORTED_MODULE_2__swiper_progress__["a" /* updateProgress */])(s, translate);
+    // Directions locks
+    if (!s._allowSwipeToNext && translate < s._translate && translate < Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["i" /* minTranslate */])(s)) {
+        return false;
+    }
+    if (!s._allowSwipeToPrev && translate > s._translate && translate > Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["h" /* maxTranslate */])(s)) {
+        if ((s._activeIndex || 0) !== slideIndex)
+            return false;
+    }
+    // Update Index
+    if (typeof speed === 'undefined')
+        speed = s.speed;
+    s._previousIndex = s._activeIndex || 0;
+    s._activeIndex = slideIndex;
+    Object(__WEBPACK_IMPORTED_MODULE_5__swiper_index__["b" /* updateRealIndex */])(s);
+    if ((s._rtl && -translate === s._translate) || (!s._rtl && translate === s._translate)) {
+        // Update Height
+        if (s.autoHeight) {
+            updateAutoHeight(s);
+        }
+        Object(__WEBPACK_IMPORTED_MODULE_3__swiper_classes__["a" /* updateClasses */])(s);
+        if (s.effect !== 'slide') {
+            Object(__WEBPACK_IMPORTED_MODULE_1__swiper_transition__["d" /* setWrapperTranslate */])(s, plt, translate);
+        }
+        return false;
+    }
+    Object(__WEBPACK_IMPORTED_MODULE_3__swiper_classes__["a" /* updateClasses */])(s);
+    onTransitionStart(s, runCallbacks);
+    if (speed === 0) {
+        Object(__WEBPACK_IMPORTED_MODULE_1__swiper_transition__["d" /* setWrapperTranslate */])(s, plt, translate);
+        Object(__WEBPACK_IMPORTED_MODULE_1__swiper_transition__["c" /* setWrapperTransition */])(s, plt, 0);
+        onTransitionEnd(s, plt, runCallbacks);
+    }
+    else {
+        Object(__WEBPACK_IMPORTED_MODULE_1__swiper_transition__["d" /* setWrapperTranslate */])(s, plt, translate);
+        Object(__WEBPACK_IMPORTED_MODULE_1__swiper_transition__["c" /* setWrapperTransition */])(s, plt, speed);
+        if (!s._animating) {
+            s._animating = true;
+            plt.transitionEnd(s._wrapper, function () {
+                if (!s)
+                    return;
+                onTransitionEnd(s, plt, runCallbacks);
+            });
+        }
+    }
+    return true;
+}
+/**
+ * @param {?} s
+ * @param {?=} runCallbacks
+ * @return {?}
+ */
+function onTransitionStart(s, runCallbacks) {
+    if (runCallbacks === void 0) { runCallbacks = true; }
+    if (s.autoHeight) {
+        updateAutoHeight(s);
+    }
+    if (runCallbacks) {
+        s._zone.run(function () {
+            s.ionSlideTransitionStart.emit(s);
+            if (s._activeIndex !== s._previousIndex) {
+                s.ionSlideWillChange.emit(s);
+                if (s._activeIndex > s._previousIndex) {
+                    s.ionSlideNextStart.emit(s);
+                }
+                else {
+                    s.ionSlidePrevStart.emit(s);
+                }
+            }
+        });
+    }
+}
+/**
+ * @param {?} s
+ * @param {?} plt
+ * @param {?=} runCallbacks
+ * @return {?}
+ */
+function onTransitionEnd(s, plt, runCallbacks) {
+    if (runCallbacks === void 0) { runCallbacks = true; }
+    s._animating = false;
+    Object(__WEBPACK_IMPORTED_MODULE_1__swiper_transition__["c" /* setWrapperTransition */])(s, plt, 0);
+    if (runCallbacks) {
+        s._zone.run(function () {
+            s.ionSlideTransitionEnd.emit(s);
+            if (s._activeIndex !== s._previousIndex) {
+                s.ionSlideDidChange.emit(s);
+                if (s._activeIndex > s._previousIndex) {
+                    s.ionSlideNextEnd.emit(s);
+                }
+                else {
+                    s.ionSlidePrevEnd.emit(s);
+                }
+            }
+        });
+    }
+}
+/**
+ * @param {?} s
+ * @param {?} plt
+ * @param {?=} runCallbacks
+ * @param {?=} speed
+ * @param {?=} internal
+ * @return {?}
+ */
+function slideNext(s, plt, runCallbacks, speed, internal) {
+    if (s.loop) {
+        if (s._animating)
+            return false;
+        fixLoop(s, plt);
+        s.container.clientLeft;
+        return slideTo(s, plt, s._activeIndex + s.slidesPerGroup, speed, runCallbacks, internal);
+    }
+    var /** @type {?} */ nextSlide = s._activeIndex + s.slidesPerGroup;
+    if (nextSlide < s._slides.length) {
+        return slideTo(s, plt, nextSlide, speed, runCallbacks, internal);
+    }
+    return false;
+}
+/**
+ * @param {?} s
+ * @param {?} plt
+ * @param {?=} runCallbacks
+ * @param {?=} speed
+ * @param {?=} internal
+ * @return {?}
+ */
+function slidePrev(s, plt, runCallbacks, speed, internal) {
+    if (s.loop) {
+        if (s._animating)
+            return false;
+        fixLoop(s, plt);
+        s.container.clientLeft;
+        return slideTo(s, plt, s._activeIndex - 1, speed, runCallbacks, internal);
+    }
+    var /** @type {?} */ previousSlide = s._activeIndex - 1;
+    if (previousSlide >= 0) {
+        return slideTo(s, plt, s._activeIndex - 1, speed, runCallbacks, internal);
+    }
+    return false;
+}
+/**
+ * @param {?} s
+ * @param {?} plt
+ * @param {?=} runCallbacks
+ * @param {?=} speed
+ * @return {?}
+ */
+function slideReset(s, plt, runCallbacks, speed) {
+    return slideTo(s, plt, s._activeIndex, speed, runCallbacks, true);
+}
+/**
+ * @param {?} s
+ * @return {?}
+ */
+function disableTouchControl(s) {
+    s.onlyExternal = true;
+    return true;
+}
+/**
+ * @param {?} s
+ * @return {?}
+ */
+function enableTouchControl(s) {
+    s.onlyExternal = false;
+    return true;
+}
+/**
+ * @param {?} s
+ * @return {?}
+ */
+function cleanupStyles(s) {
+    if (!s.container || !s._wrapper) {
+        // fix #10830
+        return;
+    }
+    // Container
+    if (s.container) {
+        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["l" /* removeClass */])(s.container, s._classNames);
+        s.container.removeAttribute('style');
+    }
+    // Wrapper
+    s._wrapper.removeAttribute('style');
+    // Slides
+    if (s._slides && s._slides.length) {
+        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["l" /* removeClass */])(s._slides, [
+            __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideVisible,
+            __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideActive,
+            __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideNext,
+            __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slidePrev
+        ]);
+        for (var /** @type {?} */ i = 0; i < s._slides.length; i++) {
+            var /** @type {?} */ slide = s._slides[i];
+            slide.removeAttribute('style');
+            slide.removeAttribute('data-swiper-column');
+            slide.removeAttribute('data-swiper-row');
+        }
+    }
+    // Pagination/Bullets
+    Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["l" /* removeClass */])(s._bullets, __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].bulletActive);
+    // Buttons
+    Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["l" /* removeClass */])(s.prevButton, __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].buttonDisabled);
+    Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["l" /* removeClass */])(s.nextButton, __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].buttonDisabled);
+}
+/**
+ * @param {?} s
+ * @return {?}
+ */
+function destroySwiper(s) {
+    // Stop autoplay
+    stopAutoplay(s);
+    // Destroy loop
+    if (s.loop) {
+        destroyLoop(s);
+    }
+    // Cleanup styles
+    cleanupStyles(s);
+}
+//# sourceMappingURL=swiper.js.map
+
+/***/ }),
+/* 48 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = updateProgress;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
+
+/**
+ * @param {?} s
+ * @param {?=} translate
+ * @return {?}
+ */
+function updateProgress(s, translate) {
+    if (typeof translate === 'undefined') {
+        translate = s._translate || 0;
+    }
+    var /** @type {?} */ translatesDiff = Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["h" /* maxTranslate */])(s) - Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["i" /* minTranslate */])(s);
+    var /** @type {?} */ wasBeginning = s._isBeginning;
+    var /** @type {?} */ wasEnd = s._isEnd;
+    if (translatesDiff === 0) {
+        s.progress = 0;
+        s._isBeginning = s._isEnd = true;
+    }
+    else {
+        s.progress = (translate - Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["i" /* minTranslate */])(s)) / (translatesDiff);
+        s._isBeginning = s.progress <= 0;
+        s._isEnd = s.progress >= 1;
+    }
+    s._zone.run(function () {
+        if (s._isBeginning && !wasBeginning) {
+            s.ionSlideReachStart.emit();
+        }
+        if (s._isEnd && !wasEnd) {
+            s.ionSlideReachEnd.emit();
+        }
+        if (s.watchSlidesProgress) {
+            updateSlidesProgress(s, translate);
+        }
+        s.ionSlideProgress.emit(s.progress);
+    });
+}
+/**
+ * @param {?} s
+ * @param {?} translate
+ * @return {?}
+ */
+function updateSlidesProgress(s, translate) {
+    if (typeof translate === 'undefined') {
+        translate = s._translate || 0;
+    }
+    if (s._slides.length === 0)
+        return;
+    if (typeof s._slides[0].swiperSlideOffset === 'undefined') {
+        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["q" /* updateSlidesOffset */])(s);
+    }
+    var /** @type {?} */ offsetCenter = -translate;
+    if (s._rtl)
+        offsetCenter = translate;
+    // Visible Slides
+    Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["l" /* removeClass */])(s._slides, __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideVisible);
+    for (var /** @type {?} */ i = 0; i < s._slides.length; i++) {
+        var /** @type {?} */ slide = s._slides[i];
+        var /** @type {?} */ slideProgress = (offsetCenter + (s.centeredSlides ? Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["i" /* minTranslate */])(s) : 0) - slide.swiperSlideOffset) / (slide.swiperSlideSize + s.spaceBetween);
+        if (s.watchSlidesVisibility) {
+            var /** @type {?} */ slideBefore = -(offsetCenter - slide.swiperSlideOffset);
+            var /** @type {?} */ slideAfter = slideBefore + s._slidesSizesGrid[i];
+            var /** @type {?} */ isVisible = (slideBefore >= 0 && slideBefore < s._renderedSize) ||
+                (slideAfter > 0 && slideAfter <= s._renderedSize) ||
+                (slideBefore <= 0 && slideAfter >= s._renderedSize);
+            if (isVisible) {
+                s._slides[i].classList.add(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideVisible);
+            }
+        }
+        slide.progress = s._rtl ? -slideProgress : slideProgress;
+    }
+}
+//# sourceMappingURL=swiper-progress.js.map
+
+/***/ }),
+/* 49 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = updateActiveIndex;
+/* harmony export (immutable) */ __webpack_exports__["b"] = updateRealIndex;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_classes__ = __webpack_require__(93);
+
+/**
+ * @param {?} s
+ * @return {?}
+ */
+function updateActiveIndex(s) {
+    var /** @type {?} */ translate = s._rtl ? s._translate : -s._translate;
+    var /** @type {?} */ newActiveIndex;
+    var /** @type {?} */ i;
+    var /** @type {?} */ snapIndex;
+    for (i = 0; i < s._slidesGrid.length; i++) {
+        if (typeof s._slidesGrid[i + 1] !== 'undefined') {
+            if (translate >= s._slidesGrid[i] && translate < s._slidesGrid[i + 1] - (s._slidesGrid[i + 1] - s._slidesGrid[i]) / 2) {
+                newActiveIndex = i;
+            }
+            else if (translate >= s._slidesGrid[i] && translate < s._slidesGrid[i + 1]) {
+                newActiveIndex = i + 1;
+            }
+        }
+        else {
+            if (translate >= s._slidesGrid[i]) {
+                newActiveIndex = i;
+            }
+        }
+    }
+    snapIndex = Math.floor(newActiveIndex / s.slidesPerGroup);
+    if (snapIndex >= s._snapGrid.length)
+        snapIndex = s._snapGrid.length - 1;
+    if (newActiveIndex === s._activeIndex) {
+        return;
+    }
+    s._snapIndex = snapIndex;
+    s._previousIndex = s._activeIndex;
+    s._activeIndex = newActiveIndex;
+    Object(__WEBPACK_IMPORTED_MODULE_0__swiper_classes__["a" /* updateClasses */])(s);
+    updateRealIndex(s);
+}
+/**
+ * @param {?} s
+ * @return {?}
+ */
+function updateRealIndex(s) {
+    var /** @type {?} */ activeSlide = (s._slides[s._activeIndex]);
+    if (activeSlide) {
+        s.realIndex = parseInt(activeSlide.getAttribute('data-swiper-slide-index') || s._activeIndex, 10);
+    }
+}
+//# sourceMappingURL=swiper-index.js.map
+
+/***/ }),
+/* 50 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Toolbar; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toolbar_base__ = __webpack_require__(155);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+/**
+ * \@name Toolbar
+ * \@description
+ * A Toolbar is a generic bar that is positioned above or below content.
+ * Unlike a [Navbar](../Navbar/), a toolbar can be used as a subheader.
+ * When toolbars are placed within an `<ion-header>` or `<ion-footer>`,
+ * the toolbars stay fixed in their respective location. When placed within
+ * `<ion-content>`, toolbars will scroll with the content.
+ *
+ *
+ * ### Buttons in a Toolbar
+ * Buttons placed in a toolbar should be placed inside of the `<ion-buttons>`
+ * element. An exception to this is a [menuToggle](../../menu/MenuToggle) button.
+ * It should not be placed inside of the `<ion-buttons>` element. Both the
+ * `<ion-buttons>` element and the `menuToggle` can be positioned inside of the
+ * toolbar using different properties. The below chart has a description of each
+ * property.
+ *
+ * | Property    | Description                                                                                                           |
+ * |-------------|-----------------------------------------------------------------------------------------------------------------------|
+ * | `start`     | Positions element to the left of the content in `ios` mode, and directly to the right in `md` and `wp` mode.    |
+ * | `end`       | Positions element to the right of the content in `ios` mode, and to the far right in `md` and `wp` mode.        |
+ * | `left`      | Positions element to the left of all other elements.                                                            |
+ * | `right`     | Positions element to the right of all other elements.                                                           |
+ *
+ *
+ * ### Header / Footer Box Shadow and Border
+ * In `md` mode, the `<ion-header>` will receive a box-shadow on the bottom, and the
+ * `<ion-footer>` will receive a box-shadow on the top.  In `ios` mode, the `<ion-header>`
+ * will receive a border on the bottom, and the `<ion-footer>` will receive a border on the
+ * top. Both the `md` box-shadow and the `ios` border can be removed by adding the `no-border`
+ * attribute to the element.
+ *
+ * ```html
+ * <ion-header no-border>
+ *   <ion-toolbar>
+ *     <ion-title>Header</ion-title>
+ *   </ion-toolbar>
+ * </ion-header>
+ *
+ * <ion-content>
+ * </ion-content>
+ *
+ * <ion-footer no-border>
+ *   <ion-toolbar>
+ *     <ion-title>Footer</ion-title>
+ *   </ion-toolbar>
+ * </ion-footer>
+ * ```
+ *
+ * \@usage
+ *
+ * ```html
+ *
+ * <ion-header no-border>
+ *
+ *   <ion-toolbar>
+ *     <ion-title>My Toolbar Title</ion-title>
+ *   </ion-toolbar>
+ *
+ *   <ion-toolbar>
+ *     <ion-title>I'm a subheader</ion-title>
+ *   </ion-toolbar>
+ *
+ * <ion-header>
+ *
+ *
+ * <ion-content>
+ *
+ *   <ion-toolbar>
+ *     <ion-title>Scrolls with the content</ion-title>
+ *   </ion-toolbar>
+ *
+ * </ion-content>
+ *
+ *
+ * <ion-footer no-border>
+ *
+ *   <ion-toolbar>
+ *     <ion-title>I'm a footer</ion-title>
+ *   </ion-toolbar>
+ *
+ * </ion-footer>
+ *  ```
+ *
+ * \@demo /docs/demos/src/toolbar/
+ * @see {\@link ../Navbar/ Navbar API Docs}
+ */
+var Toolbar = (function (_super) {
+    __extends(Toolbar, _super);
+    /**
+     * @param {?} config
+     * @param {?} elementRef
+     * @param {?} renderer
+     */
+    function Toolbar(config, elementRef, renderer) {
+        var _this = _super.call(this, config, elementRef, renderer) || this;
+        _this._sbPadding = config.getBoolean('statusbarPadding');
+        return _this;
+    }
+    return Toolbar;
+}(__WEBPACK_IMPORTED_MODULE_2__toolbar_base__["a" /* ToolbarBase */]));
+
+Toolbar.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
+                selector: 'ion-toolbar',
+                template: '<div class="toolbar-background" [ngClass]="\'toolbar-background-\' + _mode"></div>' +
+                    '<ng-content select="[menuToggle],ion-buttons[left]"></ng-content>' +
+                    '<ng-content select="ion-buttons[start]"></ng-content>' +
+                    '<ng-content select="ion-buttons[end],ion-buttons[right]"></ng-content>' +
+                    '<div class="toolbar-content" [ngClass]="\'toolbar-content-\' + _mode">' +
+                    '<ng-content></ng-content>' +
+                    '</div>',
+                host: {
+                    'class': 'toolbar',
+                    '[class.statusbar-padding]': '_sbPadding'
+                },
+                changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ChangeDetectionStrategy */].OnPush,
+            },] },
+];
+/**
+ * @nocollapse
+ */
+Toolbar.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
+]; };
+function Toolbar_tsickle_Closure_declarations() {
+    /** @type {?} */
+    Toolbar.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    Toolbar.ctorParameters;
+    /**
+     * @hidden
+     * @type {?}
+     */
+    Toolbar.prototype._sbPadding;
+}
+//# sourceMappingURL=toolbar.js.map
+
+/***/ }),
+/* 51 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+function isFunction(x) {
+    return typeof x === 'function';
+}
+exports.isFunction = isFunction;
+//# sourceMappingURL=isFunction.js.map
+
+/***/ }),
+/* 52 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+// typeof any so that it we don't have to cast when comparing a result to the error object
+exports.errorObject = { e: {} };
+//# sourceMappingURL=errorObject.js.map
+
+/***/ }),
+/* 53 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var root_1 = __webpack_require__(28);
+var Symbol = root_1.root.Symbol;
+exports.rxSubscriber = (typeof Symbol === 'function' && typeof Symbol.for === 'function') ?
+    Symbol.for('rxSubscriber') : '@@rxSubscriber';
+/**
+ * @deprecated use rxSubscriber instead
+ */
+exports.$$rxSubscriber = exports.rxSubscriber;
+//# sourceMappingURL=rxSubscriber.js.map
+
+/***/ }),
+/* 54 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var Subscriber_1 = __webpack_require__(29);
+/**
+ * We need this JSDoc comment for affecting ESDoc.
+ * @ignore
+ * @extends {Ignored}
+ */
+var OuterSubscriber = (function (_super) {
+    __extends(OuterSubscriber, _super);
+    function OuterSubscriber() {
+        _super.apply(this, arguments);
+    }
+    OuterSubscriber.prototype.notifyNext = function (outerValue, innerValue, outerIndex, innerIndex, innerSub) {
+        this.destination.next(innerValue);
+    };
+    OuterSubscriber.prototype.notifyError = function (error, innerSub) {
+        this.destination.error(error);
+    };
+    OuterSubscriber.prototype.notifyComplete = function (innerSub) {
+        this.destination.complete();
+    };
+    return OuterSubscriber;
+}(Subscriber_1.Subscriber));
+exports.OuterSubscriber = OuterSubscriber;
+//# sourceMappingURL=OuterSubscriber.js.map
+
+/***/ }),
+/* 55 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var root_1 = __webpack_require__(28);
+var isArrayLike_1 = __webpack_require__(214);
+var isPromise_1 = __webpack_require__(215);
+var isObject_1 = __webpack_require__(111);
+var Observable_1 = __webpack_require__(9);
+var iterator_1 = __webpack_require__(216);
+var InnerSubscriber_1 = __webpack_require__(217);
+var observable_1 = __webpack_require__(114);
+function subscribeToResult(outerSubscriber, result, outerValue, outerIndex) {
+    var destination = new InnerSubscriber_1.InnerSubscriber(outerSubscriber, outerValue, outerIndex);
+    if (destination.closed) {
+        return null;
+    }
+    if (result instanceof Observable_1.Observable) {
+        if (result._isScalar) {
+            destination.next(result.value);
+            destination.complete();
+            return null;
+        }
+        else {
+            return result.subscribe(destination);
+        }
+    }
+    else if (isArrayLike_1.isArrayLike(result)) {
+        for (var i = 0, len = result.length; i < len && !destination.closed; i++) {
+            destination.next(result[i]);
+        }
+        if (!destination.closed) {
+            destination.complete();
+        }
+    }
+    else if (isPromise_1.isPromise(result)) {
+        result.then(function (value) {
+            if (!destination.closed) {
+                destination.next(value);
+                destination.complete();
+            }
+        }, function (err) { return destination.error(err); })
+            .then(null, function (err) {
+            // Escaping the Promise trap: globally throw unhandled errors
+            root_1.root.setTimeout(function () { throw err; });
+        });
+        return destination;
+    }
+    else if (result && typeof result[iterator_1.iterator] === 'function') {
+        var iterator = result[iterator_1.iterator]();
+        do {
+            var item = iterator.next();
+            if (item.done) {
+                destination.complete();
+                break;
+            }
+            destination.next(item.value);
+            if (destination.closed) {
+                break;
+            }
+        } while (true);
+    }
+    else if (result && typeof result[observable_1.observable] === 'function') {
+        var obs = result[observable_1.observable]();
+        if (typeof obs.subscribe !== 'function') {
+            destination.error(new TypeError('Provided object does not correctly implement Symbol.observable'));
+        }
+        else {
+            return obs.subscribe(new InnerSubscriber_1.InnerSubscriber(outerSubscriber, outerValue, outerIndex));
+        }
+    }
+    else {
+        var value = isObject_1.isObject(result) ? 'an invalid object' : "'" + result + "'";
+        var msg = ("You provided " + value + " where a stream was expected.")
+            + ' You can provide an Observable, Promise, Array, or Iterable.';
+        destination.error(new TypeError(msg));
+    }
+    return null;
+}
+exports.subscribeToResult = subscribeToResult;
+//# sourceMappingURL=subscribeToResult.js.map
+
+/***/ }),
+/* 56 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRootToken; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return IonicApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ion__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__overlay_portal__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__platform_platform__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_constants__ = __webpack_require__(33);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+
+
+
+var /** @type {?} */ AppRootToken = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* OpaqueToken */]('USERROOT');
+/**
+ * @hidden
+ */
+var IonicApp = (function (_super) {
+    __extends(IonicApp, _super);
+    /**
+     * @param {?} _userCmp
+     * @param {?} _cfr
+     * @param {?} elementRef
+     * @param {?} renderer
+     * @param {?} config
+     * @param {?} _plt
+     * @param {?} app
+     */
+    function IonicApp(_userCmp, _cfr, elementRef, renderer, config, _plt, app) {
+        var _this = _super.call(this, config, elementRef, renderer, 'app-root') || this;
+        _this._userCmp = _userCmp;
+        _this._cfr = _cfr;
+        _this._plt = _plt;
+        // register with App that this is Ionic's appRoot component. tada!
+        app._appRoot = _this;
+        _this._stopScrollPlugin = window['IonicStopScroll'];
+        return _this;
+    }
+    /**
+     * @return {?}
+     */
+    IonicApp.prototype.ngOnInit = function () {
+        var _this = this;
+        // load the user root component
+        // into Ionic's root component
+        var /** @type {?} */ factory = this._cfr.resolveComponentFactory(this._userCmp);
+        var /** @type {?} */ componentRef = this._viewport.createComponent(factory);
+        this._renderer.setElementClass(componentRef.location.nativeElement, 'app-root', true);
+        componentRef.changeDetectorRef.detectChanges();
+        // set the mode class name
+        // ios/md/wp
+        this.setElementClass(this._config.get('mode'), true);
+        var /** @type {?} */ versions = this._plt.versions();
+        this._plt.platforms().forEach(function (platformName) {
+            // platform-ios
+            var /** @type {?} */ platformClass = 'platform-' + platformName;
+            _this.setElementClass(platformClass, true);
+            var /** @type {?} */ platformVersion = versions[platformName];
+            if (platformVersion) {
+                // platform-ios9
+                platformClass += platformVersion.major;
+                _this.setElementClass(platformClass, true);
+                // platform-ios9_3
+                _this.setElementClass(platformClass + '_' + platformVersion.minor, true);
+            }
+        });
+        // touch devices should not use :hover CSS pseudo
+        // enable :hover CSS when the "hoverCSS" setting is not false
+        if (this._config.getBoolean('hoverCSS', true)) {
+            this.setElementClass('enable-hover', true);
+        }
+        // sweet, the app root has loaded!
+        // which means angular and ionic has fully loaded!
+        // fire off the platform prepare ready, which could
+        // have been switched out by any of the platform engines
+        this._plt.prepareReady();
+    };
+    /**
+     * @hidden
+     * @param {?=} portal
+     * @return {?}
+     */
+    IonicApp.prototype._getPortal = function (portal) {
+        if (portal === __WEBPACK_IMPORTED_MODULE_6__app_constants__["b" /* PORTAL_LOADING */]) {
+            return this._loadingPortal;
+        }
+        if (portal === __WEBPACK_IMPORTED_MODULE_6__app_constants__["d" /* PORTAL_TOAST */]) {
+            return this._toastPortal;
+        }
+        // Modals need their own overlay becuase we don't want an ActionSheet
+        // or Alert to trigger lifecycle events inside a modal
+        if (portal === __WEBPACK_IMPORTED_MODULE_6__app_constants__["c" /* PORTAL_MODAL */]) {
+            return this._modalPortal;
+        }
+        return this._overlayPortal;
+    };
+    /**
+     * @return {?}
+     */
+    IonicApp.prototype._getActivePortal = function () {
+        var /** @type {?} */ defaultPortal = this._overlayPortal;
+        var /** @type {?} */ modalPortal = this._modalPortal;
+        var /** @type {?} */ hasModal = modalPortal.length() > 0;
+        var /** @type {?} */ hasDefault = defaultPortal.length() > 0;
+        if (!hasModal && !hasDefault) {
+            return null;
+        }
+        else if (hasModal && hasDefault) {
+            var /** @type {?} */ defaultIndex = defaultPortal.getActive().getZIndex();
+            var /** @type {?} */ modalIndex = modalPortal.getActive().getZIndex();
+            if (defaultIndex > modalIndex) {
+                return defaultPortal;
+            }
+            else {
+                (void 0) /* assert */;
+                return modalPortal;
+            }
+        }
+        if (hasModal) {
+            return modalPortal;
+        }
+        else if (hasDefault) {
+            return defaultPortal;
+        }
+    };
+    /**
+     * @param {?} shouldDisableScroll
+     * @return {?}
+     */
+    IonicApp.prototype._disableScroll = function (shouldDisableScroll) {
+        var _this = this;
+        if (shouldDisableScroll) {
+            this.stopScroll().then(function () {
+                _this._tmr = _this._plt.timeout(function () {
+                    (void 0) /* console.debug */;
+                    _this.setElementClass('disable-scroll', true);
+                }, 32);
+            });
+        }
+        else {
+            var /** @type {?} */ plugin = this._stopScrollPlugin;
+            if (plugin && plugin.cancel) {
+                plugin.cancel();
+            }
+            clearTimeout(this._tmr);
+            (void 0) /* console.debug */;
+            this.setElementClass('disable-scroll', false);
+        }
+    };
+    /**
+     * @return {?}
+     */
+    IonicApp.prototype.stopScroll = function () {
+        var _this = this;
+        if (this._stopScrollPlugin) {
+            return new Promise(function (resolve) {
+                _this._stopScrollPlugin.stop(function () { return resolve(true); });
+            });
+        }
+        else {
+            return Promise.resolve(false);
+        }
+    };
+    return IonicApp;
+}(__WEBPACK_IMPORTED_MODULE_3__ion__["a" /* Ion */]));
+
+IonicApp.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
+                selector: 'ion-app',
+                template: '<div #viewport app-viewport></div>' +
+                    '<div #modalPortal overlay-portal></div>' +
+                    '<div #overlayPortal overlay-portal></div>' +
+                    '<div #loadingPortal class="loading-portal" overlay-portal></div>' +
+                    '<div #toastPortal class="toast-portal" [overlay-portal]="10000"></div>' +
+                    '<div class="click-block"></div>'
+            },] },
+];
+/**
+ * @nocollapse
+ */
+IonicApp.ctorParameters = function () { return [
+    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Inject */], args: [AppRootToken,] },] },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* ComponentFactoryResolver */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
+    { type: __WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* Config */], },
+    { type: __WEBPACK_IMPORTED_MODULE_5__platform_platform__["a" /* Platform */], },
+    { type: __WEBPACK_IMPORTED_MODULE_1__app__["a" /* App */], },
+]; };
+IonicApp.propDecorators = {
+    '_viewport': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */], args: ['viewport', { read: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ViewContainerRef */] },] },],
+    '_modalPortal': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */], args: ['modalPortal', { read: __WEBPACK_IMPORTED_MODULE_4__overlay_portal__["a" /* OverlayPortal */] },] },],
+    '_overlayPortal': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */], args: ['overlayPortal', { read: __WEBPACK_IMPORTED_MODULE_4__overlay_portal__["a" /* OverlayPortal */] },] },],
+    '_loadingPortal': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */], args: ['loadingPortal', { read: __WEBPACK_IMPORTED_MODULE_4__overlay_portal__["a" /* OverlayPortal */] },] },],
+    '_toastPortal': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */], args: ['toastPortal', { read: __WEBPACK_IMPORTED_MODULE_4__overlay_portal__["a" /* OverlayPortal */] },] },],
+};
+function IonicApp_tsickle_Closure_declarations() {
+    /** @type {?} */
+    IonicApp.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    IonicApp.ctorParameters;
+    /** @type {?} */
+    IonicApp.propDecorators;
+    /** @type {?} */
+    IonicApp.prototype._stopScrollPlugin;
+    /** @type {?} */
+    IonicApp.prototype._tmr;
+    /** @type {?} */
+    IonicApp.prototype._viewport;
+    /** @type {?} */
+    IonicApp.prototype._modalPortal;
+    /** @type {?} */
+    IonicApp.prototype._overlayPortal;
+    /** @type {?} */
+    IonicApp.prototype._loadingPortal;
+    /** @type {?} */
+    IonicApp.prototype._toastPortal;
+    /** @type {?} */
+    IonicApp.prototype._userCmp;
+    /** @type {?} */
+    IonicApp.prototype._cfr;
+    /** @type {?} */
+    IonicApp.prototype._plt;
+}
+//# sourceMappingURL=app-root.js.map
+
+/***/ }),
+/* 57 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SlideEdgeGesture; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__slide_gesture__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_dom__ = __webpack_require__(10);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+/**
+ * @hidden
+ */
+var SlideEdgeGesture = (function (_super) {
+    __extends(SlideEdgeGesture, _super);
+    /**
+     * @param {?} plt
+     * @param {?} element
+     * @param {?=} opts
+     */
+    function SlideEdgeGesture(plt, element, opts) {
+        if (opts === void 0) { opts = {}; }
+        var _this = this;
+        Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["d" /* defaults */])(opts, {
+            edge: 'start',
+            maxEdgeStart: 50
+        });
+        _this = _super.call(this, plt, element, opts) || this;
+        // Can check corners through use of eg 'left top'
+        _this.setEdges(opts.edge);
+        _this.maxEdgeStart = opts.maxEdgeStart;
+        return _this;
+    }
+    /**
+     * @param {?} edges
+     * @return {?}
+     */
+    SlideEdgeGesture.prototype.setEdges = function (edges) {
+        var /** @type {?} */ isRTL = this.plt.isRTL;
+        this.edges = edges.split(' ').map(function (value) {
+            switch (value) {
+                case 'start': return isRTL ? 'right' : 'left';
+                case 'end': return isRTL ? 'left' : 'right';
+                default: return value;
+            }
+        });
+    };
+    /**
+     * @param {?} ev
+     * @return {?}
+     */
+    SlideEdgeGesture.prototype.canStart = function (ev) {
+        var _this = this;
+        var /** @type {?} */ coord = Object(__WEBPACK_IMPORTED_MODULE_2__util_dom__["f" /* pointerCoord */])(ev);
+        this._d = this.getContainerDimensions();
+        return this.edges.every(function (edge) { return _this._checkEdge(edge, coord); });
+    };
+    /**
+     * @return {?}
+     */
+    SlideEdgeGesture.prototype.getContainerDimensions = function () {
+        var /** @type {?} */ plt = this.plt;
+        return {
+            left: 0,
+            top: 0,
+            width: plt.width(),
+            height: plt.height()
+        };
+    };
+    /**
+     * @param {?} edge
+     * @param {?} pos
+     * @return {?}
+     */
+    SlideEdgeGesture.prototype._checkEdge = function (edge, pos) {
+        var /** @type {?} */ data = this._d;
+        var /** @type {?} */ maxEdgeStart = this.maxEdgeStart;
+        switch (edge) {
+            case 'left': return pos.x <= data.left + maxEdgeStart;
+            case 'right': return pos.x >= data.width - maxEdgeStart;
+            case 'top': return pos.y <= data.top + maxEdgeStart;
+            case 'bottom': return pos.y >= data.height - maxEdgeStart;
+        }
+        return false;
+    };
+    return SlideEdgeGesture;
+}(__WEBPACK_IMPORTED_MODULE_0__slide_gesture__["a" /* SlideGesture */]));
+
+function SlideEdgeGesture_tsickle_Closure_declarations() {
+    /** @type {?} */
+    SlideEdgeGesture.prototype.edges;
+    /** @type {?} */
+    SlideEdgeGesture.prototype.maxEdgeStart;
+    /** @type {?} */
+    SlideEdgeGesture.prototype._d;
+}
+//# sourceMappingURL=slide-edge-gesture.js.map
+
+/***/ }),
+/* 58 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActionSheet; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__action_sheet_component__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__action_sheet_transitions__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__ = __webpack_require__(5);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+/**
+ * @hidden
+ */
+var ActionSheet = (function (_super) {
+    __extends(ActionSheet, _super);
+    /**
+     * @param {?} app
+     * @param {?} opts
+     * @param {?} config
+     */
+    function ActionSheet(app, opts, config) {
+        var _this = this;
+        opts.buttons = opts.buttons || [];
+        opts.enableBackdropDismiss = Object(__WEBPACK_IMPORTED_MODULE_2__util_util__["l" /* isPresent */])(opts.enableBackdropDismiss) ? !!opts.enableBackdropDismiss : true;
+        _this = _super.call(this, __WEBPACK_IMPORTED_MODULE_0__action_sheet_component__["a" /* ActionSheetCmp */], opts, null) || this;
+        _this._app = app;
+        _this.isOverlay = true;
+        config.setTransition('action-sheet-slide-in', __WEBPACK_IMPORTED_MODULE_1__action_sheet_transitions__["c" /* ActionSheetSlideIn */]);
+        config.setTransition('action-sheet-slide-out', __WEBPACK_IMPORTED_MODULE_1__action_sheet_transitions__["d" /* ActionSheetSlideOut */]);
+        config.setTransition('action-sheet-md-slide-in', __WEBPACK_IMPORTED_MODULE_1__action_sheet_transitions__["a" /* ActionSheetMdSlideIn */]);
+        config.setTransition('action-sheet-md-slide-out', __WEBPACK_IMPORTED_MODULE_1__action_sheet_transitions__["b" /* ActionSheetMdSlideOut */]);
+        config.setTransition('action-sheet-wp-slide-in', __WEBPACK_IMPORTED_MODULE_1__action_sheet_transitions__["e" /* ActionSheetWpSlideIn */]);
+        config.setTransition('action-sheet-wp-slide-out', __WEBPACK_IMPORTED_MODULE_1__action_sheet_transitions__["f" /* ActionSheetWpSlideOut */]);
+        return _this;
+    }
+    /**
+     * @hidden
+     * @param {?} direction
+     * @return {?}
+     */
+    ActionSheet.prototype.getTransitionName = function (direction) {
+        var /** @type {?} */ key = 'actionSheet' + (direction === 'back' ? 'Leave' : 'Enter');
+        return this._nav && this._nav.config.get(key);
+    };
+    /**
+     * @param {?} title
+     * @return {?}
+     */
+    ActionSheet.prototype.setTitle = function (title) {
+        this.data.title = title;
+        return this;
+    };
+    /**
+     * @param {?} subTitle
+     * @return {?}
+     */
+    ActionSheet.prototype.setSubTitle = function (subTitle) {
+        this.data.subTitle = subTitle;
+        return this;
+    };
+    /**
+     * @param {?} button
+     * @return {?}
+     */
+    ActionSheet.prototype.addButton = function (button) {
+        this.data.buttons.push(button);
+        return this;
+    };
+    /**
+     * Present the action sheet instance.
+     *
+     * @param {?=} navOptions
+     * @return {?}
+     */
+    ActionSheet.prototype.present = function (navOptions) {
+        if (navOptions === void 0) { navOptions = {}; }
+        navOptions.minClickBlockDuration = navOptions.minClickBlockDuration || 400;
+        return this._app.present(this, navOptions);
+    };
+    return ActionSheet;
+}(__WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__["a" /* ViewController */]));
+
+function ActionSheet_tsickle_Closure_declarations() {
+    /** @type {?} */
+    ActionSheet.prototype._app;
+}
+//# sourceMappingURL=action-sheet.js.map
+
+/***/ }),
+/* 59 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActionSheetCmp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__gestures_gesture_controller__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__platform_key__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_nav_params__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__navigation_view_controller__ = __webpack_require__(5);
+
+
+
+
+
+
+/**
+ * @hidden
+ */
+var ActionSheetCmp = (function () {
+    /**
+     * @param {?} _viewCtrl
+     * @param {?} config
+     * @param {?} _elementRef
+     * @param {?} gestureCtrl
+     * @param {?} params
+     * @param {?} renderer
+     */
+    function ActionSheetCmp(_viewCtrl, config, _elementRef, gestureCtrl, params, renderer) {
+        this._viewCtrl = _viewCtrl;
+        this._elementRef = _elementRef;
+        this.gestureBlocker = gestureCtrl.createBlocker(__WEBPACK_IMPORTED_MODULE_1__gestures_gesture_controller__["a" /* BLOCK_ALL */]);
+        this.d = params.data;
+        this.mode = config.get('mode');
+        renderer.setElementClass(_elementRef.nativeElement, "action-sheet-" + this.mode, true);
+        if (this.d.cssClass) {
+            this.d.cssClass.split(' ').forEach(function (cssClass) {
+                // Make sure the class isn't whitespace, otherwise it throws exceptions
+                if (cssClass.trim() !== '')
+                    renderer.setElementClass(_elementRef.nativeElement, cssClass, true);
+            });
+        }
+        this.id = (++actionSheetIds);
+        if (this.d.title) {
+            this.hdrId = 'acst-hdr-' + this.id;
+        }
+        if (this.d.subTitle) {
+            this.descId = 'acst-subhdr-' + this.id;
+        }
+    }
+    /**
+     * @return {?}
+     */
+    ActionSheetCmp.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        // normalize the data
+        this.d.buttons = this.d.buttons.map(function (button) {
+            if (typeof button === 'string') {
+                button = { text: button };
+            }
+            if (!button.cssClass) {
+                button.cssClass = '';
+            }
+            switch (button.role) {
+                case 'cancel':
+                    _this.cancelButton = button;
+                    return null;
+                case 'destructive':
+                    button.cssClass = (button.cssClass + ' ' || '') + 'action-sheet-destructive';
+                    break;
+                case 'selected':
+                    button.cssClass = (button.cssClass + ' ' || '') + 'action-sheet-selected';
+                    break;
+            }
+            return button;
+        }).filter(function (button) { return button !== null; });
+    };
+    /**
+     * @return {?}
+     */
+    ActionSheetCmp.prototype.ionViewWillEnter = function () {
+        this.gestureBlocker.block();
+    };
+    /**
+     * @return {?}
+     */
+    ActionSheetCmp.prototype.ionViewDidLeave = function () {
+        this.gestureBlocker.unblock();
+    };
+    /**
+     * @return {?}
+     */
+    ActionSheetCmp.prototype.ionViewDidEnter = function () {
+        var /** @type {?} */ focusableEle = this._elementRef.nativeElement.querySelector('button');
+        if (focusableEle) {
+            focusableEle.focus();
+        }
+        this.enabled = true;
+    };
+    /**
+     * @param {?} ev
+     * @return {?}
+     */
+    ActionSheetCmp.prototype.keyUp = function (ev) {
+        if (this.enabled && ev.keyCode === __WEBPACK_IMPORTED_MODULE_3__platform_key__["c" /* KEY_ESCAPE */] && this._viewCtrl.isLast()) {
+            (void 0) /* console.debug */;
+            this.bdClick();
+        }
+    };
+    /**
+     * @param {?} button
+     * @return {?}
+     */
+    ActionSheetCmp.prototype.click = function (button) {
+        if (!this.enabled) {
+            return;
+        }
+        var /** @type {?} */ shouldDismiss = true;
+        if (button.handler) {
+            // a handler has been provided, execute it
+            if (button.handler() === false) {
+                // if the return value of the handler is false then do not dismiss
+                shouldDismiss = false;
+            }
+        }
+        if (shouldDismiss) {
+            this.dismiss(button.role);
+        }
+    };
+    /**
+     * @return {?}
+     */
+    ActionSheetCmp.prototype.bdClick = function () {
+        if (this.enabled && this.d.enableBackdropDismiss) {
+            if (this.cancelButton) {
+                this.click(this.cancelButton);
+            }
+            else {
+                this.dismiss('backdrop');
+            }
+        }
+    };
+    /**
+     * @param {?} role
+     * @return {?}
+     */
+    ActionSheetCmp.prototype.dismiss = function (role) {
+        var /** @type {?} */ opts = {
+            minClickBlockDuration: 400
+        };
+        return this._viewCtrl.dismiss(null, role, opts);
+    };
+    /**
+     * @return {?}
+     */
+    ActionSheetCmp.prototype.ngOnDestroy = function () {
+        (void 0) /* assert */;
+        this.d = this.cancelButton = null;
+        this.gestureBlocker.destroy();
+    };
+    return ActionSheetCmp;
+}());
+
+ActionSheetCmp.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
+                selector: 'ion-action-sheet',
+                template: '<ion-backdrop (click)="bdClick()" [class.backdrop-no-tappable]="!d.enableBackdropDismiss"></ion-backdrop>' +
+                    '<div class="action-sheet-wrapper">' +
+                    '<div class="action-sheet-container">' +
+                    '<div class="action-sheet-group">' +
+                    '<div class="action-sheet-title" id="{{hdrId}}" *ngIf="d.title">{{d.title}}</div>' +
+                    '<div class="action-sheet-sub-title" id="{{descId}}" *ngIf="d.subTitle">{{d.subTitle}}</div>' +
+                    '<button ion-button="action-sheet-button" (click)="click(b)" *ngFor="let b of d.buttons" class="disable-hover" [attr.icon-start]="b.icon ? \'\' : null" [ngClass]="b.cssClass">' +
+                    '<ion-icon [name]="b.icon" *ngIf="b.icon" class="action-sheet-icon"></ion-icon>' +
+                    '{{b.text}}' +
+                    '</button>' +
+                    '</div>' +
+                    '<div class="action-sheet-group" *ngIf="cancelButton">' +
+                    '<button ion-button="action-sheet-button" (click)="click(cancelButton)" class="action-sheet-cancel disable-hover" [attr.icon-start]="cancelButton.icon ? \'\' : null" [ngClass]="cancelButton.cssClass">' +
+                    '<ion-icon [name]="cancelButton.icon" *ngIf="cancelButton.icon" class="action-sheet-icon"></ion-icon>' +
+                    '{{cancelButton.text}}' +
+                    '</button>' +
+                    '</div>' +
+                    '</div>' +
+                    '</div>',
+                host: {
+                    'role': 'dialog',
+                    '[attr.aria-labelledby]': 'hdrId',
+                    '[attr.aria-describedby]': 'descId'
+                },
+                encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ViewEncapsulation */].None,
+            },] },
+];
+/**
+ * @nocollapse
+ */
+ActionSheetCmp.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_5__navigation_view_controller__["a" /* ViewController */], },
+    { type: __WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* Config */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_1__gestures_gesture_controller__["l" /* GestureController */], },
+    { type: __WEBPACK_IMPORTED_MODULE_4__navigation_nav_params__["a" /* NavParams */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
+]; };
+ActionSheetCmp.propDecorators = {
+    'keyUp': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["z" /* HostListener */], args: ['body:keyup', ['$event'],] },],
+};
+function ActionSheetCmp_tsickle_Closure_declarations() {
+    /** @type {?} */
+    ActionSheetCmp.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    ActionSheetCmp.ctorParameters;
+    /** @type {?} */
+    ActionSheetCmp.propDecorators;
+    /** @type {?} */
+    ActionSheetCmp.prototype.d;
+    /** @type {?} */
+    ActionSheetCmp.prototype.cancelButton;
+    /** @type {?} */
+    ActionSheetCmp.prototype.descId;
+    /** @type {?} */
+    ActionSheetCmp.prototype.enabled;
+    /** @type {?} */
+    ActionSheetCmp.prototype.hdrId;
+    /** @type {?} */
+    ActionSheetCmp.prototype.id;
+    /** @type {?} */
+    ActionSheetCmp.prototype.mode;
+    /** @type {?} */
+    ActionSheetCmp.prototype.gestureBlocker;
+    /** @type {?} */
+    ActionSheetCmp.prototype._viewCtrl;
+    /** @type {?} */
+    ActionSheetCmp.prototype._elementRef;
+}
+var /** @type {?} */ actionSheetIds = -1;
+//# sourceMappingURL=action-sheet-component.js.map
+
+/***/ }),
+/* 60 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Alert; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__alert_component__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__alert_transitions__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__ = __webpack_require__(5);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+/**
+ * @hidden
+ */
+var Alert = (function (_super) {
+    __extends(Alert, _super);
+    /**
+     * @param {?} app
+     * @param {?=} opts
+     * @param {?=} config
+     */
+    function Alert(app, opts, config) {
+        if (opts === void 0) { opts = {}; }
+        var _this = this;
+        opts.inputs = opts.inputs || [];
+        opts.buttons = opts.buttons || [];
+        opts.enableBackdropDismiss = Object(__WEBPACK_IMPORTED_MODULE_2__util_util__["l" /* isPresent */])(opts.enableBackdropDismiss) ? !!opts.enableBackdropDismiss : true;
+        _this = _super.call(this, __WEBPACK_IMPORTED_MODULE_0__alert_component__["a" /* AlertCmp */], opts, null) || this;
+        _this._app = app;
+        _this.isOverlay = true;
+        config.setTransition('alert-pop-in', __WEBPACK_IMPORTED_MODULE_1__alert_transitions__["c" /* AlertPopIn */]);
+        config.setTransition('alert-pop-out', __WEBPACK_IMPORTED_MODULE_1__alert_transitions__["d" /* AlertPopOut */]);
+        config.setTransition('alert-md-pop-in', __WEBPACK_IMPORTED_MODULE_1__alert_transitions__["a" /* AlertMdPopIn */]);
+        config.setTransition('alert-md-pop-out', __WEBPACK_IMPORTED_MODULE_1__alert_transitions__["b" /* AlertMdPopOut */]);
+        config.setTransition('alert-wp-pop-in', __WEBPACK_IMPORTED_MODULE_1__alert_transitions__["e" /* AlertWpPopIn */]);
+        config.setTransition('alert-wp-pop-out', __WEBPACK_IMPORTED_MODULE_1__alert_transitions__["f" /* AlertWpPopOut */]);
+        return _this;
+    }
+    /**
+     * @hidden
+     * @param {?} direction
+     * @return {?}
+     */
+    Alert.prototype.getTransitionName = function (direction) {
+        var /** @type {?} */ key = (direction === 'back' ? 'alertLeave' : 'alertEnter');
+        return this._nav && this._nav.config.get(key);
+    };
+    /**
+     * @param {?} title
+     * @return {?}
+     */
+    Alert.prototype.setTitle = function (title) {
+        this.data.title = title;
+        return this;
+    };
+    /**
+     * @param {?} subTitle
+     * @return {?}
+     */
+    Alert.prototype.setSubTitle = function (subTitle) {
+        this.data.subTitle = subTitle;
+        return this;
+    };
+    /**
+     * @param {?} message
+     * @return {?}
+     */
+    Alert.prototype.setMessage = function (message) {
+        this.data.message = message;
+        return this;
+    };
+    /**
+     * @param {?} input
+     * @return {?}
+     */
+    Alert.prototype.addInput = function (input) {
+        this.data.inputs.push(input);
+        return this;
+    };
+    /**
+     * @param {?} button
+     * @return {?}
+     */
+    Alert.prototype.addButton = function (button) {
+        this.data.buttons.push(button);
+        return this;
+    };
+    /**
+     * @param {?} cssClass
+     * @return {?}
+     */
+    Alert.prototype.setCssClass = function (cssClass) {
+        this.data.cssClass = cssClass;
+        return this;
+    };
+    /**
+     * @param {?} mode
+     * @return {?}
+     */
+    Alert.prototype.setMode = function (mode) {
+        this.data.mode = mode;
+    };
+    /**
+     * Present the alert instance.
+     *
+     * @param {?=} navOptions
+     * @return {?}
+     */
+    Alert.prototype.present = function (navOptions) {
+        if (navOptions === void 0) { navOptions = {}; }
+        navOptions.minClickBlockDuration = navOptions.minClickBlockDuration || 400;
+        return this._app.present(this, navOptions);
+    };
+    return Alert;
+}(__WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__["a" /* ViewController */]));
+
+function Alert_tsickle_Closure_declarations() {
+    /** @type {?} */
+    Alert.prototype._app;
+}
+//# sourceMappingURL=alert.js.map
+
+/***/ }),
+/* 61 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlertCmp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_dom__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__util_util__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__platform_key__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__navigation_nav_params__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__platform_platform__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__navigation_view_controller__ = __webpack_require__(5);
+
+
+
+
+
+
+
+
+
+/**
+ * @hidden
+ */
+var AlertCmp = (function () {
+    /**
+     * @param {?} _viewCtrl
+     * @param {?} _elementRef
+     * @param {?} config
+     * @param {?} gestureCtrl
+     * @param {?} params
+     * @param {?} _renderer
+     * @param {?} _plt
+     */
+    function AlertCmp(_viewCtrl, _elementRef, config, gestureCtrl, params, _renderer, _plt) {
+        this._viewCtrl = _viewCtrl;
+        this._elementRef = _elementRef;
+        this._renderer = _renderer;
+        this._plt = _plt;
+        // gesture blocker is used to disable gestures dynamically
+        this.gestureBlocker = gestureCtrl.createBlocker(__WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__["a" /* BLOCK_ALL */]);
+        this.d = params.data;
+        this.mode = this.d.mode || config.get('mode');
+        this.keyboardResizes = config.getBoolean('keyboardResizes', false);
+        _renderer.setElementClass(_elementRef.nativeElement, "alert-" + this.mode, true);
+        if (this.d.cssClass) {
+            this.d.cssClass.split(' ').forEach(function (cssClass) {
+                // Make sure the class isn't whitespace, otherwise it throws exceptions
+                if (cssClass.trim() !== '')
+                    _renderer.setElementClass(_elementRef.nativeElement, cssClass, true);
+            });
+        }
+        this.id = (++alertIds);
+        this.descId = '';
+        this.hdrId = 'alert-hdr-' + this.id;
+        this.subHdrId = 'alert-subhdr-' + this.id;
+        this.msgId = 'alert-msg-' + this.id;
+        this.activeId = '';
+        this.lastClick = 0;
+        if (this.d.message) {
+            this.descId = this.msgId;
+        }
+        else if (this.d.subTitle) {
+            this.descId = this.subHdrId;
+        }
+        if (!this.d.message) {
+            this.d.message = '';
+        }
+    }
+    /**
+     * @return {?}
+     */
+    AlertCmp.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        // normalize the data
+        var /** @type {?} */ data = this.d;
+        data.buttons = data.buttons.map(function (button) {
+            if (typeof button === 'string') {
+                return { text: button };
+            }
+            return button;
+        });
+        data.inputs = data.inputs.map(function (input, index) {
+            var /** @type {?} */ r = {
+                type: input.type || 'text',
+                name: Object(__WEBPACK_IMPORTED_MODULE_4__util_util__["l" /* isPresent */])(input.name) ? input.name : index + '',
+                placeholder: Object(__WEBPACK_IMPORTED_MODULE_4__util_util__["l" /* isPresent */])(input.placeholder) ? input.placeholder : '',
+                value: Object(__WEBPACK_IMPORTED_MODULE_4__util_util__["l" /* isPresent */])(input.value) ? input.value : '',
+                label: input.label,
+                checked: !!input.checked,
+                disabled: !!input.disabled,
+                id: Object(__WEBPACK_IMPORTED_MODULE_4__util_util__["l" /* isPresent */])(input.id) ? input.id : "alert-input-" + _this.id + "-" + index,
+                handler: Object(__WEBPACK_IMPORTED_MODULE_4__util_util__["l" /* isPresent */])(input.handler) ? input.handler : null,
+                min: Object(__WEBPACK_IMPORTED_MODULE_4__util_util__["l" /* isPresent */])(input.min) ? input.min : null,
+                max: Object(__WEBPACK_IMPORTED_MODULE_4__util_util__["l" /* isPresent */])(input.max) ? input.max : null
+            };
+            return r;
+        });
+        // An alert can be created with several different inputs. Radios,
+        // checkboxes and inputs are all accepted, but they cannot be mixed.
+        var /** @type {?} */ inputTypes = [];
+        data.inputs.forEach(function (input) {
+            if (inputTypes.indexOf(input.type) < 0) {
+                inputTypes.push(input.type);
+            }
+        });
+        if (inputTypes.length > 1 && (inputTypes.indexOf('checkbox') > -1 || inputTypes.indexOf('radio') > -1)) {
+            console.warn("Alert cannot mix input types: " + (inputTypes.join('/')) + ". Please see alert docs for more info.");
+        }
+        this.inputType = inputTypes.length ? inputTypes[0] : null;
+        var /** @type {?} */ checkedInput = this.d.inputs.find(function (input) { return input.checked; });
+        if (checkedInput) {
+            this.activeId = checkedInput.id;
+        }
+        var /** @type {?} */ hasTextInput = (this.d.inputs.length && this.d.inputs.some(function (i) { return !(__WEBPACK_IMPORTED_MODULE_2__util_dom__["a" /* NON_TEXT_INPUT_REGEX */].test(i.type)); }));
+        if (!this.keyboardResizes && hasTextInput && this._plt.is('mobile')) {
+            // this alert has a text input and it's on a mobile device so we should align
+            // the alert up high because we need to leave space for the virtual keboard
+            // this also helps prevent the layout getting all messed up from
+            // the browser trying to scroll the input into a safe area
+            this._renderer.setElementClass(this._elementRef.nativeElement, 'alert-top', true);
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AlertCmp.prototype.ionViewWillEnter = function () {
+        this.gestureBlocker.block();
+    };
+    /**
+     * @return {?}
+     */
+    AlertCmp.prototype.ionViewDidLeave = function () {
+        this.gestureBlocker.unblock();
+    };
+    /**
+     * @return {?}
+     */
+    AlertCmp.prototype.ionViewDidEnter = function () {
+        // set focus on the first input or button in the alert
+        // note that this does not always work and bring up the keyboard on
+        // devices since the focus command must come from the user's touch event
+        // and ionViewDidEnter is not in the same callstack as the touch event :(
+        var /** @type {?} */ focusableEle = this._elementRef.nativeElement.querySelector('input,button');
+        if (focusableEle) {
+            focusableEle.focus();
+        }
+        this.enabled = true;
+    };
+    /**
+     * @param {?} ev
+     * @return {?}
+     */
+    AlertCmp.prototype.keyUp = function (ev) {
+        if (this.enabled && this._viewCtrl.isLast()) {
+            if (ev.keyCode === __WEBPACK_IMPORTED_MODULE_5__platform_key__["b" /* KEY_ENTER */]) {
+                if (this.lastClick + 1000 < Date.now()) {
+                    // do not fire this click if there recently was already a click
+                    // this can happen when the button has focus and used the enter
+                    // key to click the button. However, both the click handler and
+                    // this keyup event will fire, so only allow one of them to go.
+                    (void 0) /* console.debug */;
+                    var /** @type {?} */ button = this.d.buttons[this.d.buttons.length - 1];
+                    this.btnClick(button);
+                }
+            }
+            else if (ev.keyCode === __WEBPACK_IMPORTED_MODULE_5__platform_key__["c" /* KEY_ESCAPE */]) {
+                (void 0) /* console.debug */;
+                this.bdClick();
+            }
+        }
+    };
+    /**
+     * @param {?} button
+     * @return {?}
+     */
+    AlertCmp.prototype.btnClick = function (button) {
+        if (!this.enabled) {
+            return;
+        }
+        // keep the time of the most recent button click
+        this.lastClick = Date.now();
+        var /** @type {?} */ shouldDismiss = true;
+        if (button.handler) {
+            // a handler has been provided, execute it
+            // pass the handler the values from the inputs
+            if (button.handler(this.getValues()) === false) {
+                // if the return value of the handler is false then do not dismiss
+                shouldDismiss = false;
+            }
+        }
+        if (shouldDismiss) {
+            this.dismiss(button.role);
+        }
+    };
+    /**
+     * @param {?} checkedInput
+     * @return {?}
+     */
+    AlertCmp.prototype.rbClick = function (checkedInput) {
+        if (this.enabled) {
+            this.d.inputs.forEach(function (input) {
+                input.checked = (checkedInput === input);
+            });
+            this.activeId = checkedInput.id;
+            if (checkedInput.handler) {
+                checkedInput.handler(checkedInput);
+            }
+        }
+    };
+    /**
+     * @param {?} checkedInput
+     * @return {?}
+     */
+    AlertCmp.prototype.cbClick = function (checkedInput) {
+        if (this.enabled) {
+            checkedInput.checked = !checkedInput.checked;
+            if (checkedInput.handler) {
+                checkedInput.handler(checkedInput);
+            }
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AlertCmp.prototype.bdClick = function () {
+        if (this.enabled && this.d.enableBackdropDismiss) {
+            var /** @type {?} */ cancelBtn = this.d.buttons.find(function (b) { return ((b)).role === 'cancel'; });
+            if (cancelBtn) {
+                this.btnClick(cancelBtn);
+            }
+            else {
+                this.dismiss('backdrop');
+            }
+        }
+    };
+    /**
+     * @param {?} role
+     * @return {?}
+     */
+    AlertCmp.prototype.dismiss = function (role) {
+        var /** @type {?} */ opts = {
+            minClickBlockDuration: 400
+        };
+        return this._viewCtrl.dismiss(this.getValues(), role, opts);
+    };
+    /**
+     * @return {?}
+     */
+    AlertCmp.prototype.getValues = function () {
+        if (this.inputType === 'radio') {
+            // this is an alert with radio buttons (single value select)
+            // return the one value which is checked, otherwise undefined
+            var /** @type {?} */ checkedInput = this.d.inputs.find(function (i) { return i.checked; });
+            return checkedInput ? checkedInput.value : undefined;
+        }
+        if (this.inputType === 'checkbox') {
+            // this is an alert with checkboxes (multiple value select)
+            // return an array of all the checked values
+            return this.d.inputs.filter(function (i) { return i.checked; }).map(function (i) { return i.value; });
+        }
+        if (this.d.inputs.length === 0) {
+            // this is an alert without any options/inputs at all
+            return undefined;
+        }
+        // this is an alert with text inputs
+        // return an object of all the values with the input name as the key
+        var /** @type {?} */ values = {};
+        this.d.inputs.forEach(function (i) {
+            values[i.name] = i.value;
+        });
+        return values;
+    };
+    /**
+     * @return {?}
+     */
+    AlertCmp.prototype.ngOnDestroy = function () {
+        (void 0) /* assert */;
+        this.gestureBlocker.destroy();
+    };
+    return AlertCmp;
+}());
+
+AlertCmp.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
+                selector: 'ion-alert',
+                template: '<ion-backdrop (click)="bdClick()" [class.backdrop-no-tappable]="!d.enableBackdropDismiss"></ion-backdrop>' +
+                    '<div class="alert-wrapper">' +
+                    '<div class="alert-head">' +
+                    '<h2 id="{{hdrId}}" class="alert-title" *ngIf="d.title" [innerHTML]="d.title"></h2>' +
+                    '<h3 id="{{subHdrId}}" class="alert-sub-title" *ngIf="d.subTitle" [innerHTML]="d.subTitle"></h3>' +
+                    '</div>' +
+                    '<div id="{{msgId}}" class="alert-message" [innerHTML]="d.message"></div>' +
+                    '<div *ngIf="d.inputs.length" [ngSwitch]="inputType">' +
+                    '<ng-template ngSwitchCase="radio">' +
+                    '<div class="alert-radio-group" role="radiogroup" [attr.aria-labelledby]="hdrId" [attr.aria-activedescendant]="activeId">' +
+                    '<button ion-button="alert-radio-button" *ngFor="let i of d.inputs" (click)="rbClick(i)" [attr.aria-checked]="i.checked" [disabled]="i.disabled" [attr.id]="i.id" class="alert-tappable alert-radio" role="radio">' +
+                    '<div class="alert-radio-icon"><div class="alert-radio-inner"></div></div>' +
+                    '<div class="alert-radio-label">' +
+                    '{{i.label}}' +
+                    '</div>' +
+                    '</button>' +
+                    '</div>' +
+                    '</ng-template>' +
+                    '<ng-template ngSwitchCase="checkbox">' +
+                    '<div class="alert-checkbox-group">' +
+                    '<button ion-button="alert-checkbox-button" *ngFor="let i of d.inputs" (click)="cbClick(i)" [attr.aria-checked]="i.checked" [attr.id]="i.id" [disabled]="i.disabled" class="alert-tappable alert-checkbox" role="checkbox">' +
+                    '<div class="alert-checkbox-icon"><div class="alert-checkbox-inner"></div></div>' +
+                    '<div class="alert-checkbox-label">' +
+                    '{{i.label}}' +
+                    '</div>' +
+                    '</button>' +
+                    '</div>' +
+                    '</ng-template>' +
+                    '<ng-template ngSwitchDefault>' +
+                    '<div class="alert-input-group">' +
+                    '<div *ngFor="let i of d.inputs" class="alert-input-wrapper">' +
+                    '<input [placeholder]="i.placeholder" [(ngModel)]="i.value" [type]="i.type" [min]="i.min" [max]="i.max" [attr.id]="i.id" class="alert-input">' +
+                    '</div>' +
+                    '</div>' +
+                    '</ng-template>' +
+                    '</div>' +
+                    '<div class="alert-button-group" [ngClass]="{\'alert-button-group-vertical\':d.buttons.length>2}">' +
+                    '<button ion-button="alert-button" *ngFor="let b of d.buttons" (click)="btnClick(b)" [ngClass]="b.cssClass">' +
+                    '{{b.text}}' +
+                    '</button>' +
+                    '</div>' +
+                    '</div>',
+                host: {
+                    'role': 'dialog',
+                    '[attr.aria-labelledby]': 'hdrId',
+                    '[attr.aria-describedby]': 'descId'
+                },
+                encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ViewEncapsulation */].None,
+            },] },
+];
+/**
+ * @nocollapse
+ */
+AlertCmp.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_8__navigation_view_controller__["a" /* ViewController */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
+    { type: __WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__["l" /* GestureController */], },
+    { type: __WEBPACK_IMPORTED_MODULE_6__navigation_nav_params__["a" /* NavParams */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
+    { type: __WEBPACK_IMPORTED_MODULE_7__platform_platform__["a" /* Platform */], },
+]; };
+AlertCmp.propDecorators = {
+    'keyUp': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["z" /* HostListener */], args: ['body:keyup', ['$event'],] },],
+};
+function AlertCmp_tsickle_Closure_declarations() {
+    /** @type {?} */
+    AlertCmp.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    AlertCmp.ctorParameters;
+    /** @type {?} */
+    AlertCmp.propDecorators;
+    /** @type {?} */
+    AlertCmp.prototype.activeId;
+    /** @type {?} */
+    AlertCmp.prototype.descId;
+    /** @type {?} */
+    AlertCmp.prototype.d;
+    /** @type {?} */
+    AlertCmp.prototype.enabled;
+    /** @type {?} */
+    AlertCmp.prototype.hdrId;
+    /** @type {?} */
+    AlertCmp.prototype.id;
+    /** @type {?} */
+    AlertCmp.prototype.inputType;
+    /** @type {?} */
+    AlertCmp.prototype.lastClick;
+    /** @type {?} */
+    AlertCmp.prototype.msgId;
+    /** @type {?} */
+    AlertCmp.prototype.subHdrId;
+    /** @type {?} */
+    AlertCmp.prototype.mode;
+    /** @type {?} */
+    AlertCmp.prototype.keyboardResizes;
+    /** @type {?} */
+    AlertCmp.prototype.gestureBlocker;
+    /** @type {?} */
+    AlertCmp.prototype._viewCtrl;
+    /** @type {?} */
+    AlertCmp.prototype._elementRef;
+    /** @type {?} */
+    AlertCmp.prototype._renderer;
+    /** @type {?} */
+    AlertCmp.prototype._plt;
+}
+var /** @type {?} */ alertIds = -1;
+//# sourceMappingURL=alert-component.js.map
+
+/***/ }),
+/* 62 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Backdrop; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+
+/**
+ * @hidden
+ */
+var Backdrop = (function () {
+    /**
+     * @param {?} _elementRef
+     * @param {?} _renderer
+     */
+    function Backdrop(_elementRef, _renderer) {
+        this._elementRef = _elementRef;
+        this._renderer = _renderer;
+    }
+    /**
+     * @return {?}
+     */
+    Backdrop.prototype.getNativeElement = function () {
+        return this._elementRef.nativeElement;
+    };
+    /**
+     * @param {?} className
+     * @param {?} add
+     * @return {?}
+     */
+    Backdrop.prototype.setElementClass = function (className, add) {
+        this._renderer.setElementClass(this._elementRef.nativeElement, className, add);
+    };
+    return Backdrop;
+}());
+
+Backdrop.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
+                selector: 'ion-backdrop',
+                host: {
+                    'role': 'presentation',
+                    'tappable': '',
+                    'disable-activated': ''
+                },
+            },] },
+];
+/**
+ * @nocollapse
+ */
+Backdrop.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
+]; };
+function Backdrop_tsickle_Closure_declarations() {
+    /** @type {?} */
+    Backdrop.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    Backdrop.ctorParameters;
+    /** @type {?} */
+    Backdrop.prototype._elementRef;
+    /** @type {?} */
+    Backdrop.prototype._renderer;
+}
+//# sourceMappingURL=backdrop.js.map
+
+/***/ }),
+/* 63 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Icon; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ion__ = __webpack_require__(4);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+/**
+ * \@name Icon
+ * \@description
+ * Icons can be used on their own, or inside of a number of Ionic components.
+ * For a full list of available icons, check out the
+ * [Ionicons docs](../../../../ionicons).
+ *
+ * One feature of Ionicons in Ionic is when icon names are set, the actual icon
+ * which is rendered can change slightly depending on the mode the app is
+ * running from. For example, by setting the icon name of `alarm`, on iOS the
+ * icon will automatically apply `ios-alarm`, and on Material Design it will
+ * automatically apply `md-alarm`. This allows the developer to write the
+ * markup once while Ionic applies the appropriate icon based on the mode.
+ *
+ * \@usage
+ * ```html
+ * <!-- automatically uses the correct "star" icon depending on the mode -->
+ * <ion-icon name="star"></ion-icon>
+ *
+ * <!-- explicity set the icon for each mode -->
+ * <ion-icon ios="ios-home" md="md-home"></ion-icon>
+ *
+ * <!-- always use the same icon, no matter what the mode -->
+ * <ion-icon name="ios-clock"></ion-icon>
+ * <ion-icon name="logo-twitter"></ion-icon>
+ * ```
+ *
+ * \@demo /docs/demos/src/icon/
+ * @see {\@link /docs/components#icons Icon Component Docs}
+ *
+ */
+var Icon = (function (_super) {
+    __extends(Icon, _super);
+    /**
+     * @param {?} config
+     * @param {?} elementRef
+     * @param {?} renderer
+     */
+    function Icon(config, elementRef, renderer) {
+        var _this = _super.call(this, config, elementRef, renderer, 'icon') || this;
+        /**
+         * @hidden
+         */
+        _this._isActive = true;
+        /**
+         * @hidden
+         */
+        _this._name = '';
+        /**
+         * @hidden
+         */
+        _this._ios = '';
+        /**
+         * @hidden
+         */
+        _this._md = '';
+        /**
+         * @hidden
+         */
+        _this._css = '';
+        /**
+         * @hidden
+         */
+        _this._hidden = false;
+        _this._iconMode = config.get('iconMode');
+        return _this;
+    }
+    /**
+     * @hidden
+     * @return {?}
+     */
+    Icon.prototype.ngOnDestroy = function () {
+        if (this._css) {
+            this.setElementClass(this._css, false);
+        }
+    };
+    Object.defineProperty(Icon.prototype, "name", {
+        /**
+         * \@input {string} Specifies which icon to use. The appropriate icon will be used based on the mode.
+         * For more information, see [Ionicons](/docs/ionicons/).
+         * @return {?}
+         */
+        get: function () {
+            return this._name;
+        },
+        /**
+         * @param {?} val
+         * @return {?}
+         */
+        set: function (val) {
+            if (!(/^md-|^ios-|^logo-/.test(val))) {
+                // this does not have one of the defaults
+                // so lets auto add in the mode prefix for them
+                this._name = this._iconMode + '-' + val;
+            }
+            else {
+                this._name = val;
+            }
+            this.update();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Icon.prototype, "ios", {
+        /**
+         * \@input {string} Specifies which icon to use on `ios` mode.
+         * @return {?}
+         */
+        get: function () {
+            return this._ios;
+        },
+        /**
+         * @param {?} val
+         * @return {?}
+         */
+        set: function (val) {
+            this._ios = val;
+            this.update();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Icon.prototype, "md", {
+        /**
+         * \@input {string} Specifies which icon to use on `md` mode.
+         * @return {?}
+         */
+        get: function () {
+            return this._md;
+        },
+        /**
+         * @param {?} val
+         * @return {?}
+         */
+        set: function (val) {
+            this._md = val;
+            this.update();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Icon.prototype, "isActive", {
+        /**
+         * \@input {boolean} If true, the icon is styled with an "active" appearance.
+         * An active icon is filled in, and an inactive icon is the outline of the icon.
+         * The `isActive` property is largely used by the tabbar. Only affects `ios` icons.
+         * @return {?}
+         */
+        get: function () {
+            return this._isActive;
+        },
+        /**
+         * @param {?} val
+         * @return {?}
+         */
+        set: function (val) {
+            this._isActive = Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["o" /* isTrueProperty */])(val);
+            this.update();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @hidden
+     * @return {?}
+     */
+    Icon.prototype.update = function () {
+        var /** @type {?} */ iconName;
+        if (this._ios && this._iconMode === 'ios') {
+            iconName = this._ios;
+        }
+        else if (this._md && this._iconMode === 'md') {
+            iconName = this._md;
+        }
+        else {
+            iconName = this._name;
+        }
+        var /** @type {?} */ hidden = this._hidden = (iconName === null);
+        if (hidden) {
+            return;
+        }
+        var /** @type {?} */ iconMode = iconName.split('-', 2)[0];
+        if (iconMode === 'ios' &&
+            !this._isActive &&
+            iconName.indexOf('logo-') < 0 &&
+            iconName.indexOf('-outline') < 0) {
+            iconName += '-outline';
+        }
+        var /** @type {?} */ css = 'ion-' + iconName;
+        if (this._css === css) {
+            return;
+        }
+        if (this._css) {
+            this.setElementClass(this._css, false);
+        }
+        this._css = css;
+        this.setElementClass(css, true);
+        var /** @type {?} */ label = iconName
+            .replace('ios-', '')
+            .replace('md-', '')
+            .replace('-', ' ');
+        this.setElementAttribute('aria-label', label);
+    };
+    return Icon;
+}(__WEBPACK_IMPORTED_MODULE_3__ion__["a" /* Ion */]));
+
+Icon.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
+                selector: 'ion-icon',
+                host: {
+                    'role': 'img'
+                }
+            },] },
+];
+/**
+ * @nocollapse
+ */
+Icon.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* Config */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
+]; };
+Icon.propDecorators = {
+    'name': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'ios': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'md': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'isActive': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    '_hidden': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* HostBinding */], args: ['class.hide',] },],
+};
+function Icon_tsickle_Closure_declarations() {
+    /** @type {?} */
+    Icon.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    Icon.ctorParameters;
+    /** @type {?} */
+    Icon.propDecorators;
+    /**
+     * @hidden
+     * @type {?}
+     */
+    Icon.prototype._iconMode;
+    /**
+     * @hidden
+     * @type {?}
+     */
+    Icon.prototype._isActive;
+    /**
+     * @hidden
+     * @type {?}
+     */
+    Icon.prototype._name;
+    /**
+     * @hidden
+     * @type {?}
+     */
+    Icon.prototype._ios;
+    /**
+     * @hidden
+     * @type {?}
+     */
+    Icon.prototype._md;
+    /**
+     * @hidden
+     * @type {?}
+     */
+    Icon.prototype._css;
+    /**
+     * @hidden
+     * @type {?}
+     */
+    Icon.prototype._hidden;
+}
+//# sourceMappingURL=icon.js.map
+
+/***/ }),
+/* 64 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Label; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ion__ = __webpack_require__(4);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+/**
+ * \@name Label
+ * \@description
+ * Labels are placed inside of an `ion-item` element and can be used
+ * to describe an `ion-input`, `ion-toggle`, `ion-checkbox`, and more.
+ *
+ * \@property [fixed] - A persistent label that sits next the input.
+ * \@property [floating] - A label that will float above the input if the input is empty or loses focus.
+ * \@property [stacked] - A stacked label will always appear on top of the input.
+ *
+ * \@usage
+ * ```html
+ *  <ion-item>
+ *    <ion-label>Username</ion-label>
+ *    <ion-input></ion-input>
+ *  </ion-item>
+ *
+ *  <ion-item>
+ *    <ion-label fixed>Website</ion-label>
+ *    <ion-input type="url"></ion-input>
+ *  </ion-item>
+ *
+ *  <ion-item>
+ *    <ion-label floating>Email</ion-label>
+ *    <ion-input type="email"></ion-input>
+ *  </ion-item>
+ *
+ *  <ion-item>
+ *    <ion-label stacked>Phone</ion-label>
+ *    <ion-input type="tel"></ion-input>
+ *  </ion-item>
+ *
+ *  <ion-item>
+ *    <ion-label>Toggle</ion-label>
+ *    <ion-toggle></ion-toggle>
+ *  </ion-item>
+ *
+ *  <ion-item>
+ *    <ion-label>Checkbox</ion-label>
+ *    <ion-checkbox></ion-checkbox>
+ *  </ion-item>
+ * ```
+ *
+ * \@demo /docs/demos/src/label/
+ * @see {\@link ../../../../components#inputs Input Component Docs}
+ * @see {\@link ../../input/Input Input API Docs}
+ *
+ */
+var Label = (function (_super) {
+    __extends(Label, _super);
+    /**
+     * @param {?} config
+     * @param {?} elementRef
+     * @param {?} renderer
+     * @param {?} isFloating
+     * @param {?} isStacked
+     * @param {?} isFixed
+     * @param {?} isInset
+     */
+    function Label(config, elementRef, renderer, isFloating, isStacked, isFixed, isInset) {
+        var _this = _super.call(this, config, elementRef, renderer, 'label') || this;
+        _this.type = (isFloating === '' ? 'floating' : (isStacked === '' ? 'stacked' : (isFixed === '' ? 'fixed' : (isInset === '' ? 'inset' : null))));
+        return _this;
+    }
+    Object.defineProperty(Label.prototype, "id", {
+        /**
+         * @hidden
+         * @return {?}
+         */
+        get: function () {
+            return this._id;
+        },
+        /**
+         * @param {?} val
+         * @return {?}
+         */
+        set: function (val) {
+            this._id = val;
+            if (val) {
+                this.setElementAttribute('id', val);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Label.prototype, "text", {
+        /**
+         * @hidden
+         * @return {?}
+         */
+        get: function () {
+            return this.getNativeElement().textContent || '';
+        },
+        enumerable: true,
+        configurable: true
+    });
+    return Label;
+}(__WEBPACK_IMPORTED_MODULE_2__ion__["a" /* Ion */]));
+
+Label.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
+                selector: 'ion-label'
+            },] },
+];
+/**
+ * @nocollapse
+ */
+Label.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
+    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Attribute */], args: ['floating',] },] },
+    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Attribute */], args: ['stacked',] },] },
+    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Attribute */], args: ['fixed',] },] },
+    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Attribute */], args: ['inset',] },] },
+]; };
+Label.propDecorators = {
+    'id': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+};
+function Label_tsickle_Closure_declarations() {
+    /** @type {?} */
+    Label.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    Label.ctorParameters;
+    /** @type {?} */
+    Label.propDecorators;
+    /** @type {?} */
+    Label.prototype._id;
+    /**
+     * @hidden
+     * @type {?}
+     */
+    Label.prototype.type;
+}
+//# sourceMappingURL=label.js.map
+
+/***/ }),
+/* 65 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export ReorderIndexes */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemReorder; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__content_content__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__platform_dom_controller__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_util__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__item_reorder_gesture__ = __webpack_require__(236);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__platform_platform__ = __webpack_require__(3);
+
+
+
+
+
+
+var ReorderIndexes = (function () {
+    /**
+     * @param {?} from
+     * @param {?} to
+     */
+    function ReorderIndexes(from, to) {
+        this.from = from;
+        this.to = to;
+    }
+    /**
+     * @param {?} array
+     * @return {?}
+     */
+    ReorderIndexes.prototype.applyTo = function (array) {
+        Object(__WEBPACK_IMPORTED_MODULE_3__util_util__["r" /* reorderArray */])(array, this);
+    };
+    return ReorderIndexes;
+}());
+
+function ReorderIndexes_tsickle_Closure_declarations() {
+    /** @type {?} */
+    ReorderIndexes.prototype.from;
+    /** @type {?} */
+    ReorderIndexes.prototype.to;
+}
+/**
+ * \@name ItemReorder
+ * \@description
+ * Item reorder adds the ability to change an item's order in a group.
+ * It can be used within an `ion-list` or `ion-item-group` to provide a
+ * visual drag and drop interface.
+ *
+ * ## Grouping Items
+ *
+ * All reorderable items must be grouped in the same element. If an item
+ * should not be reordered, it shouldn't be included in this group. For
+ * example, the following code works because the items are grouped in the
+ * `<ion-list>`:
+ *
+ *  ```html
+ *  <ion-list reorder="true">
+ *    <ion-item *ngFor="let item of items">{% raw %}{{ item }}{% endraw %}</ion-item>
+ *  </ion-list>
+ *  ```
+ *
+ * However, the below list includes a header that shouldn't be reordered:
+ *
+ *  ```html
+ *  <ion-list reorder="true">
+ *    <ion-list-header>Header</ion-list-header>
+ *    <ion-item *ngFor="let item of items">{% raw %}{{ item }}{% endraw %}</ion-item>
+ *  </ion-list>
+ *  ```
+ *
+ * In order to mix different sets of items, `ion-item-group` should be used to
+ * group the reorderable items:
+ *
+ *  ```html
+ *  <ion-list>
+ *    <ion-list-header>Header</ion-list-header>
+ *    <ion-item-group reorder="true">
+ *      <ion-item *ngFor="let item of items">{% raw %}{{ item }}{% endraw %}</ion-item>
+ *    </ion-item-group>
+ *  </ion-list>
+ *  ```
+ *
+ * It's important to note that in this example, the `[reorder]` directive is applied to
+ * the `<ion-item-group>` instead of the `<ion-list>`. This way makes it possible to
+ * mix items that should and shouldn't be reordered.
+ *
+ *
+ * ## Implementing the Reorder Function
+ *
+ * When the item is dragged and dropped into the new position, the `(ionItemReorder)` event is
+ * emitted. This event provides the initial index (from) and the new index (to) of the reordered
+ * item. For example, if the first item is dragged to the fifth position, the event will emit
+ * `{from: 0, to: 4}`. Note that the index starts at zero.
+ *
+ * A function should be called when the event is emitted that handles the reordering of the items.
+ * See [usage](#usage) below for some examples.
+ *
+ *
+ * \@usage
+ *
+ * ```html
+ * <ion-list>
+ *   <ion-list-header>Header</ion-list-header>
+ *   <ion-item-group reorder="true" (ionItemReorder)="reorderItems($event)">
+ *     <ion-item *ngFor="let item of items">{% raw %}{{ item }}{% endraw %}</ion-item>
+ *   </ion-item-group>
+ * </ion-list>
+ * ```
+ *
+ * ```ts
+ * class MyComponent {
+ *   items = [];
+ *
+ *   constructor() {
+ *     for (let x = 0; x < 5; x++) {
+ *       this.items.push(x);
+ *     }
+ *   }
+ *
+ *   reorderItems(indexes) {
+ *     let element = this.items[indexes.from];
+ *     this.items.splice(indexes.from, 1);
+ *     this.items.splice(indexes.to, 0, element);
+ *   }
+ * }
+ * ```
+ *
+ * Ionic also provides a helper function called `reorderArray` to
+ * reorder the array of items. This can be used instead:
+ *
+ * ```ts
+ * import { reorderArray } from 'ionic-angular';
+ *
+ * class MyComponent {
+ *   items = [];
+ *
+ *   constructor() {
+ *     for (let x = 0; x < 5; x++) {
+ *       this.items.push(x);
+ *     }
+ *   }
+ *
+ *   reorderItems(indexes) {
+ *     this.items = reorderArray(this.items, indexes);
+ *   }
+ * }
+ * ```
+ * Alternatevely you can execute helper function inside template:
+ *
+ * ```html
+ * <ion-list>
+ *   <ion-list-header>Header</ion-list-header>
+ *   <ion-item-group reorder="true" (ionItemReorder)="$event.applyTo(items)">
+ *     <ion-item *ngFor="let item of items">{% raw %}{{ item }}{% endraw %}</ion-item>
+ *   </ion-item-group>
+ * </ion-list>
+ * ```
+ *
+ * \@demo /docs/demos/src/item-reorder/
+ * @see {\@link /docs/components#lists List Component Docs}
+ * @see {\@link ../../list/List List API Docs}
+ * @see {\@link ../Item Item API Docs}
+ */
+var ItemReorder = (function () {
+    /**
+     * @param {?} _plt
+     * @param {?} _dom
+     * @param {?} elementRef
+     * @param {?} _rendered
+     * @param {?} _zone
+     * @param {?} _content
+     */
+    function ItemReorder(_plt, _dom, elementRef, _rendered, _zone, _content) {
+        this._plt = _plt;
+        this._dom = _dom;
+        this._rendered = _rendered;
+        this._zone = _zone;
+        this._content = _content;
+        this._enableReorder = false;
+        this._visibleReorder = false;
+        this._isStart = false;
+        this._lastToIndex = -1;
+        /**
+         * \@output {object} Emitted when the item is reordered. Emits an object
+         * with `from` and `to` properties.
+         */
+        this.ionItemReorder = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        this._element = elementRef.nativeElement;
+    }
+    Object.defineProperty(ItemReorder.prototype, "side", {
+        /**
+         * \@input {string} Which side of the view the ion-reorder should be placed. Default `"end"`.
+         * @param {?} side
+         * @return {?}
+         */
+        set: function (side) {
+            this._isStart = side === 'start';
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @hidden
+     * @return {?}
+     */
+    ItemReorder.prototype.ngOnDestroy = function () {
+        this._element = null;
+        this._reorderGesture && this._reorderGesture.destroy();
+    };
+    Object.defineProperty(ItemReorder.prototype, "reorder", {
+        /**
+         * @hidden
+         * @return {?}
+         */
+        get: function () {
+            return this._enableReorder;
+        },
+        /**
+         * @param {?} val
+         * @return {?}
+         */
+        set: function (val) {
+            var _this = this;
+            var /** @type {?} */ enabled = Object(__WEBPACK_IMPORTED_MODULE_3__util_util__["o" /* isTrueProperty */])(val);
+            if (!enabled && this._reorderGesture) {
+                this._reorderGesture.destroy();
+                this._reorderGesture = null;
+                this._visibleReorder = false;
+                setTimeout(function () { return _this._enableReorder = false; }, 400);
+            }
+            else if (enabled && !this._reorderGesture) {
+                (void 0) /* console.debug */;
+                this._reorderGesture = new __WEBPACK_IMPORTED_MODULE_4__item_reorder_gesture__["a" /* ItemReorderGesture */](this._plt, this);
+                this._enableReorder = true;
+                this._dom.write(function () {
+                    _this._zone.run(function () {
+                        _this._visibleReorder = true;
+                    });
+                }, 16);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    ItemReorder.prototype._reorderPrepare = function () {
+        var /** @type {?} */ ele = this._element;
+        var /** @type {?} */ children = ele.children;
+        for (var /** @type {?} */ i = 0, /** @type {?} */ ilen = children.length; i < ilen; i++) {
+            var /** @type {?} */ child = children[i];
+            child.$ionIndex = i;
+            child.$ionReorderList = ele;
+        }
+    };
+    /**
+     * @return {?}
+     */
+    ItemReorder.prototype._reorderStart = function () {
+        this.setElementClass('reorder-list-active', true);
+    };
+    /**
+     * @param {?} fromIndex
+     * @param {?} toIndex
+     * @return {?}
+     */
+    ItemReorder.prototype._reorderEmit = function (fromIndex, toIndex) {
+        var _this = this;
+        this._reorderReset();
+        if (fromIndex !== toIndex) {
+            this._zone.run(function () {
+                var /** @type {?} */ indexes = new ReorderIndexes(fromIndex, toIndex);
+                _this.ionItemReorder.emit(indexes);
+            });
+        }
+    };
+    /**
+     * @param {?} scroll
+     * @return {?}
+     */
+    ItemReorder.prototype._scrollContent = function (scroll) {
+        var /** @type {?} */ scrollTop = this._content.scrollTop + scroll;
+        if (scroll !== 0) {
+            this._content.scrollTo(0, scrollTop, 0);
+        }
+        return scrollTop;
+    };
+    /**
+     * @return {?}
+     */
+    ItemReorder.prototype._reorderReset = function () {
+        var /** @type {?} */ children = this._element.children;
+        var /** @type {?} */ len = children.length;
+        this.setElementClass('reorder-list-active', false);
+        var /** @type {?} */ transform = this._plt.Css.transform;
+        for (var /** @type {?} */ i = 0; i < len; i++) {
+            ((children[i])).style[transform] = '';
+        }
+        this._lastToIndex = -1;
+    };
+    /**
+     * @param {?} fromIndex
+     * @param {?} toIndex
+     * @param {?} itemHeight
+     * @return {?}
+     */
+    ItemReorder.prototype._reorderMove = function (fromIndex, toIndex, itemHeight) {
+        if (this._lastToIndex === -1) {
+            this._lastToIndex = fromIndex;
+        }
+        var /** @type {?} */ lastToIndex = this._lastToIndex;
+        this._lastToIndex = toIndex;
+        /**
+         * ****** DOM READ **********
+         */
+        var children = this._element.children;
+        /**
+         * ****** DOM WRITE *********
+         */
+        var transform = this._plt.Css.transform;
+        if (toIndex >= lastToIndex) {
+            for (var /** @type {?} */ i = lastToIndex; i <= toIndex; i++) {
+                if (i !== fromIndex) {
+                    ((children[i])).style[transform] = (i > fromIndex)
+                        ? "translateY(" + -itemHeight + "px)" : '';
+                }
+            }
+        }
+        if (toIndex <= lastToIndex) {
+            for (var /** @type {?} */ i = toIndex; i <= lastToIndex; i++) {
+                if (i !== fromIndex) {
+                    ((children[i])).style[transform] = (i < fromIndex)
+                        ? "translateY(" + itemHeight + "px)" : '';
+                }
+            }
+        }
+    };
+    /**
+     * @hidden
+     * @param {?} classname
+     * @param {?} add
+     * @return {?}
+     */
+    ItemReorder.prototype.setElementClass = function (classname, add) {
+        this._rendered.setElementClass(this._element, classname, add);
+    };
+    /**
+     * @hidden
+     * @return {?}
+     */
+    ItemReorder.prototype.getNativeElement = function () {
+        return this._element;
+    };
+    return ItemReorder;
+}());
+
+ItemReorder.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
+                selector: 'ion-list[reorder],ion-item-group[reorder]',
+                host: {
+                    '[class.reorder-enabled]': '_enableReorder',
+                    '[class.reorder-visible]': '_visibleReorder',
+                    '[class.reorder-side-start]': '_isStart'
+                }
+            },] },
+];
+/**
+ * @nocollapse
+ */
+ItemReorder.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_5__platform_platform__["a" /* Platform */], },
+    { type: __WEBPACK_IMPORTED_MODULE_2__platform_dom_controller__["a" /* DomController */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* NgZone */], },
+    { type: __WEBPACK_IMPORTED_MODULE_1__content_content__["a" /* Content */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* Optional */] },] },
+]; };
+ItemReorder.propDecorators = {
+    'ionItemReorder': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["S" /* Output */] },],
+    'side': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */], args: ['side',] },],
+    'reorder': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+};
+function ItemReorder_tsickle_Closure_declarations() {
+    /** @type {?} */
+    ItemReorder.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    ItemReorder.ctorParameters;
+    /** @type {?} */
+    ItemReorder.propDecorators;
+    /** @type {?} */
+    ItemReorder.prototype._enableReorder;
+    /** @type {?} */
+    ItemReorder.prototype._visibleReorder;
+    /** @type {?} */
+    ItemReorder.prototype._isStart;
+    /** @type {?} */
+    ItemReorder.prototype._reorderGesture;
+    /** @type {?} */
+    ItemReorder.prototype._lastToIndex;
+    /** @type {?} */
+    ItemReorder.prototype._element;
+    /**
+     * \@output {object} Emitted when the item is reordered. Emits an object
+     * with `from` and `to` properties.
+     * @type {?}
+     */
+    ItemReorder.prototype.ionItemReorder;
+    /** @type {?} */
+    ItemReorder.prototype._plt;
+    /** @type {?} */
+    ItemReorder.prototype._dom;
+    /** @type {?} */
+    ItemReorder.prototype._rendered;
+    /** @type {?} */
+    ItemReorder.prototype._zone;
+    /** @type {?} */
+    ItemReorder.prototype._content;
+}
+//# sourceMappingURL=item-reorder.js.map
+
+/***/ }),
+/* 66 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PickerController; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__picker__ = __webpack_require__(136);
+
+
+
+
+/**
+ * @hidden
+ * \@name PickerController
+ * \@description
+ *
+ */
+var PickerController = (function () {
+    /**
+     * @param {?} _app
+     * @param {?} config
+     */
+    function PickerController(_app, config) {
+        this._app = _app;
+        this.config = config;
+    }
+    /**
+     * Open a picker.
+     * @param {?=} opts
+     * @return {?}
+     */
+    PickerController.prototype.create = function (opts) {
+        if (opts === void 0) { opts = {}; }
+        return new __WEBPACK_IMPORTED_MODULE_3__picker__["a" /* Picker */](this._app, opts, this.config);
+    };
+    return PickerController;
+}());
+
+PickerController.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
+];
+/**
+ * @nocollapse
+ */
+PickerController.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_1__app_app__["a" /* App */], },
+    { type: __WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* Config */], },
+]; };
+function PickerController_tsickle_Closure_declarations() {
+    /** @type {?} */
+    PickerController.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    PickerController.ctorParameters;
+    /** @type {?} */
+    PickerController.prototype._app;
+    /** @type {?} */
+    PickerController.prototype.config;
+}
+//# sourceMappingURL=picker-controller.js.map
+
+/***/ }),
+/* 67 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PickerCmp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_key__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__navigation_nav_params__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__navigation_view_controller__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__picker_column__ = __webpack_require__(68);
+
+
+
+
+
+
+
+
+/**
+ * @hidden
+ */
+var PickerCmp = (function () {
+    /**
+     * @param {?} _viewCtrl
+     * @param {?} _elementRef
+     * @param {?} config
+     * @param {?} gestureCtrl
+     * @param {?} params
+     * @param {?} renderer
+     */
+    function PickerCmp(_viewCtrl, _elementRef, config, gestureCtrl, params, renderer) {
+        this._viewCtrl = _viewCtrl;
+        this._elementRef = _elementRef;
+        this._gestureBlocker = gestureCtrl.createBlocker(__WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__["a" /* BLOCK_ALL */]);
+        this.d = params.data;
+        this.mode = config.get('mode');
+        renderer.setElementClass(_elementRef.nativeElement, "picker-" + this.mode, true);
+        if (this.d.cssClass) {
+            this.d.cssClass.split(' ').forEach(function (cssClass) {
+                renderer.setElementClass(_elementRef.nativeElement, cssClass, true);
+            });
+        }
+        this.id = (++pickerIds);
+        this.lastClick = 0;
+    }
+    /**
+     * @return {?}
+     */
+    PickerCmp.prototype.ionViewWillLoad = function () {
+        // normalize the data
+        var /** @type {?} */ data = this.d;
+        data.buttons = data.buttons.map(function (button) {
+            if (Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["n" /* isString */])(button)) {
+                return { text: button };
+            }
+            if (button.role) {
+                button.cssRole = "picker-toolbar-" + button.role;
+            }
+            return button;
+        });
+        // clean up dat data
+        data.columns = data.columns.map(function (column) {
+            if (!Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["l" /* isPresent */])(column.options)) {
+                column.options = [];
+            }
+            column.selectedIndex = column.selectedIndex || 0;
+            column.options = column.options.map(function (inputOpt) {
+                var /** @type {?} */ opt = {
+                    text: '',
+                    value: '',
+                    disabled: inputOpt.disabled,
+                };
+                if (Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["l" /* isPresent */])(inputOpt)) {
+                    if (Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["n" /* isString */])(inputOpt) || Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["j" /* isNumber */])(inputOpt)) {
+                        opt.text = inputOpt.toString();
+                        opt.value = inputOpt;
+                    }
+                    else {
+                        opt.text = Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["l" /* isPresent */])(inputOpt.text) ? inputOpt.text : inputOpt.value;
+                        opt.value = Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["l" /* isPresent */])(inputOpt.value) ? inputOpt.value : inputOpt.text;
+                    }
+                }
+                return opt;
+            });
+            return column;
+        });
+    };
+    /**
+     * @return {?}
+     */
+    PickerCmp.prototype.ionViewDidLoad = function () {
+        this.refresh();
+    };
+    /**
+     * @return {?}
+     */
+    PickerCmp.prototype.ionViewWillEnter = function () {
+        this._gestureBlocker.block();
+    };
+    /**
+     * @return {?}
+     */
+    PickerCmp.prototype.ionViewDidLeave = function () {
+        this._gestureBlocker.unblock();
+    };
+    /**
+     * @return {?}
+     */
+    PickerCmp.prototype.refresh = function () {
+        this._cols.forEach(function (column) { return column.refresh(); });
+    };
+    /**
+     * @return {?}
+     */
+    PickerCmp.prototype._colChange = function () {
+        // one of the columns has changed its selected index
+        var /** @type {?} */ picker = (this._viewCtrl);
+        picker.ionChange.emit(this.getSelected());
+    };
+    /**
+     * @param {?} ev
+     * @return {?}
+     */
+    PickerCmp.prototype._keyUp = function (ev) {
+        if (this.enabled && this._viewCtrl.isLast()) {
+            if (ev.keyCode === __WEBPACK_IMPORTED_MODULE_4__platform_key__["b" /* KEY_ENTER */]) {
+                if (this.lastClick + 1000 < Date.now()) {
+                    // do not fire this click if there recently was already a click
+                    // this can happen when the button has focus and used the enter
+                    // key to click the button. However, both the click handler and
+                    // this keyup event will fire, so only allow one of them to go.
+                    (void 0) /* console.debug */;
+                    var /** @type {?} */ button = this.d.buttons[this.d.buttons.length - 1];
+                    this.btnClick(button);
+                }
+            }
+            else if (ev.keyCode === __WEBPACK_IMPORTED_MODULE_4__platform_key__["c" /* KEY_ESCAPE */]) {
+                (void 0) /* console.debug */;
+                this.bdClick();
+            }
+        }
+    };
+    /**
+     * @return {?}
+     */
+    PickerCmp.prototype.ionViewDidEnter = function () {
+        var /** @type {?} */ focusableEle = this._elementRef.nativeElement.querySelector('button');
+        if (focusableEle) {
+            focusableEle.focus();
+        }
+        this.enabled = true;
+    };
+    /**
+     * @param {?} button
+     * @return {?}
+     */
+    PickerCmp.prototype.btnClick = function (button) {
+        if (!this.enabled) {
+            return;
+        }
+        // keep the time of the most recent button click
+        this.lastClick = Date.now();
+        var /** @type {?} */ shouldDismiss = true;
+        if (button.handler) {
+            // a handler has been provided, execute it
+            // pass the handler the values from the inputs
+            if (button.handler(this.getSelected()) === false) {
+                // if the return value of the handler is false then do not dismiss
+                shouldDismiss = false;
+            }
+        }
+        if (shouldDismiss) {
+            this.dismiss(button.role);
+        }
+    };
+    /**
+     * @return {?}
+     */
+    PickerCmp.prototype.bdClick = function () {
+        if (this.enabled && this.d.enableBackdropDismiss) {
+            var /** @type {?} */ cancelBtn = this.d.buttons.find(function (b) { return b.role === 'cancel'; });
+            if (cancelBtn) {
+                this.btnClick(cancelBtn);
+            }
+            else {
+                this.dismiss('backdrop');
+            }
+        }
+    };
+    /**
+     * @param {?} role
+     * @return {?}
+     */
+    PickerCmp.prototype.dismiss = function (role) {
+        return this._viewCtrl.dismiss(this.getSelected(), role);
+    };
+    /**
+     * @return {?}
+     */
+    PickerCmp.prototype.getSelected = function () {
+        var /** @type {?} */ selected = {};
+        this.d.columns.forEach(function (col, index) {
+            var /** @type {?} */ selectedColumn = col.options[col.selectedIndex];
+            selected[col.name] = {
+                text: selectedColumn ? selectedColumn.text : null,
+                value: selectedColumn ? selectedColumn.value : null,
+                columnIndex: index,
+            };
+        });
+        return selected;
+    };
+    /**
+     * @return {?}
+     */
+    PickerCmp.prototype.ngOnDestroy = function () {
+        (void 0) /* assert */;
+        this._gestureBlocker.destroy();
+    };
+    return PickerCmp;
+}());
+
+PickerCmp.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
+                selector: 'ion-picker-cmp',
+                template: "\n    <ion-backdrop (click)=\"bdClick()\"></ion-backdrop>\n    <div class=\"picker-wrapper\">\n      <div class=\"picker-toolbar\">\n        <div *ngFor=\"let b of d.buttons\" class=\"picker-toolbar-button\" [ngClass]=\"b.cssRole\">\n          <button ion-button (click)=\"btnClick(b)\" [ngClass]=\"b.cssClass\" class=\"picker-button\" clear>\n            {{b.text}}\n          </button>\n        </div>\n      </div>\n      <div class=\"picker-columns\">\n        <div class=\"picker-above-highlight\"></div>\n        <div *ngFor=\"let c of d.columns\" [col]=\"c\" class=\"picker-col\" (ionChange)=\"_colChange($event)\"></div>\n        <div class=\"picker-below-highlight\"></div>\n      </div>\n    </div>\n  ",
+                host: {
+                    'role': 'dialog'
+                },
+                encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ViewEncapsulation */].None,
+            },] },
+];
+/**
+ * @nocollapse
+ */
+PickerCmp.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_6__navigation_view_controller__["a" /* ViewController */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* Config */], },
+    { type: __WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__["l" /* GestureController */], },
+    { type: __WEBPACK_IMPORTED_MODULE_5__navigation_nav_params__["a" /* NavParams */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
+]; };
+PickerCmp.propDecorators = {
+    '_cols': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ViewChildren */], args: [__WEBPACK_IMPORTED_MODULE_7__picker_column__["a" /* PickerColumnCmp */],] },],
+    '_keyUp': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["z" /* HostListener */], args: ['body:keyup', ['$event'],] },],
+};
+function PickerCmp_tsickle_Closure_declarations() {
+    /** @type {?} */
+    PickerCmp.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    PickerCmp.ctorParameters;
+    /** @type {?} */
+    PickerCmp.propDecorators;
+    /** @type {?} */
+    PickerCmp.prototype._cols;
+    /** @type {?} */
+    PickerCmp.prototype.d;
+    /** @type {?} */
+    PickerCmp.prototype.enabled;
+    /** @type {?} */
+    PickerCmp.prototype.lastClick;
+    /** @type {?} */
+    PickerCmp.prototype.id;
+    /** @type {?} */
+    PickerCmp.prototype.mode;
+    /** @type {?} */
+    PickerCmp.prototype._gestureBlocker;
+    /** @type {?} */
+    PickerCmp.prototype._viewCtrl;
+    /** @type {?} */
+    PickerCmp.prototype._elementRef;
+}
+var /** @type {?} */ pickerIds = -1;
+//# sourceMappingURL=picker-component.js.map
+
+/***/ }),
+/* 68 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PickerColumnCmp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__platform_dom_controller__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tap_click_haptic__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__picker_options__ = __webpack_require__(237);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__platform_platform__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__util_dom__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__gestures_ui_event_manager__ = __webpack_require__(23);
+
+
+
+
+
+
+
+
+
+/**
+ * @hidden
+ */
+var PickerColumnCmp = (function () {
+    /**
+     * @param {?} config
+     * @param {?} _plt
+     * @param {?} elementRef
+     * @param {?} _zone
+     * @param {?} _haptic
+     * @param {?} plt
+     * @param {?} domCtrl
+     */
+    function PickerColumnCmp(config, _plt, elementRef, _zone, _haptic, plt, domCtrl) {
+        this._plt = _plt;
+        this.elementRef = elementRef;
+        this._zone = _zone;
+        this._haptic = _haptic;
+        this.y = 0;
+        this.pos = [];
+        this.startY = null;
+        this.ionChange = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        this.events = new __WEBPACK_IMPORTED_MODULE_8__gestures_ui_event_manager__["a" /* UIEventManager */](plt);
+        this.rotateFactor = config.getNumber('pickerRotateFactor', 0);
+        this.scaleFactor = config.getNumber('pickerScaleFactor', 1);
+        this.decelerateFunc = this.decelerate.bind(this);
+        this.debouncer = domCtrl.debouncer();
+    }
+    /**
+     * @return {?}
+     */
+    PickerColumnCmp.prototype.ngAfterViewInit = function () {
+        // get the scrollable element within the column
+        var /** @type {?} */ colEle = this.colEle.nativeElement;
+        this.colHeight = colEle.clientHeight;
+        // get the height of one option
+        this.optHeight = (colEle.firstElementChild ? colEle.firstElementChild.clientHeight : 0);
+        // Listening for pointer events
+        this.events.pointerEvents({
+            element: this.elementRef.nativeElement,
+            pointerDown: this.pointerStart.bind(this),
+            pointerMove: this.pointerMove.bind(this),
+            pointerUp: this.pointerEnd.bind(this),
+            capture: true,
+            zone: false
+        });
+    };
+    /**
+     * @return {?}
+     */
+    PickerColumnCmp.prototype.ngOnDestroy = function () {
+        this._plt.cancelRaf(this.rafId);
+        this.events.destroy();
+    };
+    /**
+     * @param {?} ev
+     * @return {?}
+     */
+    PickerColumnCmp.prototype.pointerStart = function (ev) {
+        (void 0) /* console.debug */;
+        this._haptic.gestureSelectionStart();
+        // We have to prevent default in order to block scrolling under the picker
+        // but we DO NOT have to stop propagation, since we still want
+        // some "click" events to capture
+        ev.preventDefault();
+        // cancel any previous raf's that haven't fired yet
+        this._plt.cancelRaf(this.rafId);
+        // remember where the pointer started from`
+        this.startY = Object(__WEBPACK_IMPORTED_MODULE_7__util_dom__["f" /* pointerCoord */])(ev).y;
+        // reset everything
+        this.velocity = 0;
+        this.pos.length = 0;
+        this.pos.push(this.startY, Date.now());
+        var /** @type {?} */ options = this.col.options;
+        var /** @type {?} */ minY = (options.length - 1);
+        var /** @type {?} */ maxY = 0;
+        for (var /** @type {?} */ i = 0; i < options.length; i++) {
+            if (!options[i].disabled) {
+                minY = Math.min(minY, i);
+                maxY = Math.max(maxY, i);
+            }
+        }
+        this.minY = (minY * this.optHeight * -1);
+        this.maxY = (maxY * this.optHeight * -1);
+        return true;
+    };
+    /**
+     * @param {?} ev
+     * @return {?}
+     */
+    PickerColumnCmp.prototype.pointerMove = function (ev) {
+        var _this = this;
+        ev.preventDefault();
+        ev.stopPropagation();
+        var /** @type {?} */ currentY = Object(__WEBPACK_IMPORTED_MODULE_7__util_dom__["f" /* pointerCoord */])(ev).y;
+        this.pos.push(currentY, Date.now());
+        this.debouncer.write(function () {
+            if (_this.startY === null) {
+                return;
+            }
+            // update the scroll position relative to pointer start position
+            var /** @type {?} */ y = _this.y + (currentY - _this.startY);
+            if (y > _this.minY) {
+                // scrolling up higher than scroll area
+                y = Math.pow(y, 0.8);
+                _this.bounceFrom = y;
+            }
+            else if (y < _this.maxY) {
+                // scrolling down below scroll area
+                y += Math.pow(_this.maxY - y, 0.9);
+                _this.bounceFrom = y;
+            }
+            else {
+                _this.bounceFrom = 0;
+            }
+            _this.update(y, 0, false, false);
+            var /** @type {?} */ currentIndex = Math.max(Math.abs(Math.round(y / _this.optHeight)), 0);
+            if (currentIndex !== _this.lastTempIndex) {
+                // Trigger a haptic event for physical feedback that the index has changed
+                _this._haptic.gestureSelectionChanged();
+                _this.lastTempIndex = currentIndex;
+            }
+        });
+    };
+    /**
+     * @param {?} ev
+     * @return {?}
+     */
+    PickerColumnCmp.prototype.pointerEnd = function (ev) {
+        ev.preventDefault();
+        this.debouncer.cancel();
+        if (this.startY === null) {
+            return;
+        }
+        (void 0) /* console.debug */;
+        this.velocity = 0;
+        if (this.bounceFrom > 0) {
+            // bounce back up
+            this.update(this.minY, 100, true, true);
+            return;
+        }
+        else if (this.bounceFrom < 0) {
+            // bounce back down
+            this.update(this.maxY, 100, true, true);
+            return;
+        }
+        var /** @type {?} */ endY = Object(__WEBPACK_IMPORTED_MODULE_7__util_dom__["f" /* pointerCoord */])(ev).y;
+        this.pos.push(endY, Date.now());
+        var /** @type {?} */ endPos = (this.pos.length - 1);
+        var /** @type {?} */ startPos = endPos;
+        var /** @type {?} */ timeRange = (Date.now() - 100);
+        // move pointer to position measured 100ms ago
+        for (var /** @type {?} */ i = endPos; i > 0 && this.pos[i] > timeRange; i -= 2) {
+            startPos = i;
+        }
+        if (startPos !== endPos) {
+            // compute relative movement between these two points
+            var /** @type {?} */ timeOffset = (this.pos[endPos] - this.pos[startPos]);
+            var /** @type {?} */ movedTop = (this.pos[startPos - 1] - this.pos[endPos - 1]);
+            // based on XXms compute the movement to apply for each render step
+            var /** @type {?} */ velocity = ((movedTop / timeOffset) * __WEBPACK_IMPORTED_MODULE_5__picker_options__["b" /* FRAME_MS */]);
+            this.velocity = Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["a" /* clamp */])(-__WEBPACK_IMPORTED_MODULE_5__picker_options__["c" /* MAX_PICKER_SPEED */], velocity, __WEBPACK_IMPORTED_MODULE_5__picker_options__["c" /* MAX_PICKER_SPEED */]);
+        }
+        if (Math.abs(endY - this.startY) > 3) {
+            var /** @type {?} */ y = this.y + (endY - this.startY);
+            this.update(y, 0, true, true);
+        }
+        this.startY = null;
+        this.decelerate();
+    };
+    /**
+     * @return {?}
+     */
+    PickerColumnCmp.prototype.decelerate = function () {
+        var /** @type {?} */ y = 0;
+        if (isNaN(this.y) || !this.optHeight) {
+            // fallback in case numbers get outta wack
+            this.update(y, 0, true, true);
+            this._haptic.gestureSelectionEnd();
+        }
+        else if (Math.abs(this.velocity) > 0) {
+            // still decelerating
+            this.velocity *= __WEBPACK_IMPORTED_MODULE_5__picker_options__["a" /* DECELERATION_FRICTION */];
+            // do not let it go slower than a velocity of 1
+            this.velocity = (this.velocity > 0)
+                ? Math.max(this.velocity, 1)
+                : Math.min(this.velocity, -1);
+            y = Math.round(this.y - this.velocity);
+            if (y > this.minY) {
+                // whoops, it's trying to scroll up farther than the options we have!
+                y = this.minY;
+                this.velocity = 0;
+            }
+            else if (y < this.maxY) {
+                // gahh, it's trying to scroll down farther than we can!
+                y = this.maxY;
+                this.velocity = 0;
+            }
+            var /** @type {?} */ notLockedIn = (y % this.optHeight !== 0 || Math.abs(this.velocity) > 1);
+            this.update(y, 0, true, !notLockedIn);
+            if (notLockedIn) {
+                // isn't locked in yet, keep decelerating until it is
+                this.rafId = this._plt.raf(this.decelerateFunc);
+            }
+        }
+        else if (this.y % this.optHeight !== 0) {
+            // needs to still get locked into a position so options line up
+            var /** @type {?} */ currentPos = Math.abs(this.y % this.optHeight);
+            // create a velocity in the direction it needs to scroll
+            this.velocity = (currentPos > (this.optHeight / 2) ? 1 : -1);
+            this._haptic.gestureSelectionEnd();
+            this.decelerate();
+        }
+        var /** @type {?} */ currentIndex = Math.max(Math.abs(Math.round(y / this.optHeight)), 0);
+        if (currentIndex !== this.lastTempIndex) {
+            // Trigger a haptic event for physical feedback that the index has changed
+            this._haptic.gestureSelectionChanged();
+        }
+        this.lastTempIndex = currentIndex;
+    };
+    /**
+     * @param {?} ev
+     * @param {?} index
+     * @return {?}
+     */
+    PickerColumnCmp.prototype.optClick = function (ev, index) {
+        if (!this.velocity) {
+            ev.preventDefault();
+            ev.stopPropagation();
+            this.setSelected(index, 150);
+        }
+    };
+    /**
+     * @param {?} selectedIndex
+     * @param {?} duration
+     * @return {?}
+     */
+    PickerColumnCmp.prototype.setSelected = function (selectedIndex, duration) {
+        // if there is a selected index, then figure out it's y position
+        // if there isn't a selected index, then just use the top y position
+        var /** @type {?} */ y = (selectedIndex > -1) ? ((selectedIndex * this.optHeight) * -1) : 0;
+        this._plt.cancelRaf(this.rafId);
+        this.velocity = 0;
+        // so what y position we're at
+        this.update(y, duration, true, true);
+    };
+    /**
+     * @param {?} y
+     * @param {?} duration
+     * @param {?} saveY
+     * @param {?} emitChange
+     * @return {?}
+     */
+    PickerColumnCmp.prototype.update = function (y, duration, saveY, emitChange) {
+        // ensure we've got a good round number :)
+        y = Math.round(y);
+        var /** @type {?} */ i;
+        var /** @type {?} */ button;
+        var /** @type {?} */ opt;
+        var /** @type {?} */ optOffset;
+        var /** @type {?} */ visible;
+        var /** @type {?} */ translateX;
+        var /** @type {?} */ translateY;
+        var /** @type {?} */ translateZ;
+        var /** @type {?} */ rotateX;
+        var /** @type {?} */ transform;
+        var /** @type {?} */ selected;
+        var /** @type {?} */ parent = this.colEle.nativeElement;
+        var /** @type {?} */ children = parent.children;
+        var /** @type {?} */ length = children.length;
+        var /** @type {?} */ selectedIndex = this.col.selectedIndex = Math.min(Math.max(Math.round(-y / this.optHeight), 0), length - 1);
+        var /** @type {?} */ durationStr = (duration === 0) ? null : duration + 'ms';
+        var /** @type {?} */ scaleStr = "scale(" + this.scaleFactor + ")";
+        for (i = 0; i < length; i++) {
+            button = children[i];
+            opt = (this.col.options[i]);
+            optOffset = (i * this.optHeight) + y;
+            visible = true;
+            transform = '';
+            if (this.rotateFactor !== 0) {
+                rotateX = optOffset * this.rotateFactor;
+                if (Math.abs(rotateX) > 90) {
+                    visible = false;
+                }
+                else {
+                    translateX = 0;
+                    translateY = 0;
+                    translateZ = 90;
+                    transform = "rotateX(" + rotateX + "deg) ";
+                }
+            }
+            else {
+                translateX = 0;
+                translateZ = 0;
+                translateY = optOffset;
+                if (Math.abs(translateY) > 170) {
+                    visible = false;
+                }
+            }
+            selected = selectedIndex === i;
+            if (visible) {
+                transform += "translate3d(0px," + translateY + "px," + translateZ + "px) ";
+                if (this.scaleFactor !== 1 && !selected) {
+                    transform += scaleStr;
+                }
+            }
+            else {
+                transform = 'translate3d(-9999px,0px,0px)';
+            }
+            // Update transition duration
+            if (duration !== opt._dur) {
+                opt._dur = duration;
+                button.style[this._plt.Css.transitionDuration] = durationStr;
+            }
+            // Update transform
+            if (transform !== opt._trans) {
+                opt._trans = transform;
+                button.style[this._plt.Css.transform] = transform;
+            }
+            // Update selected item
+            if (selected !== opt._selected) {
+                opt._selected = selected;
+                if (selected) {
+                    button.classList.add(__WEBPACK_IMPORTED_MODULE_5__picker_options__["d" /* PICKER_OPT_SELECTED */]);
+                }
+                else {
+                    button.classList.remove(__WEBPACK_IMPORTED_MODULE_5__picker_options__["d" /* PICKER_OPT_SELECTED */]);
+                }
+            }
+        }
+        this.col.prevSelected = selectedIndex;
+        if (saveY) {
+            this.y = y;
+        }
+        if (emitChange) {
+            if (this.lastIndex === undefined) {
+                // have not set a last index yet
+                this.lastIndex = this.col.selectedIndex;
+            }
+            else if (this.lastIndex !== this.col.selectedIndex) {
+                // new selected index has changed from the last index
+                // update the lastIndex and emit that it has changed
+                this.lastIndex = this.col.selectedIndex;
+                var /** @type {?} */ ionChange = this.ionChange;
+                if (ionChange.observers.length > 0) {
+                    this._zone.run(ionChange.emit.bind(ionChange, this.col.options[this.col.selectedIndex]));
+                }
+            }
+        }
+    };
+    /**
+     * @return {?}
+     */
+    PickerColumnCmp.prototype.refresh = function () {
+        var /** @type {?} */ min = this.col.options.length - 1;
+        var /** @type {?} */ max = 0;
+        var /** @type {?} */ options = this.col.options;
+        for (var /** @type {?} */ i = 0; i < options.length; i++) {
+            if (!options[i].disabled) {
+                min = Math.min(min, i);
+                max = Math.max(max, i);
+            }
+        }
+        var /** @type {?} */ selectedIndex = Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["a" /* clamp */])(min, this.col.selectedIndex, max);
+        if (this.col.prevSelected !== selectedIndex) {
+            var /** @type {?} */ y = (selectedIndex * this.optHeight) * -1;
+            this._plt.cancelRaf(this.rafId);
+            this.velocity = 0;
+            this.update(y, 150, true, false);
+        }
+    };
+    return PickerColumnCmp;
+}());
+
+PickerColumnCmp.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
+                selector: '.picker-col',
+                template: '<div *ngIf="col.prefix" class="picker-prefix" [style.width]="col.prefixWidth">{{col.prefix}}</div>' +
+                    '<div class="picker-opts" #colEle [style.max-width]="col.optionsWidth">' +
+                    '<button *ngFor="let o of col.options; let i=index"' +
+                    '[class.picker-opt-disabled]="o.disabled" ' +
+                    'class="picker-opt" disable-activated (click)="optClick($event, i)">' +
+                    '{{o.text}}' +
+                    '</button>' +
+                    '</div>' +
+                    '<div *ngIf="col.suffix" class="picker-suffix" [style.width]="col.suffixWidth">{{col.suffix}}</div>',
+                host: {
+                    '[style.max-width]': 'col.columnWidth',
+                    '[class.picker-opts-left]': 'col.align=="left"',
+                    '[class.picker-opts-right]': 'col.align=="right"',
+                }
+            },] },
+];
+/**
+ * @nocollapse
+ */
+PickerColumnCmp.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* Config */], },
+    { type: __WEBPACK_IMPORTED_MODULE_6__platform_platform__["a" /* Platform */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* NgZone */], },
+    { type: __WEBPACK_IMPORTED_MODULE_4__tap_click_haptic__["a" /* Haptic */], },
+    { type: __WEBPACK_IMPORTED_MODULE_6__platform_platform__["a" /* Platform */], },
+    { type: __WEBPACK_IMPORTED_MODULE_3__platform_dom_controller__["a" /* DomController */], },
+]; };
+PickerColumnCmp.propDecorators = {
+    'colEle': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */], args: ['colEle',] },],
+    'col': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'ionChange': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["S" /* Output */] },],
+};
+function PickerColumnCmp_tsickle_Closure_declarations() {
+    /** @type {?} */
+    PickerColumnCmp.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    PickerColumnCmp.ctorParameters;
+    /** @type {?} */
+    PickerColumnCmp.propDecorators;
+    /** @type {?} */
+    PickerColumnCmp.prototype.colEle;
+    /** @type {?} */
+    PickerColumnCmp.prototype.col;
+    /** @type {?} */
+    PickerColumnCmp.prototype.y;
+    /** @type {?} */
+    PickerColumnCmp.prototype.colHeight;
+    /** @type {?} */
+    PickerColumnCmp.prototype.optHeight;
+    /** @type {?} */
+    PickerColumnCmp.prototype.velocity;
+    /** @type {?} */
+    PickerColumnCmp.prototype.pos;
+    /** @type {?} */
+    PickerColumnCmp.prototype.startY;
+    /** @type {?} */
+    PickerColumnCmp.prototype.rafId;
+    /** @type {?} */
+    PickerColumnCmp.prototype.bounceFrom;
+    /** @type {?} */
+    PickerColumnCmp.prototype.minY;
+    /** @type {?} */
+    PickerColumnCmp.prototype.maxY;
+    /** @type {?} */
+    PickerColumnCmp.prototype.rotateFactor;
+    /** @type {?} */
+    PickerColumnCmp.prototype.scaleFactor;
+    /** @type {?} */
+    PickerColumnCmp.prototype.lastIndex;
+    /** @type {?} */
+    PickerColumnCmp.prototype.lastTempIndex;
+    /** @type {?} */
+    PickerColumnCmp.prototype.decelerateFunc;
+    /** @type {?} */
+    PickerColumnCmp.prototype.debouncer;
+    /** @type {?} */
+    PickerColumnCmp.prototype.events;
+    /** @type {?} */
+    PickerColumnCmp.prototype.ionChange;
+    /** @type {?} */
+    PickerColumnCmp.prototype._plt;
+    /** @type {?} */
+    PickerColumnCmp.prototype.elementRef;
+    /** @type {?} */
+    PickerColumnCmp.prototype._zone;
+    /** @type {?} */
+    PickerColumnCmp.prototype._haptic;
+}
+//# sourceMappingURL=picker-column.js.map
+
+/***/ }),
+/* 69 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FabList; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__platform_platform__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__fab__ = __webpack_require__(46);
+
+
+
+
+
+/**
+ * \@name FabList
+ * \@description
+ * `ion-fab-list` is a container for multiple FAB buttons. They are components of `ion-fab` and allow you to specificy the buttons position, left, right, top, bottom.
+ * \@usage
+ *
+ * ```html
+ *  <ion-fab bottom right >
+ *    <button ion-fab>Share</button>
+ *    <ion-fab-list side="top">
+ *      <button ion-fab>Facebook</button>
+ *      <button ion-fab>Twitter</button>
+ *      <button ion-fab>Youtube</button>
+ *    </ion-fab-list>
+ *    <ion-fab-list side="left">
+ *      <button ion-fab>Vimeo</button>
+ *    </ion-fab-list>
+ *  </ion-fab>
+ * ```
+ * \@module ionic
+ *
+ * \@demo /docs/demos/src/fab/
+ * @see {\@link /docs/components#fab Fab Component Docs}
+ */
+var FabList = (function () {
+    /**
+     * @param {?} _elementRef
+     * @param {?} _renderer
+     * @param {?} config
+     * @param {?} _plt
+     */
+    function FabList(_elementRef, _renderer, config, _plt) {
+        this._elementRef = _elementRef;
+        this._renderer = _renderer;
+        this._plt = _plt;
+        this._visible = false;
+        this._fabs = [];
+        this._mode = config.get('mode');
+    }
+    Object.defineProperty(FabList.prototype, "_setbuttons", {
+        /**
+         * @param {?} query
+         * @return {?}
+         */
+        set: function (query) {
+            var /** @type {?} */ fabs = this._fabs = query.toArray();
+            var /** @type {?} */ className = "fab-" + this._mode + "-in-list";
+            for (var _i = 0, fabs_1 = fabs; _i < fabs_1.length; _i++) {
+                var fab = fabs_1[_i];
+                fab.setElementClass('fab-in-list', true);
+                fab.setElementClass(className, true);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @hidden
+     * @param {?} val
+     * @return {?}
+     */
+    FabList.prototype.setVisible = function (val) {
+        var _this = this;
+        var /** @type {?} */ visible = Object(__WEBPACK_IMPORTED_MODULE_2__util_util__["o" /* isTrueProperty */])(val);
+        if (visible === this._visible) {
+            return;
+        }
+        this._visible = visible;
+        var /** @type {?} */ fabs = this._fabs;
+        var /** @type {?} */ i = 1;
+        if (visible) {
+            fabs.forEach(function (fab) {
+                _this._plt.timeout(function () { return fab.setElementClass('show', true); }, i * 30);
+                i++;
+            });
+        }
+        else {
+            fabs.forEach(function (fab) { return fab.setElementClass('show', false); });
+        }
+        this.setElementClass('fab-list-active', visible);
+    };
+    /**
+     * \@internal
+     * @param {?} className
+     * @param {?} add
+     * @return {?}
+     */
+    FabList.prototype.setElementClass = function (className, add) {
+        this._renderer.setElementClass(this._elementRef.nativeElement, className, add);
+    };
+    return FabList;
+}());
+
+FabList.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
+                selector: 'ion-fab-list',
+            },] },
+];
+/**
+ * @nocollapse
+ */
+FabList.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
+    { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
+    { type: __WEBPACK_IMPORTED_MODULE_3__platform_platform__["a" /* Platform */], },
+]; };
+FabList.propDecorators = {
+    '_setbuttons': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["s" /* ContentChildren */], args: [__WEBPACK_IMPORTED_MODULE_4__fab__["a" /* FabButton */],] },],
+};
+function FabList_tsickle_Closure_declarations() {
+    /** @type {?} */
+    FabList.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    FabList.ctorParameters;
+    /** @type {?} */
+    FabList.propDecorators;
+    /** @type {?} */
+    FabList.prototype._visible;
+    /** @type {?} */
+    FabList.prototype._fabs;
+    /** @type {?} */
+    FabList.prototype._mode;
+    /** @type {?} */
+    FabList.prototype._elementRef;
+    /** @type {?} */
+    FabList.prototype._renderer;
+    /** @type {?} */
+    FabList.prototype._plt;
+}
+//# sourceMappingURL=fab-list.js.map
+
+/***/ }),
+/* 70 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InfiniteScroll; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__content_content__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__platform_dom_controller__ = __webpack_require__(8);
+
+
+
+/**
+ * \@name InfiniteScroll
+ * \@description
+ * The Infinite Scroll allows you to perform an action when the user
+ * scrolls a specified distance from the bottom or top of the page.
+ *
+ * The expression assigned to the `infinite` event is called when
+ * the user scrolls to the specified distance. When this expression
+ * has finished its tasks, it should call the `complete()` method
+ * on the infinite scroll instance.
+ *
+ * \@usage
+ * ```html
+ * <ion-content>
+ *
+ *  <ion-list>
+ *    <ion-item *ngFor="let i of items">{% raw %}{{i}}{% endraw %}</ion-item>
+ *  </ion-list>
+ *
+ *  <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+ *    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+ *  </ion-infinite-scroll>
+ *
+ * </ion-content>
+ * ```
+ *
+ * ```ts
+ * \@Component({...})
+ * export class NewsFeedPage {
+ *   items = [];
+ *
+ *   constructor() {
+ *     for (let i = 0; i < 30; i++) {
+ *       this.items.push( this.items.length );
+ *     }
+ *   }
+ *
+ *   doInfinite(infiniteScroll) {
+ *     console.log('Begin async operation');
+ *
+ *     setTimeout(() => {
+ *       for (let i = 0; i < 30; i++) {
+ *         this.items.push( this.items.length );
+ *       }
+ *
+ *       console.log('Async operation has ended');
+ *       infiniteScroll.complete();
+ *     }, 500);
+ *   }
+ *
+ * }
+ * ```
+ *
+ * ## `waitFor` method of InfiniteScroll
+ *
+ * In case if your async operation returns promise you can utilize
+ * `waitFor` method inside your template.
+ *
+ * ```html
+ * <ion-content>
+ *
+ *  <ion-list>
+ *    <ion-item *ngFor="let item of items">{{item}}</ion-item>
+ *  </ion-list>
+ *
+ *  <ion-infinite-scroll (ionInfinite)="$event.waitFor(doInfinite())">
+ *    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+ *  </ion-infinite-scroll>
+ *
+ * </ion-content>
+ * ```
+ *
+ * ```ts
+ * \@Component({...})
+ * export class NewsFeedPage {
+ *   items = [];
+ *
+ *   constructor() {
+ *     for (var i = 0; i < 30; i++) {
+ *       this.items.push( this.items.length );
+ *     }
+ *   }
+ *
+ *   doInfinite(): Promise<any> {
+ *     console.log('Begin async operation');
+ *
+ *     return new Promise((resolve) => {
+ *       setTimeout(() => {
+ *         for (var i = 0; i < 30; i++) {
+ *           this.items.push( this.items.length );
+ *         }
+ *
+ *         console.log('Async operation has ended');
+ *         resolve();
+ *       }, 500);
+ *     })
+ *   }
+ * }
+ * ```
+ *
+ * ## Infinite Scroll Content
+ *
+ * By default, Ionic uses the infinite scroll spinner that looks
+ * best for the platform the user is on. However, you can change the
+ * default spinner or add text by adding properties to the
+ * `ion-infinite-scroll-content` component.
+ *
+ *  ```html
+ *  <ion-content>
+ *
+ *    <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+ *      <ion-infinite-scroll-content
+ *        loadingSpinner="bubbles"
+ *        loadingText="Loading more data...">
+ *      </ion-infinite-scroll-content>
+ *    </ion-infinite-scroll>
+ *
+ *  </ion-content>
+ *  ```
+ *
+ *
+ * ## Further Customizing Infinite Scroll Content
+ *
+ * The `ion-infinite-scroll` component holds the infinite scroll logic.
+ * It requires a child component in order to display the content.
+ * Ionic uses `ion-infinite-scroll-content` by default. This component
+ * displays the infinite scroll and changes the look depending
+ * on the infinite scroll's state. Separating these components allows
+ * developers to create their own infinite scroll content components.
+ * You could replace our default content with custom SVG or CSS animations.
+ *
+ * \@demo /docs/demos/src/infinite-scroll/
+ *
+ */
+var InfiniteScroll = (function () {
+    /**
+     * @param {?} _content
+     * @param {?} _zone
+     * @param {?} _elementRef
+     * @param {?} _dom
+     */
+    function InfiniteScroll(_content, _zone, _elementRef, _dom) {
+        this._content = _content;
+        this._zone = _zone;
+        this._elementRef = _elementRef;
+        this._dom = _dom;
+        this._lastCheck = 0;
+        this._highestY = 0;
+        this._thr = '15%';
+        this._thrPx = 0;
+        this._thrPc = 0.15;
+        this._position = POSITION_BOTTOM;
+        this._init = false;
+        /**
+         * \@internal
+         */
+        this.state = STATE_ENABLED;
+        /**
+         * \@output {event} Emitted when the scroll reaches
+         * the threshold distance. From within your infinite handler,
+         * you must call the infinite scroll's `complete()` method when
+         * your async operation has completed.
+         */
+        this.ionInfinite = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+        _content.setElementClass('has-infinite-scroll', true);
+    }
+    Object.defineProperty(InfiniteScroll.prototype, "threshold", {
+        /**
+         * \@input {string} The threshold distance from the bottom
+         * of the content to call the `infinite` output event when scrolled.
+         * The threshold value can be either a percent, or
+         * in pixels. For example, use the value of `10%` for the `infinite`
+         * output event to get called when the user has scrolled 10%
+         * from the bottom of the page. Use the value `100px` when the
+         * scroll is within 100 pixels from the bottom of the page.
+         * Default is `15%`.
+         * @return {?}
+         */
+        get: function () {
+            return this._thr;
+        },
+        /**
+         * @param {?} val
+         * @return {?}
+         */
+        set: function (val) {
+            this._thr = val;
+            if (val.indexOf('%') > -1) {
+                this._thrPx = 0;
+                this._thrPc = (parseFloat(val) / 100);
+            }
+            else {
+                this._thrPx = parseFloat(val);
+                this._thrPc = 0;
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(InfiniteScroll.prototype, "enabled", {
+        /**
+         * \@input {boolean} If true, Whether or not the infinite scroll should be
+         * enabled or not. Setting to `false` will remove scroll event listeners
+         * and hide the display.
+         * @param {?} shouldEnable
+         * @return {?}
+         */
+        set: function (shouldEnable) {
+            this.enable(shouldEnable);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(InfiniteScroll.prototype, "position", {
+        /**
+         * \@input {string} The position of the infinite scroll element.
+         * The value can be either `top` or `bottom`.
+         * Default is `bottom`.
+         * @return {?}
+         */
+        get: function () {
+            return this._position;
+        },
+        /**
+         * @param {?} val
+         * @return {?}
+         */
+        set: function (val) {
+            if (val === POSITION_TOP || val === POSITION_BOTTOM) {
+                this._position = val;
+            }
+            else {
+                console.error("Invalid value for ion-infinite-scroll's position input. Its value should be '" + POSITION_BOTTOM + "' or '" + POSITION_TOP + "'.");
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @param {?} ev
+     * @return {?}
+     */
+    InfiniteScroll.prototype._onScroll = function (ev) {
+        var _this = this;
+        if (this.state === STATE_LOADING || this.state === STATE_DISABLED) {
+            return 1;
+        }
+        if (this._lastCheck + 32 > ev.timeStamp) {
+            // no need to check less than every XXms
+            return 2;
+        }
+        this._lastCheck = ev.timeStamp;
+        // ******** DOM READ ****************
+        var /** @type {?} */ infiniteHeight = this._elementRef.nativeElement.scrollHeight;
+        if (!infiniteHeight) {
+            // if there is no height of this element then do nothing
+            return 3;
+        }
+        // ******** DOM READ ****************
+        var /** @type {?} */ d = this._content.getContentDimensions();
+        var /** @type {?} */ height = d.contentHeight;
+        var /** @type {?} */ threshold = this._thrPc ? (height * this._thrPc) : this._thrPx;
+        // ******** DOM READS ABOVE / DOM WRITES BELOW ****************
+        var /** @type {?} */ distanceFromInfinite;
+        if (this._position === POSITION_BOTTOM) {
+            distanceFromInfinite = d.scrollHeight - infiniteHeight - d.scrollTop - height - threshold;
+        }
+        else {
+            (void 0) /* assert */;
+            distanceFromInfinite = d.scrollTop - infiniteHeight - threshold;
+        }
+        if (distanceFromInfinite < 0) {
+            // ******** DOM WRITE ****************
+            this._dom.write(function () {
+                _this._zone.run(function () {
+                    if (_this.state !== STATE_LOADING && _this.state !== STATE_DISABLED) {
+                        _this.state = STATE_LOADING;
+                        _this.ionInfinite.emit(_this);
+                    }
+                });
+            });
+            return 5;
+        }
+        return 6;
+    };
+    /**
+     * Call `complete()` within the `infinite` output event handler when
+     * your async operation has completed. For example, the `loading`
+     * state is while the app is performing an asynchronous operation,
+     * such as receiving more data from an AJAX request to add more items
+     * to a data list. Once the data has been received and UI updated, you
+     * then call this method to signify that the loading has completed.
+     * This method will change the infinite scroll's state from `loading`
+     * to `enabled`.
+     * @return {?}
+     */
+    InfiniteScroll.prototype.complete = function () {
+        var _this = this;
+        if (this.state !== STATE_LOADING) {
+            return;
+        }
+        if (this._position === POSITION_BOTTOM) {
+            this.state = STATE_ENABLED;
+            return;
+        }
+        (void 0) /* assert */;
+        /* New content is being added at the top, but the scrollTop position stays the same,
+          which causes a scroll jump visually. This algorithm makes sure to prevent this.
+    
+          (Frame 1)
+            complete() is called, but the UI hasn't had time to update yet.
+            Save the current content dimensions.
+            Wait for the next frame using _dom.read, so the UI will be updated.
+    
+          (Frame 2)
+            Read the new content dimensions.
+            Calculate the height difference and the new scroll position.
+            Delay the scroll position change until other possible dom reads are done using _dom.write to be performant.
+    
+          (Still frame 2, if I'm correct)
+            Change the scroll position (= visually maintain the scroll position).
+            Change the state to re-enable the InfiniteScroll. This should be after changing the scroll position, or it could cause the InfiniteScroll to be triggered again immediately.
+    
+          (Frame 3)
+            Done.
+        */
+        // ******** DOM READ ****************
+        // Save the current content dimensions before the UI updates
+        var /** @type {?} */ prevDim = this._content.getContentDimensions();
+        // ******** DOM READ ****************
+        this._dom.read(function () {
+            // UI has updated, save the new content dimensions
+            var /** @type {?} */ newDim = _this._content.getContentDimensions();
+            // New content was added on top, so the scroll position should be changed immediately to prevent it from jumping around
+            var /** @type {?} */ newScrollTop = newDim.scrollHeight - (prevDim.scrollHeight - prevDim.scrollTop);
+            // ******** DOM WRITE ****************
+            _this._dom.write(function () {
+                _this._content.scrollTop = newScrollTop;
+                _this.state = STATE_ENABLED;
+            });
+        });
+    };
+    /**
+     * Pass a promise inside `waitFor()` within the `infinite` output event handler in order to
+     * change state of infiniteScroll to "complete"
+     * @param {?} action
+     * @return {?}
+     */
+    InfiniteScroll.prototype.waitFor = function (action) {
+        var /** @type {?} */ enable = this.complete.bind(this);
+        action.then(enable, enable);
+    };
+    /**
+     * Call `enable(false)` to disable the infinite scroll from actively
+     * trying to receive new data while scrolling. This method is useful
+     * when it is known that there is no more data that can be added, and
+     * the infinite scroll is no longer needed.
+     * enabled or not. Setting to `false` will remove scroll event listeners
+     * and hide the display.
+     * @param {?} shouldEnable
+     * @return {?}
+     */
+    InfiniteScroll.prototype.enable = function (shouldEnable) {
+        this.state = (shouldEnable ? STATE_ENABLED : STATE_DISABLED);
+        this._setListeners(shouldEnable);
+    };
+    /**
+     * @hidden
+     * @param {?} shouldListen
+     * @return {?}
+     */
+    InfiniteScroll.prototype._setListeners = function (shouldListen) {
+        if (this._init) {
+            if (shouldListen) {
+                if (!this._scLsn) {
+                    this._scLsn = this._content.ionScroll.subscribe(this._onScroll.bind(this));
+                }
+            }
+            else {
+                this._scLsn && this._scLsn.unsubscribe();
+                this._scLsn = null;
+            }
+        }
+    };
+    /**
+     * @hidden
+     * @return {?}
+     */
+    InfiniteScroll.prototype.ngAfterContentInit = function () {
+        this._init = true;
+        this._setListeners(this.state !== STATE_DISABLED);
+        if (this._position === POSITION_TOP) {
+            this._content.scrollDownOnLoad = true;
+        }
+    };
+    /**
+     * @hidden
+     * @return {?}
+     */
+    InfiniteScroll.prototype.ngOnDestroy = function () {
+        this._setListeners(false);
+    };
+    return InfiniteScroll;
+}());
+
+InfiniteScroll.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
+                selector: 'ion-infinite-scroll'
+            },] },
+];
+/**
+ * @nocollapse
+ */
+InfiniteScroll.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_1__content_content__["a" /* Content */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* NgZone */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_2__platform_dom_controller__["a" /* DomController */], },
+]; };
+InfiniteScroll.propDecorators = {
+    'threshold': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'enabled': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'position': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'ionInfinite': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["S" /* Output */] },],
+};
+function InfiniteScroll_tsickle_Closure_declarations() {
+    /** @type {?} */
+    InfiniteScroll.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    InfiniteScroll.ctorParameters;
+    /** @type {?} */
+    InfiniteScroll.propDecorators;
+    /** @type {?} */
+    InfiniteScroll.prototype._lastCheck;
+    /** @type {?} */
+    InfiniteScroll.prototype._highestY;
+    /** @type {?} */
+    InfiniteScroll.prototype._scLsn;
+    /** @type {?} */
+    InfiniteScroll.prototype._thr;
+    /** @type {?} */
+    InfiniteScroll.prototype._thrPx;
+    /** @type {?} */
+    InfiniteScroll.prototype._thrPc;
+    /** @type {?} */
+    InfiniteScroll.prototype._position;
+    /** @type {?} */
+    InfiniteScroll.prototype._init;
+    /**
+     * \@internal
+     * @type {?}
+     */
+    InfiniteScroll.prototype.state;
+    /**
+     * \@output {event} Emitted when the scroll reaches
+     * the threshold distance. From within your infinite handler,
+     * you must call the infinite scroll's `complete()` method when
+     * your async operation has completed.
+     * @type {?}
+     */
+    InfiniteScroll.prototype.ionInfinite;
+    /** @type {?} */
+    InfiniteScroll.prototype._content;
+    /** @type {?} */
+    InfiniteScroll.prototype._zone;
+    /** @type {?} */
+    InfiniteScroll.prototype._elementRef;
+    /** @type {?} */
+    InfiniteScroll.prototype._dom;
+}
+var /** @type {?} */ STATE_ENABLED = 'enabled';
+var /** @type {?} */ STATE_DISABLED = 'disabled';
+var /** @type {?} */ STATE_LOADING = 'loading';
+var /** @type {?} */ POSITION_TOP = 'top';
+var /** @type {?} */ POSITION_BOTTOM = 'bottom';
+//# sourceMappingURL=infinite-scroll.js.map
+
+/***/ }),
+/* 71 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemOptions; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__platform_platform__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(2);
+
+
+
+/**
+ * \@name ItemOptions
+ * \@description
+ * The option buttons for an `ion-item-sliding`. These buttons can be placed either on the left or right side.
+ * You can combine the `(ionSwipe)` event plus the `expandable` directive to create a full swipe action for the item.
+ *
+ * \@usage
+ *
+ * ```html
+ * <ion-item-sliding>
+ *   <ion-item>
+ *     Item 1
+ *   </ion-item>
+ *   <ion-item-options side="right" (ionSwipe)="saveItem(item)">
+ *     <button ion-button expandable (click)="saveItem(item)">
+ *       <ion-icon name="star"></ion-icon>
+ *     </button>
+ *   </ion-item-options>
+ * </ion-item-sliding>
+ * ```
+ */
+var ItemOptions = (function () {
+    /**
+     * @param {?} _elementRef
+     * @param {?} _plt
+     */
+    function ItemOptions(_elementRef, _plt) {
+        this._elementRef = _elementRef;
+        this._plt = _plt;
+        /**
+         * \@output {event} Emitted when the item has been fully swiped.
+         */
+        this.ionSwipe = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
+    }
+    /**
+     * @hidden
+     * @return {?}
+     */
+    ItemOptions.prototype.isRightSide = function () {
+        return Object(__WEBPACK_IMPORTED_MODULE_2__util_util__["m" /* isRightSide */])(this.side, this._plt.isRTL, true);
+    };
+    /**
+     * @hidden
+     * @return {?}
+     */
+    ItemOptions.prototype.width = function () {
+        return this._elementRef.nativeElement.offsetWidth;
+    };
+    return ItemOptions;
+}());
+
+ItemOptions.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
+                selector: 'ion-item-options',
+            },] },
+];
+/**
+ * @nocollapse
+ */
+ItemOptions.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_1__platform_platform__["a" /* Platform */], },
+]; };
+ItemOptions.propDecorators = {
+    'side': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'ionSwipe': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["S" /* Output */] },],
+};
+function ItemOptions_tsickle_Closure_declarations() {
+    /** @type {?} */
+    ItemOptions.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    ItemOptions.ctorParameters;
+    /** @type {?} */
+    ItemOptions.propDecorators;
+    /**
+     * \@input {string} The side the option button should be on. Defaults to `"right"`.
+     * If you have multiple `ion-item-options`, a side must be provided for each.
+     * @type {?}
+     */
+    ItemOptions.prototype.side;
+    /**
+     * \@output {event} Emitted when the item has been fully swiped.
+     * @type {?}
+     */
+    ItemOptions.prototype.ionSwipe;
+    /** @type {?} */
+    ItemOptions.prototype._elementRef;
+    /** @type {?} */
+    ItemOptions.prototype._plt;
+}
+//# sourceMappingURL=item-options.js.map
+
+/***/ }),
+/* 72 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return List; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__platform_dom_controller__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ion__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_util__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__item_item_sliding_gesture__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__platform_platform__ = __webpack_require__(3);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+
+
+
+
+/**
+ * The List is a widely used interface element in almost any mobile app,
+ * and can include content ranging from basic text all the way to
+ * buttons, toggles, icons, and thumbnails.
+ *
+ * Both the list, which contains items, and the list items themselves
+ * can be any HTML element.
+ *
+ * Using the List and Item components make it easy to support various
+ * interaction modes such as swipe to edit, drag to reorder, and
+ * removing items.
+ *
+ * \@demo /docs/demos/src/list/
+ * @see {\@link /docs/components#lists List Component Docs}
+ * \@advanced
+ *
+ * Enable the sliding items.
+ *
+ * ```ts
+ * import { Component, ViewChild } from '\@angular/core';
+ * import { List } from 'ionic-angular';
+ *
+ * \@Component({...})
+ * export class MyClass {
+ *   \@ViewChild(List) list: List;
+ *
+ *   constructor() { }
+ *
+ *   stopSliding() {
+ *     this.list.enableSlidingItems(false);
+ *   }
+ * }
+ * ```
+ *
+ */
+var List = (function (_super) {
+    __extends(List, _super);
+    /**
+     * @param {?} config
+     * @param {?} elementRef
+     * @param {?} renderer
+     * @param {?} _plt
+     * @param {?} _gestureCtrl
+     * @param {?} _domCtrl
+     */
+    function List(config, elementRef, renderer, _plt, _gestureCtrl, _domCtrl) {
+        var _this = _super.call(this, config, elementRef, renderer, 'list') || this;
+        _this._plt = _plt;
+        _this._gestureCtrl = _gestureCtrl;
+        _this._domCtrl = _domCtrl;
+        _this._enableSliding = true;
+        _this._containsSlidingItems = false;
+        return _this;
+    }
+    Object.defineProperty(List.prototype, "sliding", {
+        /**
+         * \@input {boolean} If true, the sliding items will be enabled.
+         * @return {?}
+         */
+        get: function () {
+            return this._enableSliding;
+        },
+        /**
+         * @param {?} val
+         * @return {?}
+         */
+        set: function (val) {
+            this._enableSliding = Object(__WEBPACK_IMPORTED_MODULE_5__util_util__["o" /* isTrueProperty */])(val);
+            this._updateSlidingState();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @hidden
+     * @param {?} contains
+     * @return {?}
+     */
+    List.prototype.containsSlidingItem = function (contains) {
+        this._containsSlidingItems = contains;
+        this._updateSlidingState();
+    };
+    /**
+     * @return {?}
+     */
+    List.prototype._updateSlidingState = function () {
+        var /** @type {?} */ shouldSlide = this._enableSliding && this._containsSlidingItems;
+        if (!shouldSlide) {
+            this._slidingGesture && this._slidingGesture.destroy();
+            this._slidingGesture = null;
+        }
+        else if (!this._slidingGesture) {
+            (void 0) /* console.debug */;
+            this._slidingGesture = new __WEBPACK_IMPORTED_MODULE_6__item_item_sliding_gesture__["a" /* ItemSlidingGesture */](this._plt, this, this._gestureCtrl, this._domCtrl);
+            this._slidingGesture.listen();
+        }
+    };
+    /**
+     * Close any sliding items that are open.
+     * @return {?}
+     */
+    List.prototype.closeSlidingItems = function () {
+        this._slidingGesture && this._slidingGesture.closeOpened();
+    };
+    /**
+     * @hidden
+     * @return {?}
+     */
+    List.prototype.destroy = function () {
+        this._slidingGesture && this._slidingGesture.destroy();
+    };
+    return List;
+}(__WEBPACK_IMPORTED_MODULE_4__ion__["a" /* Ion */]));
+
+List.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
+                selector: 'ion-list',
+            },] },
+];
+/**
+ * @nocollapse
+ */
+List.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
+    { type: __WEBPACK_IMPORTED_MODULE_7__platform_platform__["a" /* Platform */], },
+    { type: __WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__["l" /* GestureController */], },
+    { type: __WEBPACK_IMPORTED_MODULE_2__platform_dom_controller__["a" /* DomController */], },
+]; };
+List.propDecorators = {
+    'sliding': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+};
+function List_tsickle_Closure_declarations() {
+    /** @type {?} */
+    List.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    List.ctorParameters;
+    /** @type {?} */
+    List.propDecorators;
+    /** @type {?} */
+    List.prototype._enableSliding;
+    /** @type {?} */
+    List.prototype._containsSlidingItems;
+    /** @type {?} */
+    List.prototype._slidingGesture;
+    /** @type {?} */
+    List.prototype._plt;
+    /** @type {?} */
+    List.prototype._gestureCtrl;
+    /** @type {?} */
+    List.prototype._domCtrl;
+}
+//# sourceMappingURL=list.js.map
+
+/***/ }),
+/* 73 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListHeader; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ion__ = __webpack_require__(4);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+/**
+ * @hidden
+ */
+var ListHeader = (function (_super) {
+    __extends(ListHeader, _super);
+    /**
+     * @param {?} config
+     * @param {?} renderer
+     * @param {?} elementRef
+     * @param {?} _id
+     */
+    function ListHeader(config, renderer, elementRef, _id) {
+        var _this = _super.call(this, config, elementRef, renderer, 'list-header') || this;
+        _this._id = _id;
+        return _this;
+    }
+    Object.defineProperty(ListHeader.prototype, "id", {
+        /**
+         * @return {?}
+         */
+        get: function () {
+            return this._id;
+        },
+        /**
+         * @param {?} val
+         * @return {?}
+         */
+        set: function (val) {
+            this._id = val;
+            this.setElementAttribute('id', val);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    return ListHeader;
+}(__WEBPACK_IMPORTED_MODULE_2__ion__["a" /* Ion */]));
+
+ListHeader.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
+                selector: 'ion-list-header'
+            },] },
+];
+/**
+ * @nocollapse
+ */
+ListHeader.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Attribute */], args: ['id',] },] },
+]; };
+function ListHeader_tsickle_Closure_declarations() {
+    /** @type {?} */
+    ListHeader.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    ListHeader.ctorParameters;
+    /** @type {?} */
+    ListHeader.prototype._id;
+}
+//# sourceMappingURL=list-header.js.map
+
+/***/ }),
+/* 74 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoadingCmp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__gestures_gesture_controller__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_util__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_key__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__navigation_nav_params__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__navigation_view_controller__ = __webpack_require__(5);
+
+
+
+
+
+
+
+/**
+ * @hidden
+ */
+var LoadingCmp = (function () {
+    /**
+     * @param {?} _viewCtrl
+     * @param {?} _config
+     * @param {?} _elementRef
+     * @param {?} gestureCtrl
+     * @param {?} params
+     * @param {?} renderer
+     */
+    function LoadingCmp(_viewCtrl, _config, _elementRef, gestureCtrl, params, renderer) {
+        this._viewCtrl = _viewCtrl;
+        this._config = _config;
+        (void 0) /* assert */;
+        this.gestureBlocker = gestureCtrl.createBlocker(__WEBPACK_IMPORTED_MODULE_2__gestures_gesture_controller__["a" /* BLOCK_ALL */]);
+        this.d = params.data;
+        renderer.setElementClass(_elementRef.nativeElement, "loading-" + _config.get('mode'), true);
+        if (this.d.cssClass) {
+            this.d.cssClass.split(' ').forEach(function (cssClass) {
+                // Make sure the class isn't whitespace, otherwise it throws exceptions
+                if (cssClass.trim() !== '')
+                    renderer.setElementClass(_elementRef.nativeElement, cssClass, true);
+            });
+        }
+        this.id = (++loadingIds);
+    }
+    /**
+     * @return {?}
+     */
+    LoadingCmp.prototype.ngOnInit = function () {
+        // If no spinner was passed in loading options we need to fall back
+        // to the loadingSpinner in the app's config, then the mode spinner
+        if (Object(__WEBPACK_IMPORTED_MODULE_3__util_util__["p" /* isUndefined */])(this.d.spinner)) {
+            this.d.spinner = this._config.get('loadingSpinner', this._config.get('spinner', 'ios'));
+        }
+        // If the user passed hide to the spinner we don't want to show it
+        this.showSpinner = Object(__WEBPACK_IMPORTED_MODULE_3__util_util__["h" /* isDefined */])(this.d.spinner) && this.d.spinner !== 'hide';
+    };
+    /**
+     * @return {?}
+     */
+    LoadingCmp.prototype.ionViewWillEnter = function () {
+        this.gestureBlocker.block();
+    };
+    /**
+     * @return {?}
+     */
+    LoadingCmp.prototype.ionViewDidLeave = function () {
+        this.gestureBlocker.unblock();
+    };
+    /**
+     * @return {?}
+     */
+    LoadingCmp.prototype.ionViewDidEnter = function () {
+        var _this = this;
+        // If there is a duration, dismiss after that amount of time
+        if (this.d && this.d.duration) {
+            this.durationTimeout = setTimeout(function () { return _this.dismiss('backdrop'); }, this.d.duration);
+        }
+    };
+    /**
+     * @param {?} ev
+     * @return {?}
+     */
+    LoadingCmp.prototype.keyUp = function (ev) {
+        if (this._viewCtrl.isLast() && ev.keyCode === __WEBPACK_IMPORTED_MODULE_4__platform_key__["c" /* KEY_ESCAPE */]) {
+            this.bdClick();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    LoadingCmp.prototype.bdClick = function () {
+        if (this.d.enableBackdropDismiss) {
+            this.dismiss('backdrop');
+        }
+    };
+    /**
+     * @param {?} role
+     * @return {?}
+     */
+    LoadingCmp.prototype.dismiss = function (role) {
+        if (this.durationTimeout) {
+            clearTimeout(this.durationTimeout);
+        }
+        return this._viewCtrl.dismiss(null, role);
+    };
+    /**
+     * @return {?}
+     */
+    LoadingCmp.prototype.ngOnDestroy = function () {
+        (void 0) /* assert */;
+        this.gestureBlocker.destroy();
+    };
+    return LoadingCmp;
+}());
+
+LoadingCmp.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
+                selector: 'ion-loading',
+                template: '<ion-backdrop [hidden]="!d.showBackdrop" (click)="bdClick()" [class.backdrop-no-tappable]="!d.enableBackdropDismiss"></ion-backdrop>' +
+                    '<div class="loading-wrapper">' +
+                    '<div *ngIf="showSpinner" class="loading-spinner">' +
+                    '<ion-spinner [name]="d.spinner"></ion-spinner>' +
+                    '</div>' +
+                    '<div *ngIf="d.content" [innerHTML]="d.content" class="loading-content"></div>' +
+                    '</div>',
+                host: {
+                    'role': 'dialog'
+                },
+                encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ViewEncapsulation */].None,
+            },] },
+];
+/**
+ * @nocollapse
+ */
+LoadingCmp.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_6__navigation_view_controller__["a" /* ViewController */], },
+    { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_2__gestures_gesture_controller__["l" /* GestureController */], },
+    { type: __WEBPACK_IMPORTED_MODULE_5__navigation_nav_params__["a" /* NavParams */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
+]; };
+LoadingCmp.propDecorators = {
+    'keyUp': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["z" /* HostListener */], args: ['body:keyup', ['$event'],] },],
+};
+function LoadingCmp_tsickle_Closure_declarations() {
+    /** @type {?} */
+    LoadingCmp.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    LoadingCmp.ctorParameters;
+    /** @type {?} */
+    LoadingCmp.propDecorators;
+    /** @type {?} */
+    LoadingCmp.prototype.d;
+    /** @type {?} */
+    LoadingCmp.prototype.id;
+    /** @type {?} */
+    LoadingCmp.prototype.showSpinner;
+    /** @type {?} */
+    LoadingCmp.prototype.durationTimeout;
+    /** @type {?} */
+    LoadingCmp.prototype.gestureBlocker;
+    /** @type {?} */
+    LoadingCmp.prototype._viewCtrl;
+    /** @type {?} */
+    LoadingCmp.prototype._config;
+}
+var /** @type {?} */ loadingIds = -1;
+//# sourceMappingURL=loading-component.js.map
+
+/***/ }),
+/* 75 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Nav; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_deep_linker__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_dom_controller__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__gestures_gesture_controller__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__navigation_nav_controller__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_nav_controller_base__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__platform_platform__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__transitions_transition_controller__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__navigation_view_controller__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__split_pane_split_pane__ = __webpack_require__(37);
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * \@name Nav
+ * \@description
+ *
+ * `ion-nav` is the declarative component for a [NavController](../../../navigation/NavController/).
+ *
+ * For more information on using nav controllers like Nav or [Tab](../../Tabs/Tab/),
+ * take a look at the [NavController API Docs](../../../navigation/NavController/).
+ *
+ *
+ * \@usage
+ * You must set a root page to be loaded initially by any Nav you create, using
+ * the 'root' property:
+ *
+ * ```ts
+ * import { Component } from '\@angular/core';
+ * import { GettingStartedPage } from './getting-started';
+ *
+ * \@Component({
+ *   template: `<ion-nav [root]="root"></ion-nav>`
+ * })
+ * class MyApp {
+ *   root = GettingStartedPage;
+ *
+ *   constructor(){
+ *   }
+ * }
+ * ```
+ *
+ * \@demo /docs/demos/src/navigation/
+ * @see {\@link /docs/components#navigation Navigation Component Docs}
+ */
+var Nav = (function (_super) {
+    __extends(Nav, _super);
+    /**
+     * @param {?} viewCtrl
+     * @param {?} parent
+     * @param {?} app
+     * @param {?} config
+     * @param {?} plt
+     * @param {?} elementRef
+     * @param {?} zone
+     * @param {?} renderer
+     * @param {?} cfr
+     * @param {?} gestureCtrl
+     * @param {?} transCtrl
+     * @param {?} linker
+     * @param {?} domCtrl
+     * @param {?} errHandler
+     */
+    function Nav(viewCtrl, parent, app, config, plt, elementRef, zone, renderer, cfr, gestureCtrl, transCtrl, linker, domCtrl, errHandler) {
+        var _this = _super.call(this, parent, app, config, plt, elementRef, zone, renderer, cfr, gestureCtrl, transCtrl, linker, domCtrl, errHandler) || this;
+        _this._hasInit = false;
+        if (viewCtrl) {
+            // an ion-nav can also act as an ion-page within a parent ion-nav
+            // this would happen when an ion-nav nests a child ion-nav.
+            viewCtrl._setContent(_this);
+        }
+        if (parent) {
+            // this Nav has a parent Nav
+            parent.registerChildNav(_this);
+        }
+        else if (viewCtrl && viewCtrl.getNav()) {
+            // this Nav was opened from a modal
+            _this.parent = viewCtrl.getNav();
+            _this.parent.registerChildNav(_this);
+        }
+        else if (app && !app.getRootNavById(_this.id)) {
+            // a root nav has not been registered yet with the app
+            // this is the root navcontroller for the entire app
+            app.registerRootNav(_this);
+        }
+        return _this;
+    }
+    Object.defineProperty(Nav.prototype, "_vp", {
+        /**
+         * @hidden
+         * @param {?} val
+         * @return {?}
+         */
+        set: function (val) {
+            this.setViewport(val);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    Nav.prototype.ngAfterViewInit = function () {
+        var _this = this;
+        this._hasInit = true;
+        var /** @type {?} */ segment = this._linker.getSegmentByNavIdOrName(this.id, this.name);
+        if (segment && (segment.component || segment.loadChildren)) {
+            return this._linker.initViews(segment).then(function (views) {
+                return _this.setPages(views, null, null);
+            });
+        }
+        else if (this._root) {
+            // no segment match, so use the root property but don't set the url I guess
+            var /** @type {?} */ setUrl = segment ? false : true;
+            return this.push(this._root, this.rootParams, {
+                isNavRoot: ((this._app.getRootNavById(this.id)) === this),
+                updateUrl: setUrl
+            }, null);
+        }
+    };
+    Object.defineProperty(Nav.prototype, "root", {
+        /**
+         * \@input {Page} The Page component to load as the root page within this nav.
+         * @return {?}
+         */
+        get: function () {
+            return this._root;
+        },
+        /**
+         * @param {?} page
+         * @return {?}
+         */
+        set: function (page) {
+            this._root = page;
+            if (this._hasInit) {
+                this.setRoot(page);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @hidden
+     * @return {?}
+     */
+    Nav.prototype.ngOnDestroy = function () {
+        this.destroy();
+    };
+    /**
+     * @return {?}
+     */
+    Nav.prototype.initPane = function () {
+        var /** @type {?} */ isMain = this._elementRef.nativeElement.hasAttribute('main');
+        return isMain;
+    };
+    /**
+     * @param {?} isPane
+     * @return {?}
+     */
+    Nav.prototype.paneChanged = function (isPane) {
+        if (isPane) {
+            this.resize();
+        }
+    };
+    /**
+     * @param {?} opts
+     * @return {?}
+     */
+    Nav.prototype.goToRoot = function (opts) {
+        return this.setRoot(this._root, this.rootParams, opts, null);
+    };
+    /**
+     * @return {?}
+     */
+    Nav.prototype.getType = function () {
+        return 'nav';
+    };
+    /**
+     * @return {?}
+     */
+    Nav.prototype.getSecondaryIdentifier = function () {
+        return null;
+    };
+    return Nav;
+}(__WEBPACK_IMPORTED_MODULE_7__navigation_nav_controller_base__["a" /* NavControllerBase */]));
+
+Nav.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
+                selector: 'ion-nav',
+                template: '<div #viewport nav-viewport></div>' +
+                    '<div class="nav-decor"></div>',
+                encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ViewEncapsulation */].None,
+                providers: [{ provide: __WEBPACK_IMPORTED_MODULE_11__split_pane_split_pane__["a" /* RootNode */], useExisting: Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_20" /* forwardRef */])(function () { return Nav; }) }]
+            },] },
+];
+/**
+ * @nocollapse
+ */
+Nav.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_10__navigation_view_controller__["a" /* ViewController */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* Optional */] },] },
+    { type: __WEBPACK_IMPORTED_MODULE_6__navigation_nav_controller__["a" /* NavController */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* Optional */] },] },
+    { type: __WEBPACK_IMPORTED_MODULE_1__app_app__["a" /* App */], },
+    { type: __WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* Config */], },
+    { type: __WEBPACK_IMPORTED_MODULE_8__platform_platform__["a" /* Platform */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* NgZone */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* ComponentFactoryResolver */], },
+    { type: __WEBPACK_IMPORTED_MODULE_5__gestures_gesture_controller__["l" /* GestureController */], },
+    { type: __WEBPACK_IMPORTED_MODULE_9__transitions_transition_controller__["a" /* TransitionController */], },
+    { type: __WEBPACK_IMPORTED_MODULE_3__navigation_deep_linker__["a" /* DeepLinker */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* Optional */] },] },
+    { type: __WEBPACK_IMPORTED_MODULE_4__platform_dom_controller__["a" /* DomController */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* ErrorHandler */], },
+]; };
+Nav.propDecorators = {
+    '_vp': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */], args: ['viewport', { read: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ViewContainerRef */] },] },],
+    'root': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'rootParams': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+    'name': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
+};
+function Nav_tsickle_Closure_declarations() {
+    /** @type {?} */
+    Nav.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    Nav.ctorParameters;
+    /** @type {?} */
+    Nav.propDecorators;
+    /** @type {?} */
+    Nav.prototype._root;
+    /** @type {?} */
+    Nav.prototype._hasInit;
+    /**
+     * \@input {object} Any nav-params to pass to the root page of this nav.
+     * @type {?}
+     */
+    Nav.prototype.rootParams;
+    /**
+     * \@input {string} a unique name for the nav element
+     * @type {?}
+     */
+    Nav.prototype.name;
+}
+//# sourceMappingURL=nav.js.map
+
+/***/ }),
+/* 76 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ModalCmp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__platform_key__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__navigation_nav_params__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__gestures_gesture_controller__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_module_loader__ = __webpack_require__(77);
+
+
+
+
+
+
+/**
+ * @hidden
+ */
+var ModalCmp = (function () {
+    /**
+     * @param {?} _cfr
+     * @param {?} _renderer
+     * @param {?} _elementRef
+     * @param {?} _navParams
+     * @param {?} _viewCtrl
+     * @param {?} gestureCtrl
+     * @param {?} moduleLoader
+     */
+    function ModalCmp(_cfr, _renderer, _elementRef, _navParams, _viewCtrl, gestureCtrl, moduleLoader) {
+        this._cfr = _cfr;
+        this._renderer = _renderer;
+        this._elementRef = _elementRef;
+        this._navParams = _navParams;
+        this._viewCtrl = _viewCtrl;
+        this.moduleLoader = moduleLoader;
+        var opts = _navParams.get('opts');
+        (void 0) /* assert */;
+        this._gestureBlocker = gestureCtrl.createBlocker({
+            disable: [__WEBPACK_IMPORTED_MODULE_4__gestures_gesture_controller__["d" /* GESTURE_MENU_SWIPE */], __WEBPACK_IMPORTED_MODULE_4__gestures_gesture_controller__["b" /* GESTURE_GO_BACK_SWIPE */]]
+        });
+        this._bdDismiss = opts.enableBackdropDismiss;
+        if (opts.cssClass) {
+            opts.cssClass.split(' ').forEach(function (cssClass) {
+                // Make sure the class isn't whitespace, otherwise it throws exceptions
+                if (cssClass.trim() !== '')
+                    _renderer.setElementClass(_elementRef.nativeElement, cssClass, true);
+            });
+        }
+    }
+    /**
+     * @return {?}
+     */
+    ModalCmp.prototype.ionViewPreLoad = function () {
+        var /** @type {?} */ component = this._navParams.data.component;
+        if (!component) {
+            console.warn('modal\'s page was not defined');
+            return;
+        }
+        var /** @type {?} */ cfr = this.moduleLoader.getComponentFactoryResolver(component);
+        if (!cfr) {
+            cfr = this._cfr;
+        }
+        var /** @type {?} */ componentFactory = cfr.resolveComponentFactory(component);
+        // ******** DOM WRITE ****************
+        var /** @type {?} */ componentRef = this._viewport.createComponent(componentFactory, this._viewport.length, this._viewport.parentInjector, []);
+        this._setCssClass(componentRef, 'ion-page');
+        this._setCssClass(componentRef, 'show-page');
+        // Change the viewcontroller's instance to point the user provided page
+        // Lifecycle events will be sent to the new instance, instead of the modal's component
+        // we need to manually subscribe to them
+        this._viewCtrl._setInstance(componentRef.instance);
+        this._viewCtrl.willEnter.subscribe(this._viewWillEnter.bind(this));
+        this._viewCtrl.didLeave.subscribe(this._viewDidLeave.bind(this));
+        this._enabled = true;
+    };
+    /**
+     * @return {?}
+     */
+    ModalCmp.prototype._viewWillEnter = function () {
+        this._gestureBlocker.block();
+    };
+    /**
+     * @return {?}
+     */
+    ModalCmp.prototype._viewDidLeave = function () {
+        this._gestureBlocker.unblock();
+    };
+    /**
+     * @param {?} componentRef
+     * @param {?} className
+     * @return {?}
+     */
+    ModalCmp.prototype._setCssClass = function (componentRef, className) {
+        this._renderer.setElementClass(componentRef.location.nativeElement, className, true);
+    };
+    /**
+     * @return {?}
+     */
+    ModalCmp.prototype._bdClick = function () {
+        if (this._enabled && this._bdDismiss) {
+            var /** @type {?} */ opts = {
+                minClickBlockDuration: 400
+            };
+            return this._viewCtrl.dismiss(null, 'backdrop', opts);
+        }
+    };
+    /**
+     * @param {?} ev
+     * @return {?}
+     */
+    ModalCmp.prototype._keyUp = function (ev) {
+        if (this._enabled && this._viewCtrl.isLast() && ev.keyCode === __WEBPACK_IMPORTED_MODULE_1__platform_key__["c" /* KEY_ESCAPE */]) {
+            this._bdClick();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    ModalCmp.prototype.ngOnDestroy = function () {
+        (void 0) /* assert */;
+        this._gestureBlocker.destroy();
+    };
+    return ModalCmp;
+}());
+
+ModalCmp.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
+                selector: 'ion-modal',
+                template: '<ion-backdrop (click)="_bdClick()" [class.backdrop-no-tappable]="!_bdDismiss"></ion-backdrop>' +
+                    '<div class="modal-wrapper">' +
+                    '<div #viewport nav-viewport></div>' +
+                    '</div>'
+            },] },
+];
+/**
+ * @nocollapse
+ */
+ModalCmp.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* ComponentFactoryResolver */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
+    { type: __WEBPACK_IMPORTED_MODULE_2__navigation_nav_params__["a" /* NavParams */], },
+    { type: __WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__["a" /* ViewController */], },
+    { type: __WEBPACK_IMPORTED_MODULE_4__gestures_gesture_controller__["l" /* GestureController */], },
+    { type: __WEBPACK_IMPORTED_MODULE_5__util_module_loader__["b" /* ModuleLoader */], },
+]; };
+ModalCmp.propDecorators = {
+    '_viewport': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */], args: ['viewport', { read: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ViewContainerRef */] },] },],
+    '_keyUp': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["z" /* HostListener */], args: ['body:keyup', ['$event'],] },],
+};
+function ModalCmp_tsickle_Closure_declarations() {
+    /** @type {?} */
+    ModalCmp.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    ModalCmp.ctorParameters;
+    /** @type {?} */
+    ModalCmp.propDecorators;
+    /** @type {?} */
+    ModalCmp.prototype._viewport;
+    /** @type {?} */
+    ModalCmp.prototype._bdDismiss;
+    /** @type {?} */
+    ModalCmp.prototype._enabled;
+    /** @type {?} */
+    ModalCmp.prototype._gestureBlocker;
+    /** @type {?} */
+    ModalCmp.prototype._cfr;
+    /** @type {?} */
+    ModalCmp.prototype._renderer;
+    /** @type {?} */
+    ModalCmp.prototype._elementRef;
+    /** @type {?} */
+    ModalCmp.prototype._navParams;
+    /** @type {?} */
+    ModalCmp.prototype._viewCtrl;
+    /** @type {?} */
+    ModalCmp.prototype.moduleLoader;
+}
+//# sourceMappingURL=modal-component.js.map
+
+/***/ }),
+/* 77 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LAZY_LOADED_TOKEN; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ModuleLoader; });
+/* harmony export (immutable) */ __webpack_exports__["c"] = provideModuleLoader;
+/* unused harmony export setupPreloadingImplementation */
+/* harmony export (immutable) */ __webpack_exports__["d"] = setupPreloading;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ng_module_loader__ = __webpack_require__(158);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util__ = __webpack_require__(2);
+
+
+
+var /** @type {?} */ LAZY_LOADED_TOKEN = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* OpaqueToken */]('LZYCMP');
+/**
+ * @hidden
+ */
+var ModuleLoader = (function () {
+    /**
+     * @param {?} _ngModuleLoader
+     * @param {?} _injector
+     */
+    function ModuleLoader(_ngModuleLoader, _injector) {
+        this._ngModuleLoader = _ngModuleLoader;
+        this._injector = _injector;
+        /**
+         * \@internal
+         */
+        this._cfrMap = new Map();
+        this._promiseMap = new Map();
+    }
+    /**
+     * @param {?} modulePath
+     * @return {?}
+     */
+    ModuleLoader.prototype.load = function (modulePath) {
+        var _this = this;
+        (void 0) /* console.time */;
+        var /** @type {?} */ splitString = modulePath.split(SPLITTER);
+        var /** @type {?} */ promise = this._promiseMap.get(modulePath);
+        if (!promise) {
+            promise = this._ngModuleLoader.load(splitString[0], splitString[1]);
+            this._promiseMap.set(modulePath, promise);
+        }
+        return promise.then(function (loadedModule) {
+            (void 0) /* console.timeEnd */;
+            var /** @type {?} */ ref = loadedModule.create(_this._injector);
+            var /** @type {?} */ component = ref.injector.get(LAZY_LOADED_TOKEN);
+            _this._cfrMap.set(component, ref.componentFactoryResolver);
+            return {
+                componentFactoryResolver: ref.componentFactoryResolver,
+                component: component
+            };
+        });
+    };
+    /**
+     * @param {?} component
+     * @return {?}
+     */
+    ModuleLoader.prototype.getComponentFactoryResolver = function (component) {
+        return this._cfrMap.get(component);
+    };
+    return ModuleLoader;
+}());
+
+ModuleLoader.decorators = [
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
+];
+/**
+ * @nocollapse
+ */
+ModuleLoader.ctorParameters = function () { return [
+    { type: __WEBPACK_IMPORTED_MODULE_1__ng_module_loader__["a" /* NgModuleLoader */], },
+    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Injector */], },
+]; };
+function ModuleLoader_tsickle_Closure_declarations() {
+    /** @type {?} */
+    ModuleLoader.decorators;
+    /**
+     * @nocollapse
+     * @type {?}
+     */
+    ModuleLoader.ctorParameters;
+    /**
+     * \@internal
+     * @type {?}
+     */
+    ModuleLoader.prototype._cfrMap;
+    /** @type {?} */
+    ModuleLoader.prototype._promiseMap;
+    /** @type {?} */
+    ModuleLoader.prototype._ngModuleLoader;
+    /** @type {?} */
+    ModuleLoader.prototype._injector;
+}
+var /** @type {?} */ SPLITTER = '#';
+/**
+ * @hidden
+ * @param {?} ngModuleLoader
+ * @param {?} injector
+ * @return {?}
+ */
+function provideModuleLoader(ngModuleLoader, injector) {
+    return new ModuleLoader(ngModuleLoader, injector);
+}
+/**
+ * @hidden
+ * @param {?} config
+ * @param {?} deepLinkConfig
+ * @param {?} moduleLoader
+ * @return {?}
+ */
+function setupPreloadingImplementation(config, deepLinkConfig, moduleLoader) {
+    if (!deepLinkConfig || !deepLinkConfig.links || !config.getBoolean('preloadModules')) {
+        return Promise.resolve();
+    }
+    var /** @type {?} */ linksToLoad = deepLinkConfig.links.filter(function (link) { return !!link.loadChildren && link.priority !== 'off'; });
+    // Load the high priority modules first
+    var /** @type {?} */ highPriorityPromises = linksToLoad
+        .filter(function (link) { return link.priority === 'high'; })
+        .map(function (link) { return moduleLoader.load(link.loadChildren); });
+    return Promise.all(highPriorityPromises).then(function () {
+        // Load the low priority modules after the high priority are done
+        var /** @type {?} */ lowPriorityPromises = linksToLoad
+            .filter(function (link) { return link.priority === 'low'; })
+            .map(function (link) { return moduleLoader.load(link.loadChildren); });
+        return Promise.all(lowPriorityPromises);
+    }).catch(function (err) {
+        console.error(err.message);
+    });
+}
+/**
+ * @hidden
+ * @param {?} config
+ * @param {?} deepLinkConfig
+ * @param {?} moduleLoader
+ * @param {?} ngZone
+ * @return {?}
+ */
+function setupPreloading(config, deepLinkConfig, moduleLoader, ngZone) {
+    return function () {
+        Object(__WEBPACK_IMPORTED_MODULE_2__util__["s" /* requestIonicCallback */])(function () {
+            ngZone.runOutsideAngular(function () {
+                setupPreloadingImplementation(config, deepLinkConfig, moduleLoader);
+            });
+        });
+    };
+}
+//# sourceMappingURL=module-loader.js.map
+
+/***/ }),
+/* 78 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var Observable_1 = __webpack_require__(9);
+var map_1 = __webpack_require__(130);
+Observable_1.Observable.prototype.map = map_1.map;
+//# sourceMappingURL=map.js.map
+
+/***/ }),
+/* 79 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* unused harmony export BrowserXhr */
 /* unused harmony export JSONPBackend */
 /* unused harmony export JSONPConnection */
@@ -47067,6307 +53368,6 @@ var VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["_12" /* Version *
 
 
 /***/ }),
-/* 48 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["d"] = initSwiper;
-/* harmony export (immutable) */ __webpack_exports__["l"] = startAutoplay;
-/* harmony export (immutable) */ __webpack_exports__["m"] = stopAutoplay;
-/* harmony export (immutable) */ __webpack_exports__["g"] = pauseAutoplay;
-/* harmony export (immutable) */ __webpack_exports__["o"] = updateAutoHeight;
-/* harmony export (immutable) */ __webpack_exports__["p"] = updateContainerSize;
-/* harmony export (immutable) */ __webpack_exports__["q"] = updateSlidesSize;
-/* harmony export (immutable) */ __webpack_exports__["a"] = currentSlidesPerView;
-/* harmony export (immutable) */ __webpack_exports__["n"] = update;
-/* harmony export (immutable) */ __webpack_exports__["c"] = fixLoop;
-/* harmony export (immutable) */ __webpack_exports__["k"] = slideTo;
-/* harmony export (immutable) */ __webpack_exports__["f"] = onTransitionStart;
-/* harmony export (immutable) */ __webpack_exports__["e"] = onTransitionEnd;
-/* harmony export (immutable) */ __webpack_exports__["h"] = slideNext;
-/* harmony export (immutable) */ __webpack_exports__["i"] = slidePrev;
-/* harmony export (immutable) */ __webpack_exports__["j"] = slideReset;
-/* unused harmony export disableTouchControl */
-/* unused harmony export enableTouchControl */
-/* harmony export (immutable) */ __webpack_exports__["b"] = destroySwiper;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_transition__ = __webpack_require__(92);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_progress__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_classes__ = __webpack_require__(93);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_parallax__ = __webpack_require__(176);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_index__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_effects__ = __webpack_require__(95);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__swiper_pagination__ = __webpack_require__(94);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__swiper_zoom__ = __webpack_require__(178);
-/**
- * Adopted from Swiper
- * Most modern mobile touch slider and framework with hardware
- * accelerated transitions.
- *
- * http://www.idangero.us/swiper/
- *
- * Copyright 2016, Vladimir Kharlampidi
- * The iDangero.us
- * http://www.idangero.us/
- *
- * Licensed under MIT
- */
-
-
-
-
-
-
-
-
-
-/**
- * @param {?} s
- * @param {?} plt
- * @return {?}
- */
-function initSwiper(s, plt) {
-    // Classname
-    s._classNames = [];
-    /*=========================
-      Preparation - Define Container, Wrapper and Pagination
-      ===========================*/
-    if (!s.container) {
-        return;
-    }
-    // Save instance in container HTML Element and in data
-    s.container.swiper = s;
-    var /** @type {?} */ containerModifierClass = __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].containerModifier;
-    s._classNames.push(containerModifierClass + s.direction);
-    if (s.freeMode) {
-        s._classNames.push(containerModifierClass + 'free-mode');
-    }
-    if (s.autoHeight) {
-        s._classNames.push(containerModifierClass + 'autoheight');
-    }
-    // Enable slides progress when required
-    if (s.parallax || s.watchSlidesVisibility) {
-        s.watchSlidesProgress = true;
-    }
-    // Max resistance when touchReleaseOnEdges
-    if (s.touchReleaseOnEdges) {
-        s.resistanceRatio = 0;
-    }
-    var /** @type {?} */ effect = s.effect;
-    // Coverflow / 3D
-    if (['cube', 'coverflow', 'flip'].indexOf(effect) >= 0) {
-        s.watchSlidesProgress = true;
-        s._classNames.push(containerModifierClass + '3d');
-    }
-    if (effect !== 'slide') {
-        s._classNames.push(containerModifierClass + effect);
-    }
-    if (effect === 'cube') {
-        s.resistanceRatio = 0;
-        s.slidesPerView = 1;
-        s.slidesPerColumn = 1;
-        s.slidesPerGroup = 1;
-        s.centeredSlides = false;
-        s.spaceBetween = 0;
-        s.virtualTranslate = true;
-        s.setWrapperSize = false;
-    }
-    if (effect === 'fade' || effect === 'flip') {
-        s.slidesPerView = 1;
-        s.slidesPerColumn = 1;
-        s.slidesPerGroup = 1;
-        s.watchSlidesProgress = true;
-        s.spaceBetween = 0;
-        s.setWrapperSize = false;
-        s.virtualTranslate = true;
-    }
-    // Wrapper
-    s._wrapper = (s.container.querySelector('.' + __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].wrapper));
-    // Pagination
-    if (s.paginationType) {
-        s._paginationContainer = (s.container.querySelector('.swiper-pagination'));
-        if (s.paginationType === 'bullets') {
-            s._paginationContainer.classList.add(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].paginationModifier + 'clickable');
-        }
-        s._paginationContainer.classList.add(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].paginationModifier + s.paginationType);
-    }
-    // Next/Prev Buttons
-    // if (s.nextButton || s.prevButton) {
-    //   if (s.nextButton) {
-    //     s.nextButton = <any>s.container.closest('ion-content').querySelector(s.nextButton);
-    //   }
-    //   if (s.prevButton) {
-    //     s.prevButton = <any>s.container.closest('ion-content').querySelector(s.prevButton);
-    //   }
-    // }
-    // RTL
-    s._rtl = Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s) && (s.container.dir.toLowerCase() === 'rtl' || s.container.style.direction === 'rtl');
-    if (s._rtl) {
-        s._classNames.push(containerModifierClass + 'rtl');
-    }
-    // Columns
-    if (s.slidesPerColumn > 1) {
-        s._classNames.push(containerModifierClass + 'multirow');
-    }
-    // Check for Android
-    if (plt.is('android')) {
-        s._classNames.push(containerModifierClass + 'android');
-    }
-    // Add classes
-    s._classNames.forEach(function (clsName) {
-        s.container.classList.add(clsName);
-    });
-    // Translate
-    s._translate = 0;
-    // Progress
-    s.progress = 0;
-    // Velocity
-    s.velocity = 0;
-    /*=========================
-      Autoplay
-      ===========================*/
-    s._autoplayTimeoutId = undefined;
-    s._autoplaying = false;
-    s._autoplayPaused = false;
-    s._allowClick = true;
-    // Animating Flag
-    s._animating = false;
-    // Touches information
-    s._touches = {
-        startX: 0,
-        startY: 0,
-        currentX: 0,
-        currentY: 0,
-        diff: 0
-    };
-    if (s.loop) {
-        createLoop(s);
-    }
-    updateContainerSize(s, plt);
-    updateSlidesSize(s, plt);
-    Object(__WEBPACK_IMPORTED_MODULE_7__swiper_pagination__["a" /* updatePagination */])(s);
-    if (effect !== 'slide' && __WEBPACK_IMPORTED_MODULE_6__swiper_effects__["a" /* SWIPER_EFFECTS */][effect]) {
-        if (!s.loop) {
-            Object(__WEBPACK_IMPORTED_MODULE_2__swiper_progress__["a" /* updateProgress */])(s);
-        }
-        __WEBPACK_IMPORTED_MODULE_6__swiper_effects__["a" /* SWIPER_EFFECTS */][effect].setTranslate(s, plt);
-    }
-    if (s.loop) {
-        slideTo(s, plt, s.initialSlide + s.loopedSlides, 0, s.runCallbacksOnInit);
-    }
-    else {
-        slideTo(s, plt, s.initialSlide, 0, s.runCallbacksOnInit);
-        if (s.initialSlide === 0) {
-            Object(__WEBPACK_IMPORTED_MODULE_4__swiper_parallax__["b" /* parallaxSetTranslate */])(s);
-        }
-    }
-    if (s.autoplay) {
-        startAutoplay(s, plt);
-    }
-}
-/**
- * @param {?} s
- * @param {?} plt
- * @return {?}
- */
-function autoplay(s, plt) {
-    var /** @type {?} */ autoplayDelay = s.autoplay;
-    var /** @type {?} */ activeSlide = s._slides[s._activeIndex];
-    if (activeSlide.hasAttribute('data-swiper-autoplay')) {
-        autoplayDelay = ((activeSlide.getAttribute('data-swiper-autoplay') || s.autoplay));
-    }
-    s._autoplayTimeoutId = plt.timeout(function () {
-        s._zone.run(function () {
-            if (s.loop) {
-                fixLoop(s, plt);
-                slideNext(s, plt, true, undefined, true);
-                s.ionSlideAutoplay.emit(s);
-            }
-            else {
-                if (!s._isEnd) {
-                    slideNext(s, plt, true, undefined, true);
-                    s.ionSlideAutoplay.emit(s);
-                }
-                else {
-                    if (!s.autoplayStopOnLast) {
-                        slideTo(s, plt, 0);
-                        s.ionSlideAutoplay.emit(s);
-                    }
-                    else {
-                        stopAutoplay(s);
-                    }
-                }
-            }
-        });
-    }, autoplayDelay);
-}
-/**
- * @param {?} s
- * @param {?} plt
- * @return {?}
- */
-function startAutoplay(s, plt) {
-    if (typeof s._autoplayTimeoutId !== 'undefined')
-        return false;
-    if (!s.autoplay || s._autoplaying) {
-        return false;
-    }
-    s._autoplaying = true;
-    s._zone.run(function () {
-        s.ionSlideAutoplayStart.emit(s);
-    });
-    autoplay(s, plt);
-}
-/**
- * @param {?} s
- * @return {?}
- */
-function stopAutoplay(s) {
-    if (!s._autoplayTimeoutId)
-        return;
-    if (s._autoplayTimeoutId)
-        clearTimeout(s._autoplayTimeoutId);
-    s._autoplaying = false;
-    s._autoplayTimeoutId = undefined;
-    s._zone.run(function () {
-        s.ionSlideAutoplayStop.emit(s);
-    });
-}
-/**
- * @param {?} s
- * @param {?} plt
- * @param {?=} speed
- * @return {?}
- */
-function pauseAutoplay(s, plt, speed) {
-    if (s._autoplayPaused)
-        return;
-    if (s._autoplayTimeoutId)
-        clearTimeout(s._autoplayTimeoutId);
-    s._autoplayPaused = true;
-    if (speed === 0) {
-        s._autoplayPaused = false;
-        autoplay(s, plt);
-    }
-    else {
-        plt.transitionEnd(s._wrapper, function () {
-            if (!s)
-                return;
-            s._autoplayPaused = false;
-            if (!s._autoplaying) {
-                stopAutoplay(s);
-            }
-            else {
-                autoplay(s, plt);
-            }
-        });
-    }
-}
-/**
- * @param {?} s
- * @return {?}
- */
-function updateAutoHeight(s) {
-    var /** @type {?} */ activeSlides = [];
-    var /** @type {?} */ newHeight = 0;
-    var /** @type {?} */ i;
-    // Find slides currently in view
-    if (s.slidesPerView !== 'auto' && s.slidesPerView > 1) {
-        for (i = 0; i < Math.ceil(/** @type {?} */ (s.slidesPerView)); i++) {
-            var /** @type {?} */ index = s._activeIndex + i;
-            if (index > s._slides.length)
-                break;
-            activeSlides.push(s._slides[index]);
-        }
-    }
-    else {
-        activeSlides.push(s._slides[s._activeIndex]);
-    }
-    // Find new height from heighest slide in view
-    for (i = 0; i < activeSlides.length; i++) {
-        if (typeof activeSlides[i] !== 'undefined') {
-            var /** @type {?} */ height = activeSlides[i].offsetHeight;
-            newHeight = height > newHeight ? height : newHeight;
-        }
-    }
-    // Update Height
-    if (newHeight) {
-        s._wrapper.style.height = newHeight + 'px';
-    }
-}
-/**
- * @param {?} s
- * @param {?} plt
- * @return {?}
- */
-function updateContainerSize(s, plt) {
-    var /** @type {?} */ container = s.container;
-    var /** @type {?} */ width;
-    var /** @type {?} */ height;
-    if (typeof s.width !== 'undefined') {
-        // manually assign user width
-        width = s.width;
-    }
-    else {
-        width = container.clientWidth;
-    }
-    if (typeof s.renderedHeight !== 'undefined') {
-        // manually assign user height
-        height = s.renderedHeight;
-    }
-    else {
-        height = container.clientHeight;
-    }
-    if (width === 0 && Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s) || height === 0 && !Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s)) {
-        return;
-    }
-    // Subtract paddings
-    var /** @type {?} */ containerStyles = plt.getElementComputedStyle(container);
-    width = width - parseInt(containerStyles.paddingLeft, 10) - parseInt(containerStyles.paddingRight, 10);
-    height = height - parseInt(containerStyles.paddingTop, 10) - parseInt(containerStyles.paddingBottom, 10);
-    // Store values
-    s.renderedWidth = width;
-    s.renderedHeight = height;
-    s._renderedSize = Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s) ? width : height;
-}
-/**
- * @param {?} s
- * @param {?} plt
- * @return {?}
- */
-function updateSlidesSize(s, plt) {
-    s._slides = ((s._wrapper.querySelectorAll('.' + __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slide)));
-    s._snapGrid = [];
-    s._slidesGrid = [];
-    s._slidesSizesGrid = [];
-    var /** @type {?} */ spaceBetween = s.spaceBetween;
-    var /** @type {?} */ slidePosition = -s.slidesOffsetBefore;
-    var /** @type {?} */ i;
-    var /** @type {?} */ prevSlideSize = 0;
-    var /** @type {?} */ index = 0;
-    if (typeof s._renderedSize === 'undefined')
-        return;
-    if (typeof spaceBetween === 'string' && spaceBetween.indexOf('%') >= 0) {
-        spaceBetween = parseFloat(spaceBetween.replace('%', '')) / 100 * s._renderedSize;
-    }
-    s._virtualSize = -spaceBetween;
-    // reset margins
-    if (s._rtl) {
-        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._slides, { marginLeft: '', marginTop: '' });
-    }
-    else {
-        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._slides, { marginRight: '', marginBottom: '' });
-    }
-    var /** @type {?} */ slidesNumberEvenToRows;
-    if (s.slidesPerColumn > 1) {
-        if (Math.floor(s._slides.length / s.slidesPerColumn) === s._slides.length / s.slidesPerColumn) {
-            slidesNumberEvenToRows = s._slides.length;
-        }
-        else {
-            slidesNumberEvenToRows = Math.ceil(s._slides.length / s.slidesPerColumn) * s.slidesPerColumn;
-        }
-        if (s.slidesPerView !== 'auto' && s.slidesPerColumnFill === 'row') {
-            slidesNumberEvenToRows = Math.max(slidesNumberEvenToRows, /** @type {?} */ (s.slidesPerView) * s.slidesPerColumn);
-        }
-    }
-    // Calc slides
-    var /** @type {?} */ slideSize;
-    var /** @type {?} */ slidesPerColumn = s.slidesPerColumn;
-    var /** @type {?} */ slidesPerRow = slidesNumberEvenToRows / slidesPerColumn;
-    var /** @type {?} */ numFullColumns = slidesPerRow - (s.slidesPerColumn * slidesPerRow - s._slides.length);
-    for (i = 0; i < s._slides.length; i++) {
-        slideSize = 0;
-        var /** @type {?} */ slide = s._slides[i];
-        if (s.slidesPerColumn > 1) {
-            // Set slides order
-            var /** @type {?} */ newSlideOrderIndex;
-            var /** @type {?} */ column;
-            var /** @type {?} */ row;
-            if (s.slidesPerColumnFill === 'column') {
-                column = Math.floor(i / slidesPerColumn);
-                row = i - column * slidesPerColumn;
-                if (column > numFullColumns || (column === numFullColumns && row === slidesPerColumn - 1)) {
-                    if (++row >= slidesPerColumn) {
-                        row = 0;
-                        column++;
-                    }
-                }
-                newSlideOrderIndex = column + row * slidesNumberEvenToRows / slidesPerColumn;
-                Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(slide, {
-                    '-webkit-box-ordinal-group': newSlideOrderIndex,
-                    '-moz-box-ordinal-group': newSlideOrderIndex,
-                    '-ms-flex-order': newSlideOrderIndex,
-                    '-webkit-order': newSlideOrderIndex,
-                    'order': newSlideOrderIndex
-                });
-            }
-            else {
-                row = Math.floor(i / slidesPerRow);
-                column = i - row * slidesPerRow;
-            }
-            var /** @type {?} */ cssVal = (row !== 0 && s.spaceBetween) && (s.spaceBetween + 'px');
-            var /** @type {?} */ cssObj = {};
-            if (Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s)) {
-                cssObj['marginTop'] = cssVal;
-            }
-            else {
-                cssObj['marginLeft'] = cssVal;
-            }
-            Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(slide, cssObj);
-            slide.setAttribute('data-swiper-column', /** @type {?} */ (column));
-            slide.setAttribute('data-swiper-row', /** @type {?} */ (row));
-        }
-        if (slide.style.display === 'none') {
-            continue;
-        }
-        if (s.slidesPerView === 'auto') {
-            var /** @type {?} */ styles = plt.getElementComputedStyle(slide);
-            if (Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s)) {
-                slideSize = slide.offsetWidth + parseFloat(styles.marginRight) + parseFloat(styles.marginLeft);
-            }
-            else {
-                slideSize = slide.offsetHeight + parseFloat(styles.marginTop) + parseFloat(styles.marginBottom);
-            }
-            if (s.roundLengths)
-                slideSize = Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["m" /* round */])(slideSize);
-        }
-        else {
-            slideSize = (s._renderedSize - ((s.slidesPerView) - 1) * spaceBetween) / (s.slidesPerView);
-            if (s.roundLengths)
-                slideSize = Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["m" /* round */])(slideSize);
-            if (Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s)) {
-                s._slides[i].style.width = slideSize + 'px';
-            }
-            else {
-                s._slides[i].style.height = slideSize + 'px';
-            }
-        }
-        s._slides[i].swiperSlideSize = slideSize;
-        s._slidesSizesGrid.push(slideSize);
-        if (s.centeredSlides) {
-            slidePosition = slidePosition + slideSize / 2 + prevSlideSize / 2 + spaceBetween;
-            if (i === 0)
-                slidePosition = slidePosition - s._renderedSize / 2 - spaceBetween;
-            if (Math.abs(slidePosition) < 1 / 1000)
-                slidePosition = 0;
-            if ((index) % s.slidesPerGroup === 0)
-                s._snapGrid.push(slidePosition);
-            s._slidesGrid.push(slidePosition);
-        }
-        else {
-            if ((index) % s.slidesPerGroup === 0)
-                s._snapGrid.push(slidePosition);
-            s._slidesGrid.push(slidePosition);
-            slidePosition = slidePosition + slideSize + spaceBetween;
-        }
-        s._virtualSize += slideSize + spaceBetween;
-        prevSlideSize = slideSize;
-        index++;
-    }
-    s._virtualSize = Math.max(s._virtualSize, s._renderedSize) + s.slidesOffsetAfter;
-    var /** @type {?} */ newSlidesGrid;
-    if (s._rtl && (s.effect === 'slide' || s.effect === 'coverflow')) {
-        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._wrapper, { width: s._virtualSize + s.spaceBetween + 'px' });
-    }
-    if (s.setWrapperSize) {
-        if (Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s)) {
-            Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._wrapper, { width: s._virtualSize + s.spaceBetween + 'px' });
-        }
-        else {
-            Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._wrapper, { height: s._virtualSize + s.spaceBetween + 'px' });
-        }
-    }
-    if (s.slidesPerColumn > 1) {
-        s._virtualSize = (slideSize + s.spaceBetween) * slidesNumberEvenToRows;
-        s._virtualSize = Math.ceil(s._virtualSize / s.slidesPerColumn) - s.spaceBetween;
-        if (Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s)) {
-            Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._wrapper, { width: s._virtualSize + s.spaceBetween + 'px' });
-        }
-        else {
-            Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._wrapper, { height: s._virtualSize + s.spaceBetween + 'px' });
-        }
-        if (s.centeredSlides) {
-            newSlidesGrid = [];
-            for (i = 0; i < s._snapGrid.length; i++) {
-                if (s._snapGrid[i] < s._virtualSize + s._snapGrid[0])
-                    newSlidesGrid.push(s._snapGrid[i]);
-            }
-            s._snapGrid = newSlidesGrid;
-        }
-    }
-    // Remove last grid elements depending on width
-    if (!s.centeredSlides) {
-        newSlidesGrid = [];
-        for (i = 0; i < s._snapGrid.length; i++) {
-            if (s._snapGrid[i] <= s._virtualSize - s._renderedSize) {
-                newSlidesGrid.push(s._snapGrid[i]);
-            }
-        }
-        s._snapGrid = newSlidesGrid;
-        if (Math.floor(s._virtualSize - s._renderedSize) - Math.floor(s._snapGrid[s._snapGrid.length - 1]) > 1) {
-            s._snapGrid.push(s._virtualSize - s._renderedSize);
-        }
-    }
-    if (s._snapGrid.length === 0)
-        s._snapGrid = [0];
-    if (s.spaceBetween !== 0) {
-        if (Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["g" /* isHorizontal */])(s)) {
-            if (s._rtl) {
-                Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._slides, { marginLeft: spaceBetween + 'px' });
-            }
-            else {
-                Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._slides, { marginRight: spaceBetween + 'px' });
-            }
-        }
-        else {
-            Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["e" /* inlineStyle */])(s._slides, { marginBottom: spaceBetween + 'px' });
-        }
-    }
-    if (s.watchSlidesProgress) {
-        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["q" /* updateSlidesOffset */])(s);
-    }
-}
-/**
- * @param {?} s
- * @return {?}
- */
-function currentSlidesPerView(s) {
-    var /** @type {?} */ spv = 1;
-    var /** @type {?} */ i;
-    var /** @type {?} */ j;
-    if (s.centeredSlides) {
-        var /** @type {?} */ size = s._slides[s._activeIndex].swiperSlideSize;
-        var /** @type {?} */ breakLoop;
-        for (i = s._activeIndex + 1; i < s._slides.length; i++) {
-            if (s._slides[i] && !breakLoop) {
-                size += s._slides[i].swiperSlideSize;
-                spv++;
-                if (size > s._renderedSize)
-                    breakLoop = true;
-            }
-        }
-        for (j = s._activeIndex - 1; j >= 0; j--) {
-            if (s._slides[j] && !breakLoop) {
-                size += s._slides[j].swiperSlideSize;
-                spv++;
-                if (size > s._renderedSize)
-                    breakLoop = true;
-            }
-        }
-    }
-    else {
-        for (i = s._activeIndex + 1; i < s._slides.length; i++) {
-            if (s._slidesGrid[i] - s._slidesGrid[s._activeIndex] < s._renderedSize) {
-                spv++;
-            }
-        }
-    }
-    return spv;
-}
-/**
- * @param {?} s
- * @param {?} plt
- * @param {?=} updateTranslate
- * @return {?}
- */
-function update(s, plt, updateTranslate) {
-    if (!s)
-        return;
-    updateContainerSize(s, plt);
-    updateSlidesSize(s, plt);
-    Object(__WEBPACK_IMPORTED_MODULE_2__swiper_progress__["a" /* updateProgress */])(s);
-    Object(__WEBPACK_IMPORTED_MODULE_7__swiper_pagination__["a" /* updatePagination */])(s);
-    Object(__WEBPACK_IMPORTED_MODULE_3__swiper_classes__["a" /* updateClasses */])(s);
-    if (s.zoom) {
-        Object(__WEBPACK_IMPORTED_MODULE_8__swiper_zoom__["b" /* resetZoomEvents */])(s, plt);
-    }
-    var /** @type {?} */ translated;
-    var /** @type {?} */ newTranslate;
-    /**
-     * @return {?}
-     */
-    function forceSetTranslate() {
-        newTranslate = Math.min(Math.max(s._translate, Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["h" /* maxTranslate */])(s)), Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["i" /* minTranslate */])(s));
-        Object(__WEBPACK_IMPORTED_MODULE_1__swiper_transition__["d" /* setWrapperTranslate */])(s, plt, newTranslate);
-        Object(__WEBPACK_IMPORTED_MODULE_5__swiper_index__["a" /* updateActiveIndex */])(s);
-        Object(__WEBPACK_IMPORTED_MODULE_3__swiper_classes__["a" /* updateClasses */])(s);
-    }
-    if (updateTranslate) {
-        if (s._spline) {
-            s._spline = undefined;
-        }
-        if (s.freeMode) {
-            forceSetTranslate();
-            if (s.autoHeight) {
-                updateAutoHeight(s);
-            }
-        }
-        else {
-            if ((s.slidesPerView === 'auto' || s.slidesPerView > 1) && s._isEnd && !s.centeredSlides) {
-                translated = slideTo(s, plt, s._slides.length - 1, 0, false, true);
-            }
-            else {
-                translated = slideTo(s, plt, s._activeIndex, 0, false, true);
-            }
-            if (!translated) {
-                forceSetTranslate();
-            }
-        }
-    }
-    else if (s.autoHeight) {
-        updateAutoHeight(s);
-    }
-}
-/**
- * @param {?} s
- * @return {?}
- */
-function createLoop(s) {
-    // Remove duplicated slides
-    Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["c" /* eachChild */])(s._wrapper, '.' + __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slide + '.' + __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideDuplicate, function (ele) {
-        ele.parentElement.removeChild(ele);
-    });
-    var /** @type {?} */ slides = (s._wrapper.querySelectorAll('.' + __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slide));
-    if (s.slidesPerView === 'auto' && !s.loopedSlides) {
-        s.loopedSlides = slides.length;
-    }
-    s.loopedSlides = parseInt(/** @type {?} */ ((s.loopedSlides || s.slidesPerView)), 10);
-    s.loopedSlides = s.loopedSlides + s.loopAdditionalSlides;
-    if (s.loopedSlides > slides.length) {
-        s.loopedSlides = slides.length;
-    }
-    var /** @type {?} */ prependSlides = [];
-    var /** @type {?} */ appendSlides = [];
-    for (var /** @type {?} */ i = 0; i < slides.length; i++) {
-        var /** @type {?} */ slide = slides[i];
-        if (i < s.loopedSlides)
-            appendSlides.push(slide);
-        if (i < slides.length && i >= slides.length - s.loopedSlides)
-            prependSlides.push(slide);
-        slide.setAttribute('data-swiper-slide-index', /** @type {?} */ (i));
-    }
-    for (i = 0; i < appendSlides.length; i++) {
-        var /** @type {?} */ appendClone = appendSlides[i].cloneNode(true);
-        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["b" /* addClass */])(appendClone, __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideDuplicate);
-        s._wrapper.appendChild(appendClone);
-    }
-    for (i = prependSlides.length - 1; i >= 0; i--) {
-        var /** @type {?} */ prependClone = prependSlides[i].cloneNode(true);
-        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["b" /* addClass */])(prependClone, __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideDuplicate);
-        s._wrapper.insertBefore(prependClone, s._wrapper.firstElementChild);
-    }
-}
-/**
- * @param {?} s
- * @return {?}
- */
-function destroyLoop(s) {
-    Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["c" /* eachChild */])(s._wrapper, '.' + __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slide + '.' + __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideDuplicate, function (ele) {
-        ele.parentElement.removeChild(ele);
-    });
-    if (s._slides) {
-        for (var /** @type {?} */ i = 0; i < s._slides.length; i++) {
-            s._slides[i].removeAttribute('data-swiper-slide-index');
-        }
-    }
-}
-/**
- * @param {?} s
- * @param {?} plt
- * @return {?}
- */
-function fixLoop(s, plt) {
-    var /** @type {?} */ newIndex;
-    if (s._activeIndex < s.loopedSlides) {
-        // Fix For Negative Oversliding
-        newIndex = s._slides.length - s.loopedSlides * 3 + s._activeIndex;
-        newIndex = newIndex + s.loopedSlides;
-        slideTo(s, plt, newIndex, 0, false, true);
-    }
-    else if ((s.slidesPerView === 'auto' && s._activeIndex >= s.loopedSlides * 2) || (s._activeIndex > s._slides.length - (s.slidesPerView) * 2)) {
-        // Fix For Positive Oversliding
-        newIndex = -s._slides.length + s._activeIndex + s.loopedSlides;
-        newIndex = newIndex + s.loopedSlides;
-        slideTo(s, plt, newIndex, 0, false, true);
-    }
-}
-/**
- * @param {?} s
- * @param {?} plt
- * @param {?=} slideIndex
- * @param {?=} speed
- * @param {?=} runCallbacks
- * @param {?=} internal
- * @return {?}
- */
-function slideTo(s, plt, slideIndex, speed, runCallbacks, internal) {
-    if (runCallbacks === void 0) { runCallbacks = true; }
-    if (typeof slideIndex === 'undefined')
-        slideIndex = 0;
-    if (slideIndex < 0)
-        slideIndex = 0;
-    s._snapIndex = Math.floor(slideIndex / s.slidesPerGroup);
-    if (s._snapIndex >= s._snapGrid.length)
-        s._snapIndex = s._snapGrid.length - 1;
-    var /** @type {?} */ translate = -s._snapGrid[s._snapIndex];
-    // Stop autoplay
-    if (s.autoplay && s._autoplaying) {
-        if (internal || !s.autoplayDisableOnInteraction) {
-            pauseAutoplay(s, plt, speed);
-        }
-        else {
-            stopAutoplay(s);
-        }
-    }
-    // Update progress
-    Object(__WEBPACK_IMPORTED_MODULE_2__swiper_progress__["a" /* updateProgress */])(s, translate);
-    // Directions locks
-    if (!s._allowSwipeToNext && translate < s._translate && translate < Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["i" /* minTranslate */])(s)) {
-        return false;
-    }
-    if (!s._allowSwipeToPrev && translate > s._translate && translate > Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["h" /* maxTranslate */])(s)) {
-        if ((s._activeIndex || 0) !== slideIndex)
-            return false;
-    }
-    // Update Index
-    if (typeof speed === 'undefined')
-        speed = s.speed;
-    s._previousIndex = s._activeIndex || 0;
-    s._activeIndex = slideIndex;
-    Object(__WEBPACK_IMPORTED_MODULE_5__swiper_index__["b" /* updateRealIndex */])(s);
-    if ((s._rtl && -translate === s._translate) || (!s._rtl && translate === s._translate)) {
-        // Update Height
-        if (s.autoHeight) {
-            updateAutoHeight(s);
-        }
-        Object(__WEBPACK_IMPORTED_MODULE_3__swiper_classes__["a" /* updateClasses */])(s);
-        if (s.effect !== 'slide') {
-            Object(__WEBPACK_IMPORTED_MODULE_1__swiper_transition__["d" /* setWrapperTranslate */])(s, plt, translate);
-        }
-        return false;
-    }
-    Object(__WEBPACK_IMPORTED_MODULE_3__swiper_classes__["a" /* updateClasses */])(s);
-    onTransitionStart(s, runCallbacks);
-    if (speed === 0) {
-        Object(__WEBPACK_IMPORTED_MODULE_1__swiper_transition__["d" /* setWrapperTranslate */])(s, plt, translate);
-        Object(__WEBPACK_IMPORTED_MODULE_1__swiper_transition__["c" /* setWrapperTransition */])(s, plt, 0);
-        onTransitionEnd(s, plt, runCallbacks);
-    }
-    else {
-        Object(__WEBPACK_IMPORTED_MODULE_1__swiper_transition__["d" /* setWrapperTranslate */])(s, plt, translate);
-        Object(__WEBPACK_IMPORTED_MODULE_1__swiper_transition__["c" /* setWrapperTransition */])(s, plt, speed);
-        if (!s._animating) {
-            s._animating = true;
-            plt.transitionEnd(s._wrapper, function () {
-                if (!s)
-                    return;
-                onTransitionEnd(s, plt, runCallbacks);
-            });
-        }
-    }
-    return true;
-}
-/**
- * @param {?} s
- * @param {?=} runCallbacks
- * @return {?}
- */
-function onTransitionStart(s, runCallbacks) {
-    if (runCallbacks === void 0) { runCallbacks = true; }
-    if (s.autoHeight) {
-        updateAutoHeight(s);
-    }
-    if (runCallbacks) {
-        s._zone.run(function () {
-            s.ionSlideTransitionStart.emit(s);
-            if (s._activeIndex !== s._previousIndex) {
-                s.ionSlideWillChange.emit(s);
-                if (s._activeIndex > s._previousIndex) {
-                    s.ionSlideNextStart.emit(s);
-                }
-                else {
-                    s.ionSlidePrevStart.emit(s);
-                }
-            }
-        });
-    }
-}
-/**
- * @param {?} s
- * @param {?} plt
- * @param {?=} runCallbacks
- * @return {?}
- */
-function onTransitionEnd(s, plt, runCallbacks) {
-    if (runCallbacks === void 0) { runCallbacks = true; }
-    s._animating = false;
-    Object(__WEBPACK_IMPORTED_MODULE_1__swiper_transition__["c" /* setWrapperTransition */])(s, plt, 0);
-    if (runCallbacks) {
-        s._zone.run(function () {
-            s.ionSlideTransitionEnd.emit(s);
-            if (s._activeIndex !== s._previousIndex) {
-                s.ionSlideDidChange.emit(s);
-                if (s._activeIndex > s._previousIndex) {
-                    s.ionSlideNextEnd.emit(s);
-                }
-                else {
-                    s.ionSlidePrevEnd.emit(s);
-                }
-            }
-        });
-    }
-}
-/**
- * @param {?} s
- * @param {?} plt
- * @param {?=} runCallbacks
- * @param {?=} speed
- * @param {?=} internal
- * @return {?}
- */
-function slideNext(s, plt, runCallbacks, speed, internal) {
-    if (s.loop) {
-        if (s._animating)
-            return false;
-        fixLoop(s, plt);
-        s.container.clientLeft;
-        return slideTo(s, plt, s._activeIndex + s.slidesPerGroup, speed, runCallbacks, internal);
-    }
-    var /** @type {?} */ nextSlide = s._activeIndex + s.slidesPerGroup;
-    if (nextSlide < s._slides.length) {
-        return slideTo(s, plt, nextSlide, speed, runCallbacks, internal);
-    }
-    return false;
-}
-/**
- * @param {?} s
- * @param {?} plt
- * @param {?=} runCallbacks
- * @param {?=} speed
- * @param {?=} internal
- * @return {?}
- */
-function slidePrev(s, plt, runCallbacks, speed, internal) {
-    if (s.loop) {
-        if (s._animating)
-            return false;
-        fixLoop(s, plt);
-        s.container.clientLeft;
-        return slideTo(s, plt, s._activeIndex - 1, speed, runCallbacks, internal);
-    }
-    var /** @type {?} */ previousSlide = s._activeIndex - 1;
-    if (previousSlide >= 0) {
-        return slideTo(s, plt, s._activeIndex - 1, speed, runCallbacks, internal);
-    }
-    return false;
-}
-/**
- * @param {?} s
- * @param {?} plt
- * @param {?=} runCallbacks
- * @param {?=} speed
- * @return {?}
- */
-function slideReset(s, plt, runCallbacks, speed) {
-    return slideTo(s, plt, s._activeIndex, speed, runCallbacks, true);
-}
-/**
- * @param {?} s
- * @return {?}
- */
-function disableTouchControl(s) {
-    s.onlyExternal = true;
-    return true;
-}
-/**
- * @param {?} s
- * @return {?}
- */
-function enableTouchControl(s) {
-    s.onlyExternal = false;
-    return true;
-}
-/**
- * @param {?} s
- * @return {?}
- */
-function cleanupStyles(s) {
-    if (!s.container || !s._wrapper) {
-        // fix #10830
-        return;
-    }
-    // Container
-    if (s.container) {
-        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["l" /* removeClass */])(s.container, s._classNames);
-        s.container.removeAttribute('style');
-    }
-    // Wrapper
-    s._wrapper.removeAttribute('style');
-    // Slides
-    if (s._slides && s._slides.length) {
-        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["l" /* removeClass */])(s._slides, [
-            __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideVisible,
-            __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideActive,
-            __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideNext,
-            __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slidePrev
-        ]);
-        for (var /** @type {?} */ i = 0; i < s._slides.length; i++) {
-            var /** @type {?} */ slide = s._slides[i];
-            slide.removeAttribute('style');
-            slide.removeAttribute('data-swiper-column');
-            slide.removeAttribute('data-swiper-row');
-        }
-    }
-    // Pagination/Bullets
-    Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["l" /* removeClass */])(s._bullets, __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].bulletActive);
-    // Buttons
-    Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["l" /* removeClass */])(s.prevButton, __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].buttonDisabled);
-    Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["l" /* removeClass */])(s.nextButton, __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].buttonDisabled);
-}
-/**
- * @param {?} s
- * @return {?}
- */
-function destroySwiper(s) {
-    // Stop autoplay
-    stopAutoplay(s);
-    // Destroy loop
-    if (s.loop) {
-        destroyLoop(s);
-    }
-    // Cleanup styles
-    cleanupStyles(s);
-}
-//# sourceMappingURL=swiper.js.map
-
-/***/ }),
-/* 49 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = updateProgress;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
-
-/**
- * @param {?} s
- * @param {?=} translate
- * @return {?}
- */
-function updateProgress(s, translate) {
-    if (typeof translate === 'undefined') {
-        translate = s._translate || 0;
-    }
-    var /** @type {?} */ translatesDiff = Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["h" /* maxTranslate */])(s) - Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["i" /* minTranslate */])(s);
-    var /** @type {?} */ wasBeginning = s._isBeginning;
-    var /** @type {?} */ wasEnd = s._isEnd;
-    if (translatesDiff === 0) {
-        s.progress = 0;
-        s._isBeginning = s._isEnd = true;
-    }
-    else {
-        s.progress = (translate - Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["i" /* minTranslate */])(s)) / (translatesDiff);
-        s._isBeginning = s.progress <= 0;
-        s._isEnd = s.progress >= 1;
-    }
-    s._zone.run(function () {
-        if (s._isBeginning && !wasBeginning) {
-            s.ionSlideReachStart.emit();
-        }
-        if (s._isEnd && !wasEnd) {
-            s.ionSlideReachEnd.emit();
-        }
-        if (s.watchSlidesProgress) {
-            updateSlidesProgress(s, translate);
-        }
-        s.ionSlideProgress.emit(s.progress);
-    });
-}
-/**
- * @param {?} s
- * @param {?} translate
- * @return {?}
- */
-function updateSlidesProgress(s, translate) {
-    if (typeof translate === 'undefined') {
-        translate = s._translate || 0;
-    }
-    if (s._slides.length === 0)
-        return;
-    if (typeof s._slides[0].swiperSlideOffset === 'undefined') {
-        Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["q" /* updateSlidesOffset */])(s);
-    }
-    var /** @type {?} */ offsetCenter = -translate;
-    if (s._rtl)
-        offsetCenter = translate;
-    // Visible Slides
-    Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["l" /* removeClass */])(s._slides, __WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideVisible);
-    for (var /** @type {?} */ i = 0; i < s._slides.length; i++) {
-        var /** @type {?} */ slide = s._slides[i];
-        var /** @type {?} */ slideProgress = (offsetCenter + (s.centeredSlides ? Object(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["i" /* minTranslate */])(s) : 0) - slide.swiperSlideOffset) / (slide.swiperSlideSize + s.spaceBetween);
-        if (s.watchSlidesVisibility) {
-            var /** @type {?} */ slideBefore = -(offsetCenter - slide.swiperSlideOffset);
-            var /** @type {?} */ slideAfter = slideBefore + s._slidesSizesGrid[i];
-            var /** @type {?} */ isVisible = (slideBefore >= 0 && slideBefore < s._renderedSize) ||
-                (slideAfter > 0 && slideAfter <= s._renderedSize) ||
-                (slideBefore <= 0 && slideAfter >= s._renderedSize);
-            if (isVisible) {
-                s._slides[i].classList.add(__WEBPACK_IMPORTED_MODULE_0__swiper_utils__["a" /* CLS */].slideVisible);
-            }
-        }
-        slide.progress = s._rtl ? -slideProgress : slideProgress;
-    }
-}
-//# sourceMappingURL=swiper-progress.js.map
-
-/***/ }),
-/* 50 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = updateActiveIndex;
-/* harmony export (immutable) */ __webpack_exports__["b"] = updateRealIndex;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_classes__ = __webpack_require__(93);
-
-/**
- * @param {?} s
- * @return {?}
- */
-function updateActiveIndex(s) {
-    var /** @type {?} */ translate = s._rtl ? s._translate : -s._translate;
-    var /** @type {?} */ newActiveIndex;
-    var /** @type {?} */ i;
-    var /** @type {?} */ snapIndex;
-    for (i = 0; i < s._slidesGrid.length; i++) {
-        if (typeof s._slidesGrid[i + 1] !== 'undefined') {
-            if (translate >= s._slidesGrid[i] && translate < s._slidesGrid[i + 1] - (s._slidesGrid[i + 1] - s._slidesGrid[i]) / 2) {
-                newActiveIndex = i;
-            }
-            else if (translate >= s._slidesGrid[i] && translate < s._slidesGrid[i + 1]) {
-                newActiveIndex = i + 1;
-            }
-        }
-        else {
-            if (translate >= s._slidesGrid[i]) {
-                newActiveIndex = i;
-            }
-        }
-    }
-    snapIndex = Math.floor(newActiveIndex / s.slidesPerGroup);
-    if (snapIndex >= s._snapGrid.length)
-        snapIndex = s._snapGrid.length - 1;
-    if (newActiveIndex === s._activeIndex) {
-        return;
-    }
-    s._snapIndex = snapIndex;
-    s._previousIndex = s._activeIndex;
-    s._activeIndex = newActiveIndex;
-    Object(__WEBPACK_IMPORTED_MODULE_0__swiper_classes__["a" /* updateClasses */])(s);
-    updateRealIndex(s);
-}
-/**
- * @param {?} s
- * @return {?}
- */
-function updateRealIndex(s) {
-    var /** @type {?} */ activeSlide = (s._slides[s._activeIndex]);
-    if (activeSlide) {
-        s.realIndex = parseInt(activeSlide.getAttribute('data-swiper-slide-index') || s._activeIndex, 10);
-    }
-}
-//# sourceMappingURL=swiper-index.js.map
-
-/***/ }),
-/* 51 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Toolbar; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toolbar_base__ = __webpack_require__(155);
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-
-
-/**
- * \@name Toolbar
- * \@description
- * A Toolbar is a generic bar that is positioned above or below content.
- * Unlike a [Navbar](../Navbar/), a toolbar can be used as a subheader.
- * When toolbars are placed within an `<ion-header>` or `<ion-footer>`,
- * the toolbars stay fixed in their respective location. When placed within
- * `<ion-content>`, toolbars will scroll with the content.
- *
- *
- * ### Buttons in a Toolbar
- * Buttons placed in a toolbar should be placed inside of the `<ion-buttons>`
- * element. An exception to this is a [menuToggle](../../menu/MenuToggle) button.
- * It should not be placed inside of the `<ion-buttons>` element. Both the
- * `<ion-buttons>` element and the `menuToggle` can be positioned inside of the
- * toolbar using different properties. The below chart has a description of each
- * property.
- *
- * | Property    | Description                                                                                                           |
- * |-------------|-----------------------------------------------------------------------------------------------------------------------|
- * | `start`     | Positions element to the left of the content in `ios` mode, and directly to the right in `md` and `wp` mode.    |
- * | `end`       | Positions element to the right of the content in `ios` mode, and to the far right in `md` and `wp` mode.        |
- * | `left`      | Positions element to the left of all other elements.                                                            |
- * | `right`     | Positions element to the right of all other elements.                                                           |
- *
- *
- * ### Header / Footer Box Shadow and Border
- * In `md` mode, the `<ion-header>` will receive a box-shadow on the bottom, and the
- * `<ion-footer>` will receive a box-shadow on the top.  In `ios` mode, the `<ion-header>`
- * will receive a border on the bottom, and the `<ion-footer>` will receive a border on the
- * top. Both the `md` box-shadow and the `ios` border can be removed by adding the `no-border`
- * attribute to the element.
- *
- * ```html
- * <ion-header no-border>
- *   <ion-toolbar>
- *     <ion-title>Header</ion-title>
- *   </ion-toolbar>
- * </ion-header>
- *
- * <ion-content>
- * </ion-content>
- *
- * <ion-footer no-border>
- *   <ion-toolbar>
- *     <ion-title>Footer</ion-title>
- *   </ion-toolbar>
- * </ion-footer>
- * ```
- *
- * \@usage
- *
- * ```html
- *
- * <ion-header no-border>
- *
- *   <ion-toolbar>
- *     <ion-title>My Toolbar Title</ion-title>
- *   </ion-toolbar>
- *
- *   <ion-toolbar>
- *     <ion-title>I'm a subheader</ion-title>
- *   </ion-toolbar>
- *
- * <ion-header>
- *
- *
- * <ion-content>
- *
- *   <ion-toolbar>
- *     <ion-title>Scrolls with the content</ion-title>
- *   </ion-toolbar>
- *
- * </ion-content>
- *
- *
- * <ion-footer no-border>
- *
- *   <ion-toolbar>
- *     <ion-title>I'm a footer</ion-title>
- *   </ion-toolbar>
- *
- * </ion-footer>
- *  ```
- *
- * \@demo /docs/demos/src/toolbar/
- * @see {\@link ../Navbar/ Navbar API Docs}
- */
-var Toolbar = (function (_super) {
-    __extends(Toolbar, _super);
-    /**
-     * @param {?} config
-     * @param {?} elementRef
-     * @param {?} renderer
-     */
-    function Toolbar(config, elementRef, renderer) {
-        var _this = _super.call(this, config, elementRef, renderer) || this;
-        _this._sbPadding = config.getBoolean('statusbarPadding');
-        return _this;
-    }
-    return Toolbar;
-}(__WEBPACK_IMPORTED_MODULE_2__toolbar_base__["a" /* ToolbarBase */]));
-
-Toolbar.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
-                selector: 'ion-toolbar',
-                template: '<div class="toolbar-background" [ngClass]="\'toolbar-background-\' + _mode"></div>' +
-                    '<ng-content select="[menuToggle],ion-buttons[left]"></ng-content>' +
-                    '<ng-content select="ion-buttons[start]"></ng-content>' +
-                    '<ng-content select="ion-buttons[end],ion-buttons[right]"></ng-content>' +
-                    '<div class="toolbar-content" [ngClass]="\'toolbar-content-\' + _mode">' +
-                    '<ng-content></ng-content>' +
-                    '</div>',
-                host: {
-                    'class': 'toolbar',
-                    '[class.statusbar-padding]': '_sbPadding'
-                },
-                changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ChangeDetectionStrategy */].OnPush,
-            },] },
-];
-/**
- * @nocollapse
- */
-Toolbar.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
-]; };
-function Toolbar_tsickle_Closure_declarations() {
-    /** @type {?} */
-    Toolbar.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    Toolbar.ctorParameters;
-    /**
-     * @hidden
-     * @type {?}
-     */
-    Toolbar.prototype._sbPadding;
-}
-//# sourceMappingURL=toolbar.js.map
-
-/***/ }),
-/* 52 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-function isFunction(x) {
-    return typeof x === 'function';
-}
-exports.isFunction = isFunction;
-//# sourceMappingURL=isFunction.js.map
-
-/***/ }),
-/* 53 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-// typeof any so that it we don't have to cast when comparing a result to the error object
-exports.errorObject = { e: {} };
-//# sourceMappingURL=errorObject.js.map
-
-/***/ }),
-/* 54 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var root_1 = __webpack_require__(28);
-var Symbol = root_1.root.Symbol;
-exports.rxSubscriber = (typeof Symbol === 'function' && typeof Symbol.for === 'function') ?
-    Symbol.for('rxSubscriber') : '@@rxSubscriber';
-/**
- * @deprecated use rxSubscriber instead
- */
-exports.$$rxSubscriber = exports.rxSubscriber;
-//# sourceMappingURL=rxSubscriber.js.map
-
-/***/ }),
-/* 55 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-var Subscriber_1 = __webpack_require__(29);
-/**
- * We need this JSDoc comment for affecting ESDoc.
- * @ignore
- * @extends {Ignored}
- */
-var OuterSubscriber = (function (_super) {
-    __extends(OuterSubscriber, _super);
-    function OuterSubscriber() {
-        _super.apply(this, arguments);
-    }
-    OuterSubscriber.prototype.notifyNext = function (outerValue, innerValue, outerIndex, innerIndex, innerSub) {
-        this.destination.next(innerValue);
-    };
-    OuterSubscriber.prototype.notifyError = function (error, innerSub) {
-        this.destination.error(error);
-    };
-    OuterSubscriber.prototype.notifyComplete = function (innerSub) {
-        this.destination.complete();
-    };
-    return OuterSubscriber;
-}(Subscriber_1.Subscriber));
-exports.OuterSubscriber = OuterSubscriber;
-//# sourceMappingURL=OuterSubscriber.js.map
-
-/***/ }),
-/* 56 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var root_1 = __webpack_require__(28);
-var isArrayLike_1 = __webpack_require__(214);
-var isPromise_1 = __webpack_require__(215);
-var isObject_1 = __webpack_require__(111);
-var Observable_1 = __webpack_require__(9);
-var iterator_1 = __webpack_require__(216);
-var InnerSubscriber_1 = __webpack_require__(217);
-var observable_1 = __webpack_require__(114);
-function subscribeToResult(outerSubscriber, result, outerValue, outerIndex) {
-    var destination = new InnerSubscriber_1.InnerSubscriber(outerSubscriber, outerValue, outerIndex);
-    if (destination.closed) {
-        return null;
-    }
-    if (result instanceof Observable_1.Observable) {
-        if (result._isScalar) {
-            destination.next(result.value);
-            destination.complete();
-            return null;
-        }
-        else {
-            return result.subscribe(destination);
-        }
-    }
-    else if (isArrayLike_1.isArrayLike(result)) {
-        for (var i = 0, len = result.length; i < len && !destination.closed; i++) {
-            destination.next(result[i]);
-        }
-        if (!destination.closed) {
-            destination.complete();
-        }
-    }
-    else if (isPromise_1.isPromise(result)) {
-        result.then(function (value) {
-            if (!destination.closed) {
-                destination.next(value);
-                destination.complete();
-            }
-        }, function (err) { return destination.error(err); })
-            .then(null, function (err) {
-            // Escaping the Promise trap: globally throw unhandled errors
-            root_1.root.setTimeout(function () { throw err; });
-        });
-        return destination;
-    }
-    else if (result && typeof result[iterator_1.iterator] === 'function') {
-        var iterator = result[iterator_1.iterator]();
-        do {
-            var item = iterator.next();
-            if (item.done) {
-                destination.complete();
-                break;
-            }
-            destination.next(item.value);
-            if (destination.closed) {
-                break;
-            }
-        } while (true);
-    }
-    else if (result && typeof result[observable_1.observable] === 'function') {
-        var obs = result[observable_1.observable]();
-        if (typeof obs.subscribe !== 'function') {
-            destination.error(new TypeError('Provided object does not correctly implement Symbol.observable'));
-        }
-        else {
-            return obs.subscribe(new InnerSubscriber_1.InnerSubscriber(outerSubscriber, outerValue, outerIndex));
-        }
-    }
-    else {
-        var value = isObject_1.isObject(result) ? 'an invalid object' : "'" + result + "'";
-        var msg = ("You provided " + value + " where a stream was expected.")
-            + ' You can provide an Observable, Promise, Array, or Iterable.';
-        destination.error(new TypeError(msg));
-    }
-    return null;
-}
-exports.subscribeToResult = subscribeToResult;
-//# sourceMappingURL=subscribeToResult.js.map
-
-/***/ }),
-/* 57 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRootToken; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return IonicApp; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ion__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__overlay_portal__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_constants__ = __webpack_require__(33);
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-
-
-
-
-
-
-var /** @type {?} */ AppRootToken = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* OpaqueToken */]('USERROOT');
-/**
- * @hidden
- */
-var IonicApp = (function (_super) {
-    __extends(IonicApp, _super);
-    /**
-     * @param {?} _userCmp
-     * @param {?} _cfr
-     * @param {?} elementRef
-     * @param {?} renderer
-     * @param {?} config
-     * @param {?} _plt
-     * @param {?} app
-     */
-    function IonicApp(_userCmp, _cfr, elementRef, renderer, config, _plt, app) {
-        var _this = _super.call(this, config, elementRef, renderer, 'app-root') || this;
-        _this._userCmp = _userCmp;
-        _this._cfr = _cfr;
-        _this._plt = _plt;
-        // register with App that this is Ionic's appRoot component. tada!
-        app._appRoot = _this;
-        _this._stopScrollPlugin = window['IonicStopScroll'];
-        return _this;
-    }
-    /**
-     * @return {?}
-     */
-    IonicApp.prototype.ngOnInit = function () {
-        var _this = this;
-        // load the user root component
-        // into Ionic's root component
-        var /** @type {?} */ factory = this._cfr.resolveComponentFactory(this._userCmp);
-        var /** @type {?} */ componentRef = this._viewport.createComponent(factory);
-        this._renderer.setElementClass(componentRef.location.nativeElement, 'app-root', true);
-        componentRef.changeDetectorRef.detectChanges();
-        // set the mode class name
-        // ios/md/wp
-        this.setElementClass(this._config.get('mode'), true);
-        var /** @type {?} */ versions = this._plt.versions();
-        this._plt.platforms().forEach(function (platformName) {
-            // platform-ios
-            var /** @type {?} */ platformClass = 'platform-' + platformName;
-            _this.setElementClass(platformClass, true);
-            var /** @type {?} */ platformVersion = versions[platformName];
-            if (platformVersion) {
-                // platform-ios9
-                platformClass += platformVersion.major;
-                _this.setElementClass(platformClass, true);
-                // platform-ios9_3
-                _this.setElementClass(platformClass + '_' + platformVersion.minor, true);
-            }
-        });
-        // touch devices should not use :hover CSS pseudo
-        // enable :hover CSS when the "hoverCSS" setting is not false
-        if (this._config.getBoolean('hoverCSS', true)) {
-            this.setElementClass('enable-hover', true);
-        }
-        // sweet, the app root has loaded!
-        // which means angular and ionic has fully loaded!
-        // fire off the platform prepare ready, which could
-        // have been switched out by any of the platform engines
-        this._plt.prepareReady();
-    };
-    /**
-     * @hidden
-     * @param {?=} portal
-     * @return {?}
-     */
-    IonicApp.prototype._getPortal = function (portal) {
-        if (portal === __WEBPACK_IMPORTED_MODULE_6__app_constants__["b" /* PORTAL_LOADING */]) {
-            return this._loadingPortal;
-        }
-        if (portal === __WEBPACK_IMPORTED_MODULE_6__app_constants__["d" /* PORTAL_TOAST */]) {
-            return this._toastPortal;
-        }
-        // Modals need their own overlay becuase we don't want an ActionSheet
-        // or Alert to trigger lifecycle events inside a modal
-        if (portal === __WEBPACK_IMPORTED_MODULE_6__app_constants__["c" /* PORTAL_MODAL */]) {
-            return this._modalPortal;
-        }
-        return this._overlayPortal;
-    };
-    /**
-     * @return {?}
-     */
-    IonicApp.prototype._getActivePortal = function () {
-        var /** @type {?} */ defaultPortal = this._overlayPortal;
-        var /** @type {?} */ modalPortal = this._modalPortal;
-        var /** @type {?} */ hasModal = modalPortal.length() > 0;
-        var /** @type {?} */ hasDefault = defaultPortal.length() > 0;
-        if (!hasModal && !hasDefault) {
-            return null;
-        }
-        else if (hasModal && hasDefault) {
-            var /** @type {?} */ defaultIndex = defaultPortal.getActive().getZIndex();
-            var /** @type {?} */ modalIndex = modalPortal.getActive().getZIndex();
-            if (defaultIndex > modalIndex) {
-                return defaultPortal;
-            }
-            else {
-                (void 0) /* assert */;
-                return modalPortal;
-            }
-        }
-        if (hasModal) {
-            return modalPortal;
-        }
-        else if (hasDefault) {
-            return defaultPortal;
-        }
-    };
-    /**
-     * @param {?} shouldDisableScroll
-     * @return {?}
-     */
-    IonicApp.prototype._disableScroll = function (shouldDisableScroll) {
-        var _this = this;
-        if (shouldDisableScroll) {
-            this.stopScroll().then(function () {
-                _this._tmr = _this._plt.timeout(function () {
-                    (void 0) /* console.debug */;
-                    _this.setElementClass('disable-scroll', true);
-                }, 32);
-            });
-        }
-        else {
-            var /** @type {?} */ plugin = this._stopScrollPlugin;
-            if (plugin && plugin.cancel) {
-                plugin.cancel();
-            }
-            clearTimeout(this._tmr);
-            (void 0) /* console.debug */;
-            this.setElementClass('disable-scroll', false);
-        }
-    };
-    /**
-     * @return {?}
-     */
-    IonicApp.prototype.stopScroll = function () {
-        var _this = this;
-        if (this._stopScrollPlugin) {
-            return new Promise(function (resolve) {
-                _this._stopScrollPlugin.stop(function () { return resolve(true); });
-            });
-        }
-        else {
-            return Promise.resolve(false);
-        }
-    };
-    return IonicApp;
-}(__WEBPACK_IMPORTED_MODULE_3__ion__["a" /* Ion */]));
-
-IonicApp.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
-                selector: 'ion-app',
-                template: '<div #viewport app-viewport></div>' +
-                    '<div #modalPortal overlay-portal></div>' +
-                    '<div #overlayPortal overlay-portal></div>' +
-                    '<div #loadingPortal class="loading-portal" overlay-portal></div>' +
-                    '<div #toastPortal class="toast-portal" [overlay-portal]="10000"></div>' +
-                    '<div class="click-block"></div>'
-            },] },
-];
-/**
- * @nocollapse
- */
-IonicApp.ctorParameters = function () { return [
-    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Inject */], args: [AppRootToken,] },] },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* ComponentFactoryResolver */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
-    { type: __WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* Config */], },
-    { type: __WEBPACK_IMPORTED_MODULE_5__platform_platform__["a" /* Platform */], },
-    { type: __WEBPACK_IMPORTED_MODULE_1__app__["a" /* App */], },
-]; };
-IonicApp.propDecorators = {
-    '_viewport': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */], args: ['viewport', { read: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ViewContainerRef */] },] },],
-    '_modalPortal': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */], args: ['modalPortal', { read: __WEBPACK_IMPORTED_MODULE_4__overlay_portal__["a" /* OverlayPortal */] },] },],
-    '_overlayPortal': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */], args: ['overlayPortal', { read: __WEBPACK_IMPORTED_MODULE_4__overlay_portal__["a" /* OverlayPortal */] },] },],
-    '_loadingPortal': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */], args: ['loadingPortal', { read: __WEBPACK_IMPORTED_MODULE_4__overlay_portal__["a" /* OverlayPortal */] },] },],
-    '_toastPortal': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */], args: ['toastPortal', { read: __WEBPACK_IMPORTED_MODULE_4__overlay_portal__["a" /* OverlayPortal */] },] },],
-};
-function IonicApp_tsickle_Closure_declarations() {
-    /** @type {?} */
-    IonicApp.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    IonicApp.ctorParameters;
-    /** @type {?} */
-    IonicApp.propDecorators;
-    /** @type {?} */
-    IonicApp.prototype._stopScrollPlugin;
-    /** @type {?} */
-    IonicApp.prototype._tmr;
-    /** @type {?} */
-    IonicApp.prototype._viewport;
-    /** @type {?} */
-    IonicApp.prototype._modalPortal;
-    /** @type {?} */
-    IonicApp.prototype._overlayPortal;
-    /** @type {?} */
-    IonicApp.prototype._loadingPortal;
-    /** @type {?} */
-    IonicApp.prototype._toastPortal;
-    /** @type {?} */
-    IonicApp.prototype._userCmp;
-    /** @type {?} */
-    IonicApp.prototype._cfr;
-    /** @type {?} */
-    IonicApp.prototype._plt;
-}
-//# sourceMappingURL=app-root.js.map
-
-/***/ }),
-/* 58 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SlideEdgeGesture; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__slide_gesture__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_dom__ = __webpack_require__(10);
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-
-
-/**
- * @hidden
- */
-var SlideEdgeGesture = (function (_super) {
-    __extends(SlideEdgeGesture, _super);
-    /**
-     * @param {?} plt
-     * @param {?} element
-     * @param {?=} opts
-     */
-    function SlideEdgeGesture(plt, element, opts) {
-        if (opts === void 0) { opts = {}; }
-        var _this = this;
-        Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["d" /* defaults */])(opts, {
-            edge: 'start',
-            maxEdgeStart: 50
-        });
-        _this = _super.call(this, plt, element, opts) || this;
-        // Can check corners through use of eg 'left top'
-        _this.setEdges(opts.edge);
-        _this.maxEdgeStart = opts.maxEdgeStart;
-        return _this;
-    }
-    /**
-     * @param {?} edges
-     * @return {?}
-     */
-    SlideEdgeGesture.prototype.setEdges = function (edges) {
-        var /** @type {?} */ isRTL = this.plt.isRTL;
-        this.edges = edges.split(' ').map(function (value) {
-            switch (value) {
-                case 'start': return isRTL ? 'right' : 'left';
-                case 'end': return isRTL ? 'left' : 'right';
-                default: return value;
-            }
-        });
-    };
-    /**
-     * @param {?} ev
-     * @return {?}
-     */
-    SlideEdgeGesture.prototype.canStart = function (ev) {
-        var _this = this;
-        var /** @type {?} */ coord = Object(__WEBPACK_IMPORTED_MODULE_2__util_dom__["f" /* pointerCoord */])(ev);
-        this._d = this.getContainerDimensions();
-        return this.edges.every(function (edge) { return _this._checkEdge(edge, coord); });
-    };
-    /**
-     * @return {?}
-     */
-    SlideEdgeGesture.prototype.getContainerDimensions = function () {
-        var /** @type {?} */ plt = this.plt;
-        return {
-            left: 0,
-            top: 0,
-            width: plt.width(),
-            height: plt.height()
-        };
-    };
-    /**
-     * @param {?} edge
-     * @param {?} pos
-     * @return {?}
-     */
-    SlideEdgeGesture.prototype._checkEdge = function (edge, pos) {
-        var /** @type {?} */ data = this._d;
-        var /** @type {?} */ maxEdgeStart = this.maxEdgeStart;
-        switch (edge) {
-            case 'left': return pos.x <= data.left + maxEdgeStart;
-            case 'right': return pos.x >= data.width - maxEdgeStart;
-            case 'top': return pos.y <= data.top + maxEdgeStart;
-            case 'bottom': return pos.y >= data.height - maxEdgeStart;
-        }
-        return false;
-    };
-    return SlideEdgeGesture;
-}(__WEBPACK_IMPORTED_MODULE_0__slide_gesture__["a" /* SlideGesture */]));
-
-function SlideEdgeGesture_tsickle_Closure_declarations() {
-    /** @type {?} */
-    SlideEdgeGesture.prototype.edges;
-    /** @type {?} */
-    SlideEdgeGesture.prototype.maxEdgeStart;
-    /** @type {?} */
-    SlideEdgeGesture.prototype._d;
-}
-//# sourceMappingURL=slide-edge-gesture.js.map
-
-/***/ }),
-/* 59 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActionSheet; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__action_sheet_component__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__action_sheet_transitions__ = __webpack_require__(230);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__ = __webpack_require__(5);
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-
-
-
-/**
- * @hidden
- */
-var ActionSheet = (function (_super) {
-    __extends(ActionSheet, _super);
-    /**
-     * @param {?} app
-     * @param {?} opts
-     * @param {?} config
-     */
-    function ActionSheet(app, opts, config) {
-        var _this = this;
-        opts.buttons = opts.buttons || [];
-        opts.enableBackdropDismiss = Object(__WEBPACK_IMPORTED_MODULE_2__util_util__["l" /* isPresent */])(opts.enableBackdropDismiss) ? !!opts.enableBackdropDismiss : true;
-        _this = _super.call(this, __WEBPACK_IMPORTED_MODULE_0__action_sheet_component__["a" /* ActionSheetCmp */], opts, null) || this;
-        _this._app = app;
-        _this.isOverlay = true;
-        config.setTransition('action-sheet-slide-in', __WEBPACK_IMPORTED_MODULE_1__action_sheet_transitions__["c" /* ActionSheetSlideIn */]);
-        config.setTransition('action-sheet-slide-out', __WEBPACK_IMPORTED_MODULE_1__action_sheet_transitions__["d" /* ActionSheetSlideOut */]);
-        config.setTransition('action-sheet-md-slide-in', __WEBPACK_IMPORTED_MODULE_1__action_sheet_transitions__["a" /* ActionSheetMdSlideIn */]);
-        config.setTransition('action-sheet-md-slide-out', __WEBPACK_IMPORTED_MODULE_1__action_sheet_transitions__["b" /* ActionSheetMdSlideOut */]);
-        config.setTransition('action-sheet-wp-slide-in', __WEBPACK_IMPORTED_MODULE_1__action_sheet_transitions__["e" /* ActionSheetWpSlideIn */]);
-        config.setTransition('action-sheet-wp-slide-out', __WEBPACK_IMPORTED_MODULE_1__action_sheet_transitions__["f" /* ActionSheetWpSlideOut */]);
-        return _this;
-    }
-    /**
-     * @hidden
-     * @param {?} direction
-     * @return {?}
-     */
-    ActionSheet.prototype.getTransitionName = function (direction) {
-        var /** @type {?} */ key = 'actionSheet' + (direction === 'back' ? 'Leave' : 'Enter');
-        return this._nav && this._nav.config.get(key);
-    };
-    /**
-     * @param {?} title
-     * @return {?}
-     */
-    ActionSheet.prototype.setTitle = function (title) {
-        this.data.title = title;
-        return this;
-    };
-    /**
-     * @param {?} subTitle
-     * @return {?}
-     */
-    ActionSheet.prototype.setSubTitle = function (subTitle) {
-        this.data.subTitle = subTitle;
-        return this;
-    };
-    /**
-     * @param {?} button
-     * @return {?}
-     */
-    ActionSheet.prototype.addButton = function (button) {
-        this.data.buttons.push(button);
-        return this;
-    };
-    /**
-     * Present the action sheet instance.
-     *
-     * @param {?=} navOptions
-     * @return {?}
-     */
-    ActionSheet.prototype.present = function (navOptions) {
-        if (navOptions === void 0) { navOptions = {}; }
-        navOptions.minClickBlockDuration = navOptions.minClickBlockDuration || 400;
-        return this._app.present(this, navOptions);
-    };
-    return ActionSheet;
-}(__WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__["a" /* ViewController */]));
-
-function ActionSheet_tsickle_Closure_declarations() {
-    /** @type {?} */
-    ActionSheet.prototype._app;
-}
-//# sourceMappingURL=action-sheet.js.map
-
-/***/ }),
-/* 60 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActionSheetCmp; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__platform_key__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_nav_params__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__navigation_view_controller__ = __webpack_require__(5);
-
-
-
-
-
-
-/**
- * @hidden
- */
-var ActionSheetCmp = (function () {
-    /**
-     * @param {?} _viewCtrl
-     * @param {?} config
-     * @param {?} _elementRef
-     * @param {?} gestureCtrl
-     * @param {?} params
-     * @param {?} renderer
-     */
-    function ActionSheetCmp(_viewCtrl, config, _elementRef, gestureCtrl, params, renderer) {
-        this._viewCtrl = _viewCtrl;
-        this._elementRef = _elementRef;
-        this.gestureBlocker = gestureCtrl.createBlocker(__WEBPACK_IMPORTED_MODULE_1__gestures_gesture_controller__["a" /* BLOCK_ALL */]);
-        this.d = params.data;
-        this.mode = config.get('mode');
-        renderer.setElementClass(_elementRef.nativeElement, "action-sheet-" + this.mode, true);
-        if (this.d.cssClass) {
-            this.d.cssClass.split(' ').forEach(function (cssClass) {
-                // Make sure the class isn't whitespace, otherwise it throws exceptions
-                if (cssClass.trim() !== '')
-                    renderer.setElementClass(_elementRef.nativeElement, cssClass, true);
-            });
-        }
-        this.id = (++actionSheetIds);
-        if (this.d.title) {
-            this.hdrId = 'acst-hdr-' + this.id;
-        }
-        if (this.d.subTitle) {
-            this.descId = 'acst-subhdr-' + this.id;
-        }
-    }
-    /**
-     * @return {?}
-     */
-    ActionSheetCmp.prototype.ionViewDidLoad = function () {
-        var _this = this;
-        // normalize the data
-        this.d.buttons = this.d.buttons.map(function (button) {
-            if (typeof button === 'string') {
-                button = { text: button };
-            }
-            if (!button.cssClass) {
-                button.cssClass = '';
-            }
-            switch (button.role) {
-                case 'cancel':
-                    _this.cancelButton = button;
-                    return null;
-                case 'destructive':
-                    button.cssClass = (button.cssClass + ' ' || '') + 'action-sheet-destructive';
-                    break;
-                case 'selected':
-                    button.cssClass = (button.cssClass + ' ' || '') + 'action-sheet-selected';
-                    break;
-            }
-            return button;
-        }).filter(function (button) { return button !== null; });
-    };
-    /**
-     * @return {?}
-     */
-    ActionSheetCmp.prototype.ionViewWillEnter = function () {
-        this.gestureBlocker.block();
-    };
-    /**
-     * @return {?}
-     */
-    ActionSheetCmp.prototype.ionViewDidLeave = function () {
-        this.gestureBlocker.unblock();
-    };
-    /**
-     * @return {?}
-     */
-    ActionSheetCmp.prototype.ionViewDidEnter = function () {
-        var /** @type {?} */ focusableEle = this._elementRef.nativeElement.querySelector('button');
-        if (focusableEle) {
-            focusableEle.focus();
-        }
-        this.enabled = true;
-    };
-    /**
-     * @param {?} ev
-     * @return {?}
-     */
-    ActionSheetCmp.prototype.keyUp = function (ev) {
-        if (this.enabled && ev.keyCode === __WEBPACK_IMPORTED_MODULE_3__platform_key__["c" /* KEY_ESCAPE */] && this._viewCtrl.isLast()) {
-            (void 0) /* console.debug */;
-            this.bdClick();
-        }
-    };
-    /**
-     * @param {?} button
-     * @return {?}
-     */
-    ActionSheetCmp.prototype.click = function (button) {
-        if (!this.enabled) {
-            return;
-        }
-        var /** @type {?} */ shouldDismiss = true;
-        if (button.handler) {
-            // a handler has been provided, execute it
-            if (button.handler() === false) {
-                // if the return value of the handler is false then do not dismiss
-                shouldDismiss = false;
-            }
-        }
-        if (shouldDismiss) {
-            this.dismiss(button.role);
-        }
-    };
-    /**
-     * @return {?}
-     */
-    ActionSheetCmp.prototype.bdClick = function () {
-        if (this.enabled && this.d.enableBackdropDismiss) {
-            if (this.cancelButton) {
-                this.click(this.cancelButton);
-            }
-            else {
-                this.dismiss('backdrop');
-            }
-        }
-    };
-    /**
-     * @param {?} role
-     * @return {?}
-     */
-    ActionSheetCmp.prototype.dismiss = function (role) {
-        var /** @type {?} */ opts = {
-            minClickBlockDuration: 400
-        };
-        return this._viewCtrl.dismiss(null, role, opts);
-    };
-    /**
-     * @return {?}
-     */
-    ActionSheetCmp.prototype.ngOnDestroy = function () {
-        (void 0) /* assert */;
-        this.d = this.cancelButton = null;
-        this.gestureBlocker.destroy();
-    };
-    return ActionSheetCmp;
-}());
-
-ActionSheetCmp.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
-                selector: 'ion-action-sheet',
-                template: '<ion-backdrop (click)="bdClick()" [class.backdrop-no-tappable]="!d.enableBackdropDismiss"></ion-backdrop>' +
-                    '<div class="action-sheet-wrapper">' +
-                    '<div class="action-sheet-container">' +
-                    '<div class="action-sheet-group">' +
-                    '<div class="action-sheet-title" id="{{hdrId}}" *ngIf="d.title">{{d.title}}</div>' +
-                    '<div class="action-sheet-sub-title" id="{{descId}}" *ngIf="d.subTitle">{{d.subTitle}}</div>' +
-                    '<button ion-button="action-sheet-button" (click)="click(b)" *ngFor="let b of d.buttons" class="disable-hover" [attr.icon-start]="b.icon ? \'\' : null" [ngClass]="b.cssClass">' +
-                    '<ion-icon [name]="b.icon" *ngIf="b.icon" class="action-sheet-icon"></ion-icon>' +
-                    '{{b.text}}' +
-                    '</button>' +
-                    '</div>' +
-                    '<div class="action-sheet-group" *ngIf="cancelButton">' +
-                    '<button ion-button="action-sheet-button" (click)="click(cancelButton)" class="action-sheet-cancel disable-hover" [attr.icon-start]="cancelButton.icon ? \'\' : null" [ngClass]="cancelButton.cssClass">' +
-                    '<ion-icon [name]="cancelButton.icon" *ngIf="cancelButton.icon" class="action-sheet-icon"></ion-icon>' +
-                    '{{cancelButton.text}}' +
-                    '</button>' +
-                    '</div>' +
-                    '</div>' +
-                    '</div>',
-                host: {
-                    'role': 'dialog',
-                    '[attr.aria-labelledby]': 'hdrId',
-                    '[attr.aria-describedby]': 'descId'
-                },
-                encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ViewEncapsulation */].None,
-            },] },
-];
-/**
- * @nocollapse
- */
-ActionSheetCmp.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_5__navigation_view_controller__["a" /* ViewController */], },
-    { type: __WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* Config */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: __WEBPACK_IMPORTED_MODULE_1__gestures_gesture_controller__["l" /* GestureController */], },
-    { type: __WEBPACK_IMPORTED_MODULE_4__navigation_nav_params__["a" /* NavParams */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
-]; };
-ActionSheetCmp.propDecorators = {
-    'keyUp': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["z" /* HostListener */], args: ['body:keyup', ['$event'],] },],
-};
-function ActionSheetCmp_tsickle_Closure_declarations() {
-    /** @type {?} */
-    ActionSheetCmp.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    ActionSheetCmp.ctorParameters;
-    /** @type {?} */
-    ActionSheetCmp.propDecorators;
-    /** @type {?} */
-    ActionSheetCmp.prototype.d;
-    /** @type {?} */
-    ActionSheetCmp.prototype.cancelButton;
-    /** @type {?} */
-    ActionSheetCmp.prototype.descId;
-    /** @type {?} */
-    ActionSheetCmp.prototype.enabled;
-    /** @type {?} */
-    ActionSheetCmp.prototype.hdrId;
-    /** @type {?} */
-    ActionSheetCmp.prototype.id;
-    /** @type {?} */
-    ActionSheetCmp.prototype.mode;
-    /** @type {?} */
-    ActionSheetCmp.prototype.gestureBlocker;
-    /** @type {?} */
-    ActionSheetCmp.prototype._viewCtrl;
-    /** @type {?} */
-    ActionSheetCmp.prototype._elementRef;
-}
-var /** @type {?} */ actionSheetIds = -1;
-//# sourceMappingURL=action-sheet-component.js.map
-
-/***/ }),
-/* 61 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Alert; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__alert_component__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__alert_transitions__ = __webpack_require__(231);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__ = __webpack_require__(5);
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-
-
-
-/**
- * @hidden
- */
-var Alert = (function (_super) {
-    __extends(Alert, _super);
-    /**
-     * @param {?} app
-     * @param {?=} opts
-     * @param {?=} config
-     */
-    function Alert(app, opts, config) {
-        if (opts === void 0) { opts = {}; }
-        var _this = this;
-        opts.inputs = opts.inputs || [];
-        opts.buttons = opts.buttons || [];
-        opts.enableBackdropDismiss = Object(__WEBPACK_IMPORTED_MODULE_2__util_util__["l" /* isPresent */])(opts.enableBackdropDismiss) ? !!opts.enableBackdropDismiss : true;
-        _this = _super.call(this, __WEBPACK_IMPORTED_MODULE_0__alert_component__["a" /* AlertCmp */], opts, null) || this;
-        _this._app = app;
-        _this.isOverlay = true;
-        config.setTransition('alert-pop-in', __WEBPACK_IMPORTED_MODULE_1__alert_transitions__["c" /* AlertPopIn */]);
-        config.setTransition('alert-pop-out', __WEBPACK_IMPORTED_MODULE_1__alert_transitions__["d" /* AlertPopOut */]);
-        config.setTransition('alert-md-pop-in', __WEBPACK_IMPORTED_MODULE_1__alert_transitions__["a" /* AlertMdPopIn */]);
-        config.setTransition('alert-md-pop-out', __WEBPACK_IMPORTED_MODULE_1__alert_transitions__["b" /* AlertMdPopOut */]);
-        config.setTransition('alert-wp-pop-in', __WEBPACK_IMPORTED_MODULE_1__alert_transitions__["e" /* AlertWpPopIn */]);
-        config.setTransition('alert-wp-pop-out', __WEBPACK_IMPORTED_MODULE_1__alert_transitions__["f" /* AlertWpPopOut */]);
-        return _this;
-    }
-    /**
-     * @hidden
-     * @param {?} direction
-     * @return {?}
-     */
-    Alert.prototype.getTransitionName = function (direction) {
-        var /** @type {?} */ key = (direction === 'back' ? 'alertLeave' : 'alertEnter');
-        return this._nav && this._nav.config.get(key);
-    };
-    /**
-     * @param {?} title
-     * @return {?}
-     */
-    Alert.prototype.setTitle = function (title) {
-        this.data.title = title;
-        return this;
-    };
-    /**
-     * @param {?} subTitle
-     * @return {?}
-     */
-    Alert.prototype.setSubTitle = function (subTitle) {
-        this.data.subTitle = subTitle;
-        return this;
-    };
-    /**
-     * @param {?} message
-     * @return {?}
-     */
-    Alert.prototype.setMessage = function (message) {
-        this.data.message = message;
-        return this;
-    };
-    /**
-     * @param {?} input
-     * @return {?}
-     */
-    Alert.prototype.addInput = function (input) {
-        this.data.inputs.push(input);
-        return this;
-    };
-    /**
-     * @param {?} button
-     * @return {?}
-     */
-    Alert.prototype.addButton = function (button) {
-        this.data.buttons.push(button);
-        return this;
-    };
-    /**
-     * @param {?} cssClass
-     * @return {?}
-     */
-    Alert.prototype.setCssClass = function (cssClass) {
-        this.data.cssClass = cssClass;
-        return this;
-    };
-    /**
-     * @param {?} mode
-     * @return {?}
-     */
-    Alert.prototype.setMode = function (mode) {
-        this.data.mode = mode;
-    };
-    /**
-     * Present the alert instance.
-     *
-     * @param {?=} navOptions
-     * @return {?}
-     */
-    Alert.prototype.present = function (navOptions) {
-        if (navOptions === void 0) { navOptions = {}; }
-        navOptions.minClickBlockDuration = navOptions.minClickBlockDuration || 400;
-        return this._app.present(this, navOptions);
-    };
-    return Alert;
-}(__WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__["a" /* ViewController */]));
-
-function Alert_tsickle_Closure_declarations() {
-    /** @type {?} */
-    Alert.prototype._app;
-}
-//# sourceMappingURL=alert.js.map
-
-/***/ }),
-/* 62 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlertCmp; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_dom__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__platform_key__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__navigation_nav_params__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__navigation_view_controller__ = __webpack_require__(5);
-
-
-
-
-
-
-
-
-
-/**
- * @hidden
- */
-var AlertCmp = (function () {
-    /**
-     * @param {?} _viewCtrl
-     * @param {?} _elementRef
-     * @param {?} config
-     * @param {?} gestureCtrl
-     * @param {?} params
-     * @param {?} _renderer
-     * @param {?} _plt
-     */
-    function AlertCmp(_viewCtrl, _elementRef, config, gestureCtrl, params, _renderer, _plt) {
-        this._viewCtrl = _viewCtrl;
-        this._elementRef = _elementRef;
-        this._renderer = _renderer;
-        this._plt = _plt;
-        // gesture blocker is used to disable gestures dynamically
-        this.gestureBlocker = gestureCtrl.createBlocker(__WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__["a" /* BLOCK_ALL */]);
-        this.d = params.data;
-        this.mode = this.d.mode || config.get('mode');
-        this.keyboardResizes = config.getBoolean('keyboardResizes', false);
-        _renderer.setElementClass(_elementRef.nativeElement, "alert-" + this.mode, true);
-        if (this.d.cssClass) {
-            this.d.cssClass.split(' ').forEach(function (cssClass) {
-                // Make sure the class isn't whitespace, otherwise it throws exceptions
-                if (cssClass.trim() !== '')
-                    _renderer.setElementClass(_elementRef.nativeElement, cssClass, true);
-            });
-        }
-        this.id = (++alertIds);
-        this.descId = '';
-        this.hdrId = 'alert-hdr-' + this.id;
-        this.subHdrId = 'alert-subhdr-' + this.id;
-        this.msgId = 'alert-msg-' + this.id;
-        this.activeId = '';
-        this.lastClick = 0;
-        if (this.d.message) {
-            this.descId = this.msgId;
-        }
-        else if (this.d.subTitle) {
-            this.descId = this.subHdrId;
-        }
-        if (!this.d.message) {
-            this.d.message = '';
-        }
-    }
-    /**
-     * @return {?}
-     */
-    AlertCmp.prototype.ionViewDidLoad = function () {
-        var _this = this;
-        // normalize the data
-        var /** @type {?} */ data = this.d;
-        data.buttons = data.buttons.map(function (button) {
-            if (typeof button === 'string') {
-                return { text: button };
-            }
-            return button;
-        });
-        data.inputs = data.inputs.map(function (input, index) {
-            var /** @type {?} */ r = {
-                type: input.type || 'text',
-                name: Object(__WEBPACK_IMPORTED_MODULE_4__util_util__["l" /* isPresent */])(input.name) ? input.name : index + '',
-                placeholder: Object(__WEBPACK_IMPORTED_MODULE_4__util_util__["l" /* isPresent */])(input.placeholder) ? input.placeholder : '',
-                value: Object(__WEBPACK_IMPORTED_MODULE_4__util_util__["l" /* isPresent */])(input.value) ? input.value : '',
-                label: input.label,
-                checked: !!input.checked,
-                disabled: !!input.disabled,
-                id: Object(__WEBPACK_IMPORTED_MODULE_4__util_util__["l" /* isPresent */])(input.id) ? input.id : "alert-input-" + _this.id + "-" + index,
-                handler: Object(__WEBPACK_IMPORTED_MODULE_4__util_util__["l" /* isPresent */])(input.handler) ? input.handler : null,
-                min: Object(__WEBPACK_IMPORTED_MODULE_4__util_util__["l" /* isPresent */])(input.min) ? input.min : null,
-                max: Object(__WEBPACK_IMPORTED_MODULE_4__util_util__["l" /* isPresent */])(input.max) ? input.max : null
-            };
-            return r;
-        });
-        // An alert can be created with several different inputs. Radios,
-        // checkboxes and inputs are all accepted, but they cannot be mixed.
-        var /** @type {?} */ inputTypes = [];
-        data.inputs.forEach(function (input) {
-            if (inputTypes.indexOf(input.type) < 0) {
-                inputTypes.push(input.type);
-            }
-        });
-        if (inputTypes.length > 1 && (inputTypes.indexOf('checkbox') > -1 || inputTypes.indexOf('radio') > -1)) {
-            console.warn("Alert cannot mix input types: " + (inputTypes.join('/')) + ". Please see alert docs for more info.");
-        }
-        this.inputType = inputTypes.length ? inputTypes[0] : null;
-        var /** @type {?} */ checkedInput = this.d.inputs.find(function (input) { return input.checked; });
-        if (checkedInput) {
-            this.activeId = checkedInput.id;
-        }
-        var /** @type {?} */ hasTextInput = (this.d.inputs.length && this.d.inputs.some(function (i) { return !(__WEBPACK_IMPORTED_MODULE_2__util_dom__["a" /* NON_TEXT_INPUT_REGEX */].test(i.type)); }));
-        if (!this.keyboardResizes && hasTextInput && this._plt.is('mobile')) {
-            // this alert has a text input and it's on a mobile device so we should align
-            // the alert up high because we need to leave space for the virtual keboard
-            // this also helps prevent the layout getting all messed up from
-            // the browser trying to scroll the input into a safe area
-            this._renderer.setElementClass(this._elementRef.nativeElement, 'alert-top', true);
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AlertCmp.prototype.ionViewWillEnter = function () {
-        this.gestureBlocker.block();
-    };
-    /**
-     * @return {?}
-     */
-    AlertCmp.prototype.ionViewDidLeave = function () {
-        this.gestureBlocker.unblock();
-    };
-    /**
-     * @return {?}
-     */
-    AlertCmp.prototype.ionViewDidEnter = function () {
-        // set focus on the first input or button in the alert
-        // note that this does not always work and bring up the keyboard on
-        // devices since the focus command must come from the user's touch event
-        // and ionViewDidEnter is not in the same callstack as the touch event :(
-        var /** @type {?} */ focusableEle = this._elementRef.nativeElement.querySelector('input,button');
-        if (focusableEle) {
-            focusableEle.focus();
-        }
-        this.enabled = true;
-    };
-    /**
-     * @param {?} ev
-     * @return {?}
-     */
-    AlertCmp.prototype.keyUp = function (ev) {
-        if (this.enabled && this._viewCtrl.isLast()) {
-            if (ev.keyCode === __WEBPACK_IMPORTED_MODULE_5__platform_key__["b" /* KEY_ENTER */]) {
-                if (this.lastClick + 1000 < Date.now()) {
-                    // do not fire this click if there recently was already a click
-                    // this can happen when the button has focus and used the enter
-                    // key to click the button. However, both the click handler and
-                    // this keyup event will fire, so only allow one of them to go.
-                    (void 0) /* console.debug */;
-                    var /** @type {?} */ button = this.d.buttons[this.d.buttons.length - 1];
-                    this.btnClick(button);
-                }
-            }
-            else if (ev.keyCode === __WEBPACK_IMPORTED_MODULE_5__platform_key__["c" /* KEY_ESCAPE */]) {
-                (void 0) /* console.debug */;
-                this.bdClick();
-            }
-        }
-    };
-    /**
-     * @param {?} button
-     * @return {?}
-     */
-    AlertCmp.prototype.btnClick = function (button) {
-        if (!this.enabled) {
-            return;
-        }
-        // keep the time of the most recent button click
-        this.lastClick = Date.now();
-        var /** @type {?} */ shouldDismiss = true;
-        if (button.handler) {
-            // a handler has been provided, execute it
-            // pass the handler the values from the inputs
-            if (button.handler(this.getValues()) === false) {
-                // if the return value of the handler is false then do not dismiss
-                shouldDismiss = false;
-            }
-        }
-        if (shouldDismiss) {
-            this.dismiss(button.role);
-        }
-    };
-    /**
-     * @param {?} checkedInput
-     * @return {?}
-     */
-    AlertCmp.prototype.rbClick = function (checkedInput) {
-        if (this.enabled) {
-            this.d.inputs.forEach(function (input) {
-                input.checked = (checkedInput === input);
-            });
-            this.activeId = checkedInput.id;
-            if (checkedInput.handler) {
-                checkedInput.handler(checkedInput);
-            }
-        }
-    };
-    /**
-     * @param {?} checkedInput
-     * @return {?}
-     */
-    AlertCmp.prototype.cbClick = function (checkedInput) {
-        if (this.enabled) {
-            checkedInput.checked = !checkedInput.checked;
-            if (checkedInput.handler) {
-                checkedInput.handler(checkedInput);
-            }
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AlertCmp.prototype.bdClick = function () {
-        if (this.enabled && this.d.enableBackdropDismiss) {
-            var /** @type {?} */ cancelBtn = this.d.buttons.find(function (b) { return ((b)).role === 'cancel'; });
-            if (cancelBtn) {
-                this.btnClick(cancelBtn);
-            }
-            else {
-                this.dismiss('backdrop');
-            }
-        }
-    };
-    /**
-     * @param {?} role
-     * @return {?}
-     */
-    AlertCmp.prototype.dismiss = function (role) {
-        var /** @type {?} */ opts = {
-            minClickBlockDuration: 400
-        };
-        return this._viewCtrl.dismiss(this.getValues(), role, opts);
-    };
-    /**
-     * @return {?}
-     */
-    AlertCmp.prototype.getValues = function () {
-        if (this.inputType === 'radio') {
-            // this is an alert with radio buttons (single value select)
-            // return the one value which is checked, otherwise undefined
-            var /** @type {?} */ checkedInput = this.d.inputs.find(function (i) { return i.checked; });
-            return checkedInput ? checkedInput.value : undefined;
-        }
-        if (this.inputType === 'checkbox') {
-            // this is an alert with checkboxes (multiple value select)
-            // return an array of all the checked values
-            return this.d.inputs.filter(function (i) { return i.checked; }).map(function (i) { return i.value; });
-        }
-        if (this.d.inputs.length === 0) {
-            // this is an alert without any options/inputs at all
-            return undefined;
-        }
-        // this is an alert with text inputs
-        // return an object of all the values with the input name as the key
-        var /** @type {?} */ values = {};
-        this.d.inputs.forEach(function (i) {
-            values[i.name] = i.value;
-        });
-        return values;
-    };
-    /**
-     * @return {?}
-     */
-    AlertCmp.prototype.ngOnDestroy = function () {
-        (void 0) /* assert */;
-        this.gestureBlocker.destroy();
-    };
-    return AlertCmp;
-}());
-
-AlertCmp.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
-                selector: 'ion-alert',
-                template: '<ion-backdrop (click)="bdClick()" [class.backdrop-no-tappable]="!d.enableBackdropDismiss"></ion-backdrop>' +
-                    '<div class="alert-wrapper">' +
-                    '<div class="alert-head">' +
-                    '<h2 id="{{hdrId}}" class="alert-title" *ngIf="d.title" [innerHTML]="d.title"></h2>' +
-                    '<h3 id="{{subHdrId}}" class="alert-sub-title" *ngIf="d.subTitle" [innerHTML]="d.subTitle"></h3>' +
-                    '</div>' +
-                    '<div id="{{msgId}}" class="alert-message" [innerHTML]="d.message"></div>' +
-                    '<div *ngIf="d.inputs.length" [ngSwitch]="inputType">' +
-                    '<ng-template ngSwitchCase="radio">' +
-                    '<div class="alert-radio-group" role="radiogroup" [attr.aria-labelledby]="hdrId" [attr.aria-activedescendant]="activeId">' +
-                    '<button ion-button="alert-radio-button" *ngFor="let i of d.inputs" (click)="rbClick(i)" [attr.aria-checked]="i.checked" [disabled]="i.disabled" [attr.id]="i.id" class="alert-tappable alert-radio" role="radio">' +
-                    '<div class="alert-radio-icon"><div class="alert-radio-inner"></div></div>' +
-                    '<div class="alert-radio-label">' +
-                    '{{i.label}}' +
-                    '</div>' +
-                    '</button>' +
-                    '</div>' +
-                    '</ng-template>' +
-                    '<ng-template ngSwitchCase="checkbox">' +
-                    '<div class="alert-checkbox-group">' +
-                    '<button ion-button="alert-checkbox-button" *ngFor="let i of d.inputs" (click)="cbClick(i)" [attr.aria-checked]="i.checked" [attr.id]="i.id" [disabled]="i.disabled" class="alert-tappable alert-checkbox" role="checkbox">' +
-                    '<div class="alert-checkbox-icon"><div class="alert-checkbox-inner"></div></div>' +
-                    '<div class="alert-checkbox-label">' +
-                    '{{i.label}}' +
-                    '</div>' +
-                    '</button>' +
-                    '</div>' +
-                    '</ng-template>' +
-                    '<ng-template ngSwitchDefault>' +
-                    '<div class="alert-input-group">' +
-                    '<div *ngFor="let i of d.inputs" class="alert-input-wrapper">' +
-                    '<input [placeholder]="i.placeholder" [(ngModel)]="i.value" [type]="i.type" [min]="i.min" [max]="i.max" [attr.id]="i.id" class="alert-input">' +
-                    '</div>' +
-                    '</div>' +
-                    '</ng-template>' +
-                    '</div>' +
-                    '<div class="alert-button-group" [ngClass]="{\'alert-button-group-vertical\':d.buttons.length>2}">' +
-                    '<button ion-button="alert-button" *ngFor="let b of d.buttons" (click)="btnClick(b)" [ngClass]="b.cssClass">' +
-                    '{{b.text}}' +
-                    '</button>' +
-                    '</div>' +
-                    '</div>',
-                host: {
-                    'role': 'dialog',
-                    '[attr.aria-labelledby]': 'hdrId',
-                    '[attr.aria-describedby]': 'descId'
-                },
-                encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ViewEncapsulation */].None,
-            },] },
-];
-/**
- * @nocollapse
- */
-AlertCmp.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_8__navigation_view_controller__["a" /* ViewController */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
-    { type: __WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__["l" /* GestureController */], },
-    { type: __WEBPACK_IMPORTED_MODULE_6__navigation_nav_params__["a" /* NavParams */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
-    { type: __WEBPACK_IMPORTED_MODULE_7__platform_platform__["a" /* Platform */], },
-]; };
-AlertCmp.propDecorators = {
-    'keyUp': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["z" /* HostListener */], args: ['body:keyup', ['$event'],] },],
-};
-function AlertCmp_tsickle_Closure_declarations() {
-    /** @type {?} */
-    AlertCmp.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    AlertCmp.ctorParameters;
-    /** @type {?} */
-    AlertCmp.propDecorators;
-    /** @type {?} */
-    AlertCmp.prototype.activeId;
-    /** @type {?} */
-    AlertCmp.prototype.descId;
-    /** @type {?} */
-    AlertCmp.prototype.d;
-    /** @type {?} */
-    AlertCmp.prototype.enabled;
-    /** @type {?} */
-    AlertCmp.prototype.hdrId;
-    /** @type {?} */
-    AlertCmp.prototype.id;
-    /** @type {?} */
-    AlertCmp.prototype.inputType;
-    /** @type {?} */
-    AlertCmp.prototype.lastClick;
-    /** @type {?} */
-    AlertCmp.prototype.msgId;
-    /** @type {?} */
-    AlertCmp.prototype.subHdrId;
-    /** @type {?} */
-    AlertCmp.prototype.mode;
-    /** @type {?} */
-    AlertCmp.prototype.keyboardResizes;
-    /** @type {?} */
-    AlertCmp.prototype.gestureBlocker;
-    /** @type {?} */
-    AlertCmp.prototype._viewCtrl;
-    /** @type {?} */
-    AlertCmp.prototype._elementRef;
-    /** @type {?} */
-    AlertCmp.prototype._renderer;
-    /** @type {?} */
-    AlertCmp.prototype._plt;
-}
-var /** @type {?} */ alertIds = -1;
-//# sourceMappingURL=alert-component.js.map
-
-/***/ }),
-/* 63 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Backdrop; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-
-/**
- * @hidden
- */
-var Backdrop = (function () {
-    /**
-     * @param {?} _elementRef
-     * @param {?} _renderer
-     */
-    function Backdrop(_elementRef, _renderer) {
-        this._elementRef = _elementRef;
-        this._renderer = _renderer;
-    }
-    /**
-     * @return {?}
-     */
-    Backdrop.prototype.getNativeElement = function () {
-        return this._elementRef.nativeElement;
-    };
-    /**
-     * @param {?} className
-     * @param {?} add
-     * @return {?}
-     */
-    Backdrop.prototype.setElementClass = function (className, add) {
-        this._renderer.setElementClass(this._elementRef.nativeElement, className, add);
-    };
-    return Backdrop;
-}());
-
-Backdrop.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
-                selector: 'ion-backdrop',
-                host: {
-                    'role': 'presentation',
-                    'tappable': '',
-                    'disable-activated': ''
-                },
-            },] },
-];
-/**
- * @nocollapse
- */
-Backdrop.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
-]; };
-function Backdrop_tsickle_Closure_declarations() {
-    /** @type {?} */
-    Backdrop.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    Backdrop.ctorParameters;
-    /** @type {?} */
-    Backdrop.prototype._elementRef;
-    /** @type {?} */
-    Backdrop.prototype._renderer;
-}
-//# sourceMappingURL=backdrop.js.map
-
-/***/ }),
-/* 64 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Icon; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ion__ = __webpack_require__(4);
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-
-
-
-/**
- * \@name Icon
- * \@description
- * Icons can be used on their own, or inside of a number of Ionic components.
- * For a full list of available icons, check out the
- * [Ionicons docs](../../../../ionicons).
- *
- * One feature of Ionicons in Ionic is when icon names are set, the actual icon
- * which is rendered can change slightly depending on the mode the app is
- * running from. For example, by setting the icon name of `alarm`, on iOS the
- * icon will automatically apply `ios-alarm`, and on Material Design it will
- * automatically apply `md-alarm`. This allows the developer to write the
- * markup once while Ionic applies the appropriate icon based on the mode.
- *
- * \@usage
- * ```html
- * <!-- automatically uses the correct "star" icon depending on the mode -->
- * <ion-icon name="star"></ion-icon>
- *
- * <!-- explicity set the icon for each mode -->
- * <ion-icon ios="ios-home" md="md-home"></ion-icon>
- *
- * <!-- always use the same icon, no matter what the mode -->
- * <ion-icon name="ios-clock"></ion-icon>
- * <ion-icon name="logo-twitter"></ion-icon>
- * ```
- *
- * \@demo /docs/demos/src/icon/
- * @see {\@link /docs/components#icons Icon Component Docs}
- *
- */
-var Icon = (function (_super) {
-    __extends(Icon, _super);
-    /**
-     * @param {?} config
-     * @param {?} elementRef
-     * @param {?} renderer
-     */
-    function Icon(config, elementRef, renderer) {
-        var _this = _super.call(this, config, elementRef, renderer, 'icon') || this;
-        /**
-         * @hidden
-         */
-        _this._isActive = true;
-        /**
-         * @hidden
-         */
-        _this._name = '';
-        /**
-         * @hidden
-         */
-        _this._ios = '';
-        /**
-         * @hidden
-         */
-        _this._md = '';
-        /**
-         * @hidden
-         */
-        _this._css = '';
-        /**
-         * @hidden
-         */
-        _this._hidden = false;
-        _this._iconMode = config.get('iconMode');
-        return _this;
-    }
-    /**
-     * @hidden
-     * @return {?}
-     */
-    Icon.prototype.ngOnDestroy = function () {
-        if (this._css) {
-            this.setElementClass(this._css, false);
-        }
-    };
-    Object.defineProperty(Icon.prototype, "name", {
-        /**
-         * \@input {string} Specifies which icon to use. The appropriate icon will be used based on the mode.
-         * For more information, see [Ionicons](/docs/ionicons/).
-         * @return {?}
-         */
-        get: function () {
-            return this._name;
-        },
-        /**
-         * @param {?} val
-         * @return {?}
-         */
-        set: function (val) {
-            if (!(/^md-|^ios-|^logo-/.test(val))) {
-                // this does not have one of the defaults
-                // so lets auto add in the mode prefix for them
-                this._name = this._iconMode + '-' + val;
-            }
-            else {
-                this._name = val;
-            }
-            this.update();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Icon.prototype, "ios", {
-        /**
-         * \@input {string} Specifies which icon to use on `ios` mode.
-         * @return {?}
-         */
-        get: function () {
-            return this._ios;
-        },
-        /**
-         * @param {?} val
-         * @return {?}
-         */
-        set: function (val) {
-            this._ios = val;
-            this.update();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Icon.prototype, "md", {
-        /**
-         * \@input {string} Specifies which icon to use on `md` mode.
-         * @return {?}
-         */
-        get: function () {
-            return this._md;
-        },
-        /**
-         * @param {?} val
-         * @return {?}
-         */
-        set: function (val) {
-            this._md = val;
-            this.update();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Icon.prototype, "isActive", {
-        /**
-         * \@input {boolean} If true, the icon is styled with an "active" appearance.
-         * An active icon is filled in, and an inactive icon is the outline of the icon.
-         * The `isActive` property is largely used by the tabbar. Only affects `ios` icons.
-         * @return {?}
-         */
-        get: function () {
-            return this._isActive;
-        },
-        /**
-         * @param {?} val
-         * @return {?}
-         */
-        set: function (val) {
-            this._isActive = Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["o" /* isTrueProperty */])(val);
-            this.update();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @hidden
-     * @return {?}
-     */
-    Icon.prototype.update = function () {
-        var /** @type {?} */ iconName;
-        if (this._ios && this._iconMode === 'ios') {
-            iconName = this._ios;
-        }
-        else if (this._md && this._iconMode === 'md') {
-            iconName = this._md;
-        }
-        else {
-            iconName = this._name;
-        }
-        var /** @type {?} */ hidden = this._hidden = (iconName === null);
-        if (hidden) {
-            return;
-        }
-        var /** @type {?} */ iconMode = iconName.split('-', 2)[0];
-        if (iconMode === 'ios' &&
-            !this._isActive &&
-            iconName.indexOf('logo-') < 0 &&
-            iconName.indexOf('-outline') < 0) {
-            iconName += '-outline';
-        }
-        var /** @type {?} */ css = 'ion-' + iconName;
-        if (this._css === css) {
-            return;
-        }
-        if (this._css) {
-            this.setElementClass(this._css, false);
-        }
-        this._css = css;
-        this.setElementClass(css, true);
-        var /** @type {?} */ label = iconName
-            .replace('ios-', '')
-            .replace('md-', '')
-            .replace('-', ' ');
-        this.setElementAttribute('aria-label', label);
-    };
-    return Icon;
-}(__WEBPACK_IMPORTED_MODULE_3__ion__["a" /* Ion */]));
-
-Icon.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
-                selector: 'ion-icon',
-                host: {
-                    'role': 'img'
-                }
-            },] },
-];
-/**
- * @nocollapse
- */
-Icon.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* Config */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
-]; };
-Icon.propDecorators = {
-    'name': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-    'ios': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-    'md': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-    'isActive': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-    '_hidden': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* HostBinding */], args: ['class.hide',] },],
-};
-function Icon_tsickle_Closure_declarations() {
-    /** @type {?} */
-    Icon.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    Icon.ctorParameters;
-    /** @type {?} */
-    Icon.propDecorators;
-    /**
-     * @hidden
-     * @type {?}
-     */
-    Icon.prototype._iconMode;
-    /**
-     * @hidden
-     * @type {?}
-     */
-    Icon.prototype._isActive;
-    /**
-     * @hidden
-     * @type {?}
-     */
-    Icon.prototype._name;
-    /**
-     * @hidden
-     * @type {?}
-     */
-    Icon.prototype._ios;
-    /**
-     * @hidden
-     * @type {?}
-     */
-    Icon.prototype._md;
-    /**
-     * @hidden
-     * @type {?}
-     */
-    Icon.prototype._css;
-    /**
-     * @hidden
-     * @type {?}
-     */
-    Icon.prototype._hidden;
-}
-//# sourceMappingURL=icon.js.map
-
-/***/ }),
-/* 65 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Label; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ion__ = __webpack_require__(4);
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-
-
-/**
- * \@name Label
- * \@description
- * Labels are placed inside of an `ion-item` element and can be used
- * to describe an `ion-input`, `ion-toggle`, `ion-checkbox`, and more.
- *
- * \@property [fixed] - A persistent label that sits next the input.
- * \@property [floating] - A label that will float above the input if the input is empty or loses focus.
- * \@property [stacked] - A stacked label will always appear on top of the input.
- *
- * \@usage
- * ```html
- *  <ion-item>
- *    <ion-label>Username</ion-label>
- *    <ion-input></ion-input>
- *  </ion-item>
- *
- *  <ion-item>
- *    <ion-label fixed>Website</ion-label>
- *    <ion-input type="url"></ion-input>
- *  </ion-item>
- *
- *  <ion-item>
- *    <ion-label floating>Email</ion-label>
- *    <ion-input type="email"></ion-input>
- *  </ion-item>
- *
- *  <ion-item>
- *    <ion-label stacked>Phone</ion-label>
- *    <ion-input type="tel"></ion-input>
- *  </ion-item>
- *
- *  <ion-item>
- *    <ion-label>Toggle</ion-label>
- *    <ion-toggle></ion-toggle>
- *  </ion-item>
- *
- *  <ion-item>
- *    <ion-label>Checkbox</ion-label>
- *    <ion-checkbox></ion-checkbox>
- *  </ion-item>
- * ```
- *
- * \@demo /docs/demos/src/label/
- * @see {\@link ../../../../components#inputs Input Component Docs}
- * @see {\@link ../../input/Input Input API Docs}
- *
- */
-var Label = (function (_super) {
-    __extends(Label, _super);
-    /**
-     * @param {?} config
-     * @param {?} elementRef
-     * @param {?} renderer
-     * @param {?} isFloating
-     * @param {?} isStacked
-     * @param {?} isFixed
-     * @param {?} isInset
-     */
-    function Label(config, elementRef, renderer, isFloating, isStacked, isFixed, isInset) {
-        var _this = _super.call(this, config, elementRef, renderer, 'label') || this;
-        _this.type = (isFloating === '' ? 'floating' : (isStacked === '' ? 'stacked' : (isFixed === '' ? 'fixed' : (isInset === '' ? 'inset' : null))));
-        return _this;
-    }
-    Object.defineProperty(Label.prototype, "id", {
-        /**
-         * @hidden
-         * @return {?}
-         */
-        get: function () {
-            return this._id;
-        },
-        /**
-         * @param {?} val
-         * @return {?}
-         */
-        set: function (val) {
-            this._id = val;
-            if (val) {
-                this.setElementAttribute('id', val);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(Label.prototype, "text", {
-        /**
-         * @hidden
-         * @return {?}
-         */
-        get: function () {
-            return this.getNativeElement().textContent || '';
-        },
-        enumerable: true,
-        configurable: true
-    });
-    return Label;
-}(__WEBPACK_IMPORTED_MODULE_2__ion__["a" /* Ion */]));
-
-Label.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
-                selector: 'ion-label'
-            },] },
-];
-/**
- * @nocollapse
- */
-Label.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
-    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Attribute */], args: ['floating',] },] },
-    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Attribute */], args: ['stacked',] },] },
-    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Attribute */], args: ['fixed',] },] },
-    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Attribute */], args: ['inset',] },] },
-]; };
-Label.propDecorators = {
-    'id': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-};
-function Label_tsickle_Closure_declarations() {
-    /** @type {?} */
-    Label.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    Label.ctorParameters;
-    /** @type {?} */
-    Label.propDecorators;
-    /** @type {?} */
-    Label.prototype._id;
-    /**
-     * @hidden
-     * @type {?}
-     */
-    Label.prototype.type;
-}
-//# sourceMappingURL=label.js.map
-
-/***/ }),
-/* 66 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* unused harmony export ReorderIndexes */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemReorder; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__content_content__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__platform_dom_controller__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__item_reorder_gesture__ = __webpack_require__(236);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__platform_platform__ = __webpack_require__(3);
-
-
-
-
-
-
-var ReorderIndexes = (function () {
-    /**
-     * @param {?} from
-     * @param {?} to
-     */
-    function ReorderIndexes(from, to) {
-        this.from = from;
-        this.to = to;
-    }
-    /**
-     * @param {?} array
-     * @return {?}
-     */
-    ReorderIndexes.prototype.applyTo = function (array) {
-        Object(__WEBPACK_IMPORTED_MODULE_3__util_util__["r" /* reorderArray */])(array, this);
-    };
-    return ReorderIndexes;
-}());
-
-function ReorderIndexes_tsickle_Closure_declarations() {
-    /** @type {?} */
-    ReorderIndexes.prototype.from;
-    /** @type {?} */
-    ReorderIndexes.prototype.to;
-}
-/**
- * \@name ItemReorder
- * \@description
- * Item reorder adds the ability to change an item's order in a group.
- * It can be used within an `ion-list` or `ion-item-group` to provide a
- * visual drag and drop interface.
- *
- * ## Grouping Items
- *
- * All reorderable items must be grouped in the same element. If an item
- * should not be reordered, it shouldn't be included in this group. For
- * example, the following code works because the items are grouped in the
- * `<ion-list>`:
- *
- *  ```html
- *  <ion-list reorder="true">
- *    <ion-item *ngFor="let item of items">{% raw %}{{ item }}{% endraw %}</ion-item>
- *  </ion-list>
- *  ```
- *
- * However, the below list includes a header that shouldn't be reordered:
- *
- *  ```html
- *  <ion-list reorder="true">
- *    <ion-list-header>Header</ion-list-header>
- *    <ion-item *ngFor="let item of items">{% raw %}{{ item }}{% endraw %}</ion-item>
- *  </ion-list>
- *  ```
- *
- * In order to mix different sets of items, `ion-item-group` should be used to
- * group the reorderable items:
- *
- *  ```html
- *  <ion-list>
- *    <ion-list-header>Header</ion-list-header>
- *    <ion-item-group reorder="true">
- *      <ion-item *ngFor="let item of items">{% raw %}{{ item }}{% endraw %}</ion-item>
- *    </ion-item-group>
- *  </ion-list>
- *  ```
- *
- * It's important to note that in this example, the `[reorder]` directive is applied to
- * the `<ion-item-group>` instead of the `<ion-list>`. This way makes it possible to
- * mix items that should and shouldn't be reordered.
- *
- *
- * ## Implementing the Reorder Function
- *
- * When the item is dragged and dropped into the new position, the `(ionItemReorder)` event is
- * emitted. This event provides the initial index (from) and the new index (to) of the reordered
- * item. For example, if the first item is dragged to the fifth position, the event will emit
- * `{from: 0, to: 4}`. Note that the index starts at zero.
- *
- * A function should be called when the event is emitted that handles the reordering of the items.
- * See [usage](#usage) below for some examples.
- *
- *
- * \@usage
- *
- * ```html
- * <ion-list>
- *   <ion-list-header>Header</ion-list-header>
- *   <ion-item-group reorder="true" (ionItemReorder)="reorderItems($event)">
- *     <ion-item *ngFor="let item of items">{% raw %}{{ item }}{% endraw %}</ion-item>
- *   </ion-item-group>
- * </ion-list>
- * ```
- *
- * ```ts
- * class MyComponent {
- *   items = [];
- *
- *   constructor() {
- *     for (let x = 0; x < 5; x++) {
- *       this.items.push(x);
- *     }
- *   }
- *
- *   reorderItems(indexes) {
- *     let element = this.items[indexes.from];
- *     this.items.splice(indexes.from, 1);
- *     this.items.splice(indexes.to, 0, element);
- *   }
- * }
- * ```
- *
- * Ionic also provides a helper function called `reorderArray` to
- * reorder the array of items. This can be used instead:
- *
- * ```ts
- * import { reorderArray } from 'ionic-angular';
- *
- * class MyComponent {
- *   items = [];
- *
- *   constructor() {
- *     for (let x = 0; x < 5; x++) {
- *       this.items.push(x);
- *     }
- *   }
- *
- *   reorderItems(indexes) {
- *     this.items = reorderArray(this.items, indexes);
- *   }
- * }
- * ```
- * Alternatevely you can execute helper function inside template:
- *
- * ```html
- * <ion-list>
- *   <ion-list-header>Header</ion-list-header>
- *   <ion-item-group reorder="true" (ionItemReorder)="$event.applyTo(items)">
- *     <ion-item *ngFor="let item of items">{% raw %}{{ item }}{% endraw %}</ion-item>
- *   </ion-item-group>
- * </ion-list>
- * ```
- *
- * \@demo /docs/demos/src/item-reorder/
- * @see {\@link /docs/components#lists List Component Docs}
- * @see {\@link ../../list/List List API Docs}
- * @see {\@link ../Item Item API Docs}
- */
-var ItemReorder = (function () {
-    /**
-     * @param {?} _plt
-     * @param {?} _dom
-     * @param {?} elementRef
-     * @param {?} _rendered
-     * @param {?} _zone
-     * @param {?} _content
-     */
-    function ItemReorder(_plt, _dom, elementRef, _rendered, _zone, _content) {
-        this._plt = _plt;
-        this._dom = _dom;
-        this._rendered = _rendered;
-        this._zone = _zone;
-        this._content = _content;
-        this._enableReorder = false;
-        this._visibleReorder = false;
-        this._isStart = false;
-        this._lastToIndex = -1;
-        /**
-         * \@output {object} Emitted when the item is reordered. Emits an object
-         * with `from` and `to` properties.
-         */
-        this.ionItemReorder = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
-        this._element = elementRef.nativeElement;
-    }
-    Object.defineProperty(ItemReorder.prototype, "side", {
-        /**
-         * \@input {string} Which side of the view the ion-reorder should be placed. Default `"end"`.
-         * @param {?} side
-         * @return {?}
-         */
-        set: function (side) {
-            this._isStart = side === 'start';
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @hidden
-     * @return {?}
-     */
-    ItemReorder.prototype.ngOnDestroy = function () {
-        this._element = null;
-        this._reorderGesture && this._reorderGesture.destroy();
-    };
-    Object.defineProperty(ItemReorder.prototype, "reorder", {
-        /**
-         * @hidden
-         * @return {?}
-         */
-        get: function () {
-            return this._enableReorder;
-        },
-        /**
-         * @param {?} val
-         * @return {?}
-         */
-        set: function (val) {
-            var _this = this;
-            var /** @type {?} */ enabled = Object(__WEBPACK_IMPORTED_MODULE_3__util_util__["o" /* isTrueProperty */])(val);
-            if (!enabled && this._reorderGesture) {
-                this._reorderGesture.destroy();
-                this._reorderGesture = null;
-                this._visibleReorder = false;
-                setTimeout(function () { return _this._enableReorder = false; }, 400);
-            }
-            else if (enabled && !this._reorderGesture) {
-                (void 0) /* console.debug */;
-                this._reorderGesture = new __WEBPACK_IMPORTED_MODULE_4__item_reorder_gesture__["a" /* ItemReorderGesture */](this._plt, this);
-                this._enableReorder = true;
-                this._dom.write(function () {
-                    _this._zone.run(function () {
-                        _this._visibleReorder = true;
-                    });
-                }, 16);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @return {?}
-     */
-    ItemReorder.prototype._reorderPrepare = function () {
-        var /** @type {?} */ ele = this._element;
-        var /** @type {?} */ children = ele.children;
-        for (var /** @type {?} */ i = 0, /** @type {?} */ ilen = children.length; i < ilen; i++) {
-            var /** @type {?} */ child = children[i];
-            child.$ionIndex = i;
-            child.$ionReorderList = ele;
-        }
-    };
-    /**
-     * @return {?}
-     */
-    ItemReorder.prototype._reorderStart = function () {
-        this.setElementClass('reorder-list-active', true);
-    };
-    /**
-     * @param {?} fromIndex
-     * @param {?} toIndex
-     * @return {?}
-     */
-    ItemReorder.prototype._reorderEmit = function (fromIndex, toIndex) {
-        var _this = this;
-        this._reorderReset();
-        if (fromIndex !== toIndex) {
-            this._zone.run(function () {
-                var /** @type {?} */ indexes = new ReorderIndexes(fromIndex, toIndex);
-                _this.ionItemReorder.emit(indexes);
-            });
-        }
-    };
-    /**
-     * @param {?} scroll
-     * @return {?}
-     */
-    ItemReorder.prototype._scrollContent = function (scroll) {
-        var /** @type {?} */ scrollTop = this._content.scrollTop + scroll;
-        if (scroll !== 0) {
-            this._content.scrollTo(0, scrollTop, 0);
-        }
-        return scrollTop;
-    };
-    /**
-     * @return {?}
-     */
-    ItemReorder.prototype._reorderReset = function () {
-        var /** @type {?} */ children = this._element.children;
-        var /** @type {?} */ len = children.length;
-        this.setElementClass('reorder-list-active', false);
-        var /** @type {?} */ transform = this._plt.Css.transform;
-        for (var /** @type {?} */ i = 0; i < len; i++) {
-            ((children[i])).style[transform] = '';
-        }
-        this._lastToIndex = -1;
-    };
-    /**
-     * @param {?} fromIndex
-     * @param {?} toIndex
-     * @param {?} itemHeight
-     * @return {?}
-     */
-    ItemReorder.prototype._reorderMove = function (fromIndex, toIndex, itemHeight) {
-        if (this._lastToIndex === -1) {
-            this._lastToIndex = fromIndex;
-        }
-        var /** @type {?} */ lastToIndex = this._lastToIndex;
-        this._lastToIndex = toIndex;
-        /**
-         * ****** DOM READ **********
-         */
-        var children = this._element.children;
-        /**
-         * ****** DOM WRITE *********
-         */
-        var transform = this._plt.Css.transform;
-        if (toIndex >= lastToIndex) {
-            for (var /** @type {?} */ i = lastToIndex; i <= toIndex; i++) {
-                if (i !== fromIndex) {
-                    ((children[i])).style[transform] = (i > fromIndex)
-                        ? "translateY(" + -itemHeight + "px)" : '';
-                }
-            }
-        }
-        if (toIndex <= lastToIndex) {
-            for (var /** @type {?} */ i = toIndex; i <= lastToIndex; i++) {
-                if (i !== fromIndex) {
-                    ((children[i])).style[transform] = (i < fromIndex)
-                        ? "translateY(" + itemHeight + "px)" : '';
-                }
-            }
-        }
-    };
-    /**
-     * @hidden
-     * @param {?} classname
-     * @param {?} add
-     * @return {?}
-     */
-    ItemReorder.prototype.setElementClass = function (classname, add) {
-        this._rendered.setElementClass(this._element, classname, add);
-    };
-    /**
-     * @hidden
-     * @return {?}
-     */
-    ItemReorder.prototype.getNativeElement = function () {
-        return this._element;
-    };
-    return ItemReorder;
-}());
-
-ItemReorder.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
-                selector: 'ion-list[reorder],ion-item-group[reorder]',
-                host: {
-                    '[class.reorder-enabled]': '_enableReorder',
-                    '[class.reorder-visible]': '_visibleReorder',
-                    '[class.reorder-side-start]': '_isStart'
-                }
-            },] },
-];
-/**
- * @nocollapse
- */
-ItemReorder.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_5__platform_platform__["a" /* Platform */], },
-    { type: __WEBPACK_IMPORTED_MODULE_2__platform_dom_controller__["a" /* DomController */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* NgZone */], },
-    { type: __WEBPACK_IMPORTED_MODULE_1__content_content__["a" /* Content */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* Optional */] },] },
-]; };
-ItemReorder.propDecorators = {
-    'ionItemReorder': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["S" /* Output */] },],
-    'side': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */], args: ['side',] },],
-    'reorder': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-};
-function ItemReorder_tsickle_Closure_declarations() {
-    /** @type {?} */
-    ItemReorder.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    ItemReorder.ctorParameters;
-    /** @type {?} */
-    ItemReorder.propDecorators;
-    /** @type {?} */
-    ItemReorder.prototype._enableReorder;
-    /** @type {?} */
-    ItemReorder.prototype._visibleReorder;
-    /** @type {?} */
-    ItemReorder.prototype._isStart;
-    /** @type {?} */
-    ItemReorder.prototype._reorderGesture;
-    /** @type {?} */
-    ItemReorder.prototype._lastToIndex;
-    /** @type {?} */
-    ItemReorder.prototype._element;
-    /**
-     * \@output {object} Emitted when the item is reordered. Emits an object
-     * with `from` and `to` properties.
-     * @type {?}
-     */
-    ItemReorder.prototype.ionItemReorder;
-    /** @type {?} */
-    ItemReorder.prototype._plt;
-    /** @type {?} */
-    ItemReorder.prototype._dom;
-    /** @type {?} */
-    ItemReorder.prototype._rendered;
-    /** @type {?} */
-    ItemReorder.prototype._zone;
-    /** @type {?} */
-    ItemReorder.prototype._content;
-}
-//# sourceMappingURL=item-reorder.js.map
-
-/***/ }),
-/* 67 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PickerController; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__picker__ = __webpack_require__(136);
-
-
-
-
-/**
- * @hidden
- * \@name PickerController
- * \@description
- *
- */
-var PickerController = (function () {
-    /**
-     * @param {?} _app
-     * @param {?} config
-     */
-    function PickerController(_app, config) {
-        this._app = _app;
-        this.config = config;
-    }
-    /**
-     * Open a picker.
-     * @param {?=} opts
-     * @return {?}
-     */
-    PickerController.prototype.create = function (opts) {
-        if (opts === void 0) { opts = {}; }
-        return new __WEBPACK_IMPORTED_MODULE_3__picker__["a" /* Picker */](this._app, opts, this.config);
-    };
-    return PickerController;
-}());
-
-PickerController.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
-];
-/**
- * @nocollapse
- */
-PickerController.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_1__app_app__["a" /* App */], },
-    { type: __WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* Config */], },
-]; };
-function PickerController_tsickle_Closure_declarations() {
-    /** @type {?} */
-    PickerController.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    PickerController.ctorParameters;
-    /** @type {?} */
-    PickerController.prototype._app;
-    /** @type {?} */
-    PickerController.prototype.config;
-}
-//# sourceMappingURL=picker-controller.js.map
-
-/***/ }),
-/* 68 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PickerCmp; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_key__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__navigation_nav_params__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__navigation_view_controller__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__picker_column__ = __webpack_require__(69);
-
-
-
-
-
-
-
-
-/**
- * @hidden
- */
-var PickerCmp = (function () {
-    /**
-     * @param {?} _viewCtrl
-     * @param {?} _elementRef
-     * @param {?} config
-     * @param {?} gestureCtrl
-     * @param {?} params
-     * @param {?} renderer
-     */
-    function PickerCmp(_viewCtrl, _elementRef, config, gestureCtrl, params, renderer) {
-        this._viewCtrl = _viewCtrl;
-        this._elementRef = _elementRef;
-        this._gestureBlocker = gestureCtrl.createBlocker(__WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__["a" /* BLOCK_ALL */]);
-        this.d = params.data;
-        this.mode = config.get('mode');
-        renderer.setElementClass(_elementRef.nativeElement, "picker-" + this.mode, true);
-        if (this.d.cssClass) {
-            this.d.cssClass.split(' ').forEach(function (cssClass) {
-                renderer.setElementClass(_elementRef.nativeElement, cssClass, true);
-            });
-        }
-        this.id = (++pickerIds);
-        this.lastClick = 0;
-    }
-    /**
-     * @return {?}
-     */
-    PickerCmp.prototype.ionViewWillLoad = function () {
-        // normalize the data
-        var /** @type {?} */ data = this.d;
-        data.buttons = data.buttons.map(function (button) {
-            if (Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["n" /* isString */])(button)) {
-                return { text: button };
-            }
-            if (button.role) {
-                button.cssRole = "picker-toolbar-" + button.role;
-            }
-            return button;
-        });
-        // clean up dat data
-        data.columns = data.columns.map(function (column) {
-            if (!Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["l" /* isPresent */])(column.options)) {
-                column.options = [];
-            }
-            column.selectedIndex = column.selectedIndex || 0;
-            column.options = column.options.map(function (inputOpt) {
-                var /** @type {?} */ opt = {
-                    text: '',
-                    value: '',
-                    disabled: inputOpt.disabled,
-                };
-                if (Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["l" /* isPresent */])(inputOpt)) {
-                    if (Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["n" /* isString */])(inputOpt) || Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["j" /* isNumber */])(inputOpt)) {
-                        opt.text = inputOpt.toString();
-                        opt.value = inputOpt;
-                    }
-                    else {
-                        opt.text = Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["l" /* isPresent */])(inputOpt.text) ? inputOpt.text : inputOpt.value;
-                        opt.value = Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["l" /* isPresent */])(inputOpt.value) ? inputOpt.value : inputOpt.text;
-                    }
-                }
-                return opt;
-            });
-            return column;
-        });
-    };
-    /**
-     * @return {?}
-     */
-    PickerCmp.prototype.ionViewDidLoad = function () {
-        this.refresh();
-    };
-    /**
-     * @return {?}
-     */
-    PickerCmp.prototype.ionViewWillEnter = function () {
-        this._gestureBlocker.block();
-    };
-    /**
-     * @return {?}
-     */
-    PickerCmp.prototype.ionViewDidLeave = function () {
-        this._gestureBlocker.unblock();
-    };
-    /**
-     * @return {?}
-     */
-    PickerCmp.prototype.refresh = function () {
-        this._cols.forEach(function (column) { return column.refresh(); });
-    };
-    /**
-     * @return {?}
-     */
-    PickerCmp.prototype._colChange = function () {
-        // one of the columns has changed its selected index
-        var /** @type {?} */ picker = (this._viewCtrl);
-        picker.ionChange.emit(this.getSelected());
-    };
-    /**
-     * @param {?} ev
-     * @return {?}
-     */
-    PickerCmp.prototype._keyUp = function (ev) {
-        if (this.enabled && this._viewCtrl.isLast()) {
-            if (ev.keyCode === __WEBPACK_IMPORTED_MODULE_4__platform_key__["b" /* KEY_ENTER */]) {
-                if (this.lastClick + 1000 < Date.now()) {
-                    // do not fire this click if there recently was already a click
-                    // this can happen when the button has focus and used the enter
-                    // key to click the button. However, both the click handler and
-                    // this keyup event will fire, so only allow one of them to go.
-                    (void 0) /* console.debug */;
-                    var /** @type {?} */ button = this.d.buttons[this.d.buttons.length - 1];
-                    this.btnClick(button);
-                }
-            }
-            else if (ev.keyCode === __WEBPACK_IMPORTED_MODULE_4__platform_key__["c" /* KEY_ESCAPE */]) {
-                (void 0) /* console.debug */;
-                this.bdClick();
-            }
-        }
-    };
-    /**
-     * @return {?}
-     */
-    PickerCmp.prototype.ionViewDidEnter = function () {
-        var /** @type {?} */ focusableEle = this._elementRef.nativeElement.querySelector('button');
-        if (focusableEle) {
-            focusableEle.focus();
-        }
-        this.enabled = true;
-    };
-    /**
-     * @param {?} button
-     * @return {?}
-     */
-    PickerCmp.prototype.btnClick = function (button) {
-        if (!this.enabled) {
-            return;
-        }
-        // keep the time of the most recent button click
-        this.lastClick = Date.now();
-        var /** @type {?} */ shouldDismiss = true;
-        if (button.handler) {
-            // a handler has been provided, execute it
-            // pass the handler the values from the inputs
-            if (button.handler(this.getSelected()) === false) {
-                // if the return value of the handler is false then do not dismiss
-                shouldDismiss = false;
-            }
-        }
-        if (shouldDismiss) {
-            this.dismiss(button.role);
-        }
-    };
-    /**
-     * @return {?}
-     */
-    PickerCmp.prototype.bdClick = function () {
-        if (this.enabled && this.d.enableBackdropDismiss) {
-            var /** @type {?} */ cancelBtn = this.d.buttons.find(function (b) { return b.role === 'cancel'; });
-            if (cancelBtn) {
-                this.btnClick(cancelBtn);
-            }
-            else {
-                this.dismiss('backdrop');
-            }
-        }
-    };
-    /**
-     * @param {?} role
-     * @return {?}
-     */
-    PickerCmp.prototype.dismiss = function (role) {
-        return this._viewCtrl.dismiss(this.getSelected(), role);
-    };
-    /**
-     * @return {?}
-     */
-    PickerCmp.prototype.getSelected = function () {
-        var /** @type {?} */ selected = {};
-        this.d.columns.forEach(function (col, index) {
-            var /** @type {?} */ selectedColumn = col.options[col.selectedIndex];
-            selected[col.name] = {
-                text: selectedColumn ? selectedColumn.text : null,
-                value: selectedColumn ? selectedColumn.value : null,
-                columnIndex: index,
-            };
-        });
-        return selected;
-    };
-    /**
-     * @return {?}
-     */
-    PickerCmp.prototype.ngOnDestroy = function () {
-        (void 0) /* assert */;
-        this._gestureBlocker.destroy();
-    };
-    return PickerCmp;
-}());
-
-PickerCmp.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
-                selector: 'ion-picker-cmp',
-                template: "\n    <ion-backdrop (click)=\"bdClick()\"></ion-backdrop>\n    <div class=\"picker-wrapper\">\n      <div class=\"picker-toolbar\">\n        <div *ngFor=\"let b of d.buttons\" class=\"picker-toolbar-button\" [ngClass]=\"b.cssRole\">\n          <button ion-button (click)=\"btnClick(b)\" [ngClass]=\"b.cssClass\" class=\"picker-button\" clear>\n            {{b.text}}\n          </button>\n        </div>\n      </div>\n      <div class=\"picker-columns\">\n        <div class=\"picker-above-highlight\"></div>\n        <div *ngFor=\"let c of d.columns\" [col]=\"c\" class=\"picker-col\" (ionChange)=\"_colChange($event)\"></div>\n        <div class=\"picker-below-highlight\"></div>\n      </div>\n    </div>\n  ",
-                host: {
-                    'role': 'dialog'
-                },
-                encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ViewEncapsulation */].None,
-            },] },
-];
-/**
- * @nocollapse
- */
-PickerCmp.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_6__navigation_view_controller__["a" /* ViewController */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: __WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* Config */], },
-    { type: __WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__["l" /* GestureController */], },
-    { type: __WEBPACK_IMPORTED_MODULE_5__navigation_nav_params__["a" /* NavParams */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
-]; };
-PickerCmp.propDecorators = {
-    '_cols': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ViewChildren */], args: [__WEBPACK_IMPORTED_MODULE_7__picker_column__["a" /* PickerColumnCmp */],] },],
-    '_keyUp': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["z" /* HostListener */], args: ['body:keyup', ['$event'],] },],
-};
-function PickerCmp_tsickle_Closure_declarations() {
-    /** @type {?} */
-    PickerCmp.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    PickerCmp.ctorParameters;
-    /** @type {?} */
-    PickerCmp.propDecorators;
-    /** @type {?} */
-    PickerCmp.prototype._cols;
-    /** @type {?} */
-    PickerCmp.prototype.d;
-    /** @type {?} */
-    PickerCmp.prototype.enabled;
-    /** @type {?} */
-    PickerCmp.prototype.lastClick;
-    /** @type {?} */
-    PickerCmp.prototype.id;
-    /** @type {?} */
-    PickerCmp.prototype.mode;
-    /** @type {?} */
-    PickerCmp.prototype._gestureBlocker;
-    /** @type {?} */
-    PickerCmp.prototype._viewCtrl;
-    /** @type {?} */
-    PickerCmp.prototype._elementRef;
-}
-var /** @type {?} */ pickerIds = -1;
-//# sourceMappingURL=picker-component.js.map
-
-/***/ }),
-/* 69 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PickerColumnCmp; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__platform_dom_controller__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tap_click_haptic__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__picker_options__ = __webpack_require__(237);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__util_dom__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__gestures_ui_event_manager__ = __webpack_require__(23);
-
-
-
-
-
-
-
-
-
-/**
- * @hidden
- */
-var PickerColumnCmp = (function () {
-    /**
-     * @param {?} config
-     * @param {?} _plt
-     * @param {?} elementRef
-     * @param {?} _zone
-     * @param {?} _haptic
-     * @param {?} plt
-     * @param {?} domCtrl
-     */
-    function PickerColumnCmp(config, _plt, elementRef, _zone, _haptic, plt, domCtrl) {
-        this._plt = _plt;
-        this.elementRef = elementRef;
-        this._zone = _zone;
-        this._haptic = _haptic;
-        this.y = 0;
-        this.pos = [];
-        this.startY = null;
-        this.ionChange = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
-        this.events = new __WEBPACK_IMPORTED_MODULE_8__gestures_ui_event_manager__["a" /* UIEventManager */](plt);
-        this.rotateFactor = config.getNumber('pickerRotateFactor', 0);
-        this.scaleFactor = config.getNumber('pickerScaleFactor', 1);
-        this.decelerateFunc = this.decelerate.bind(this);
-        this.debouncer = domCtrl.debouncer();
-    }
-    /**
-     * @return {?}
-     */
-    PickerColumnCmp.prototype.ngAfterViewInit = function () {
-        // get the scrollable element within the column
-        var /** @type {?} */ colEle = this.colEle.nativeElement;
-        this.colHeight = colEle.clientHeight;
-        // get the height of one option
-        this.optHeight = (colEle.firstElementChild ? colEle.firstElementChild.clientHeight : 0);
-        // Listening for pointer events
-        this.events.pointerEvents({
-            element: this.elementRef.nativeElement,
-            pointerDown: this.pointerStart.bind(this),
-            pointerMove: this.pointerMove.bind(this),
-            pointerUp: this.pointerEnd.bind(this),
-            capture: true,
-            zone: false
-        });
-    };
-    /**
-     * @return {?}
-     */
-    PickerColumnCmp.prototype.ngOnDestroy = function () {
-        this._plt.cancelRaf(this.rafId);
-        this.events.destroy();
-    };
-    /**
-     * @param {?} ev
-     * @return {?}
-     */
-    PickerColumnCmp.prototype.pointerStart = function (ev) {
-        (void 0) /* console.debug */;
-        this._haptic.gestureSelectionStart();
-        // We have to prevent default in order to block scrolling under the picker
-        // but we DO NOT have to stop propagation, since we still want
-        // some "click" events to capture
-        ev.preventDefault();
-        // cancel any previous raf's that haven't fired yet
-        this._plt.cancelRaf(this.rafId);
-        // remember where the pointer started from`
-        this.startY = Object(__WEBPACK_IMPORTED_MODULE_7__util_dom__["f" /* pointerCoord */])(ev).y;
-        // reset everything
-        this.velocity = 0;
-        this.pos.length = 0;
-        this.pos.push(this.startY, Date.now());
-        var /** @type {?} */ options = this.col.options;
-        var /** @type {?} */ minY = (options.length - 1);
-        var /** @type {?} */ maxY = 0;
-        for (var /** @type {?} */ i = 0; i < options.length; i++) {
-            if (!options[i].disabled) {
-                minY = Math.min(minY, i);
-                maxY = Math.max(maxY, i);
-            }
-        }
-        this.minY = (minY * this.optHeight * -1);
-        this.maxY = (maxY * this.optHeight * -1);
-        return true;
-    };
-    /**
-     * @param {?} ev
-     * @return {?}
-     */
-    PickerColumnCmp.prototype.pointerMove = function (ev) {
-        var _this = this;
-        ev.preventDefault();
-        ev.stopPropagation();
-        var /** @type {?} */ currentY = Object(__WEBPACK_IMPORTED_MODULE_7__util_dom__["f" /* pointerCoord */])(ev).y;
-        this.pos.push(currentY, Date.now());
-        this.debouncer.write(function () {
-            if (_this.startY === null) {
-                return;
-            }
-            // update the scroll position relative to pointer start position
-            var /** @type {?} */ y = _this.y + (currentY - _this.startY);
-            if (y > _this.minY) {
-                // scrolling up higher than scroll area
-                y = Math.pow(y, 0.8);
-                _this.bounceFrom = y;
-            }
-            else if (y < _this.maxY) {
-                // scrolling down below scroll area
-                y += Math.pow(_this.maxY - y, 0.9);
-                _this.bounceFrom = y;
-            }
-            else {
-                _this.bounceFrom = 0;
-            }
-            _this.update(y, 0, false, false);
-            var /** @type {?} */ currentIndex = Math.max(Math.abs(Math.round(y / _this.optHeight)), 0);
-            if (currentIndex !== _this.lastTempIndex) {
-                // Trigger a haptic event for physical feedback that the index has changed
-                _this._haptic.gestureSelectionChanged();
-                _this.lastTempIndex = currentIndex;
-            }
-        });
-    };
-    /**
-     * @param {?} ev
-     * @return {?}
-     */
-    PickerColumnCmp.prototype.pointerEnd = function (ev) {
-        ev.preventDefault();
-        this.debouncer.cancel();
-        if (this.startY === null) {
-            return;
-        }
-        (void 0) /* console.debug */;
-        this.velocity = 0;
-        if (this.bounceFrom > 0) {
-            // bounce back up
-            this.update(this.minY, 100, true, true);
-            return;
-        }
-        else if (this.bounceFrom < 0) {
-            // bounce back down
-            this.update(this.maxY, 100, true, true);
-            return;
-        }
-        var /** @type {?} */ endY = Object(__WEBPACK_IMPORTED_MODULE_7__util_dom__["f" /* pointerCoord */])(ev).y;
-        this.pos.push(endY, Date.now());
-        var /** @type {?} */ endPos = (this.pos.length - 1);
-        var /** @type {?} */ startPos = endPos;
-        var /** @type {?} */ timeRange = (Date.now() - 100);
-        // move pointer to position measured 100ms ago
-        for (var /** @type {?} */ i = endPos; i > 0 && this.pos[i] > timeRange; i -= 2) {
-            startPos = i;
-        }
-        if (startPos !== endPos) {
-            // compute relative movement between these two points
-            var /** @type {?} */ timeOffset = (this.pos[endPos] - this.pos[startPos]);
-            var /** @type {?} */ movedTop = (this.pos[startPos - 1] - this.pos[endPos - 1]);
-            // based on XXms compute the movement to apply for each render step
-            var /** @type {?} */ velocity = ((movedTop / timeOffset) * __WEBPACK_IMPORTED_MODULE_5__picker_options__["b" /* FRAME_MS */]);
-            this.velocity = Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["a" /* clamp */])(-__WEBPACK_IMPORTED_MODULE_5__picker_options__["c" /* MAX_PICKER_SPEED */], velocity, __WEBPACK_IMPORTED_MODULE_5__picker_options__["c" /* MAX_PICKER_SPEED */]);
-        }
-        if (Math.abs(endY - this.startY) > 3) {
-            var /** @type {?} */ y = this.y + (endY - this.startY);
-            this.update(y, 0, true, true);
-        }
-        this.startY = null;
-        this.decelerate();
-    };
-    /**
-     * @return {?}
-     */
-    PickerColumnCmp.prototype.decelerate = function () {
-        var /** @type {?} */ y = 0;
-        if (isNaN(this.y) || !this.optHeight) {
-            // fallback in case numbers get outta wack
-            this.update(y, 0, true, true);
-            this._haptic.gestureSelectionEnd();
-        }
-        else if (Math.abs(this.velocity) > 0) {
-            // still decelerating
-            this.velocity *= __WEBPACK_IMPORTED_MODULE_5__picker_options__["a" /* DECELERATION_FRICTION */];
-            // do not let it go slower than a velocity of 1
-            this.velocity = (this.velocity > 0)
-                ? Math.max(this.velocity, 1)
-                : Math.min(this.velocity, -1);
-            y = Math.round(this.y - this.velocity);
-            if (y > this.minY) {
-                // whoops, it's trying to scroll up farther than the options we have!
-                y = this.minY;
-                this.velocity = 0;
-            }
-            else if (y < this.maxY) {
-                // gahh, it's trying to scroll down farther than we can!
-                y = this.maxY;
-                this.velocity = 0;
-            }
-            var /** @type {?} */ notLockedIn = (y % this.optHeight !== 0 || Math.abs(this.velocity) > 1);
-            this.update(y, 0, true, !notLockedIn);
-            if (notLockedIn) {
-                // isn't locked in yet, keep decelerating until it is
-                this.rafId = this._plt.raf(this.decelerateFunc);
-            }
-        }
-        else if (this.y % this.optHeight !== 0) {
-            // needs to still get locked into a position so options line up
-            var /** @type {?} */ currentPos = Math.abs(this.y % this.optHeight);
-            // create a velocity in the direction it needs to scroll
-            this.velocity = (currentPos > (this.optHeight / 2) ? 1 : -1);
-            this._haptic.gestureSelectionEnd();
-            this.decelerate();
-        }
-        var /** @type {?} */ currentIndex = Math.max(Math.abs(Math.round(y / this.optHeight)), 0);
-        if (currentIndex !== this.lastTempIndex) {
-            // Trigger a haptic event for physical feedback that the index has changed
-            this._haptic.gestureSelectionChanged();
-        }
-        this.lastTempIndex = currentIndex;
-    };
-    /**
-     * @param {?} ev
-     * @param {?} index
-     * @return {?}
-     */
-    PickerColumnCmp.prototype.optClick = function (ev, index) {
-        if (!this.velocity) {
-            ev.preventDefault();
-            ev.stopPropagation();
-            this.setSelected(index, 150);
-        }
-    };
-    /**
-     * @param {?} selectedIndex
-     * @param {?} duration
-     * @return {?}
-     */
-    PickerColumnCmp.prototype.setSelected = function (selectedIndex, duration) {
-        // if there is a selected index, then figure out it's y position
-        // if there isn't a selected index, then just use the top y position
-        var /** @type {?} */ y = (selectedIndex > -1) ? ((selectedIndex * this.optHeight) * -1) : 0;
-        this._plt.cancelRaf(this.rafId);
-        this.velocity = 0;
-        // so what y position we're at
-        this.update(y, duration, true, true);
-    };
-    /**
-     * @param {?} y
-     * @param {?} duration
-     * @param {?} saveY
-     * @param {?} emitChange
-     * @return {?}
-     */
-    PickerColumnCmp.prototype.update = function (y, duration, saveY, emitChange) {
-        // ensure we've got a good round number :)
-        y = Math.round(y);
-        var /** @type {?} */ i;
-        var /** @type {?} */ button;
-        var /** @type {?} */ opt;
-        var /** @type {?} */ optOffset;
-        var /** @type {?} */ visible;
-        var /** @type {?} */ translateX;
-        var /** @type {?} */ translateY;
-        var /** @type {?} */ translateZ;
-        var /** @type {?} */ rotateX;
-        var /** @type {?} */ transform;
-        var /** @type {?} */ selected;
-        var /** @type {?} */ parent = this.colEle.nativeElement;
-        var /** @type {?} */ children = parent.children;
-        var /** @type {?} */ length = children.length;
-        var /** @type {?} */ selectedIndex = this.col.selectedIndex = Math.min(Math.max(Math.round(-y / this.optHeight), 0), length - 1);
-        var /** @type {?} */ durationStr = (duration === 0) ? null : duration + 'ms';
-        var /** @type {?} */ scaleStr = "scale(" + this.scaleFactor + ")";
-        for (i = 0; i < length; i++) {
-            button = children[i];
-            opt = (this.col.options[i]);
-            optOffset = (i * this.optHeight) + y;
-            visible = true;
-            transform = '';
-            if (this.rotateFactor !== 0) {
-                rotateX = optOffset * this.rotateFactor;
-                if (Math.abs(rotateX) > 90) {
-                    visible = false;
-                }
-                else {
-                    translateX = 0;
-                    translateY = 0;
-                    translateZ = 90;
-                    transform = "rotateX(" + rotateX + "deg) ";
-                }
-            }
-            else {
-                translateX = 0;
-                translateZ = 0;
-                translateY = optOffset;
-                if (Math.abs(translateY) > 170) {
-                    visible = false;
-                }
-            }
-            selected = selectedIndex === i;
-            if (visible) {
-                transform += "translate3d(0px," + translateY + "px," + translateZ + "px) ";
-                if (this.scaleFactor !== 1 && !selected) {
-                    transform += scaleStr;
-                }
-            }
-            else {
-                transform = 'translate3d(-9999px,0px,0px)';
-            }
-            // Update transition duration
-            if (duration !== opt._dur) {
-                opt._dur = duration;
-                button.style[this._plt.Css.transitionDuration] = durationStr;
-            }
-            // Update transform
-            if (transform !== opt._trans) {
-                opt._trans = transform;
-                button.style[this._plt.Css.transform] = transform;
-            }
-            // Update selected item
-            if (selected !== opt._selected) {
-                opt._selected = selected;
-                if (selected) {
-                    button.classList.add(__WEBPACK_IMPORTED_MODULE_5__picker_options__["d" /* PICKER_OPT_SELECTED */]);
-                }
-                else {
-                    button.classList.remove(__WEBPACK_IMPORTED_MODULE_5__picker_options__["d" /* PICKER_OPT_SELECTED */]);
-                }
-            }
-        }
-        this.col.prevSelected = selectedIndex;
-        if (saveY) {
-            this.y = y;
-        }
-        if (emitChange) {
-            if (this.lastIndex === undefined) {
-                // have not set a last index yet
-                this.lastIndex = this.col.selectedIndex;
-            }
-            else if (this.lastIndex !== this.col.selectedIndex) {
-                // new selected index has changed from the last index
-                // update the lastIndex and emit that it has changed
-                this.lastIndex = this.col.selectedIndex;
-                var /** @type {?} */ ionChange = this.ionChange;
-                if (ionChange.observers.length > 0) {
-                    this._zone.run(ionChange.emit.bind(ionChange, this.col.options[this.col.selectedIndex]));
-                }
-            }
-        }
-    };
-    /**
-     * @return {?}
-     */
-    PickerColumnCmp.prototype.refresh = function () {
-        var /** @type {?} */ min = this.col.options.length - 1;
-        var /** @type {?} */ max = 0;
-        var /** @type {?} */ options = this.col.options;
-        for (var /** @type {?} */ i = 0; i < options.length; i++) {
-            if (!options[i].disabled) {
-                min = Math.min(min, i);
-                max = Math.max(max, i);
-            }
-        }
-        var /** @type {?} */ selectedIndex = Object(__WEBPACK_IMPORTED_MODULE_1__util_util__["a" /* clamp */])(min, this.col.selectedIndex, max);
-        if (this.col.prevSelected !== selectedIndex) {
-            var /** @type {?} */ y = (selectedIndex * this.optHeight) * -1;
-            this._plt.cancelRaf(this.rafId);
-            this.velocity = 0;
-            this.update(y, 150, true, false);
-        }
-    };
-    return PickerColumnCmp;
-}());
-
-PickerColumnCmp.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
-                selector: '.picker-col',
-                template: '<div *ngIf="col.prefix" class="picker-prefix" [style.width]="col.prefixWidth">{{col.prefix}}</div>' +
-                    '<div class="picker-opts" #colEle [style.max-width]="col.optionsWidth">' +
-                    '<button *ngFor="let o of col.options; let i=index"' +
-                    '[class.picker-opt-disabled]="o.disabled" ' +
-                    'class="picker-opt" disable-activated (click)="optClick($event, i)">' +
-                    '{{o.text}}' +
-                    '</button>' +
-                    '</div>' +
-                    '<div *ngIf="col.suffix" class="picker-suffix" [style.width]="col.suffixWidth">{{col.suffix}}</div>',
-                host: {
-                    '[style.max-width]': 'col.columnWidth',
-                    '[class.picker-opts-left]': 'col.align=="left"',
-                    '[class.picker-opts-right]': 'col.align=="right"',
-                }
-            },] },
-];
-/**
- * @nocollapse
- */
-PickerColumnCmp.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* Config */], },
-    { type: __WEBPACK_IMPORTED_MODULE_6__platform_platform__["a" /* Platform */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* NgZone */], },
-    { type: __WEBPACK_IMPORTED_MODULE_4__tap_click_haptic__["a" /* Haptic */], },
-    { type: __WEBPACK_IMPORTED_MODULE_6__platform_platform__["a" /* Platform */], },
-    { type: __WEBPACK_IMPORTED_MODULE_3__platform_dom_controller__["a" /* DomController */], },
-]; };
-PickerColumnCmp.propDecorators = {
-    'colEle': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */], args: ['colEle',] },],
-    'col': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-    'ionChange': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["S" /* Output */] },],
-};
-function PickerColumnCmp_tsickle_Closure_declarations() {
-    /** @type {?} */
-    PickerColumnCmp.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    PickerColumnCmp.ctorParameters;
-    /** @type {?} */
-    PickerColumnCmp.propDecorators;
-    /** @type {?} */
-    PickerColumnCmp.prototype.colEle;
-    /** @type {?} */
-    PickerColumnCmp.prototype.col;
-    /** @type {?} */
-    PickerColumnCmp.prototype.y;
-    /** @type {?} */
-    PickerColumnCmp.prototype.colHeight;
-    /** @type {?} */
-    PickerColumnCmp.prototype.optHeight;
-    /** @type {?} */
-    PickerColumnCmp.prototype.velocity;
-    /** @type {?} */
-    PickerColumnCmp.prototype.pos;
-    /** @type {?} */
-    PickerColumnCmp.prototype.startY;
-    /** @type {?} */
-    PickerColumnCmp.prototype.rafId;
-    /** @type {?} */
-    PickerColumnCmp.prototype.bounceFrom;
-    /** @type {?} */
-    PickerColumnCmp.prototype.minY;
-    /** @type {?} */
-    PickerColumnCmp.prototype.maxY;
-    /** @type {?} */
-    PickerColumnCmp.prototype.rotateFactor;
-    /** @type {?} */
-    PickerColumnCmp.prototype.scaleFactor;
-    /** @type {?} */
-    PickerColumnCmp.prototype.lastIndex;
-    /** @type {?} */
-    PickerColumnCmp.prototype.lastTempIndex;
-    /** @type {?} */
-    PickerColumnCmp.prototype.decelerateFunc;
-    /** @type {?} */
-    PickerColumnCmp.prototype.debouncer;
-    /** @type {?} */
-    PickerColumnCmp.prototype.events;
-    /** @type {?} */
-    PickerColumnCmp.prototype.ionChange;
-    /** @type {?} */
-    PickerColumnCmp.prototype._plt;
-    /** @type {?} */
-    PickerColumnCmp.prototype.elementRef;
-    /** @type {?} */
-    PickerColumnCmp.prototype._zone;
-    /** @type {?} */
-    PickerColumnCmp.prototype._haptic;
-}
-//# sourceMappingURL=picker-column.js.map
-
-/***/ }),
-/* 70 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FabList; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__fab__ = __webpack_require__(46);
-
-
-
-
-
-/**
- * \@name FabList
- * \@description
- * `ion-fab-list` is a container for multiple FAB buttons. They are components of `ion-fab` and allow you to specificy the buttons position, left, right, top, bottom.
- * \@usage
- *
- * ```html
- *  <ion-fab bottom right >
- *    <button ion-fab>Share</button>
- *    <ion-fab-list side="top">
- *      <button ion-fab>Facebook</button>
- *      <button ion-fab>Twitter</button>
- *      <button ion-fab>Youtube</button>
- *    </ion-fab-list>
- *    <ion-fab-list side="left">
- *      <button ion-fab>Vimeo</button>
- *    </ion-fab-list>
- *  </ion-fab>
- * ```
- * \@module ionic
- *
- * \@demo /docs/demos/src/fab/
- * @see {\@link /docs/components#fab Fab Component Docs}
- */
-var FabList = (function () {
-    /**
-     * @param {?} _elementRef
-     * @param {?} _renderer
-     * @param {?} config
-     * @param {?} _plt
-     */
-    function FabList(_elementRef, _renderer, config, _plt) {
-        this._elementRef = _elementRef;
-        this._renderer = _renderer;
-        this._plt = _plt;
-        this._visible = false;
-        this._fabs = [];
-        this._mode = config.get('mode');
-    }
-    Object.defineProperty(FabList.prototype, "_setbuttons", {
-        /**
-         * @param {?} query
-         * @return {?}
-         */
-        set: function (query) {
-            var /** @type {?} */ fabs = this._fabs = query.toArray();
-            var /** @type {?} */ className = "fab-" + this._mode + "-in-list";
-            for (var _i = 0, fabs_1 = fabs; _i < fabs_1.length; _i++) {
-                var fab = fabs_1[_i];
-                fab.setElementClass('fab-in-list', true);
-                fab.setElementClass(className, true);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @hidden
-     * @param {?} val
-     * @return {?}
-     */
-    FabList.prototype.setVisible = function (val) {
-        var _this = this;
-        var /** @type {?} */ visible = Object(__WEBPACK_IMPORTED_MODULE_2__util_util__["o" /* isTrueProperty */])(val);
-        if (visible === this._visible) {
-            return;
-        }
-        this._visible = visible;
-        var /** @type {?} */ fabs = this._fabs;
-        var /** @type {?} */ i = 1;
-        if (visible) {
-            fabs.forEach(function (fab) {
-                _this._plt.timeout(function () { return fab.setElementClass('show', true); }, i * 30);
-                i++;
-            });
-        }
-        else {
-            fabs.forEach(function (fab) { return fab.setElementClass('show', false); });
-        }
-        this.setElementClass('fab-list-active', visible);
-    };
-    /**
-     * \@internal
-     * @param {?} className
-     * @param {?} add
-     * @return {?}
-     */
-    FabList.prototype.setElementClass = function (className, add) {
-        this._renderer.setElementClass(this._elementRef.nativeElement, className, add);
-    };
-    return FabList;
-}());
-
-FabList.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
-                selector: 'ion-fab-list',
-            },] },
-];
-/**
- * @nocollapse
- */
-FabList.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
-    { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
-    { type: __WEBPACK_IMPORTED_MODULE_3__platform_platform__["a" /* Platform */], },
-]; };
-FabList.propDecorators = {
-    '_setbuttons': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["s" /* ContentChildren */], args: [__WEBPACK_IMPORTED_MODULE_4__fab__["a" /* FabButton */],] },],
-};
-function FabList_tsickle_Closure_declarations() {
-    /** @type {?} */
-    FabList.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    FabList.ctorParameters;
-    /** @type {?} */
-    FabList.propDecorators;
-    /** @type {?} */
-    FabList.prototype._visible;
-    /** @type {?} */
-    FabList.prototype._fabs;
-    /** @type {?} */
-    FabList.prototype._mode;
-    /** @type {?} */
-    FabList.prototype._elementRef;
-    /** @type {?} */
-    FabList.prototype._renderer;
-    /** @type {?} */
-    FabList.prototype._plt;
-}
-//# sourceMappingURL=fab-list.js.map
-
-/***/ }),
-/* 71 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InfiniteScroll; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__content_content__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__platform_dom_controller__ = __webpack_require__(8);
-
-
-
-/**
- * \@name InfiniteScroll
- * \@description
- * The Infinite Scroll allows you to perform an action when the user
- * scrolls a specified distance from the bottom or top of the page.
- *
- * The expression assigned to the `infinite` event is called when
- * the user scrolls to the specified distance. When this expression
- * has finished its tasks, it should call the `complete()` method
- * on the infinite scroll instance.
- *
- * \@usage
- * ```html
- * <ion-content>
- *
- *  <ion-list>
- *    <ion-item *ngFor="let i of items">{% raw %}{{i}}{% endraw %}</ion-item>
- *  </ion-list>
- *
- *  <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
- *    <ion-infinite-scroll-content></ion-infinite-scroll-content>
- *  </ion-infinite-scroll>
- *
- * </ion-content>
- * ```
- *
- * ```ts
- * \@Component({...})
- * export class NewsFeedPage {
- *   items = [];
- *
- *   constructor() {
- *     for (let i = 0; i < 30; i++) {
- *       this.items.push( this.items.length );
- *     }
- *   }
- *
- *   doInfinite(infiniteScroll) {
- *     console.log('Begin async operation');
- *
- *     setTimeout(() => {
- *       for (let i = 0; i < 30; i++) {
- *         this.items.push( this.items.length );
- *       }
- *
- *       console.log('Async operation has ended');
- *       infiniteScroll.complete();
- *     }, 500);
- *   }
- *
- * }
- * ```
- *
- * ## `waitFor` method of InfiniteScroll
- *
- * In case if your async operation returns promise you can utilize
- * `waitFor` method inside your template.
- *
- * ```html
- * <ion-content>
- *
- *  <ion-list>
- *    <ion-item *ngFor="let item of items">{{item}}</ion-item>
- *  </ion-list>
- *
- *  <ion-infinite-scroll (ionInfinite)="$event.waitFor(doInfinite())">
- *    <ion-infinite-scroll-content></ion-infinite-scroll-content>
- *  </ion-infinite-scroll>
- *
- * </ion-content>
- * ```
- *
- * ```ts
- * \@Component({...})
- * export class NewsFeedPage {
- *   items = [];
- *
- *   constructor() {
- *     for (var i = 0; i < 30; i++) {
- *       this.items.push( this.items.length );
- *     }
- *   }
- *
- *   doInfinite(): Promise<any> {
- *     console.log('Begin async operation');
- *
- *     return new Promise((resolve) => {
- *       setTimeout(() => {
- *         for (var i = 0; i < 30; i++) {
- *           this.items.push( this.items.length );
- *         }
- *
- *         console.log('Async operation has ended');
- *         resolve();
- *       }, 500);
- *     })
- *   }
- * }
- * ```
- *
- * ## Infinite Scroll Content
- *
- * By default, Ionic uses the infinite scroll spinner that looks
- * best for the platform the user is on. However, you can change the
- * default spinner or add text by adding properties to the
- * `ion-infinite-scroll-content` component.
- *
- *  ```html
- *  <ion-content>
- *
- *    <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
- *      <ion-infinite-scroll-content
- *        loadingSpinner="bubbles"
- *        loadingText="Loading more data...">
- *      </ion-infinite-scroll-content>
- *    </ion-infinite-scroll>
- *
- *  </ion-content>
- *  ```
- *
- *
- * ## Further Customizing Infinite Scroll Content
- *
- * The `ion-infinite-scroll` component holds the infinite scroll logic.
- * It requires a child component in order to display the content.
- * Ionic uses `ion-infinite-scroll-content` by default. This component
- * displays the infinite scroll and changes the look depending
- * on the infinite scroll's state. Separating these components allows
- * developers to create their own infinite scroll content components.
- * You could replace our default content with custom SVG or CSS animations.
- *
- * \@demo /docs/demos/src/infinite-scroll/
- *
- */
-var InfiniteScroll = (function () {
-    /**
-     * @param {?} _content
-     * @param {?} _zone
-     * @param {?} _elementRef
-     * @param {?} _dom
-     */
-    function InfiniteScroll(_content, _zone, _elementRef, _dom) {
-        this._content = _content;
-        this._zone = _zone;
-        this._elementRef = _elementRef;
-        this._dom = _dom;
-        this._lastCheck = 0;
-        this._highestY = 0;
-        this._thr = '15%';
-        this._thrPx = 0;
-        this._thrPc = 0.15;
-        this._position = POSITION_BOTTOM;
-        this._init = false;
-        /**
-         * \@internal
-         */
-        this.state = STATE_ENABLED;
-        /**
-         * \@output {event} Emitted when the scroll reaches
-         * the threshold distance. From within your infinite handler,
-         * you must call the infinite scroll's `complete()` method when
-         * your async operation has completed.
-         */
-        this.ionInfinite = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
-        _content.setElementClass('has-infinite-scroll', true);
-    }
-    Object.defineProperty(InfiniteScroll.prototype, "threshold", {
-        /**
-         * \@input {string} The threshold distance from the bottom
-         * of the content to call the `infinite` output event when scrolled.
-         * The threshold value can be either a percent, or
-         * in pixels. For example, use the value of `10%` for the `infinite`
-         * output event to get called when the user has scrolled 10%
-         * from the bottom of the page. Use the value `100px` when the
-         * scroll is within 100 pixels from the bottom of the page.
-         * Default is `15%`.
-         * @return {?}
-         */
-        get: function () {
-            return this._thr;
-        },
-        /**
-         * @param {?} val
-         * @return {?}
-         */
-        set: function (val) {
-            this._thr = val;
-            if (val.indexOf('%') > -1) {
-                this._thrPx = 0;
-                this._thrPc = (parseFloat(val) / 100);
-            }
-            else {
-                this._thrPx = parseFloat(val);
-                this._thrPc = 0;
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(InfiniteScroll.prototype, "enabled", {
-        /**
-         * \@input {boolean} If true, Whether or not the infinite scroll should be
-         * enabled or not. Setting to `false` will remove scroll event listeners
-         * and hide the display.
-         * @param {?} shouldEnable
-         * @return {?}
-         */
-        set: function (shouldEnable) {
-            this.enable(shouldEnable);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(InfiniteScroll.prototype, "position", {
-        /**
-         * \@input {string} The position of the infinite scroll element.
-         * The value can be either `top` or `bottom`.
-         * Default is `bottom`.
-         * @return {?}
-         */
-        get: function () {
-            return this._position;
-        },
-        /**
-         * @param {?} val
-         * @return {?}
-         */
-        set: function (val) {
-            if (val === POSITION_TOP || val === POSITION_BOTTOM) {
-                this._position = val;
-            }
-            else {
-                console.error("Invalid value for ion-infinite-scroll's position input. Its value should be '" + POSITION_BOTTOM + "' or '" + POSITION_TOP + "'.");
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @param {?} ev
-     * @return {?}
-     */
-    InfiniteScroll.prototype._onScroll = function (ev) {
-        var _this = this;
-        if (this.state === STATE_LOADING || this.state === STATE_DISABLED) {
-            return 1;
-        }
-        if (this._lastCheck + 32 > ev.timeStamp) {
-            // no need to check less than every XXms
-            return 2;
-        }
-        this._lastCheck = ev.timeStamp;
-        // ******** DOM READ ****************
-        var /** @type {?} */ infiniteHeight = this._elementRef.nativeElement.scrollHeight;
-        if (!infiniteHeight) {
-            // if there is no height of this element then do nothing
-            return 3;
-        }
-        // ******** DOM READ ****************
-        var /** @type {?} */ d = this._content.getContentDimensions();
-        var /** @type {?} */ height = d.contentHeight;
-        var /** @type {?} */ threshold = this._thrPc ? (height * this._thrPc) : this._thrPx;
-        // ******** DOM READS ABOVE / DOM WRITES BELOW ****************
-        var /** @type {?} */ distanceFromInfinite;
-        if (this._position === POSITION_BOTTOM) {
-            distanceFromInfinite = d.scrollHeight - infiniteHeight - d.scrollTop - height - threshold;
-        }
-        else {
-            (void 0) /* assert */;
-            distanceFromInfinite = d.scrollTop - infiniteHeight - threshold;
-        }
-        if (distanceFromInfinite < 0) {
-            // ******** DOM WRITE ****************
-            this._dom.write(function () {
-                _this._zone.run(function () {
-                    if (_this.state !== STATE_LOADING && _this.state !== STATE_DISABLED) {
-                        _this.state = STATE_LOADING;
-                        _this.ionInfinite.emit(_this);
-                    }
-                });
-            });
-            return 5;
-        }
-        return 6;
-    };
-    /**
-     * Call `complete()` within the `infinite` output event handler when
-     * your async operation has completed. For example, the `loading`
-     * state is while the app is performing an asynchronous operation,
-     * such as receiving more data from an AJAX request to add more items
-     * to a data list. Once the data has been received and UI updated, you
-     * then call this method to signify that the loading has completed.
-     * This method will change the infinite scroll's state from `loading`
-     * to `enabled`.
-     * @return {?}
-     */
-    InfiniteScroll.prototype.complete = function () {
-        var _this = this;
-        if (this.state !== STATE_LOADING) {
-            return;
-        }
-        if (this._position === POSITION_BOTTOM) {
-            this.state = STATE_ENABLED;
-            return;
-        }
-        (void 0) /* assert */;
-        /* New content is being added at the top, but the scrollTop position stays the same,
-          which causes a scroll jump visually. This algorithm makes sure to prevent this.
-    
-          (Frame 1)
-            complete() is called, but the UI hasn't had time to update yet.
-            Save the current content dimensions.
-            Wait for the next frame using _dom.read, so the UI will be updated.
-    
-          (Frame 2)
-            Read the new content dimensions.
-            Calculate the height difference and the new scroll position.
-            Delay the scroll position change until other possible dom reads are done using _dom.write to be performant.
-    
-          (Still frame 2, if I'm correct)
-            Change the scroll position (= visually maintain the scroll position).
-            Change the state to re-enable the InfiniteScroll. This should be after changing the scroll position, or it could cause the InfiniteScroll to be triggered again immediately.
-    
-          (Frame 3)
-            Done.
-        */
-        // ******** DOM READ ****************
-        // Save the current content dimensions before the UI updates
-        var /** @type {?} */ prevDim = this._content.getContentDimensions();
-        // ******** DOM READ ****************
-        this._dom.read(function () {
-            // UI has updated, save the new content dimensions
-            var /** @type {?} */ newDim = _this._content.getContentDimensions();
-            // New content was added on top, so the scroll position should be changed immediately to prevent it from jumping around
-            var /** @type {?} */ newScrollTop = newDim.scrollHeight - (prevDim.scrollHeight - prevDim.scrollTop);
-            // ******** DOM WRITE ****************
-            _this._dom.write(function () {
-                _this._content.scrollTop = newScrollTop;
-                _this.state = STATE_ENABLED;
-            });
-        });
-    };
-    /**
-     * Pass a promise inside `waitFor()` within the `infinite` output event handler in order to
-     * change state of infiniteScroll to "complete"
-     * @param {?} action
-     * @return {?}
-     */
-    InfiniteScroll.prototype.waitFor = function (action) {
-        var /** @type {?} */ enable = this.complete.bind(this);
-        action.then(enable, enable);
-    };
-    /**
-     * Call `enable(false)` to disable the infinite scroll from actively
-     * trying to receive new data while scrolling. This method is useful
-     * when it is known that there is no more data that can be added, and
-     * the infinite scroll is no longer needed.
-     * enabled or not. Setting to `false` will remove scroll event listeners
-     * and hide the display.
-     * @param {?} shouldEnable
-     * @return {?}
-     */
-    InfiniteScroll.prototype.enable = function (shouldEnable) {
-        this.state = (shouldEnable ? STATE_ENABLED : STATE_DISABLED);
-        this._setListeners(shouldEnable);
-    };
-    /**
-     * @hidden
-     * @param {?} shouldListen
-     * @return {?}
-     */
-    InfiniteScroll.prototype._setListeners = function (shouldListen) {
-        if (this._init) {
-            if (shouldListen) {
-                if (!this._scLsn) {
-                    this._scLsn = this._content.ionScroll.subscribe(this._onScroll.bind(this));
-                }
-            }
-            else {
-                this._scLsn && this._scLsn.unsubscribe();
-                this._scLsn = null;
-            }
-        }
-    };
-    /**
-     * @hidden
-     * @return {?}
-     */
-    InfiniteScroll.prototype.ngAfterContentInit = function () {
-        this._init = true;
-        this._setListeners(this.state !== STATE_DISABLED);
-        if (this._position === POSITION_TOP) {
-            this._content.scrollDownOnLoad = true;
-        }
-    };
-    /**
-     * @hidden
-     * @return {?}
-     */
-    InfiniteScroll.prototype.ngOnDestroy = function () {
-        this._setListeners(false);
-    };
-    return InfiniteScroll;
-}());
-
-InfiniteScroll.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
-                selector: 'ion-infinite-scroll'
-            },] },
-];
-/**
- * @nocollapse
- */
-InfiniteScroll.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_1__content_content__["a" /* Content */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* NgZone */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: __WEBPACK_IMPORTED_MODULE_2__platform_dom_controller__["a" /* DomController */], },
-]; };
-InfiniteScroll.propDecorators = {
-    'threshold': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-    'enabled': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-    'position': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-    'ionInfinite': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["S" /* Output */] },],
-};
-function InfiniteScroll_tsickle_Closure_declarations() {
-    /** @type {?} */
-    InfiniteScroll.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    InfiniteScroll.ctorParameters;
-    /** @type {?} */
-    InfiniteScroll.propDecorators;
-    /** @type {?} */
-    InfiniteScroll.prototype._lastCheck;
-    /** @type {?} */
-    InfiniteScroll.prototype._highestY;
-    /** @type {?} */
-    InfiniteScroll.prototype._scLsn;
-    /** @type {?} */
-    InfiniteScroll.prototype._thr;
-    /** @type {?} */
-    InfiniteScroll.prototype._thrPx;
-    /** @type {?} */
-    InfiniteScroll.prototype._thrPc;
-    /** @type {?} */
-    InfiniteScroll.prototype._position;
-    /** @type {?} */
-    InfiniteScroll.prototype._init;
-    /**
-     * \@internal
-     * @type {?}
-     */
-    InfiniteScroll.prototype.state;
-    /**
-     * \@output {event} Emitted when the scroll reaches
-     * the threshold distance. From within your infinite handler,
-     * you must call the infinite scroll's `complete()` method when
-     * your async operation has completed.
-     * @type {?}
-     */
-    InfiniteScroll.prototype.ionInfinite;
-    /** @type {?} */
-    InfiniteScroll.prototype._content;
-    /** @type {?} */
-    InfiniteScroll.prototype._zone;
-    /** @type {?} */
-    InfiniteScroll.prototype._elementRef;
-    /** @type {?} */
-    InfiniteScroll.prototype._dom;
-}
-var /** @type {?} */ STATE_ENABLED = 'enabled';
-var /** @type {?} */ STATE_DISABLED = 'disabled';
-var /** @type {?} */ STATE_LOADING = 'loading';
-var /** @type {?} */ POSITION_TOP = 'top';
-var /** @type {?} */ POSITION_BOTTOM = 'bottom';
-//# sourceMappingURL=infinite-scroll.js.map
-
-/***/ }),
-/* 72 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemOptions; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(2);
-
-
-
-/**
- * \@name ItemOptions
- * \@description
- * The option buttons for an `ion-item-sliding`. These buttons can be placed either on the left or right side.
- * You can combine the `(ionSwipe)` event plus the `expandable` directive to create a full swipe action for the item.
- *
- * \@usage
- *
- * ```html
- * <ion-item-sliding>
- *   <ion-item>
- *     Item 1
- *   </ion-item>
- *   <ion-item-options side="right" (ionSwipe)="saveItem(item)">
- *     <button ion-button expandable (click)="saveItem(item)">
- *       <ion-icon name="star"></ion-icon>
- *     </button>
- *   </ion-item-options>
- * </ion-item-sliding>
- * ```
- */
-var ItemOptions = (function () {
-    /**
-     * @param {?} _elementRef
-     * @param {?} _plt
-     */
-    function ItemOptions(_elementRef, _plt) {
-        this._elementRef = _elementRef;
-        this._plt = _plt;
-        /**
-         * \@output {event} Emitted when the item has been fully swiped.
-         */
-        this.ionSwipe = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["w" /* EventEmitter */]();
-    }
-    /**
-     * @hidden
-     * @return {?}
-     */
-    ItemOptions.prototype.isRightSide = function () {
-        return Object(__WEBPACK_IMPORTED_MODULE_2__util_util__["m" /* isRightSide */])(this.side, this._plt.isRTL, true);
-    };
-    /**
-     * @hidden
-     * @return {?}
-     */
-    ItemOptions.prototype.width = function () {
-        return this._elementRef.nativeElement.offsetWidth;
-    };
-    return ItemOptions;
-}());
-
-ItemOptions.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
-                selector: 'ion-item-options',
-            },] },
-];
-/**
- * @nocollapse
- */
-ItemOptions.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: __WEBPACK_IMPORTED_MODULE_1__platform_platform__["a" /* Platform */], },
-]; };
-ItemOptions.propDecorators = {
-    'side': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-    'ionSwipe': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["S" /* Output */] },],
-};
-function ItemOptions_tsickle_Closure_declarations() {
-    /** @type {?} */
-    ItemOptions.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    ItemOptions.ctorParameters;
-    /** @type {?} */
-    ItemOptions.propDecorators;
-    /**
-     * \@input {string} The side the option button should be on. Defaults to `"right"`.
-     * If you have multiple `ion-item-options`, a side must be provided for each.
-     * @type {?}
-     */
-    ItemOptions.prototype.side;
-    /**
-     * \@output {event} Emitted when the item has been fully swiped.
-     * @type {?}
-     */
-    ItemOptions.prototype.ionSwipe;
-    /** @type {?} */
-    ItemOptions.prototype._elementRef;
-    /** @type {?} */
-    ItemOptions.prototype._plt;
-}
-//# sourceMappingURL=item-options.js.map
-
-/***/ }),
-/* 73 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return List; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__platform_dom_controller__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ion__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__item_item_sliding_gesture__ = __webpack_require__(241);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__platform_platform__ = __webpack_require__(3);
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-
-
-
-
-
-
-
-/**
- * The List is a widely used interface element in almost any mobile app,
- * and can include content ranging from basic text all the way to
- * buttons, toggles, icons, and thumbnails.
- *
- * Both the list, which contains items, and the list items themselves
- * can be any HTML element.
- *
- * Using the List and Item components make it easy to support various
- * interaction modes such as swipe to edit, drag to reorder, and
- * removing items.
- *
- * \@demo /docs/demos/src/list/
- * @see {\@link /docs/components#lists List Component Docs}
- * \@advanced
- *
- * Enable the sliding items.
- *
- * ```ts
- * import { Component, ViewChild } from '\@angular/core';
- * import { List } from 'ionic-angular';
- *
- * \@Component({...})
- * export class MyClass {
- *   \@ViewChild(List) list: List;
- *
- *   constructor() { }
- *
- *   stopSliding() {
- *     this.list.enableSlidingItems(false);
- *   }
- * }
- * ```
- *
- */
-var List = (function (_super) {
-    __extends(List, _super);
-    /**
-     * @param {?} config
-     * @param {?} elementRef
-     * @param {?} renderer
-     * @param {?} _plt
-     * @param {?} _gestureCtrl
-     * @param {?} _domCtrl
-     */
-    function List(config, elementRef, renderer, _plt, _gestureCtrl, _domCtrl) {
-        var _this = _super.call(this, config, elementRef, renderer, 'list') || this;
-        _this._plt = _plt;
-        _this._gestureCtrl = _gestureCtrl;
-        _this._domCtrl = _domCtrl;
-        _this._enableSliding = true;
-        _this._containsSlidingItems = false;
-        return _this;
-    }
-    Object.defineProperty(List.prototype, "sliding", {
-        /**
-         * \@input {boolean} If true, the sliding items will be enabled.
-         * @return {?}
-         */
-        get: function () {
-            return this._enableSliding;
-        },
-        /**
-         * @param {?} val
-         * @return {?}
-         */
-        set: function (val) {
-            this._enableSliding = Object(__WEBPACK_IMPORTED_MODULE_5__util_util__["o" /* isTrueProperty */])(val);
-            this._updateSlidingState();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @hidden
-     * @param {?} contains
-     * @return {?}
-     */
-    List.prototype.containsSlidingItem = function (contains) {
-        this._containsSlidingItems = contains;
-        this._updateSlidingState();
-    };
-    /**
-     * @return {?}
-     */
-    List.prototype._updateSlidingState = function () {
-        var /** @type {?} */ shouldSlide = this._enableSliding && this._containsSlidingItems;
-        if (!shouldSlide) {
-            this._slidingGesture && this._slidingGesture.destroy();
-            this._slidingGesture = null;
-        }
-        else if (!this._slidingGesture) {
-            (void 0) /* console.debug */;
-            this._slidingGesture = new __WEBPACK_IMPORTED_MODULE_6__item_item_sliding_gesture__["a" /* ItemSlidingGesture */](this._plt, this, this._gestureCtrl, this._domCtrl);
-            this._slidingGesture.listen();
-        }
-    };
-    /**
-     * Close any sliding items that are open.
-     * @return {?}
-     */
-    List.prototype.closeSlidingItems = function () {
-        this._slidingGesture && this._slidingGesture.closeOpened();
-    };
-    /**
-     * @hidden
-     * @return {?}
-     */
-    List.prototype.destroy = function () {
-        this._slidingGesture && this._slidingGesture.destroy();
-    };
-    return List;
-}(__WEBPACK_IMPORTED_MODULE_4__ion__["a" /* Ion */]));
-
-List.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
-                selector: 'ion-list',
-            },] },
-];
-/**
- * @nocollapse
- */
-List.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
-    { type: __WEBPACK_IMPORTED_MODULE_7__platform_platform__["a" /* Platform */], },
-    { type: __WEBPACK_IMPORTED_MODULE_3__gestures_gesture_controller__["l" /* GestureController */], },
-    { type: __WEBPACK_IMPORTED_MODULE_2__platform_dom_controller__["a" /* DomController */], },
-]; };
-List.propDecorators = {
-    'sliding': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-};
-function List_tsickle_Closure_declarations() {
-    /** @type {?} */
-    List.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    List.ctorParameters;
-    /** @type {?} */
-    List.propDecorators;
-    /** @type {?} */
-    List.prototype._enableSliding;
-    /** @type {?} */
-    List.prototype._containsSlidingItems;
-    /** @type {?} */
-    List.prototype._slidingGesture;
-    /** @type {?} */
-    List.prototype._plt;
-    /** @type {?} */
-    List.prototype._gestureCtrl;
-    /** @type {?} */
-    List.prototype._domCtrl;
-}
-//# sourceMappingURL=list.js.map
-
-/***/ }),
-/* 74 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListHeader; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ion__ = __webpack_require__(4);
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-
-
-/**
- * @hidden
- */
-var ListHeader = (function (_super) {
-    __extends(ListHeader, _super);
-    /**
-     * @param {?} config
-     * @param {?} renderer
-     * @param {?} elementRef
-     * @param {?} _id
-     */
-    function ListHeader(config, renderer, elementRef, _id) {
-        var _this = _super.call(this, config, elementRef, renderer, 'list-header') || this;
-        _this._id = _id;
-        return _this;
-    }
-    Object.defineProperty(ListHeader.prototype, "id", {
-        /**
-         * @return {?}
-         */
-        get: function () {
-            return this._id;
-        },
-        /**
-         * @param {?} val
-         * @return {?}
-         */
-        set: function (val) {
-            this._id = val;
-            this.setElementAttribute('id', val);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    return ListHeader;
-}(__WEBPACK_IMPORTED_MODULE_2__ion__["a" /* Ion */]));
-
-ListHeader.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* Directive */], args: [{
-                selector: 'ion-list-header'
-            },] },
-];
-/**
- * @nocollapse
- */
-ListHeader.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: undefined, decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Attribute */], args: ['id',] },] },
-]; };
-function ListHeader_tsickle_Closure_declarations() {
-    /** @type {?} */
-    ListHeader.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    ListHeader.ctorParameters;
-    /** @type {?} */
-    ListHeader.prototype._id;
-}
-//# sourceMappingURL=list-header.js.map
-
-/***/ }),
-/* 75 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoadingCmp; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_key__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__navigation_nav_params__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__navigation_view_controller__ = __webpack_require__(5);
-
-
-
-
-
-
-
-/**
- * @hidden
- */
-var LoadingCmp = (function () {
-    /**
-     * @param {?} _viewCtrl
-     * @param {?} _config
-     * @param {?} _elementRef
-     * @param {?} gestureCtrl
-     * @param {?} params
-     * @param {?} renderer
-     */
-    function LoadingCmp(_viewCtrl, _config, _elementRef, gestureCtrl, params, renderer) {
-        this._viewCtrl = _viewCtrl;
-        this._config = _config;
-        (void 0) /* assert */;
-        this.gestureBlocker = gestureCtrl.createBlocker(__WEBPACK_IMPORTED_MODULE_2__gestures_gesture_controller__["a" /* BLOCK_ALL */]);
-        this.d = params.data;
-        renderer.setElementClass(_elementRef.nativeElement, "loading-" + _config.get('mode'), true);
-        if (this.d.cssClass) {
-            this.d.cssClass.split(' ').forEach(function (cssClass) {
-                // Make sure the class isn't whitespace, otherwise it throws exceptions
-                if (cssClass.trim() !== '')
-                    renderer.setElementClass(_elementRef.nativeElement, cssClass, true);
-            });
-        }
-        this.id = (++loadingIds);
-    }
-    /**
-     * @return {?}
-     */
-    LoadingCmp.prototype.ngOnInit = function () {
-        // If no spinner was passed in loading options we need to fall back
-        // to the loadingSpinner in the app's config, then the mode spinner
-        if (Object(__WEBPACK_IMPORTED_MODULE_3__util_util__["p" /* isUndefined */])(this.d.spinner)) {
-            this.d.spinner = this._config.get('loadingSpinner', this._config.get('spinner', 'ios'));
-        }
-        // If the user passed hide to the spinner we don't want to show it
-        this.showSpinner = Object(__WEBPACK_IMPORTED_MODULE_3__util_util__["h" /* isDefined */])(this.d.spinner) && this.d.spinner !== 'hide';
-    };
-    /**
-     * @return {?}
-     */
-    LoadingCmp.prototype.ionViewWillEnter = function () {
-        this.gestureBlocker.block();
-    };
-    /**
-     * @return {?}
-     */
-    LoadingCmp.prototype.ionViewDidLeave = function () {
-        this.gestureBlocker.unblock();
-    };
-    /**
-     * @return {?}
-     */
-    LoadingCmp.prototype.ionViewDidEnter = function () {
-        var _this = this;
-        // If there is a duration, dismiss after that amount of time
-        if (this.d && this.d.duration) {
-            this.durationTimeout = setTimeout(function () { return _this.dismiss('backdrop'); }, this.d.duration);
-        }
-    };
-    /**
-     * @param {?} ev
-     * @return {?}
-     */
-    LoadingCmp.prototype.keyUp = function (ev) {
-        if (this._viewCtrl.isLast() && ev.keyCode === __WEBPACK_IMPORTED_MODULE_4__platform_key__["c" /* KEY_ESCAPE */]) {
-            this.bdClick();
-        }
-    };
-    /**
-     * @return {?}
-     */
-    LoadingCmp.prototype.bdClick = function () {
-        if (this.d.enableBackdropDismiss) {
-            this.dismiss('backdrop');
-        }
-    };
-    /**
-     * @param {?} role
-     * @return {?}
-     */
-    LoadingCmp.prototype.dismiss = function (role) {
-        if (this.durationTimeout) {
-            clearTimeout(this.durationTimeout);
-        }
-        return this._viewCtrl.dismiss(null, role);
-    };
-    /**
-     * @return {?}
-     */
-    LoadingCmp.prototype.ngOnDestroy = function () {
-        (void 0) /* assert */;
-        this.gestureBlocker.destroy();
-    };
-    return LoadingCmp;
-}());
-
-LoadingCmp.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
-                selector: 'ion-loading',
-                template: '<ion-backdrop [hidden]="!d.showBackdrop" (click)="bdClick()" [class.backdrop-no-tappable]="!d.enableBackdropDismiss"></ion-backdrop>' +
-                    '<div class="loading-wrapper">' +
-                    '<div *ngIf="showSpinner" class="loading-spinner">' +
-                    '<ion-spinner [name]="d.spinner"></ion-spinner>' +
-                    '</div>' +
-                    '<div *ngIf="d.content" [innerHTML]="d.content" class="loading-content"></div>' +
-                    '</div>',
-                host: {
-                    'role': 'dialog'
-                },
-                encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ViewEncapsulation */].None,
-            },] },
-];
-/**
- * @nocollapse
- */
-LoadingCmp.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_6__navigation_view_controller__["a" /* ViewController */], },
-    { type: __WEBPACK_IMPORTED_MODULE_1__config_config__["a" /* Config */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: __WEBPACK_IMPORTED_MODULE_2__gestures_gesture_controller__["l" /* GestureController */], },
-    { type: __WEBPACK_IMPORTED_MODULE_5__navigation_nav_params__["a" /* NavParams */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
-]; };
-LoadingCmp.propDecorators = {
-    'keyUp': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["z" /* HostListener */], args: ['body:keyup', ['$event'],] },],
-};
-function LoadingCmp_tsickle_Closure_declarations() {
-    /** @type {?} */
-    LoadingCmp.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    LoadingCmp.ctorParameters;
-    /** @type {?} */
-    LoadingCmp.propDecorators;
-    /** @type {?} */
-    LoadingCmp.prototype.d;
-    /** @type {?} */
-    LoadingCmp.prototype.id;
-    /** @type {?} */
-    LoadingCmp.prototype.showSpinner;
-    /** @type {?} */
-    LoadingCmp.prototype.durationTimeout;
-    /** @type {?} */
-    LoadingCmp.prototype.gestureBlocker;
-    /** @type {?} */
-    LoadingCmp.prototype._viewCtrl;
-    /** @type {?} */
-    LoadingCmp.prototype._config;
-}
-var /** @type {?} */ loadingIds = -1;
-//# sourceMappingURL=loading-component.js.map
-
-/***/ }),
-/* 76 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Nav; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_deep_linker__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_dom_controller__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__navigation_nav_controller__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_nav_controller_base__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__transitions_transition_controller__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__navigation_view_controller__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__split_pane_split_pane__ = __webpack_require__(37);
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-
-
-
-
-
-
-
-
-
-
-
-/**
- * \@name Nav
- * \@description
- *
- * `ion-nav` is the declarative component for a [NavController](../../../navigation/NavController/).
- *
- * For more information on using nav controllers like Nav or [Tab](../../Tabs/Tab/),
- * take a look at the [NavController API Docs](../../../navigation/NavController/).
- *
- *
- * \@usage
- * You must set a root page to be loaded initially by any Nav you create, using
- * the 'root' property:
- *
- * ```ts
- * import { Component } from '\@angular/core';
- * import { GettingStartedPage } from './getting-started';
- *
- * \@Component({
- *   template: `<ion-nav [root]="root"></ion-nav>`
- * })
- * class MyApp {
- *   root = GettingStartedPage;
- *
- *   constructor(){
- *   }
- * }
- * ```
- *
- * \@demo /docs/demos/src/navigation/
- * @see {\@link /docs/components#navigation Navigation Component Docs}
- */
-var Nav = (function (_super) {
-    __extends(Nav, _super);
-    /**
-     * @param {?} viewCtrl
-     * @param {?} parent
-     * @param {?} app
-     * @param {?} config
-     * @param {?} plt
-     * @param {?} elementRef
-     * @param {?} zone
-     * @param {?} renderer
-     * @param {?} cfr
-     * @param {?} gestureCtrl
-     * @param {?} transCtrl
-     * @param {?} linker
-     * @param {?} domCtrl
-     * @param {?} errHandler
-     */
-    function Nav(viewCtrl, parent, app, config, plt, elementRef, zone, renderer, cfr, gestureCtrl, transCtrl, linker, domCtrl, errHandler) {
-        var _this = _super.call(this, parent, app, config, plt, elementRef, zone, renderer, cfr, gestureCtrl, transCtrl, linker, domCtrl, errHandler) || this;
-        _this._hasInit = false;
-        if (viewCtrl) {
-            // an ion-nav can also act as an ion-page within a parent ion-nav
-            // this would happen when an ion-nav nests a child ion-nav.
-            viewCtrl._setContent(_this);
-        }
-        if (parent) {
-            // this Nav has a parent Nav
-            parent.registerChildNav(_this);
-        }
-        else if (viewCtrl && viewCtrl.getNav()) {
-            // this Nav was opened from a modal
-            _this.parent = viewCtrl.getNav();
-            _this.parent.registerChildNav(_this);
-        }
-        else if (app && !app.getRootNavById(_this.id)) {
-            // a root nav has not been registered yet with the app
-            // this is the root navcontroller for the entire app
-            app.registerRootNav(_this);
-        }
-        return _this;
-    }
-    Object.defineProperty(Nav.prototype, "_vp", {
-        /**
-         * @hidden
-         * @param {?} val
-         * @return {?}
-         */
-        set: function (val) {
-            this.setViewport(val);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @return {?}
-     */
-    Nav.prototype.ngAfterViewInit = function () {
-        var _this = this;
-        this._hasInit = true;
-        var /** @type {?} */ segment = this._linker.getSegmentByNavIdOrName(this.id, this.name);
-        if (segment && (segment.component || segment.loadChildren)) {
-            return this._linker.initViews(segment).then(function (views) {
-                return _this.setPages(views, null, null);
-            });
-        }
-        else if (this._root) {
-            // no segment match, so use the root property but don't set the url I guess
-            var /** @type {?} */ setUrl = segment ? false : true;
-            return this.push(this._root, this.rootParams, {
-                isNavRoot: ((this._app.getRootNavById(this.id)) === this),
-                updateUrl: setUrl
-            }, null);
-        }
-    };
-    Object.defineProperty(Nav.prototype, "root", {
-        /**
-         * \@input {Page} The Page component to load as the root page within this nav.
-         * @return {?}
-         */
-        get: function () {
-            return this._root;
-        },
-        /**
-         * @param {?} page
-         * @return {?}
-         */
-        set: function (page) {
-            this._root = page;
-            if (this._hasInit) {
-                this.setRoot(page);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @hidden
-     * @return {?}
-     */
-    Nav.prototype.ngOnDestroy = function () {
-        this.destroy();
-    };
-    /**
-     * @return {?}
-     */
-    Nav.prototype.initPane = function () {
-        var /** @type {?} */ isMain = this._elementRef.nativeElement.hasAttribute('main');
-        return isMain;
-    };
-    /**
-     * @param {?} isPane
-     * @return {?}
-     */
-    Nav.prototype.paneChanged = function (isPane) {
-        if (isPane) {
-            this.resize();
-        }
-    };
-    /**
-     * @param {?} opts
-     * @return {?}
-     */
-    Nav.prototype.goToRoot = function (opts) {
-        return this.setRoot(this._root, this.rootParams, opts, null);
-    };
-    /**
-     * @return {?}
-     */
-    Nav.prototype.getType = function () {
-        return 'nav';
-    };
-    /**
-     * @return {?}
-     */
-    Nav.prototype.getSecondaryIdentifier = function () {
-        return null;
-    };
-    return Nav;
-}(__WEBPACK_IMPORTED_MODULE_7__navigation_nav_controller_base__["a" /* NavControllerBase */]));
-
-Nav.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
-                selector: 'ion-nav',
-                template: '<div #viewport nav-viewport></div>' +
-                    '<div class="nav-decor"></div>',
-                encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_16" /* ViewEncapsulation */].None,
-                providers: [{ provide: __WEBPACK_IMPORTED_MODULE_11__split_pane_split_pane__["a" /* RootNode */], useExisting: Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_20" /* forwardRef */])(function () { return Nav; }) }]
-            },] },
-];
-/**
- * @nocollapse
- */
-Nav.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_10__navigation_view_controller__["a" /* ViewController */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* Optional */] },] },
-    { type: __WEBPACK_IMPORTED_MODULE_6__navigation_nav_controller__["a" /* NavController */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* Optional */] },] },
-    { type: __WEBPACK_IMPORTED_MODULE_1__app_app__["a" /* App */], },
-    { type: __WEBPACK_IMPORTED_MODULE_2__config_config__["a" /* Config */], },
-    { type: __WEBPACK_IMPORTED_MODULE_8__platform_platform__["a" /* Platform */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["P" /* NgZone */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* ComponentFactoryResolver */], },
-    { type: __WEBPACK_IMPORTED_MODULE_5__gestures_gesture_controller__["l" /* GestureController */], },
-    { type: __WEBPACK_IMPORTED_MODULE_9__transitions_transition_controller__["a" /* TransitionController */], },
-    { type: __WEBPACK_IMPORTED_MODULE_3__navigation_deep_linker__["a" /* DeepLinker */], decorators: [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["R" /* Optional */] },] },
-    { type: __WEBPACK_IMPORTED_MODULE_4__platform_dom_controller__["a" /* DomController */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* ErrorHandler */], },
-]; };
-Nav.propDecorators = {
-    '_vp': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */], args: ['viewport', { read: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ViewContainerRef */] },] },],
-    'root': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-    'rootParams': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-    'name': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */] },],
-};
-function Nav_tsickle_Closure_declarations() {
-    /** @type {?} */
-    Nav.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    Nav.ctorParameters;
-    /** @type {?} */
-    Nav.propDecorators;
-    /** @type {?} */
-    Nav.prototype._root;
-    /** @type {?} */
-    Nav.prototype._hasInit;
-    /**
-     * \@input {object} Any nav-params to pass to the root page of this nav.
-     * @type {?}
-     */
-    Nav.prototype.rootParams;
-    /**
-     * \@input {string} a unique name for the nav element
-     * @type {?}
-     */
-    Nav.prototype.name;
-}
-//# sourceMappingURL=nav.js.map
-
-/***/ }),
-/* 77 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ModalCmp; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__platform_key__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__navigation_nav_params__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_module_loader__ = __webpack_require__(78);
-
-
-
-
-
-
-/**
- * @hidden
- */
-var ModalCmp = (function () {
-    /**
-     * @param {?} _cfr
-     * @param {?} _renderer
-     * @param {?} _elementRef
-     * @param {?} _navParams
-     * @param {?} _viewCtrl
-     * @param {?} gestureCtrl
-     * @param {?} moduleLoader
-     */
-    function ModalCmp(_cfr, _renderer, _elementRef, _navParams, _viewCtrl, gestureCtrl, moduleLoader) {
-        this._cfr = _cfr;
-        this._renderer = _renderer;
-        this._elementRef = _elementRef;
-        this._navParams = _navParams;
-        this._viewCtrl = _viewCtrl;
-        this.moduleLoader = moduleLoader;
-        var opts = _navParams.get('opts');
-        (void 0) /* assert */;
-        this._gestureBlocker = gestureCtrl.createBlocker({
-            disable: [__WEBPACK_IMPORTED_MODULE_4__gestures_gesture_controller__["d" /* GESTURE_MENU_SWIPE */], __WEBPACK_IMPORTED_MODULE_4__gestures_gesture_controller__["b" /* GESTURE_GO_BACK_SWIPE */]]
-        });
-        this._bdDismiss = opts.enableBackdropDismiss;
-        if (opts.cssClass) {
-            opts.cssClass.split(' ').forEach(function (cssClass) {
-                // Make sure the class isn't whitespace, otherwise it throws exceptions
-                if (cssClass.trim() !== '')
-                    _renderer.setElementClass(_elementRef.nativeElement, cssClass, true);
-            });
-        }
-    }
-    /**
-     * @return {?}
-     */
-    ModalCmp.prototype.ionViewPreLoad = function () {
-        var /** @type {?} */ component = this._navParams.data.component;
-        if (!component) {
-            console.warn('modal\'s page was not defined');
-            return;
-        }
-        var /** @type {?} */ cfr = this.moduleLoader.getComponentFactoryResolver(component);
-        if (!cfr) {
-            cfr = this._cfr;
-        }
-        var /** @type {?} */ componentFactory = cfr.resolveComponentFactory(component);
-        // ******** DOM WRITE ****************
-        var /** @type {?} */ componentRef = this._viewport.createComponent(componentFactory, this._viewport.length, this._viewport.parentInjector, []);
-        this._setCssClass(componentRef, 'ion-page');
-        this._setCssClass(componentRef, 'show-page');
-        // Change the viewcontroller's instance to point the user provided page
-        // Lifecycle events will be sent to the new instance, instead of the modal's component
-        // we need to manually subscribe to them
-        this._viewCtrl._setInstance(componentRef.instance);
-        this._viewCtrl.willEnter.subscribe(this._viewWillEnter.bind(this));
-        this._viewCtrl.didLeave.subscribe(this._viewDidLeave.bind(this));
-        this._enabled = true;
-    };
-    /**
-     * @return {?}
-     */
-    ModalCmp.prototype._viewWillEnter = function () {
-        this._gestureBlocker.block();
-    };
-    /**
-     * @return {?}
-     */
-    ModalCmp.prototype._viewDidLeave = function () {
-        this._gestureBlocker.unblock();
-    };
-    /**
-     * @param {?} componentRef
-     * @param {?} className
-     * @return {?}
-     */
-    ModalCmp.prototype._setCssClass = function (componentRef, className) {
-        this._renderer.setElementClass(componentRef.location.nativeElement, className, true);
-    };
-    /**
-     * @return {?}
-     */
-    ModalCmp.prototype._bdClick = function () {
-        if (this._enabled && this._bdDismiss) {
-            var /** @type {?} */ opts = {
-                minClickBlockDuration: 400
-            };
-            return this._viewCtrl.dismiss(null, 'backdrop', opts);
-        }
-    };
-    /**
-     * @param {?} ev
-     * @return {?}
-     */
-    ModalCmp.prototype._keyUp = function (ev) {
-        if (this._enabled && this._viewCtrl.isLast() && ev.keyCode === __WEBPACK_IMPORTED_MODULE_1__platform_key__["c" /* KEY_ESCAPE */]) {
-            this._bdClick();
-        }
-    };
-    /**
-     * @return {?}
-     */
-    ModalCmp.prototype.ngOnDestroy = function () {
-        (void 0) /* assert */;
-        this._gestureBlocker.destroy();
-    };
-    return ModalCmp;
-}());
-
-ModalCmp.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */], args: [{
-                selector: 'ion-modal',
-                template: '<ion-backdrop (click)="_bdClick()" [class.backdrop-no-tappable]="!_bdDismiss"></ion-backdrop>' +
-                    '<div class="modal-wrapper">' +
-                    '<div #viewport nav-viewport></div>' +
-                    '</div>'
-            },] },
-];
-/**
- * @nocollapse
- */
-ModalCmp.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* ComponentFactoryResolver */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Renderer */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */], },
-    { type: __WEBPACK_IMPORTED_MODULE_2__navigation_nav_params__["a" /* NavParams */], },
-    { type: __WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__["a" /* ViewController */], },
-    { type: __WEBPACK_IMPORTED_MODULE_4__gestures_gesture_controller__["l" /* GestureController */], },
-    { type: __WEBPACK_IMPORTED_MODULE_5__util_module_loader__["b" /* ModuleLoader */], },
-]; };
-ModalCmp.propDecorators = {
-    '_viewport': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */], args: ['viewport', { read: __WEBPACK_IMPORTED_MODULE_0__angular_core__["_15" /* ViewContainerRef */] },] },],
-    '_keyUp': [{ type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["z" /* HostListener */], args: ['body:keyup', ['$event'],] },],
-};
-function ModalCmp_tsickle_Closure_declarations() {
-    /** @type {?} */
-    ModalCmp.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    ModalCmp.ctorParameters;
-    /** @type {?} */
-    ModalCmp.propDecorators;
-    /** @type {?} */
-    ModalCmp.prototype._viewport;
-    /** @type {?} */
-    ModalCmp.prototype._bdDismiss;
-    /** @type {?} */
-    ModalCmp.prototype._enabled;
-    /** @type {?} */
-    ModalCmp.prototype._gestureBlocker;
-    /** @type {?} */
-    ModalCmp.prototype._cfr;
-    /** @type {?} */
-    ModalCmp.prototype._renderer;
-    /** @type {?} */
-    ModalCmp.prototype._elementRef;
-    /** @type {?} */
-    ModalCmp.prototype._navParams;
-    /** @type {?} */
-    ModalCmp.prototype._viewCtrl;
-    /** @type {?} */
-    ModalCmp.prototype.moduleLoader;
-}
-//# sourceMappingURL=modal-component.js.map
-
-/***/ }),
-/* 78 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LAZY_LOADED_TOKEN; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ModuleLoader; });
-/* harmony export (immutable) */ __webpack_exports__["c"] = provideModuleLoader;
-/* unused harmony export setupPreloadingImplementation */
-/* harmony export (immutable) */ __webpack_exports__["d"] = setupPreloading;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ng_module_loader__ = __webpack_require__(158);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util__ = __webpack_require__(2);
-
-
-
-var /** @type {?} */ LAZY_LOADED_TOKEN = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* OpaqueToken */]('LZYCMP');
-/**
- * @hidden
- */
-var ModuleLoader = (function () {
-    /**
-     * @param {?} _ngModuleLoader
-     * @param {?} _injector
-     */
-    function ModuleLoader(_ngModuleLoader, _injector) {
-        this._ngModuleLoader = _ngModuleLoader;
-        this._injector = _injector;
-        /**
-         * \@internal
-         */
-        this._cfrMap = new Map();
-        this._promiseMap = new Map();
-    }
-    /**
-     * @param {?} modulePath
-     * @return {?}
-     */
-    ModuleLoader.prototype.load = function (modulePath) {
-        var _this = this;
-        (void 0) /* console.time */;
-        var /** @type {?} */ splitString = modulePath.split(SPLITTER);
-        var /** @type {?} */ promise = this._promiseMap.get(modulePath);
-        if (!promise) {
-            promise = this._ngModuleLoader.load(splitString[0], splitString[1]);
-            this._promiseMap.set(modulePath, promise);
-        }
-        return promise.then(function (loadedModule) {
-            (void 0) /* console.timeEnd */;
-            var /** @type {?} */ ref = loadedModule.create(_this._injector);
-            var /** @type {?} */ component = ref.injector.get(LAZY_LOADED_TOKEN);
-            _this._cfrMap.set(component, ref.componentFactoryResolver);
-            return {
-                componentFactoryResolver: ref.componentFactoryResolver,
-                component: component
-            };
-        });
-    };
-    /**
-     * @param {?} component
-     * @return {?}
-     */
-    ModuleLoader.prototype.getComponentFactoryResolver = function (component) {
-        return this._cfrMap.get(component);
-    };
-    return ModuleLoader;
-}());
-
-ModuleLoader.decorators = [
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */] },
-];
-/**
- * @nocollapse
- */
-ModuleLoader.ctorParameters = function () { return [
-    { type: __WEBPACK_IMPORTED_MODULE_1__ng_module_loader__["a" /* NgModuleLoader */], },
-    { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Injector */], },
-]; };
-function ModuleLoader_tsickle_Closure_declarations() {
-    /** @type {?} */
-    ModuleLoader.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    ModuleLoader.ctorParameters;
-    /**
-     * \@internal
-     * @type {?}
-     */
-    ModuleLoader.prototype._cfrMap;
-    /** @type {?} */
-    ModuleLoader.prototype._promiseMap;
-    /** @type {?} */
-    ModuleLoader.prototype._ngModuleLoader;
-    /** @type {?} */
-    ModuleLoader.prototype._injector;
-}
-var /** @type {?} */ SPLITTER = '#';
-/**
- * @hidden
- * @param {?} ngModuleLoader
- * @param {?} injector
- * @return {?}
- */
-function provideModuleLoader(ngModuleLoader, injector) {
-    return new ModuleLoader(ngModuleLoader, injector);
-}
-/**
- * @hidden
- * @param {?} config
- * @param {?} deepLinkConfig
- * @param {?} moduleLoader
- * @return {?}
- */
-function setupPreloadingImplementation(config, deepLinkConfig, moduleLoader) {
-    if (!deepLinkConfig || !deepLinkConfig.links || !config.getBoolean('preloadModules')) {
-        return Promise.resolve();
-    }
-    var /** @type {?} */ linksToLoad = deepLinkConfig.links.filter(function (link) { return !!link.loadChildren && link.priority !== 'off'; });
-    // Load the high priority modules first
-    var /** @type {?} */ highPriorityPromises = linksToLoad
-        .filter(function (link) { return link.priority === 'high'; })
-        .map(function (link) { return moduleLoader.load(link.loadChildren); });
-    return Promise.all(highPriorityPromises).then(function () {
-        // Load the low priority modules after the high priority are done
-        var /** @type {?} */ lowPriorityPromises = linksToLoad
-            .filter(function (link) { return link.priority === 'low'; })
-            .map(function (link) { return moduleLoader.load(link.loadChildren); });
-        return Promise.all(lowPriorityPromises);
-    }).catch(function (err) {
-        console.error(err.message);
-    });
-}
-/**
- * @hidden
- * @param {?} config
- * @param {?} deepLinkConfig
- * @param {?} moduleLoader
- * @param {?} ngZone
- * @return {?}
- */
-function setupPreloading(config, deepLinkConfig, moduleLoader, ngZone) {
-    return function () {
-        Object(__WEBPACK_IMPORTED_MODULE_2__util__["s" /* requestIonicCallback */])(function () {
-            ngZone.runOutsideAngular(function () {
-                setupPreloadingImplementation(config, deepLinkConfig, moduleLoader);
-            });
-        });
-    };
-}
-//# sourceMappingURL=module-loader.js.map
-
-/***/ }),
-/* 79 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Observable_1 = __webpack_require__(9);
-var map_1 = __webpack_require__(130);
-Observable_1.Observable.prototype.map = map_1.map;
-//# sourceMappingURL=map.js.map
-
-/***/ }),
 /* 80 */,
 /* 81 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -53788,7 +53788,7 @@ function Popover_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_nav_params__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_view_controller__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__util_module_loader__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__util_module_loader__ = __webpack_require__(77);
 
 
 
@@ -53981,7 +53981,7 @@ var /** @type {?} */ popoverIds = -1;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RadioGroup; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__list_list_header__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__list_list_header__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_util__ = __webpack_require__(2);
 
 
@@ -55292,7 +55292,7 @@ function DisplayWhen_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_swiper_events__ = __webpack_require__(252);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_swiper_zoom__ = __webpack_require__(178);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__swiper_swiper__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__swiper_swiper__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__swiper_swiper_effects__ = __webpack_require__(95);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__navigation_view_controller__ = __webpack_require__(5);
 var __extends = (this && this.__extends) || (function () {
@@ -57090,8 +57090,8 @@ var /** @type {?} */ slidesId = -1;
 /* harmony export (immutable) */ __webpack_exports__["c"] = setWrapperTransition;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_parallax__ = __webpack_require__(176);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_progress__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_index__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_progress__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_index__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_controller__ = __webpack_require__(251);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_effects__ = __webpack_require__(95);
 
@@ -59050,7 +59050,7 @@ exports.isObject = isObject;
 
 "use strict";
 
-var errorObject_1 = __webpack_require__(53);
+var errorObject_1 = __webpack_require__(52);
 var tryCatchTarget;
 function tryCatcher() {
     try {
@@ -59684,7 +59684,7 @@ var /** @type {?} */ POINTER_EVENT_TYPE_TOUCH = 2;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActionSheetController; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__action_sheet__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__action_sheet__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config_config__ = __webpack_require__(1);
 
@@ -59893,7 +59893,7 @@ function ActionSheetController_tsickle_Closure_declarations() {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlertController; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__alert__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__alert__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config_config__ = __webpack_require__(1);
 
@@ -61638,7 +61638,7 @@ function Chip_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__picker_picker_controller__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__picker_picker_controller__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__util_form__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_base_input__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__item_item__ = __webpack_require__(17);
@@ -62579,7 +62579,7 @@ var /** @type {?} */ DEFAULT_FORMAT = 'MMM D, YYYY';
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Picker; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__picker_component__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__picker_component__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__picker_transitions__ = __webpack_require__(238);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_view_controller__ = __webpack_require__(5);
 var __extends = (this && this.__extends) || (function () {
@@ -62711,7 +62711,7 @@ function Picker_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__gestures_ui_event_manager__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fab__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__fab_list__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__fab_list__ = __webpack_require__(69);
 
 
 
@@ -64195,7 +64195,7 @@ function getUnitValue(val) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InfiniteScrollContent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__infinite_scroll__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__infinite_scroll__ = __webpack_require__(70);
 
 
 
@@ -65439,9 +65439,9 @@ function ItemGroup_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__list_list__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__list_list__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__item_options__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__item_options__ = __webpack_require__(71);
 
 
 
@@ -66033,7 +66033,7 @@ function Reorder_tsickle_Closure_declarations() {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Loading; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_constants__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loading_component__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loading_component__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__loading_transitions__ = __webpack_require__(242);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_view_controller__ = __webpack_require__(5);
 var __extends = (this && this.__extends) || (function () {
@@ -66330,7 +66330,7 @@ function LoadingController_tsickle_Closure_declarations() {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Menu; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__backdrop_backdrop__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__backdrop_backdrop__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__content_content__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__platform_dom_controller__ = __webpack_require__(8);
@@ -66339,7 +66339,7 @@ function LoadingController_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__platform_keyboard__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__menu_gestures__ = __webpack_require__(243);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_menu_controller__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__nav_nav__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__nav_nav__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__gestures_ui_event_manager__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__split_pane_split_pane__ = __webpack_require__(37);
@@ -70588,8 +70588,8 @@ function Segment_tsickle_Closure_declarations() {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Select; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__action_sheet_action_sheet__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__alert_alert__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__action_sheet_action_sheet__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__alert_alert__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__popover_popover__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__config_config__ = __webpack_require__(1);
@@ -73982,7 +73982,7 @@ function Header_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ion__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navbar__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__toolbar__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__toolbar__ = __webpack_require__(50);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -74077,7 +74077,7 @@ function ToolbarItem_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ion__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navbar__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toolbar__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__toolbar__ = __webpack_require__(50);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -104007,7 +104007,7 @@ var ImportResolver = (function () {
 "use strict";
 
 var Subscriber_1 = __webpack_require__(29);
-var rxSubscriber_1 = __webpack_require__(54);
+var rxSubscriber_1 = __webpack_require__(53);
 var Observer_1 = __webpack_require__(113);
 function toSubscriber(nextOrObserver, error, complete) {
     if (nextOrObserver) {
@@ -104421,8 +104421,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var OuterSubscriber_1 = __webpack_require__(55);
-var subscribeToResult_1 = __webpack_require__(56);
+var OuterSubscriber_1 = __webpack_require__(54);
+var subscribeToResult_1 = __webpack_require__(55);
 /**
  * Converts a higher-order Observable into a first-order Observable which
  * concurrently delivers all values that are emitted on the inner Observables.
@@ -105383,7 +105383,7 @@ var WPTransition = (function (_super) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SwipeBackGesture; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__gestures_slide_edge_gesture__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__gestures_slide_edge_gesture__ = __webpack_require__(57);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -105905,8 +105905,8 @@ var __extends = (this && this.__extends) || function (d, b) {
 var Observable_1 = __webpack_require__(9);
 var EmptyObservable_1 = __webpack_require__(115);
 var isArray_1 = __webpack_require__(110);
-var subscribeToResult_1 = __webpack_require__(56);
-var OuterSubscriber_1 = __webpack_require__(55);
+var subscribeToResult_1 = __webpack_require__(55);
+var OuterSubscriber_1 = __webpack_require__(54);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -106962,8 +106962,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var OuterSubscriber_1 = __webpack_require__(55);
-var subscribeToResult_1 = __webpack_require__(56);
+var OuterSubscriber_1 = __webpack_require__(54);
+var subscribeToResult_1 = __webpack_require__(55);
 /**
  * Emits the values emitted by the source Observable until a `notifier`
  * Observable emits a value.
@@ -107383,7 +107383,7 @@ var LoadingWpPopOut = (function (_super) {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuContentGesture; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__gestures_slide_edge_gesture__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__gestures_slide_edge_gesture__ = __webpack_require__(57);
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -107739,7 +107739,7 @@ __WEBPACK_IMPORTED_MODULE_1__app_menu_controller__["a" /* MenuController */].reg
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ModalImpl; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_constants__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__modal_component__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__modal_component__ = __webpack_require__(76);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modal_transitions__ = __webpack_require__(246);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_view_controller__ = __webpack_require__(5);
 var __extends = (this && this.__extends) || (function () {
@@ -108330,7 +108330,7 @@ var /** @type {?} */ POPOVER_MD_BODY_PADDING = 12;
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = enableKeyboardControl;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper__ = __webpack_require__(47);
 
 
 /**
@@ -108576,10 +108576,10 @@ function onEnterKey(_, __) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SWIPER_CONTROLLER; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_index__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_index__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_utils__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_progress__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_progress__ = __webpack_require__(48);
 
 
 
@@ -108713,9 +108713,9 @@ var /** @type {?} */ SWIPER_CONTROLLER = {
 /* harmony export (immutable) */ __webpack_exports__["a"] = initEvents;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_transition__ = __webpack_require__(92);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_progress__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_index__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_progress__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_index__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_pagination__ = __webpack_require__(94);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_classes__ = __webpack_require__(93);
 
@@ -113336,7 +113336,7 @@ var IonicErrorHandler = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_app_app__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_app_app_root__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_app_app_root__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_deep_linker__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__platform_dom_controller__ = __webpack_require__(8);
@@ -113346,7 +113346,7 @@ var IonicErrorHandler = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__gestures_gesture_config__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__tap_click_haptic__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__platform_keyboard__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__util_module_loader__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__util_module_loader__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__util_ng_module_loader__ = __webpack_require__(158);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__platform_platform_registry__ = __webpack_require__(196);
@@ -113354,14 +113354,14 @@ var IonicErrorHandler = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__config_mode_registry__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__transitions_transition_controller__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__navigation_url_serializer__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_action_sheet_action_sheet_component__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_action_sheet_action_sheet_component__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_action_sheet_action_sheet_controller__ = __webpack_require__(121);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_alert_alert_component__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_alert_alert_component__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_alert_alert_controller__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_app_click_block__ = __webpack_require__(262);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_app_overlay_portal__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_avatar_avatar__ = __webpack_require__(123);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_backdrop_backdrop__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_backdrop_backdrop__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__components_badge_badge__ = __webpack_require__(124);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__components_button_button__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__components_card_card__ = __webpack_require__(125);
@@ -113374,44 +113374,44 @@ var IonicErrorHandler = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__components_datetime_datetime__ = __webpack_require__(135);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__components_fab_fab__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__components_fab_fab_container__ = __webpack_require__(137);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_fab_fab_list__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_fab_fab_list__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__components_grid_col__ = __webpack_require__(138);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__components_grid_grid__ = __webpack_require__(139);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__components_grid_row__ = __webpack_require__(140);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__components_icon_icon__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__components_icon_icon__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__components_img_img__ = __webpack_require__(141);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__components_infinite_scroll_infinite_scroll__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__components_infinite_scroll_infinite_scroll__ = __webpack_require__(70);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__components_infinite_scroll_infinite_scroll_content__ = __webpack_require__(142);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__components_input_input__ = __webpack_require__(143);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__components_item_item__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__components_item_item_content__ = __webpack_require__(145);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__components_item_item_divider__ = __webpack_require__(146);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__components_item_item_group__ = __webpack_require__(147);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__components_item_item_options__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__components_item_item_reorder__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__components_item_item_options__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__components_item_item_reorder__ = __webpack_require__(65);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__components_item_item_sliding__ = __webpack_require__(148);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__components_item_reorder__ = __webpack_require__(149);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__components_label_label__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__components_list_list__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__components_list_list_header__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__components_loading_loading_component__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__components_label_label__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__components_list_list__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__components_list_list_header__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__components_loading_loading_component__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__components_loading_loading_controller__ = __webpack_require__(151);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__components_menu_menu__ = __webpack_require__(152);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__components_menu_menu_close__ = __webpack_require__(153);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__components_app_menu_controller__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__components_menu_menu_toggle__ = __webpack_require__(154);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__components_modal_modal_component__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__components_modal_modal_component__ = __webpack_require__(76);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__components_modal_modal_controller__ = __webpack_require__(160);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__components_nav_nav__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__components_nav_nav__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_72__components_nav_nav_pop__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__components_nav_nav_pop_anchor__ = __webpack_require__(161);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__components_nav_nav_push__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_75__components_nav_nav_push_anchor__ = __webpack_require__(162);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_76__components_note_note__ = __webpack_require__(163);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_77__components_option_option__ = __webpack_require__(83);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_78__components_picker_picker_component__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_79__components_picker_picker_column__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_80__components_picker_picker_controller__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_78__components_picker_picker_component__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_79__components_picker_picker_column__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_80__components_picker_picker_controller__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_81__components_popover_popover_component__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_82__components_popover_popover_controller__ = __webpack_require__(164);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_83__components_radio_radio_button__ = __webpack_require__(165);
@@ -113442,7 +113442,7 @@ var IonicErrorHandler = (function (_super) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_108__components_toggle_toggle__ = __webpack_require__(184);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_109__components_toolbar_toolbar_footer__ = __webpack_require__(185);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_110__components_toolbar_toolbar_header__ = __webpack_require__(186);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_111__components_toolbar_toolbar__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_111__components_toolbar_toolbar__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_112__components_toolbar_toolbar_item__ = __webpack_require__(187);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_113__components_toolbar_toolbar_title__ = __webpack_require__(188);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_114__components_toolbar_navbar__ = __webpack_require__(38);
@@ -114179,8 +114179,8 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Observable_1 = __webpack_require__(9);
 var tryCatch_1 = __webpack_require__(112);
-var isFunction_1 = __webpack_require__(52);
-var errorObject_1 = __webpack_require__(53);
+var isFunction_1 = __webpack_require__(51);
+var errorObject_1 = __webpack_require__(52);
 var Subscription_1 = __webpack_require__(31);
 var toString = Object.prototype.toString;
 function isNodeStyleEventEmitter(sourceObj) {
