@@ -1,13 +1,7 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angular';
 import {UsuarioServiceProvider} from '../../providers/usuario-service/usuario-service';
 import {TarefasServiceProvider} from '../../providers/tarefas-service/tarefas-service';
-/**
- * Generated class for the UsuarioPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
@@ -27,7 +21,8 @@ export class UsuarioPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
   public usuarioService: UsuarioServiceProvider,
-  public tarefasService: TarefasServiceProvider) {
+  public tarefasService: TarefasServiceProvider,
+  public toastCtrl: ToastController) {
     this.codigoUsuario = this.navParams.get('codigo');
     this.novo = this.navParams.get('novo');
     this.usuarios = usuarioService.getUsuarios();
@@ -52,15 +47,23 @@ export class UsuarioPage {
 
   }
 
-
+  presentToast(text: string): void {
+    let toast = this.toastCtrl.create({
+      message: text,
+      duration: 3000
+    });
+    toast.present();
+  }
 
   incluir(){
     this.usuarioService.addUsuarios(this.nomeUsuario,this.codigoTarefa,this.observacaoUsuario);
+    this.presentToast('Usuario adicionado com sucesso!');
     this.navCtrl.pop();
   }
 
   editar(){
     this.usuarioService.editUsuarios(this.codigoUsuario,this.nomeUsuario,this.codigoTarefa,this.observacaoUsuario);
+    this.presentToast('Usuario alterado com sucesso!');
     this.navCtrl.pop();
   }
 

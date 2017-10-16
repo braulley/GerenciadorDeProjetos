@@ -28,14 +28,14 @@
     </ion-card>
 
     <div class="mais">
-      <button ion-button round color="primary" (click)="incluir()"
+      <button ion-button round color="primary" (click)="alterar()"
       [disabled]="!nome.valid" [class.invisivel]="novo">
         <ion-icon name="checkmark"></ion-icon>
       </button>
 
-      <button ion-button round color="primary" (click)="alterar()"
+      <button ion-button round color="primary" (click)="incluir()"
       [disabled]="!nome.valid" [class.invisivel]="!novo">
-        <ion-icon name="checkmark" [class.invisivel]="!novo"></ion-icon>
+        <ion-icon name="checkmark"></ion-icon>
       </button>
 
       <button ion-button round color="danger" (click)="excluir()" 
