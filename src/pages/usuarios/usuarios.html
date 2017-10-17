@@ -18,7 +18,7 @@
           <button ion-item *ngFor="let u of usuarios" (click)="selecionaUsuario(u.codigo)">
             <h3>{{u.nome }}</h3>
             <h4>{{dataTarefa(u.tarefa) | date:'dd/MM/yyyy'}}</h4>
-            <p>Id da Tarefa do Usuário: ({{u.tarefa}})</p>
+            <p>Id da Tarefa ({{u.tarefa}})</p>
   
           </button>  
         </ion-list>

@@ -23,7 +23,7 @@ export class TarefasServiceProvider {
     ];
     ultimoCodigo = 4;
 
-  getTarefas():any [] {
+  getTarefas():any {
     return this.tarefas;
   }
   editTarefas(c:number,p:number,d:string,dt:Date,pr:number){

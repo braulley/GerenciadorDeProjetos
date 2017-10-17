@@ -35,8 +35,5 @@ export class ProjetosPage {
   novoProjeto(){
     this.navCtrl.push(ProjetoPage, { codigo: 0, novo: true });
   }
-  /*ionViewDidLoad() {
-    console.log('ionViewDidLoad ProjetosPage');
-  }*/
 
 }

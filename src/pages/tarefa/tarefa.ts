@@ -84,9 +84,7 @@ export class TarefaPage {
     }
   
     incluir(){
-      let d = new Date(parseInt(this.data.substr(0,4)),
-      parseInt(this.data.substr(0,4)),
-      parseInt(this.data.substr(8,2)));
+      let d = new Date(parseInt(this.data.substr(0,4)),parseInt(this.data.substr(0,4)),parseInt(this.data.substr(8,2)));
       this.tarefasService.addTarefas(
         this.codigoProjeto,
         this.descricao,

@@ -42,11 +42,11 @@ export class TarefasPage {
 
     selecionaTarefa(c){
       let t:number = parseInt(c);
-      this.navCtrl.push(TarefaPage,{codigo:t, novo:false});
+      this.navCtrl.push(TarefaPage,{codigo:t, novo:false });
     }
 
-    incluir(){
-      this.navCtrl.push(TarefaPage,{codigo:0,novo:true});     
+    novaTarefa(){
+      this.navCtrl.push(TarefaPage,{codigo:0, novo:true });     
     }
 
   limparFiltros(){

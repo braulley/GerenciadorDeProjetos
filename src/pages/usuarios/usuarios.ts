@@ -39,12 +39,12 @@ export class UsuariosPage {
     this.navCtrl.push(UsuarioPage, {codigo:0, novo:true});
   }
 
-  nomeTarefas(c:number){
+  nomeTarefas(c):string{
     for(let i=0;i<this.tarefas.length;i++){
       if(this.tarefas[i].codigo == c)
         return this.tarefas[i].nome;
-      return 'Nome de tarefa não encontrado.';
     }
+    return 'Nome de tarefa não encontrado.';
   }
   
   dataTarefa(d:number){
