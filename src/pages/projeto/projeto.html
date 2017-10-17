@@ -39,7 +39,7 @@
       </button>
 
       <button ion-button round color="danger" (click)="excluir()" 
-      [disabled]="!nome.valid">
+      [disabled]="!nome.valid" [class.invisivel]="novo">
           <ion-icon name="trash"></ion-icon>
       </button>
   </div>
