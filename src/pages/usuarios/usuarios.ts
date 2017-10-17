@@ -42,12 +42,12 @@ export class UsuariosPage {
   nomeTarefas(c):string{
     for(let i=0;i<this.tarefas.length;i++){
       if(this.tarefas[i].codigo == c)
-        return this.tarefas[i].nome;
+        return this.tarefas[i].descricao;
     }
     return 'Nome de tarefa não encontrado.';
   }
   
-  dataTarefa(d:number){
+  dataTarefa(d): Date{
     for(let j=0;j<this.tarefas.length;j++){
       if(this.tarefas[j].codigo == d){
         return this.tarefas[j].data;
