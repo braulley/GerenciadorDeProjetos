@@ -12,6 +12,7 @@ export class ProjetoPage {
   codigoProjeto: number;
   nomeProjeto:string ="";
   novo: boolean;
+  projetos:any = [];
 
   constructor(public navCtrl: NavController, 
     public navParams: NavParams,
@@ -19,16 +20,11 @@ export class ProjetoPage {
     public toastCtrl: ToastController) {
       this.codigoProjeto = navParams.get('codigo');
       this.novo = navParams.get('novo');
-      let projetos = projetosService.getProjetos();
 
       if(!this.novo) {
-        for(let i=0; i<projetos.length;i++){
-          if(projetos[i].codigo == this.codigoProjeto){
-            this.nomeProjeto = projetos[i].nome;
-            break;
-          }
-        }
-      }else{
+        projetosService.getProjeto(this.codigoProjeto).then(dados => this.nomeProjeto = dados.projeto);
+      }
+      else{
         this.codigoProjeto = 0;
         this.nomeProjeto = '';
       }
@@ -44,20 +40,26 @@ export class ProjetoPage {
   }
 
   alterar(){
-    this.projetosService.editProjetos(this.codigoProjeto,this.nomeProjeto);
-    this.presentToast('Projeto alterado com sucesso!');
-    this.navCtrl.pop();
+    this.projetosService.editProjetos(this.codigoProjeto,this.nomeProjeto)
+    .then(dados => {
+      this.presentToast('Projeto alterado com sucesso!');
+      this.navCtrl.pop();
+    });
   }
 
   excluir(){
-    this.projetosService.deleteProjetos(this.codigoProjeto,this.nomeProjeto);
-    this.navCtrl.pop();
+    this.projetosService.deleteProjetos(this.codigoProjeto)
+    .then(dados => {
+      this.navCtrl.pop();
+    });
   }
 
   incluir(){
-    this.projetosService.addProjeto(this.nomeProjeto);
-    this.presentToast('Projeto adicionado com sucesso!');
-    this.navCtrl.pop();
+    this.projetosService.addProjeto(this.nomeProjeto)
+    .then(dados =>{
+      this.presentToast('Projeto adicionado com sucesso!');
+      this.navCtrl.pop();
+    });
   }
 
 }

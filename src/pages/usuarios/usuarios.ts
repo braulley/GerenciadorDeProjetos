@@ -18,8 +18,8 @@ import {UsuarioPage } from "../usuario/usuario";
 })
 export class UsuariosPage {
 
-  usuarios : any;
-  tarefas: any;
+  usuarios: any[] = [];
+  tarefas: any[] = [];
   novo:boolean;
   
   constructor(public navCtrl: NavController, 
@@ -28,7 +28,11 @@ export class UsuariosPage {
     public tarefasService: TarefasServiceProvider) {
 
       this.usuarios = usuariosService.getUsuarios();
-      this.tarefas = tarefasService.getTarefas();
+  }
+  ionViewDidEnter(){
+    this.tarefasService.getTarefas().then( dados => 
+      this.tarefas = dados
+    );
   }
 
   selecionaUsuario(c) {
@@ -39,7 +43,7 @@ export class UsuariosPage {
     this.navCtrl.push(UsuarioPage, {codigo:0, novo:true});
   }
 
-  nomeTarefas(c):string{
+  nomeTarefas(c:number):string{
     for(let i=0;i<this.tarefas.length;i++){
       if(this.tarefas[i].codigo == c)
         return this.tarefas[i].descricao;

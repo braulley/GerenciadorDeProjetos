@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
-import 'rxjs/add/operator/map';
+import { Http, Headers } from '@angular/http';
+import 'rxjs/add/operator/toPromise';
 
 /*
   Generated class for the TarefasServiceProvider provider.
@@ -11,47 +11,118 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class TarefasServiceProvider {
 
-  tarefas = [
-    { codigo: 1, projeto: 1, descricao: 'Elaborar segunda prova',
-    data: new Date(2017, 2, 29), prioridade: 1 },
-    { codigo: 2, projeto: 1, descricao: 'Fechar diário',
-    data: new Date(2017, 5, 17), prioridade: 2 },
-    { codigo: 3, projeto: 2, descricao: 'Gravar vídeo de apresentação',
-    data: new Date(2017, 2, 10), prioridade: 1 },
-    { codigo: 4, projeto: 3, descricao: 'Planejar campanha',
-    data: new Date(2017, 3, 2), prioridade: 3}
-    ];
-    ultimoCodigo = 4;
+    url:string = 'http://kutova.com/dev/todolist/api.php';
+    
+  constructor(public http: Http) {}
+  
 
-  getTarefas():any {
-    return this.tarefas;
-  }
-  editTarefas(c:number,p:number,d:string,dt:Date,pr:number){
-    for(let i=0;i<this.tarefas.length;i++){
-      if(this.tarefas[i].codigo == c){
-        this.tarefas[i].projeto = p;
-        this.tarefas[i].descricao = d;
-        this.tarefas[i].data = dt;
-        this.tarefas[i].prioridade = pr;
+  getTarefas():Promise<any[]> {
+
+    return new Promise( resolve => {
+
+    //Faz a requisição
+    this.http.get(this.url+'/tarefas')
+    .toPromise()// Resposta convertida em Promise, estará disponível quando a resposyta
+    //estiver pronta
+
+    //O que acontecerá quando a resposta chegar, o then recebe a resposta
+    //Retornará uma string
+    .then(resposta => {
+      let dados = resposta.json();
+      let tarefas = [];
+      for (let i = 0; i < dados.length;i++) {
+        tarefas.push({
+          codigo:parseInt(dados[i].codigo),
+          projeto: parseInt(dados[i].codigoProjeto),
+          descricao: dados[i].descricao,
+          data: new Date(parseInt(dados[i].data.substr(0,4)),
+          parseInt(dados[i].data.substr(5,2))-1,
+          parseInt(dados[i].data.substr(8,2))),
+          prioridade: parseInt(dados[i].prioridade)
+        });  
       }
+      resolve(tarefas);
+    });
+    });
+  }
+  editTarefas(c:number,p:number,d:string,dt:Date,pr:number): Promise<any>{
+
+    let headers = new Headers({'Content-Type': 'application/json'});
+    let tarefas = {
+      codigoProjeto: p,
+      descricao: d,
+      data: dt.getFullYear()+"-"+
+      ("0"+(dt.getMonth()+1)).substr(-2,2)+"-"+
+      ("0"+dt.getDate()).substr(-2,2),
+      prioridade: pr
+
     }
+    let body = JSON.stringify(tarefas);
+    return new Promise(resolve => {
 
+      this.http.put(this.url+'/tarefas/'+c,body,{headers: headers}).toPromise()
+      .then(resposta => {
+        resolve(resposta.json());
+      });
+    });
   }
-  addTarefas(p:number,d:string,dt:Date,pr:number){
-    this.ultimoCodigo++;
-    this.tarefas.push({codigo: this.ultimoCodigo, projeto: p, descricao:d, data: dt,prioridade: pr});
 
-  }
-  deleteTarefas(c:number){
-    for(let i=0;i<this.tarefas.length;i++){
-      if(this.tarefas[i].codigo==c){
-        this.tarefas.splice(i,1);
-      }
+
+  addTarefas(p:number,d:string,dt:Date,pr:number): Promise<any>{
+    let headers = new Headers({'Content-Type': 'application/json'});
+    let tarefas = {
+      codigoProjeto: p,
+      descricao: d,
+      data: dt.getFullYear()+"-"+
+      ("0"+(dt.getMonth()+1)).substr(-2,2)+"-"+
+      ("0"+dt.getDate()).substr(-2,2),
+      prioridade:pr
     }
+    let body = JSON.stringify(tarefas);
+
+    return new Promise(resolve => {
+
+      this.http.post(this.url+'/tarefas',body,{headers: headers}).toPromise()
+      .then(resposta => {
+        resolve(resposta.json());
+      });
+    });
+  }
+  deleteTarefas(c:number): Promise <any> {
+
+    return new Promise(resolve => {
+
+      this.http.delete(this.url+'/tarefas/'+c).toPromise()
+      .then(resposta =>{
+        resolve(resposta.json());
+      });
+    });
   }
 
-  constructor(public http: Http) {
-    console.log('Hello TarefasServiceProvider Provider');
+  getTarefa(t:number):Promise<any> {
+    
+        return new Promise( resolve => {
+    
+        //Faz a requisição
+        this.http.get(this.url+'/tarefas/'+t)
+        .toPromise()// Resposta convertida em Promise, estará disponível quando a resposyta
+        //estiver pronta
+    
+        //O que acontecerá quando a resposta chegar, o then recebe a resposta
+        //Retornará uma string
+        .then(resposta => {
+          let dados = resposta.json();
+          let tarefas = {
+            codigo:parseInt(dados.codigo),
+            projeto: parseInt(dados.codigoProjeto),
+            descricao: dados.descricao,
+            data: new Date(parseInt(dados.data.substr(0,4)),
+            parseInt(dados.data.substr(5,2)),
+            parseInt(dados.data.substr(8,2))),
+            prioridade: parseInt(dados.prioridade)
+          }
+          resolve(tarefas);
+      });
+    });
   }
-
 }

@@ -13,10 +13,10 @@ import 'rxjs/add/operator/map';
 export class UsuarioServiceProvider {
 
   usuarios = [
-    {codigo:1, nome:'Ana Moreira', tarefa: 1,observacao:'aksasmamsak'},
-    {codigo:2, nome:'Joao Andrade ',tarefa: 1, observacao:'asasçasaḉḉasa'},
-    {codigo:3, nome:'Marcio Souza', tarefa: 3, observacao:'as,aos,al,s,a'},
-    {codigo:4, nome:'Jorge Soares', tarefa: 4, observacao:'lsa,lsça.aç.sa'}
+    {codigo:1, nome:'Ana Moreira', tarefa: 9,observacao:'aksasmamsak'},
+    {codigo:2, nome:'Joao Andrade ',tarefa: 10, observacao:'asasçasaḉḉasa'},
+    {codigo:3, nome:'Marcio Souza', tarefa: 9, observacao:'as,aos,al,s,a'},
+    {codigo:4, nome:'Jorge Soares', tarefa: 13, observacao:'lsa,lsça.aç.sa'}
   ];
 
   ultimoCod = 4;

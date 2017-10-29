@@ -16,7 +16,7 @@ export class UsuarioPage {
   novo:boolean;
   usuarios:any;
   codigoUsuario:number;
-  tarefas:any;
+  tarefas:any[] = [];
   observacaoUsuario:string;
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
@@ -26,7 +26,6 @@ export class UsuarioPage {
     this.codigoUsuario = this.navParams.get('codigo');
     this.novo = this.navParams.get('novo');
     this.usuarios = usuarioService.getUsuarios();
-    this.tarefas = tarefasService.getTarefas();
 
     if(!this.novo){
       for(let i=0; i< this.usuarios.length; i++){
@@ -45,6 +44,12 @@ export class UsuarioPage {
       this.observacaoUsuario = '';
     }
 
+  }
+
+  ionViewDidEnter(){
+    this.tarefasService.getTarefas().then(dados =>
+      this.tarefas = dados  
+    );
   }
 
   presentToast(text: string): void {

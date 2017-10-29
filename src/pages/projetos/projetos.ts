@@ -19,16 +19,21 @@ import {ProjetoPage} from '../projeto/projeto';
 })
 export class ProjetosPage {
 
-  projetos: any[12];
+  projetos: any[] = [];
 
   constructor(public navCtrl: NavController, 
     public navParams: NavParams,
     public projetosService: ProjetosServiceProvider) {
-      this.projetos = projetosService.getProjetos();
+
   }
 
+  ionViewDidEnter(){
+    this.projetosService.getProjetos().then(dados => {
+      this.projetos = dados;
+    });
+  }
 
-  selecionaProjeto(c){
+  selecionaProjeto(c:number){
     this.navCtrl.push(ProjetoPage, { codigo: c,novo:false });
   }
 

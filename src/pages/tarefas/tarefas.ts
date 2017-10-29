@@ -18,9 +18,12 @@ import {TarefaPage} from '../tarefa/tarefa';
 })
 export class TarefasPage {
 
-  tarefas: any[];
-  projetos: any[];
+  tarefas: any[] = [];
+  projetos: any[] = [];
   filtroTarefas = {};
+  locationNameProject: any;
+
+
 
   constructor(public navCtrl: NavController, 
     public navParams: NavParams,
@@ -28,20 +31,30 @@ export class TarefasPage {
     public tarefasService: TarefasServiceProvider,
     public projetosService: ProjetosServiceProvider) {
  
-      this.projetos = projetosService.getProjetos();
-      this.tarefas = tarefasService.getTarefas();
+      //this.projetos = projetosService.getProjetos();
+      //this.tarefas = tarefasService.getTarefas();
+     
+    }
+    
+    ionViewDidEnter(){
+      this.tarefasService.getTarefas().then(dados => {
+        this.tarefas = dados;
+      });
+      this.projetosService.getProjetos().then(dados =>{
+        this.projetos = dados;
+      });
     }
 
-    nomeProjeto(c):string  {
-      for(let i=0; i<this.projetos.length;i++){
-        if(this.projetos[i].codigo == c)
-          return this.projetos[i].nome;
+    nomeProjeto(c:number) {
+      for(let i=0;i < this.projetos.length;i++){
+        if(this.projetos[i].codigo == c){
+          return this.projetos[i].projeto;
+        }
       }
-      return "Projeto não encontrado.";
+      return "Projeto não encontrado";
     }
 
-    selecionaTarefa(c){
-      let t:number = parseInt(c);
+    selecionaTarefa(t:number){
       this.navCtrl.push(TarefaPage,{codigo:t, novo:false });
     }
 
