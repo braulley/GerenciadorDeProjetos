@@ -49,7 +49,7 @@ export class TarefasServiceProvider {
 
     let headers = new Headers({'Content-Type': 'application/json'});
     let tarefas = {
-      codigoProjeto: p,
+      projeto: p,
       descricao: d,
       data: dt.getFullYear()+"-"+
       ("0"+(dt.getMonth()+1)).substr(-2,2)+"-"+
@@ -71,7 +71,7 @@ export class TarefasServiceProvider {
   addTarefas(p:number,d:string,dt:Date,pr:number): Promise<any>{
     let headers = new Headers({'Content-Type': 'application/json'});
     let tarefas = {
-      codigoProjeto: p,
+      projeto: p,
       descricao: d,
       data: dt.getFullYear()+"-"+
       ("0"+(dt.getMonth()+1)).substr(-2,2)+"-"+
