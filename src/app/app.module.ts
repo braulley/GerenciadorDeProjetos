@@ -17,7 +17,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { ProjetosServiceProvider } from '../providers/projetos-service/projetos-service';
 import { TarefasServiceProvider } from '../providers/tarefas-service/tarefas-service';
 import { UsuarioServiceProvider } from '../providers/usuario-service/usuario-service';
-
+import { Camera } from '@ionic-native/camera';
+import { Dialogs } from  '@ionic-native/dialogs';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,7 @@ import { UsuarioServiceProvider } from '../providers/usuario-service/usuario-ser
     UsuariosPage,
     UsuarioPage,
     TabsPage,
-    Filtro
+    Filtro,
   ],
   imports: [
     BrowserModule,
@@ -50,6 +51,8 @@ import { UsuarioServiceProvider } from '../providers/usuario-service/usuario-ser
   providers: [
     StatusBar,
     SplashScreen,
+    Camera,
+    Dialogs,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     ProjetosServiceProvider,
     TarefasServiceProvider,

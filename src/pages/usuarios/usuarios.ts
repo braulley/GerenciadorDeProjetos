@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, Platform } from 'ionic-angular';
 import {TarefasServiceProvider} from '../../providers/tarefas-service/tarefas-service';
 import {UsuarioServiceProvider} from '../../providers/usuario-service/usuario-service';
-import {UsuarioPage } from "../usuario/usuario";
+import {UsuarioPage } from '../usuario/usuario';
 
 /**
  * Generated class for the UsuariosPage page.
@@ -21,6 +21,7 @@ export class UsuariosPage {
   usuarios: any[] = [];
   tarefas: any[] = [];
   novo:boolean;
+  imagem: string = ''; //Variavel que representara a imagem
   
   constructor(public navCtrl: NavController, 
     public navParams: NavParams, 
@@ -29,6 +30,7 @@ export class UsuariosPage {
 
       this.usuarios = usuariosService.getUsuarios();
   }
+
   ionViewDidEnter(){
     this.tarefasService.getTarefas().then( dados => 
       this.tarefas = dados
@@ -51,7 +53,7 @@ export class UsuariosPage {
     return 'Nome de tarefa não encontrado.';
   }
   
-  dataTarefa(d): Date{
+  dataTarefa(d:number): Date{
     for(let j=0;j<this.tarefas.length;j++){
       if(this.tarefas[j].codigo == d){
         return this.tarefas[j].data;

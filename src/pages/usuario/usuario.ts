@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ToastController, Platform } from 'ionic-angular';
 import {UsuarioServiceProvider} from '../../providers/usuario-service/usuario-service';
 import {TarefasServiceProvider} from '../../providers/tarefas-service/tarefas-service';
+import { Dialogs } from '@ionic-native/dialogs';
 
 @IonicPage()
 @Component({
@@ -22,7 +23,9 @@ export class UsuarioPage {
   constructor(public navCtrl: NavController, public navParams: NavParams,
   public usuarioService: UsuarioServiceProvider,
   public tarefasService: TarefasServiceProvider,
-  public toastCtrl: ToastController) {
+  public toastCtrl: ToastController,
+  private dialogs: Dialogs ,
+  private platform: Platform) {
     this.codigoUsuario = this.navParams.get('codigo');
     this.novo = this.navParams.get('novo');
     this.usuarios = usuarioService.getUsuarios();
@@ -61,20 +64,61 @@ export class UsuarioPage {
   }
 
   incluir(){
-    this.usuarioService.addUsuarios(this.nomeUsuario,this.codigoTarefa,this.observacaoUsuario);
-    this.presentToast('Usuario adicionado com sucesso!');
-    this.navCtrl.pop();
+    this.platform.ready().then(() => {
+      this.dialogs.confirm('Deseja incluir o usuario','Confirm',
+    ['Ok','Cancel'])
+    .then( (dados) => {
+      if(dados === 1){
+        this.usuarioService.addUsuarios(this.nomeUsuario,this.codigoTarefa,this.observacaoUsuario);
+        this.presentToast('Usuario adicionado com sucesso!');
+        this.navCtrl.pop();
+      }
+    });
+    });   
   }
 
   editar(){
-    this.usuarioService.editUsuarios(this.codigoUsuario,this.nomeUsuario,this.codigoTarefa,this.observacaoUsuario);
-    this.presentToast('Usuario alterado com sucesso!');
-    this.navCtrl.pop();
+    this.platform.ready().then(() => {
+      this.dialogs.alert('Alteração Detectada','Modificação','Accept')
+      .then((dados) => {
+        if(dados === 1){
+          this.usuarioService.editUsuarios(this.codigoUsuario,this.nomeUsuario,this.codigoTarefa,this.observacaoUsuario);
+          this.presentToast('Usuario alterado com sucesso!');
+          this.navCtrl.pop();
+        }
+      });    
+    });    
   }
 
   apagar(){
-    this.usuarioService.deleteUsuarios(this.codigoUsuario);
-    this.navCtrl.pop();
+    this.platform.ready().then(() => {
+      this.dialogs.beep(5);
+      this.usuarioService.deleteUsuarios(this.codigoUsuario);
+      this.navCtrl.pop();
+    });    
   }
+
+  /*tirarFoto(){
+    //Testa se a aplicação esta sendo executado em um dispositivo
+    this.platform.ready().then(()=> {
+    
+      //Definição das configurações
+      const options: CameraOptions = {
+        quality: 100,
+        destinationType: this.camera.DestinationType.DATA_URL,
+        encodingType: this.camera.EncodingType.JPEG,
+        mediaType: this.camera.MediaType.PICTURE      
+      }
+
+      this.camera.getPicture(options).then((imageData) => {
+
+        //imageData é uma string codificada base64 ou um URI de arquivo
+        this.imagem = 'data:image/jpeg;base64,' + imageData;
+      }, (err) => {
+        //Handler error
+      });
+
+    });
+  }*/
 
 }

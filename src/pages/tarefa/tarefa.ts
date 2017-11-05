@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ToastController, Platform } from 'ionic-angular';
 import {TarefasServiceProvider} from '../../providers/tarefas-service/tarefas-service';
 import {ProjetosServiceProvider} from  '../../providers/projetos-service/projetos-service';
+import { Dialogs  } from '@ionic-native/dialogs';
 
 @IonicPage()
 @Component({
@@ -25,7 +26,9 @@ export class TarefaPage {
     public navParams: NavParams,
     public tarefasService: TarefasServiceProvider,
     public projetosService: ProjetosServiceProvider,
-    public toastCtrl: ToastController) {
+    public toastCtrl: ToastController,
+    private dialogs: Dialogs ,
+    private platform: Platform) {
  
      // this.projetos = projetosService.getProjetos();
       this.novo = navParams.get('novo');
@@ -70,41 +73,59 @@ export class TarefaPage {
     }
 
     alterar(){
-      let d = new Date(
-      parseInt(this.data.substr(0,4)),
-      parseInt(this.data.substr(5,2))-1,
-      parseInt(this.data.substr(8,2)));
-      this.tarefasService.editTarefas(this.codigoTarefa,
-        this.codigoProjeto,
-        this.descricao,
-        d,
-        this.prioridade
-      )
-      .then(dados => {
-        this.presentToast('Tarefa alterada com sucesso!');
-        this.navCtrl.pop();
-      });
+      this.platform.ready().then(() => {
+      this.dialogs.alert('Tarefa sera alterada.','Modificação','Confirm')
+      .then( (f) =>{
+        if(f===1){
+          let d = new Date(
+            parseInt(this.data.substr(0,4)),
+            parseInt(this.data.substr(5,2))-1,
+            parseInt(this.data.substr(8,2)));
+            this.tarefasService.editTarefas(this.codigoTarefa,
+              this.codigoProjeto,
+              this.descricao,
+              d,
+              this.prioridade
+            )
+            .then(dados => {
+              this.presentToast('Tarefa alterada com sucesso!');
+              this.navCtrl.pop();
+            });
+        }
+      });      
+      });  
     }
   
     apagar(){
-      this.tarefasService.deleteTarefas(this.codigoTarefa)
-      .then(dados => {
-        this.navCtrl.pop();
-      });
+      this.platform.ready().then(() => {
+        this.dialogs.beep(5);
+        this.tarefasService.deleteTarefas(this.codigoTarefa)
+        .then(dados => {
+          this.navCtrl.pop();
+        });
+      });      
     }
   
     incluir(){
-      let d = new Date(parseInt(this.data.substr(0,4)),parseInt(this.data.substr(0,4)),parseInt(this.data.substr(8,2)));
-      this.tarefasService.addTarefas(
-        this.codigoProjeto,
-        this.descricao,
-        d,
-        this.prioridade
-      )
-      .then(dados => {
-        this.presentToast('Tarefa adicionada com sucesso!');
-        this.navCtrl.pop();
-      });
-    }
+      this.platform.ready().then(() => {
+      this.dialogs.confirm('Deseja adicionar este novo projeto ?','Confirm',
+      ['Ok', 'Cancel'])
+      .then((f) => {
+        if(f === 1){
+          let d = new Date(parseInt(this.data.substr(0,4)),parseInt(this.data.substr(0,4)),parseInt(this.data.substr(8,2)));
+          this.tarefasService.addTarefas(
+            this.codigoProjeto,
+            this.descricao,
+            d,
+            this.prioridade
+          )
+          .then(dados => {
+            this.presentToast('Tarefa adicionada com sucesso!');
+            this.navCtrl.pop();
+          });
+        }
+      })
+      .catch(e => console.log('Error displaying dialog', e));     
+      })
+  }
 }
-
