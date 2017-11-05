@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Http, Headers } from '@angular/http';
 import 'rxjs/add/operator/toPromise';
+//import { Platform } from 'ionic-angular';
+//import { Dialogs } from '@ionic-native/dialogs';
 
 /*
   Generated class for the ProjetosServiceProvider provider.
@@ -13,9 +15,26 @@ export class ProjetosServiceProvider {
 
   url:string = 'http://kutova.com/dev/todolist/api.php';
 
-  constructor (public http: Http){}
+  constructor (public http: Http,
+    /*private dialogs: Dialogs,
+  private platform:Platform*/){}
 
-  
+
+ /* onConfirm():Promise<any> {
+
+    return new Promise ( (resolve,reject) => {
+
+      this.platform.ready().then(() => {
+        let alert = this.dialogs.confirm('Deseja adiconar este projeto.',
+        'Confirmação',[] )
+        .then(dados => {}) //console.log('Dialog dismissed'))
+        .catch( e => console.log('Error displaying dialog', e));
+      }); 
+
+
+    });    
+  }
+  */
   getProjetos():Promise <any[]> {
 
     return new Promise( resolve => {

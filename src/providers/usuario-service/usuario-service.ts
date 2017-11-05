@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/toPromise';
+
 
 
 /*
@@ -12,10 +14,14 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class UsuarioServiceProvider {
 
+  constructor(public http: Http) {
+    console.log('Hello UsuarioServiceProvider Provider');
+  }
+
   usuarios = [
     {codigo:1, nome:'Ana Moreira', tarefa: 9,observacao:'aksasmamsak'},
     {codigo:2, nome:'Joao Andrade ',tarefa: 10, observacao:'asasçasaḉḉasa'},
-    {codigo:3, nome:'Marcio Souza', tarefa: 9, observacao:'as,aos,al,s,a'},
+    {codigo:3, nome:'Marcio Souza', tarefa: 9, observacao:'as,aos,al,s,a' },
     {codigo:4, nome:'Jorge Soares', tarefa: 13, observacao:'lsa,lsça.aç.sa'}
   ];
 
@@ -24,7 +30,7 @@ export class UsuarioServiceProvider {
   getUsuarios():any {
     return this.usuarios;
   }
-
+  
   editUsuarios(c:number,n:string,t:number,o:string){
     for(let i=0;i<this.usuarios.length;i++){
       if(this.usuarios[i].codigo == c){
@@ -48,8 +54,9 @@ export class UsuarioServiceProvider {
     }
   }
 
-  constructor(public http: Http) {
-    console.log('Hello UsuarioServiceProvider Provider');
-  }
-
+  /*onConfirm(): Promise<any> {
+    return new Promise( resolve => {
+      
+    })
+  }*/
 }
