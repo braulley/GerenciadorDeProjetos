@@ -45,8 +45,8 @@ export class TarefasPage {
       });
     }
 
-    nomeProjeto(c:number) {
-      for(let i=0;i < this.projetos.length;i++){
+    nomeProjeto(c) {
+      for(let i in this.projetos) {
         if(this.projetos[i].codigo == c){
           return this.projetos[i].projeto;
         }
