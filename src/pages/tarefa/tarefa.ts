@@ -33,7 +33,7 @@ export class TarefaPage {
      // this.projetos = projetosService.getProjetos();
       this.novo = navParams.get('novo');
       this.codigoTarefa = navParams.get('codigo');
-     // let tarefas = tarefasService.getTarefas();
+     //let tarefas = tarefasService.getTarefas();
 
       if(!this.novo){
 
