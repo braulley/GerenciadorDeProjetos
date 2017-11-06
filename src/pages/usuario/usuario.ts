@@ -79,7 +79,7 @@ export class UsuarioPage {
 
   editar(){
     this.platform.ready().then(() => {
-      this.dialogs.alert('Alteração Detectada','Modificação','Accept')
+      this.dialogs.confirm('Alteração Detectada','Modificação',['Ok','Cancel'])
       .then((dados) => {
         if(dados === 1){
           this.usuarioService.editUsuarios(this.codigoUsuario,this.nomeUsuario,this.codigoTarefa,this.observacaoUsuario);

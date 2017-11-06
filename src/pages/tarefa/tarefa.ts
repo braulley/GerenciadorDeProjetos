@@ -33,7 +33,7 @@ export class TarefaPage {
      // this.projetos = projetosService.getProjetos();
       this.novo = navParams.get('novo');
       this.codigoTarefa = navParams.get('codigo');
-     // let tarefas = tarefasService.getTarefas();
+     //let tarefas = tarefasService.getTarefas();
 
       if(!this.novo){
 
@@ -74,7 +74,7 @@ export class TarefaPage {
 
     alterar(){
       this.platform.ready().then(() => {
-      this.dialogs.alert('Tarefa sera alterada.','Modificação','Confirm')
+      this.dialogs.confirm('Tarefa sera alterada.','Modificação',['OK','Cancel'])
       .then( (f) =>{
         if(f===1){
           let d = new Date(

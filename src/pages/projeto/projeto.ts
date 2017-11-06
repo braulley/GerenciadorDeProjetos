@@ -44,8 +44,8 @@ export class ProjetoPage {
 
   alterar(){
     this.platform.ready().then(()=> {
-      this.dialogs.alert('O projeto sera alterado?',
-     'Alerta de Alteração','OK')
+      this.dialogs.confirm('O projeto sera alterado?',
+     'Alerta de Alteração',['Ok','Cancel'])
      .then((dados) => {
       if(dados === 1){
         this.projetosService.editProjetos(this.codigoProjeto,this.nomeProjeto)
