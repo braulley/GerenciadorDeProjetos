@@ -33,7 +33,7 @@ export class TarefasServiceProvider {
       for (let i = 0; i < dados.length;i++) {
         tarefas.push({
           codigo:parseInt(dados[i].codigo),
-          projeto: parseInt(dados[i].codigoProjeto),
+          projeto: parseInt(dados[i].projeto),
           descricao: dados[i].descricao,
           data: new Date(parseInt(dados[i].data.substr(0,4)),
           parseInt(dados[i].data.substr(5,2))-1,
@@ -114,7 +114,7 @@ export class TarefasServiceProvider {
           let dados = resposta.json();
           let tarefas = {
             codigo:parseInt(dados.codigo),
-            projeto: parseInt(dados.codigoProjeto),
+            projeto: parseInt(dados.projeto),
             descricao: dados.descricao,
             data: new Date(parseInt(dados.data.substr(0,4)),
             parseInt(dados.data.substr(5,2)),
